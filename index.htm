@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Click | Discover India</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" onclick="goHome()">
+                <i class="ri-compass-3-line text-saffron"></i> Culture Click
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Discover</a></li>
+                <li><a href="#">States</a></li>
+                <li><a href="#">Experiences</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="icon-btn"><i class="ri-search-line"></i></button>
+                <button class="icon-btn mobile-menu"><i class="ri-menu-line"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HOME VIEW ================= -->
+    <div id="home-view" class="view-section active">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content fade-in-up">
+                <span class="subtitle">Welcome to Incredible India</span>
+                <h1>Discover the Soul <br> of Heritage</h1>
+                
+                <div class="search-bar">
+                    <i class="ri-map-pin-line icon"></i>
+                    <input type="text" placeholder="Where to next? (e.g., Rajasthan, Kerala)">
+                    <button class="explore-btn">Explore</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Curated Destinations Section -->
+        <section class="destinations container">
+            <div class="section-header fade-in-up">
+                <div>
+                    <h2>Curated Journeys</h2>
+                    <p>Handpicked destinations showcasing architectural mastery and rich history.</p>
+                </div>
+            </div>
+
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <div class="card fade-in-up" onclick="openDetails('taj')">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=800" alt="Taj Mahal">
+                        <span class="badge">UNESCO</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Taj Mahal</h3>
+                        <p class="location"><i class="ri-map-pin-2-fill"></i> Agra, Uttar Pradesh</p>
+                        <div class="card-footer">
+                            <span class="category">Architecture</span>
+                            <span class="rating"><i class="ri-star-fill"></i> 4.9</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card fade-in-up" onclick="openDetails('hawa')">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hawa Mahal">
+                        <span class="badge">Heritage</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hawa Mahal</h3>
+                        <p class="location"><i class="ri-map-pin-2-fill"></i> Jaipur, Rajasthan</p>
+                        <div class="card-footer">
+                            <span class="category">Palace</span>
+                            <span class="rating"><i class="ri-star-fill"></i> 4.8</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card fade-in-up" onclick="openDetails('kerala')">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=800" alt="Kerala Backwaters">
+                        <span class="badge">Nature</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Backwaters</h3>
+                        <p class="location"><i class="ri-map-pin-2-fill"></i> Alleppey, Kerala</p>
+                        <div class="card-footer">
+                            <span class="category">Experience</span>
+                            <span class="rating"><i class="ri-star-fill"></i> 4.7</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 4 -->
+                     <div class="card fade-in-up" onclick="openDetails('Uttarakhand')">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1683700914859-27447d1b9b66?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Munsyari Mountains">
+                        <span class="badge">Titans</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Munsyari</h3>
+                        <p class="location"><i class="ri-map-pin-2-fill"></i> Uttarakhnd, Munsyari</p>
+                        <div class="card-footer">
+                            <span class="category">Mountaineering</span>
+                            <span class="rating"><i class="ri-star-fill"></i> 4.9</span>
+                            </div>
+                            </div>
+                            </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ================= DETAILS VIEW (Hidden by Default) ================= -->
+    <div id="details-view" class="view-section">
+        <div class="container details-container">
+            
+            <button class="back-btn" onclick="goHome()">
+                <i class="ri-arrow-left-line"></i> Back to Destinations
+            </button>
+
+            <!-- Dynamic content will fade in here -->
+            <div class="details-hero fade-in-up">
+                <img id="detail-img" src="" alt="Place Image">
+                <div class="details-hero-content">
+                    <span class="badge" id="detail-badge">UNESCO</span>
+                    <h1 id="detail-title">Place Name</h1>
+                    <p id="detail-location"><i class="ri-map-pin-2-line"></i> Location</p>
+                </div>
+            </div>
+
+            <div class="details-grid fade-in-up">
+                <div class="main-content">
+                    <h2>The Story</h2>
+                    <p id="detail-desc" class="lead-text">Description goes here.</p>
+                    
+                    <div class="highlights">
+                        <div class="highlight-box">
+                            <i class="ri-camera-lens-fill text-saffron"></i>
+                            <h3>Photography</h3>
+                            <p>Best lighting at sunrise.</p>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="ri-building-4-fill text-forest"></i>
+                            <h3>Architecture</h3>
+                            <p>Masterpiece of design.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="info-card">
+                        <h3>Quick Facts</h3>
+                        <ul class="fact-list">
+                            <li>
+                                <i class="ri-time-line"></i>
+                                <div>
+                                    <strong>Best Time</strong>
+                                    <span id="detail-time">Oct - March</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="ri-ticket-2-line"></i>
+                                <div>
+                                    <strong>Entry Fee</strong>
+                                    <span>Standard monument rates</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="primary-btn">Save to Itinerary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

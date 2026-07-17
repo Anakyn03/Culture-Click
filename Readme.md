@@ -1,0 +1,1 @@
+# Culture Click **Culture Click** is a full-stack platform for exploring India's cultural heritage through a **State → City → Place** journey. Discover famous destinations with their history, culture, cuisine, and travel information. Built to provide an authentic, organized, and engaging cultural travel experience.
