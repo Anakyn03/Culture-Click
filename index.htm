@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culture Click | Discover India</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
     
     <!-- Google Fonts -->
@@ -20,7 +21,8 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="logo" onclick="goHome()">
-                <i class="ri-compass-3-line text-saffron"></i> Culture Click
+                <img src="assets/logo.png" alt="" class="logo-mark">
+                Culture Click
             </div>
             <ul class="nav-links">
                 <li><a href="#" class="active">Discover</a></li>
@@ -29,8 +31,15 @@
             </ul>
             <div class="nav-actions">
                 <button class="icon-btn"><i class="ri-search-line"></i></button>
-                <button class="icon-btn mobile-menu"><i class="ri-menu-line"></i></button>
+                <button class="icon-btn mobile-menu" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+                    <i class="ri-menu-line" id="menuIcon"></i>
+                </button>
             </div>
+        </div>
+        <div class="mobile-panel" id="mobilePanel">
+            <a href="#" class="active">Discover</a>
+            <a href="#">States</a>
+            <a href="#">Experiences</a>
         </div>
     </nav>
 
@@ -44,15 +53,21 @@
                 <h1>Discover the Soul <br> of Heritage</h1>
                 
                 <div class="search-bar">
-                    <i class="ri-map-pin-line icon"></i>
+                    <i class="ri-search-line icon"></i>
                     <input type="text" placeholder="Where to next? (e.g., Rajasthan, Kerala)">
-                    <button class="explore-btn">Explore</button>
+                    <button class="explore-btn" id="exploreBtn">Explore</button>
+                </div>
+
+                <div class="hero-stats">
+                    <span><i class="ri-map-pin-2-line"></i> 28+ States</span>
+                    <span><i class="ri-landmark-line"></i> 500+ Places</span>
+                    <span><i class="ri-star-smile-line"></i> Countless Stories</span>
                 </div>
             </div>
         </header>
 
         <!-- Curated Destinations Section -->
-        <section class="destinations container">
+        <section class="destinations container" id="destinations">
             <div class="section-header fade-in-up">
                 <div>
                     <h2>Curated Journeys</h2>
@@ -64,8 +79,8 @@
                 <!-- Card 1 -->
                 <div class="card fade-in-up" onclick="openDetails('taj')">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=800" alt="Taj Mahal">
-                        <span class="badge">UNESCO</span>
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20(Edited).jpeg?width=800" alt="Taj Mahal" loading="lazy">
+                        <span class="badge badge-royal">UNESCO</span>
                     </div>
                     <div class="card-content">
                         <h3>Taj Mahal</h3>
@@ -80,8 +95,8 @@
                 <!-- Card 2 -->
                 <div class="card fade-in-up" onclick="openDetails('hawa')">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hawa Mahal">
-                        <span class="badge">Heritage</span>
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hawa%20Mahal%202011.jpg?width=800" alt="Hawa Mahal" loading="lazy">
+                        <span class="badge badge-saffron">Heritage</span>
                     </div>
                     <div class="card-content">
                         <h3>Hawa Mahal</h3>
@@ -96,8 +111,8 @@
                 <!-- Card 3 -->
                 <div class="card fade-in-up" onclick="openDetails('kerala')">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=800" alt="Kerala Backwaters">
-                        <span class="badge">Nature</span>
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Houseboats%20in%20Alleppey%20Backwaters.jpg?width=800" alt="Kerala Backwaters" loading="lazy">
+                        <span class="badge badge-forest">Nature</span>
                     </div>
                     <div class="card-content">
                         <h3>Backwaters</h3>
@@ -108,21 +123,22 @@
                         </div>
                     </div>
                 </div>
-                <!--Card 4 -->
-                     <div class="card fade-in-up" onclick="openDetails('Uttarakhand')">
+
+                <!-- Card 4 -->
+                <div class="card fade-in-up" onclick="openDetails('munsyari')">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1683700914859-27447d1b9b66?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Munsyari Mountains">
-                        <span class="badge">Titans</span>
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Panchchuli%20Peaks%2C%20near%20Munsiyari%2C%20Uttarakhand.jpg?width=800" alt="Panchachuli peaks near Munsyari" loading="lazy">
+                        <span class="badge badge-maroon">Himalayas</span>
                     </div>
                     <div class="card-content">
                         <h3>Munsyari</h3>
-                        <p class="location"><i class="ri-map-pin-2-fill"></i> Uttarakhnd, Munsyari</p>
+                        <p class="location"><i class="ri-map-pin-2-fill"></i> Pithoragarh, Uttarakhand</p>
                         <div class="card-footer">
                             <span class="category">Mountaineering</span>
                             <span class="rating"><i class="ri-star-fill"></i> 4.9</span>
-                            </div>
-                            </div>
-                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
