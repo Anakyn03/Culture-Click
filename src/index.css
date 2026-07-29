@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* ============================================================
+   DESIGN TOKENS — exposed to Tailwind via @theme so utilities
+   like bg-ivory, text-indigo, font-serif, rounded-lg etc. work.
+   ============================================================ */
+@theme {
+  --color-indigo: #1F3A5F;
+  --color-saffron: #C66A1B;
+  --color-teal: #0F7C82;
+  --color-gold: #D9A404;
+  --color-forest: #2E6B3F;
+  --color-ivory: #F8F5EF;
+  --color-sand: #EFE7D8;
+  --color-charcoal: #2B2B2B;
+  --color-danger: #B3432B;
+
+  --font-serif: "Playfair Display", serif;
+  --font-serif-alt: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+/* Dark mode palette swap — driven by a `.dark` class on <html> (see ThemeToggle). */
+.dark {
+  --color-ivory: #131A24;
+  --color-sand: #1B2432;
+  --color-charcoal: #EFE7D8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  transition: background-color .3s ease, color .3s ease;
+}
+::selection {
+  background: var(--color-gold);
+  color: var(--color-indigo);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Animated marigold "journey" trail on the map */
+@keyframes dash {
+  to { stroke-dashoffset: -1600; }
+}
+.atlas-route {
+  fill: none;
+  stroke: var(--color-gold);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 14 22;
+  animation: dash 30s linear infinite;
+  opacity: .85;
+}
+
+/* Compass rose spin — transform-box keeps rotation centered on its own bbox */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.compass-spin {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: spin 60s linear infinite;
+}
+
+/* Skeleton shimmer for loading states */
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+.skeleton {
+  background: linear-gradient(100deg, var(--color-sand) 30%, color-mix(in srgb, var(--color-sand) 60%, var(--color-ivory)) 50%, var(--color-sand) 70%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s infinite;
+}
+
+/* Thin, theme-aware scrollbar for horizontal scrollers */
+.thin-scroll::-webkit-scrollbar { height: 6px; }
+.thin-scroll::-webkit-scrollbar-thumb { background: var(--color-sand); border-radius: 999px; }
+
+/* Chat "typing" dots */
+@keyframes blink {
+  0%, 80%, 100% { opacity: .25; }
+  40% { opacity: .9; }
+}
+.typing-dot { animation: blink 1.2s infinite; }
