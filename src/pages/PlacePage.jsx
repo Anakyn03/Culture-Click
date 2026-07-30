@@ -56,10 +56,10 @@ export default function PlacePage() {
         </div>
       </div>
 
-      <div className="mx-[clamp(18px,4vw,48px)] flex -translate-y-[26px] flex-wrap overflow-hidden rounded-[18px] bg-sand shadow-[0_1px_0_rgba(43,43,43,0.10)]">
+      <div className="mx-[clamp(18px,4vw,48px)] flex -translate-y-[26px] flex-wrap overflow-hidden rounded-[18px] border border-black/10 bg-sand shadow-[0_2px_8px_rgba(31,58,95,0.1)] dark:border-white/10">
         {[['★ ' + p.rating, 'Traveler rating'], [p.entry, 'Entry'], [p.open, 'Hours'], [p.bestSeason, 'Best season']].map(([val, label], i) => (
           <div key={label} className={`flex-1 basis-[140px] px-5 py-[18px] ${i < 3 ? 'border-r border-black/10 dark:border-white/10' : ''}`}>
-            <b className="block font-serif text-[1.5rem] text-indigo dark:text-sand">{val}</b>
+            <b className="block font-serif text-[1.5rem] text-indigo dark:text-charcoal">{val}</b>
             <span className="text-[0.72rem] font-bold uppercase tracking-wide opacity-60">{label}</span>
           </div>
         ))}
@@ -73,11 +73,11 @@ export default function PlacePage() {
       <div className="px-[clamp(18px,4vw,48px)] pb-2.5 pt-2">
         <div className="grid gap-9 md:grid-cols-[1.3fr_0.9fr]">
           <div>
-            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">The story</h2>
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">The story</h2>
             <p className="mt-2.5">{p.history}</p>
-            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-sand">Architecture &amp; craft</h2>
+            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-charcoal">Architecture &amp; craft</h2>
             <p className="mt-2.5">{p.architecture}</p>
-            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-sand">Historical timeline</h2>
+            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-charcoal">Historical timeline</h2>
             <div className="mt-3.5 ml-2 border-l-2 border-black/10 pl-[22px] dark:border-white/10">
               {p.timeline.map((t, i) => (
                 <div key={i} className="relative pb-[22px]">
@@ -89,15 +89,15 @@ export default function PlacePage() {
             </div>
           </div>
           <div>
-            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Hidden facts</h2>
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Hidden facts</h2>
             <ul className="list-none">
               {p.facts.map((f, i) => <li key={i} className="border-b border-black/10 py-2.5 text-[0.88rem] dark:border-white/10">{f}</li>)}
             </ul>
-            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-sand">Getting there</h2>
+            <h2 className="mt-6 font-serif text-[1.5rem] text-indigo dark:text-charcoal">Getting there</h2>
             <ul className="list-none">
               {[['Nearest railway', p.travel.railway], ['Nearest airport', p.travel.airport], ['Parking', p.travel.parking]].map(([k, v]) => (
                 <li key={k} className="flex justify-between gap-3 border-b border-black/10 py-2.5 text-[0.88rem] dark:border-white/10">
-                  <span>{k}</span><b className="text-right text-indigo dark:text-sand">{v}</b>
+                  <span>{k}</span><b className="text-right text-indigo dark:text-charcoal">{v}</b>
                 </li>
               ))}
             </ul>
@@ -108,35 +108,35 @@ export default function PlacePage() {
 
       <div className="mx-[clamp(18px,4vw,48px)] my-8 h-px bg-black/10 dark:bg-white/10" />
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Hidden gems nearby</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Hidden gems nearby</h2>
       </div>
       <div className="thin-scroll flex gap-4 overflow-x-auto px-[clamp(18px,4vw,48px)] pb-3 pt-4" style={{ scrollSnapType: 'x proximity' }}>
         {p.hiddenGems.map((g, i) => (
-          <div key={i} className="w-[220px] flex-none rounded-2xl bg-sand p-[18px]" style={{ scrollSnapAlign: 'start' }}>
+          <div key={i} className="w-[220px] flex-none rounded-2xl border border-black/10 bg-surface p-[18px] shadow-[0_2px_8px_rgba(31,58,95,0.06)] dark:border-white/10" style={{ scrollSnapAlign: 'start' }}>
             <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="mb-2.5 text-saffron"><path d="M12 2 L14.5 9 L22 9.5 L16 14.3 L18 22 L12 17.8 L6 22 L8 14.3 L2 9.5 L9.5 9 Z" /></svg>
-            <h4 className="mb-1 font-serif text-[1rem] text-indigo dark:text-sand">{g.split(',')[0]}</h4>
+            <h4 className="mb-1 font-serif text-[1rem] text-indigo dark:text-charcoal">{g.split(',')[0]}</h4>
             <p className="text-[0.82rem]">{g}</p>
           </div>
         ))}
       </div>
 
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Local food to try</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Local food to try</h2>
       </div>
       <div className="grid gap-3 px-[clamp(18px,4vw,48px)] pb-3" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(180px,1fr))' }}>
         {p.food.map((f, i) => (
-          <div key={i} className="flex items-center gap-2.5 rounded-2xl bg-sand p-4 text-[0.88rem] font-bold text-indigo dark:text-sand">
+          <div key={i} className="flex items-center gap-2.5 rounded-2xl border border-black/10 bg-surface p-4 text-[0.88rem] font-bold text-indigo shadow-[0_2px_8px_rgba(31,58,95,0.06)] dark:border-white/10 dark:text-charcoal">
             <span className="font-serif text-[1.1rem] text-saffron">{String(i + 1).padStart(2, '0')}</span>{f}
           </div>
         ))}
       </div>
 
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Experiences here</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Experiences here</h2>
       </div>
       <div className="grid gap-3 px-[clamp(18px,4vw,48px)] pb-8" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(180px,1fr))' }}>
         {p.experiences.map((f, i) => (
-          <div key={i} className="flex items-center gap-2.5 rounded-2xl bg-sand p-4 text-[0.88rem] font-bold text-indigo dark:text-sand">
+          <div key={i} className="flex items-center gap-2.5 rounded-2xl border border-black/10 bg-surface p-4 text-[0.88rem] font-bold text-indigo shadow-[0_2px_8px_rgba(31,58,95,0.06)] dark:border-white/10 dark:text-charcoal">
             <span className="font-serif text-[1.1rem] text-saffron">{String(i + 1).padStart(2, '0')}</span>{f}
           </div>
         ))}
@@ -144,7 +144,7 @@ export default function PlacePage() {
 
       <div className="mx-[clamp(18px,4vw,48px)] my-8 h-px bg-black/10 dark:bg-white/10" />
       <div className="px-[clamp(18px,4vw,48px)] pb-10">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Nearby &amp; related</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Nearby &amp; related</h2>
         <div className="mt-4 flex flex-wrap gap-2">
           <button onClick={() => navigate(`/state/${s.id}/${d.id}`)} className="rounded-full bg-sand px-4 py-2.5 text-[0.82rem] font-bold hover:bg-teal hover:text-white">← Back to {d.name}</button>
           <Link to={`/state/${s.id}`} className="rounded-full bg-sand px-4 py-2.5 text-[0.82rem] font-bold hover:bg-teal hover:text-white">All of {s.name}</Link>

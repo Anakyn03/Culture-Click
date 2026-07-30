@@ -15,13 +15,13 @@ function Rows({ a, b }) {
     ['Places catalogued', a.districts.reduce((n, d) => n + d.places.length, 0), b.districts.reduce((n, d) => n + d.places.length, 0)],
   ];
   return (
-    <div className="mx-[clamp(18px,4vw,48px)] mb-10 overflow-hidden rounded-[18px] shadow-[0_1px_0_rgba(43,43,43,0.10)]">
-      <table className="w-full border-collapse bg-sand">
+    <div className="mx-[clamp(18px,4vw,48px)] mb-10 overflow-hidden rounded-[18px] border border-black/10 shadow-[0_2px_8px_rgba(31,58,95,0.08)] dark:border-white/10">
+      <table className="w-full border-collapse bg-surface">
         <thead>
           <tr>
-            <th className="bg-sand/70 px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-sand">Aspect</th>
-            <th className="bg-sand/70 px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-sand">{a.name}</th>
-            <th className="bg-sand/70 px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-sand">{b.name}</th>
+            <th className="bg-sand px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-charcoal">Aspect</th>
+            <th className="bg-sand px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-charcoal">{a.name}</th>
+            <th className="bg-sand px-[18px] py-3.5 text-left font-serif text-[1.05rem] text-indigo dark:text-charcoal">{b.name}</th>
           </tr>
         </thead>
         <tbody>
@@ -49,7 +49,7 @@ export default function ComparePage() {
   return (
     <div>
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Compare two states</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Compare two states</h2>
         <p className="mt-1">Pick two states to see how they stack up before you commit an itinerary to one.</p>
       </div>
       <div className="flex flex-wrap items-center gap-4 px-[clamp(18px,4vw,48px)] py-5">

@@ -97,7 +97,7 @@ export default function SearchPanel() {
       </div>
 
       {open && (
-        <div className="absolute right-0 top-[calc(100%+10px)] z-[80] max-h-[70vh] w-[340px] overflow-auto rounded-[14px] border border-black/10 bg-ivory shadow-[0_20px_50px_rgba(31,58,95,0.16)] dark:border-white/10 dark:bg-[#131A24]">
+        <div className="absolute right-0 top-[calc(100%+10px)] z-[80] max-h-[70vh] w-[340px] overflow-auto rounded-[14px] border border-black/10 bg-surface shadow-[0_20px_50px_rgba(31,58,95,0.22)] dark:border-white/10">
           {!query.trim() ? (
             <>
               {recentSearches.length > 0 && (

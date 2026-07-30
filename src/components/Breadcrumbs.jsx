@@ -50,7 +50,7 @@ export default function Breadcrumbs() {
             {c.to && !isLast ? (
               <Link to={c.to} className="font-bold text-teal">{c.label}</Link>
             ) : (
-              <span aria-current={isLast ? 'page' : undefined} className={isLast ? 'font-bold text-indigo dark:text-sand' : ''}>{c.label}</span>
+              <span aria-current={isLast ? 'page' : undefined} className={isLast ? 'font-bold text-indigo dark:text-charcoal' : ''}>{c.label}</span>
             )}
           </span>
         );

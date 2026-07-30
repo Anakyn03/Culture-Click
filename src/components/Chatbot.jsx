@@ -117,7 +117,7 @@ export default function Chatbot() {
       </button>
 
       {open && (
-        <div role="dialog" aria-modal="false" aria-label="Saathi chat assistant" className="fixed bottom-24 right-6 z-[90] flex h-[min(560px,72vh)] w-[min(380px,88vw)] flex-col overflow-hidden rounded-[20px] border border-black/10 bg-ivory shadow-[0_20px_50px_rgba(31,58,95,0.16)] dark:border-white/10 dark:bg-[#131A24]">
+        <div role="dialog" aria-modal="false" aria-label="Saathi chat assistant" className="fixed bottom-24 right-6 z-[90] flex h-[min(560px,72vh)] w-[min(380px,88vw)] flex-col overflow-hidden rounded-[20px] border border-black/10 bg-surface shadow-[0_20px_50px_rgba(31,58,95,0.22)] dark:border-white/10">
           <div className="flex items-center justify-between bg-indigo px-[18px] py-3.5 text-white">
             <div className="flex items-center gap-2.5">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9A404" strokeWidth="2"><circle cx="12" cy="12" r="9" /><path d="M8 13c1 1.5 2.3 2 4 2s3-.5 4-2" /></svg>

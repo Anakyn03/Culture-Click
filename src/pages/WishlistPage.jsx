@@ -18,7 +18,7 @@ export default function WishlistPage() {
     return (
       <div className="px-6 py-24 text-center opacity-80">
         <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="mx-auto mb-3.5 text-saffron/70"><path d="M20 21l-8-5-8 5V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z" /></svg>
-        <h3 className="font-serif text-[1.2rem] text-indigo dark:text-sand">Your wishlist is empty</h3>
+        <h3 className="font-serif text-[1.2rem] text-indigo dark:text-charcoal">Your wishlist is empty</h3>
         <p className="mx-auto mt-1.5 max-w-[360px]">Tap the ♡ on any card, or ☆ Save on a state/district/place page, and it'll live here for planning later.</p>
         <button onClick={() => navigate('/')} className="mt-4 rounded-full bg-gold px-5 py-2.5 text-[0.86rem] font-bold text-indigo">Start exploring the map</button>
       </div>
@@ -49,7 +49,7 @@ export default function WishlistPage() {
   return (
     <div>
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Your wishlist</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Your wishlist</h2>
         <p className="mt-1">{saved.size} saved for your next trip.</p>
       </div>
       <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[50px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>

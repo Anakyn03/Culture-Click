@@ -39,7 +39,7 @@ export default function DistrictPage() {
       </div>
 
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Famous places</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Famous places</h2>
       </div>
       <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[30px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
         {d.places.length ? (
@@ -58,9 +58,9 @@ export default function DistrictPage() {
           ))
         ) : (
           <div className="col-span-full py-16 text-center opacity-80">
-            <h3 className="font-serif text-[1.2rem] text-indigo dark:text-sand">Still charting this district</h3>
+            <h3 className="font-serif text-[1.2rem] text-indigo dark:text-charcoal">Still charting this district</h3>
             <p className="mx-auto mt-1.5 max-w-[360px]">More places for {d.name} are being catalogued for the atlas.</p>
-            <button onClick={() => setPendingAsk(`Suggest a district similar to ${d.name}`)} className="mt-4 rounded-full border-[1.5px] border-indigo px-5 py-2.5 text-[0.86rem] font-bold text-indigo dark:border-sand dark:text-sand">
+            <button onClick={() => setPendingAsk(`Suggest a district similar to ${d.name}`)} className="mt-4 rounded-full border-[1.5px] border-indigo px-5 py-2.5 text-[0.86rem] font-bold text-indigo dark:border-sand dark:text-charcoal">
               Ask Saathi for a suggestion
             </button>
           </div>
@@ -69,11 +69,11 @@ export default function DistrictPage() {
 
       <div className="mx-[clamp(18px,4vw,48px)] my-8 h-px bg-black/10 dark:bg-white/10" />
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
-        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Local experiences</h2>
+        <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Local experiences</h2>
       </div>
       <div className="grid gap-3 px-[clamp(18px,4vw,48px)] pb-10" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(180px,1fr))' }}>
         {EXPERIENCES.map((e, i) => (
-          <div key={e} className="flex items-center gap-2.5 rounded-2xl bg-sand p-4 text-[0.88rem] font-bold text-indigo dark:text-sand">
+          <div key={e} className="flex items-center gap-2.5 rounded-2xl border border-black/10 bg-surface p-4 text-[0.88rem] font-bold text-indigo shadow-[0_2px_8px_rgba(31,58,95,0.06)] dark:border-white/10 dark:text-charcoal">
             <span className="font-serif text-[1.1rem] text-saffron">{String(i + 1).padStart(2, '0')}</span>{e}
           </div>
         ))}

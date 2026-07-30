@@ -52,7 +52,7 @@ export default function MapHero() {
   return (
     <section className="relative overflow-hidden px-[clamp(18px,4vw,48px)] pb-2.5 pt-[52px] text-center">
       <div className="text-[0.72rem] font-bold uppercase tracking-[0.14em] text-saffron">A living atlas</div>
-      <h1 className="mx-auto mt-1 max-w-[820px] font-serif text-[clamp(2.1rem,4.6vw,3.6rem)] text-indigo dark:text-sand">
+      <h1 className="mx-auto mt-1 max-w-[820px] font-serif text-[clamp(2.1rem,4.6vw,3.6rem)] text-indigo dark:text-charcoal">
         Journey through India, one story at a time.
       </h1>
       <p className="mx-auto mb-6 max-w-[560px] text-[1.02rem] text-charcoal/85">
@@ -103,10 +103,10 @@ export default function MapHero() {
 
         {hover && (
           <div
-            className="pointer-events-none absolute z-40 w-[220px] rounded-[14px] border border-black/10 bg-ivory p-3.5 shadow-[0_20px_50px_rgba(31,58,95,0.16)] dark:border-white/10 dark:bg-[#1B2432]"
+            className="pointer-events-none absolute z-40 w-[220px] rounded-[14px] border border-black/10 bg-surface p-3.5 shadow-[0_20px_50px_rgba(31,58,95,0.22)] dark:border-white/10"
             style={{ left: hover.left, top: hover.top }}
           >
-            <h4 className="font-serif text-[0.95rem] text-indigo dark:text-sand">{hover.state.name}</h4>
+            <h4 className="font-serif text-[0.95rem] text-indigo dark:text-charcoal">{hover.state.name}</h4>
             <p className="mt-1 text-[0.78rem] text-charcoal/80">{hover.state.tagline}</p>
             <div className="mt-1.5 flex flex-wrap gap-1">
               {hover.state.culture.cuisine.slice(0, 2).map((c) => (

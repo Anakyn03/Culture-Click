@@ -19,7 +19,7 @@ export default function HomePage() {
       <MapHero />
 
       <div className="flex flex-wrap items-baseline justify-between gap-3 px-[clamp(18px,4vw,48px)] pb-1.5 pt-10">
-        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-sand">Explore by state</h2>
+        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Explore by state</h2>
         <span className="text-[0.85rem] opacity-60">{filtered.length} of {DATA.states.length} states &amp; UTs</span>
       </div>
       <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[50px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
@@ -40,7 +40,7 @@ export default function HomePage() {
 
       <div className="mx-[clamp(18px,4vw,48px)] my-8 h-px bg-black/10 dark:bg-white/10" />
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-2.5">
-        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-sand">Recently added heritage sites</h2>
+        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Recently added heritage sites</h2>
       </div>
       <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[50px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
         {recent.map(({ s, d, p }) => (

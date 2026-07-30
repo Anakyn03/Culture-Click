@@ -45,10 +45,10 @@ export default function StatePage() {
         </div>
       </div>
 
-      <div className="mx-[clamp(18px,4vw,48px)] flex -translate-y-[26px] flex-wrap overflow-hidden rounded-[18px] bg-sand shadow-[0_1px_0_rgba(43,43,43,0.10)]">
+      <div className="mx-[clamp(18px,4vw,48px)] flex -translate-y-[26px] flex-wrap overflow-hidden rounded-[18px] border border-black/10 bg-sand shadow-[0_2px_8px_rgba(31,58,95,0.1)] dark:border-white/10">
         {[['area', 'Area'], ['districts', 'Districts'], ['language', 'Language'], ['founded', 'Statehood']].map(([key, label], i, arr) => (
           <div key={key} className={`flex-1 basis-[140px] px-5 py-[18px] ${i < arr.length - 1 ? 'border-r border-black/10 dark:border-white/10' : ''}`}>
-            <b className="block font-serif text-[1.5rem] text-indigo dark:text-sand">{s.stats[key]}</b>
+            <b className="block font-serif text-[1.5rem] text-indigo dark:text-charcoal">{s.stats[key]}</b>
             <span className="text-[0.72rem] font-bold uppercase tracking-wide opacity-60">{label}</span>
           </div>
         ))}
@@ -57,29 +57,29 @@ export default function StatePage() {
       <div className="px-[clamp(18px,4vw,48px)] pb-2.5 pt-2">
         <div className="grid gap-9 md:grid-cols-[1.3fr_0.9fr]">
           <div>
-            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">Culture &amp; identity</h2>
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Culture &amp; identity</h2>
             <p className="mt-2.5">{s.blurb} Its rhythm is set as much by festival calendars as by season — a place best understood through what its people cook, wear and celebrate.</p>
-            <h3 className="mt-5 font-serif text-[1.05rem] text-indigo dark:text-sand">Festivals</h3>
+            <h3 className="mt-5 font-serif text-[1.05rem] text-indigo dark:text-charcoal">Festivals</h3>
             <div className="mt-2.5 flex flex-wrap gap-2">
               {s.culture.festivals.map((f) => (
                 <span key={f.name} className="rounded-full border border-black/10 bg-sand px-3 py-1.5 text-[0.78rem] font-semibold dark:border-white/10">{f.name} · {f.month}</span>
               ))}
             </div>
-            <h3 className="mt-4 font-serif text-[1.05rem] text-indigo dark:text-sand">Dance &amp; performance</h3>
+            <h3 className="mt-4 font-serif text-[1.05rem] text-indigo dark:text-charcoal">Dance &amp; performance</h3>
             <div className="mt-2.5 flex flex-wrap gap-2">
               {s.culture.dance.map((f) => <span key={f} className="rounded-full border border-black/10 bg-sand px-3 py-1.5 text-[0.78rem] font-semibold dark:border-white/10">{f}</span>)}
             </div>
           </div>
           <div>
-            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-sand">At a glance</h2>
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">At a glance</h2>
             <ul className="list-none">
               {[['Signature dress', s.culture.dress], ['Must-try dish', s.culture.cuisine[0]], ['Districts featured', s.districts.length]].map(([k, v]) => (
                 <li key={k} className="flex justify-between gap-3 border-b border-black/10 py-2.5 text-[0.88rem] dark:border-white/10">
-                  <span>{k}</span><b className="text-right text-indigo dark:text-sand">{v}</b>
+                  <span>{k}</span><b className="text-right text-indigo dark:text-charcoal">{v}</b>
                 </li>
               ))}
             </ul>
-            <h3 className="mt-4 font-serif text-[1.05rem] text-indigo dark:text-sand">Local cuisine</h3>
+            <h3 className="mt-4 font-serif text-[1.05rem] text-indigo dark:text-charcoal">Local cuisine</h3>
             <div className="mt-2.5 flex flex-wrap gap-2">
               {s.culture.cuisine.map((f) => <span key={f} className="rounded-full border border-black/10 bg-sand px-3 py-1.5 text-[0.78rem] font-semibold dark:border-white/10">{f}</span>)}
             </div>
@@ -88,7 +88,7 @@ export default function StatePage() {
       </div>
 
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-10">
-        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-sand">Districts of {s.name}</h2>
+        <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Districts of {s.name}</h2>
       </div>
       <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[30px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
         {s.districts.map((d) => (
@@ -109,7 +109,7 @@ export default function StatePage() {
         <>
           <div className="mx-[clamp(18px,4vw,48px)] my-8 h-px bg-black/10 dark:bg-white/10" />
           <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
-            <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-sand">Featured heritage in {s.name}</h2>
+            <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Featured heritage in {s.name}</h2>
           </div>
           <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[50px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
             {s.districts.flatMap((d) => d.places.map((p) => (

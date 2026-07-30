@@ -10,14 +10,15 @@
   --color-teal: #0F7C82;
   --color-gold: #D9A404;
   --color-forest: #2E6B3F;
-  --color-ivory: #F8F5EF;
-  --color-sand: #EFE7D8;
+  --color-ivory: #F4EFE6;
+  --color-surface: #FFFFFF;
+  --color-sand: #EADFC8;
   --color-charcoal: #2B2B2B;
   --color-danger: #B3432B;
 
-  --font-serif: "Playfair Display", serif;
-  --font-serif-alt: "Cormorant Garamond", serif;
-  --font-sans: "Manrope", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-serif-alt: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", -apple-system, "Segoe UI", sans-serif;
 
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -26,8 +27,9 @@
 
 /* Dark mode palette swap — driven by a `.dark` class on <html> (see ThemeToggle). */
 .dark {
-  --color-ivory: #131A24;
-  --color-sand: #1B2432;
+  --color-ivory: #12181F;
+  --color-surface: #1E2836;
+  --color-sand: #253145;
   --color-charcoal: #EFE7D8;
 }
 
