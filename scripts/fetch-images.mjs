@@ -22,7 +22,7 @@
 
 import { writeFile } from 'node:fs/promises';
 import { DATA } from '../src/data/statesData.js';
-import { IMAGE_SOURCES } from './image-sources.mjs';
+import { IMAGE_SOURCES, ARTICLE_FOR_PIN } from './image-sources.mjs';
 
 const UA = 'CultureClick/1.0 (heritage atlas; https://github.com/Anakyn03/Culture-Click)';
 const API = 'https://en.wikipedia.org/w/api.php';
@@ -93,24 +93,35 @@ async function resolve(key, titles) {
   const candidates = Array.isArray(titles) ? titles : [titles];
   const problems = [];
 
-  for (const title of candidates) {
-    // One request gets the lead image AND the full image list for fallback.
-    const page = await getJSON(
-      q({
-        action: 'query',
-        titles: title,
-        prop: 'pageimages|images',
-        piprop: 'original|thumbnail',
-        pithumbsize: '1600',
-        imlimit: '40',
-        redirects: '1',
-      })
-    );
+  for (const candidate of candidates) {
+    // A `file:`-prefixed candidate pins an exact Commons file. Used where the
+    // article's lead image is a detail shot, model, or archival scan rather
+    // than a usable photo of the subject itself.
+    const pinned = typeof candidate === 'string' && candidate.startsWith('file:');
+    const title = pinned ? candidate.slice(5) : candidate;
 
-    const pg = Object.values(page?.query?.pages || {})[0];
-    if (!pg || pg.missing !== undefined) {
-      problems.push(`article not found: ${title}`);
-      continue;
+    let pg;
+    if (pinned) {
+      pg = { title: null, pageimage: title };
+    } else {
+      // One request gets the lead image AND the full image list for fallback.
+      const page = await getJSON(
+        q({
+          action: 'query',
+          titles: title,
+          prop: 'pageimages|images',
+          piprop: 'original|thumbnail',
+          pithumbsize: '1600',
+          imlimit: '40',
+          redirects: '1',
+        })
+      );
+
+      pg = Object.values(page?.query?.pages || {})[0];
+      if (!pg || pg.missing !== undefined) {
+        problems.push(`article not found: ${title}`);
+        continue;
+      }
     }
 
     // Preferred: the article's designated lead image.
@@ -119,7 +130,7 @@ async function resolve(key, titles) {
 
     // Fallback: pageimages is empty for a fair number of articles, so pick the
     // best-matching photo out of the images actually used on the page.
-    if (!fileName) {
+    if (!fileName && pg.title) {
       const tokens = titleTokens(pg.title);
       const ranked = (pg.images || [])
         .map((i) => i.title.replace(/^File:/, ''))
@@ -150,10 +161,12 @@ async function resolve(key, titles) {
     }
 
     const meta = ii.extmetadata || {};
+    // Pinned files have no article page; fall back to the Commons file page.
+    const articleTitle = pg.title || ARTICLE_FOR_PIN[key] || null;
     return {
       key,
       value: {
-        article: pg.title,
+        article: articleTitle || fileName.replace(/\.[a-z]+$/i, ''),
         file: fileName,
         thumbBase: parts.base,
         fileBase: parts.file,
@@ -164,7 +177,9 @@ async function resolve(key, titles) {
         licenseUrl: meta.LicenseUrl?.value || '',
         descriptionUrl:
           ii.descriptionurl || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fileName)}`,
-        articleUrl: `https://en.wikipedia.org/wiki/${encodeURIComponent(pg.title.replace(/ /g, '_'))}`,
+        articleUrl: articleTitle
+          ? `https://en.wikipedia.org/wiki/${encodeURIComponent(articleTitle.replace(/ /g, '_'))}`
+          : ii.descriptionurl,
       },
     };
   }
