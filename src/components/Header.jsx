@@ -1,10 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import SearchPanel from './SearchPanel';
-<<<<<<< HEAD
 import AuthButton from './AuthButton';
-=======
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 
 export default function Header() {
   const navigate = useNavigate();
@@ -55,10 +52,7 @@ export default function Header() {
             </span>
           )}
         </button>
-<<<<<<< HEAD
         <AuthButton />
-=======
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
       </div>
     </header>
   );

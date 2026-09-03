@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-<<<<<<< HEAD
 // Vercel serves the app from the domain root, so an absolute base works cleanly (unlike
 // GitHub Pages project sites, which need a relative base for their /repo-name/ subpath).
 export default defineConfig({
@@ -21,11 +20,4 @@ export default defineConfig({
       },
     },
   },
-=======
-// base: './' keeps built asset paths relative so the app works whether it's served
-// from a GitHub Pages project site (https://user.github.io/repo/) or any subpath.
-export default defineConfig({
-  base: './',
-  plugins: [react(), tailwindcss()],
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 })

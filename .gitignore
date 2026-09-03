@@ -5,12 +5,9 @@ node_modules/
 dist/
 dist-ssr/
 
-<<<<<<< HEAD
 # Vercel CLI local project link
 .vercel/
 
-=======
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 # logs
 npm-debug.log*
 yarn-debug.log*

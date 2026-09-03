@@ -18,11 +18,7 @@ export default function TimelinePage() {
       <div className="mx-[clamp(18px,4vw,48px)] mb-[50px] border-l-2 border-black/10 pl-[26px] dark:border-white/10">
         {events.map((e, i) => (
           <div key={i} className="relative pb-7">
-<<<<<<< HEAD
             <span className="absolute -left-[33px] top-1 h-3 w-3 rounded-full border-2 border-ivory bg-gold dark:border-[#12181F]" />
-=======
-            <span className="absolute -left-[33px] top-1 h-3 w-3 rounded-full border-2 border-ivory bg-gold dark:border-[#131A24]" />
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             <div className="font-serif text-[1.2rem] text-saffron">{formatYear(e.y)}</div>
             <button onClick={() => navigate(`/state/${e.s.id}/${e.d.id}/${e.p.id}`)} className="font-bold text-indigo underline decoration-black/15 hover:decoration-teal dark:text-charcoal">
               {e.p.name}

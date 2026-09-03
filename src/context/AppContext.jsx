@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import { createContext, useContext, useEffect, useState, useCallback, useRef } from 'react';
 import { supabase, isSupabaseConfigured } from '../lib/supabaseClient';
 import { useAuth } from './AuthContext';
-=======
-import { createContext, useContext, useEffect, useState, useCallback } from 'react';
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 
 const AppContext = createContext(null);
 
@@ -25,15 +21,10 @@ function loadTheme() {
 }
 
 export function AppProvider({ children }) {
-<<<<<<< HEAD
   const { user } = useAuth();
   const [isDark, setIsDark] = useState(loadTheme);
   const [saved, setSaved] = useState(loadWishlist);
   const [wishlistSyncing, setWishlistSyncing] = useState(false);
-=======
-  const [isDark, setIsDark] = useState(loadTheme);
-  const [saved, setSaved] = useState(loadWishlist);
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
   const [currentRegion, setCurrentRegion] = useState('All');
   const [activeLayer, setActiveLayer] = useState(null);
   // Chat "memory" — lets Saathi answer follow-ups like "what about food there" using the
@@ -44,13 +35,10 @@ export function AppProvider({ children }) {
   // and opens itself with the question pre-sent, then clears it.
   const [pendingAsk, setPendingAsk] = useState(null);
 
-<<<<<<< HEAD
   // Tracks whether we've already merged local + cloud wishlists for the current login, so we
   // don't re-run the (one-time) merge on every render or every unrelated auth state tick.
   const mergedForUser = useRef(null);
 
-=======
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDark);
     try {
@@ -60,11 +48,8 @@ export function AppProvider({ children }) {
     }
   }, [isDark]);
 
-<<<<<<< HEAD
   // Always mirror the current wishlist to localStorage — this is the source of truth when
   // logged out, and an offline-friendly cache when logged in.
-=======
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
   useEffect(() => {
     try {
       localStorage.setItem('cc-wishlist', JSON.stringify([...saved]));
@@ -73,7 +58,6 @@ export function AppProvider({ children }) {
     }
   }, [saved]);
 
-<<<<<<< HEAD
   // On login: fetch the cloud wishlist, union it with whatever's already saved locally (so a
   // guest who saved places before signing in doesn't lose them), then push the merged set back
   // up so both sides agree. Runs once per login, not on every render.
@@ -132,15 +116,6 @@ export function AppProvider({ children }) {
       });
     }
   }, [user, saved]);
-=======
-  const toggleSaved = useCallback((key) => {
-    setSaved((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key); else next.add(key);
-      return next;
-    });
-  }, []);
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 
   const addRecentSearch = useCallback((q) => {
     setRecentSearches((prev) => [q, ...prev.filter((x) => x !== q)].slice(0, 4));
@@ -148,11 +123,7 @@ export function AppProvider({ children }) {
 
   const value = {
     isDark, setIsDark,
-<<<<<<< HEAD
     saved, toggleSaved, wishlistSyncing,
-=======
-    saved, toggleSaved,
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
     currentRegion, setCurrentRegion,
     activeLayer, setActiveLayer,
     chatContext, setChatContext,

@@ -51,8 +51,4 @@ export default function PlaceMotif({ media, className = '' }) {
       </svg>
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
