@@ -1,6 +1,9 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
+<<<<<<< HEAD
 import { AuthProvider } from './context/AuthContext';
+=======
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 import Header from './components/Header';
 import SubNav from './components/SubNav';
 import Breadcrumbs from './components/Breadcrumbs';
@@ -16,9 +19,14 @@ import FestivalsPage from './pages/FestivalsPage';
 
 export default function App() {
   return (
+<<<<<<< HEAD
     <AuthProvider>
       <AppProvider>
         <HashRouter>
+=======
+    <AppProvider>
+      <HashRouter>
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-0 focus:top-0 focus:z-[200] focus:rounded-br-2xl focus:bg-indigo focus:px-[18px] focus:py-3 focus:font-bold focus:text-white">
           Skip to content
         </a>
@@ -42,8 +50,13 @@ export default function App() {
           <div>Made for wandering minds · {new Date().getFullYear()}</div>
         </footer>
         <Chatbot />
+<<<<<<< HEAD
         </HashRouter>
       </AppProvider>
     </AuthProvider>
+=======
+      </HashRouter>
+    </AppProvider>
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
   );
 }

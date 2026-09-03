@@ -1,7 +1,10 @@
 // Full dataset: all 28 states + 8 Union Territories, each with at least one district and
 // one fully-detailed heritage place. Rajasthan, Uttar Pradesh, Kerala, Karnataka, Meghalaya,
 // Ladakh, Tamil Nadu and Goa carry extra depth (2 districts / 2 places) from earlier passes.
+<<<<<<< HEAD
 // Every place also carries lat/lng (used by the live weather widget on PlacePage).
+=======
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
 export const DATA = {
   "states": [
     {
@@ -110,9 +113,13 @@ export const DATA = {
                 "airport": "Jaipur Intl (JAI), 13 km",
                 "parking": "Limited; use City Palace lot",
                 "tip": "Visit right at opening — the interior light is best before 10 AM."
+<<<<<<< HEAD
               },
               "lat": 26.9239,
               "lng": 75.8267
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             },
             {
               "id": "amer-fort",
@@ -167,9 +174,13 @@ export const DATA = {
                 "airport": "Jaipur Intl (JAI), 22 km",
                 "parking": "Large lot at base, short walk or jeep up",
                 "tip": "Arrive by 8:30 AM to have the Sheesh Mahal nearly to yourself."
+<<<<<<< HEAD
               },
               "lat": 26.9855,
               "lng": 75.8513
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         },
@@ -292,9 +303,13 @@ export const DATA = {
                 "airport": "Agra Airport, 13 km",
                 "parking": "Electric shuttle only near monument",
                 "tip": "Book the first entry slot — light and crowds are both kindest at sunrise."
+<<<<<<< HEAD
               },
               "lat": 27.1751,
               "lng": 78.0421
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         },
@@ -404,9 +419,13 @@ export const DATA = {
                 "airport": "Cochin Intl (COK), 85 km",
                 "parking": "At houseboat jetties",
                 "tip": "Choose a smaller canoe tour over a big houseboat to reach the narrow village canals."
+<<<<<<< HEAD
               },
               "lat": 9.4981,
               "lng": 76.3388
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -506,9 +525,13 @@ export const DATA = {
                 "airport": "Hubli Airport, 143 km",
                 "parking": "At Hampi Bazaar",
                 "tip": "Rent a bicycle — the ruins are spread over 4 sq. km, too far to cover on foot."
+<<<<<<< HEAD
               },
               "lat": 15.335,
               "lng": 76.46
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -604,9 +627,13 @@ export const DATA = {
                 "airport": "Shillong Airport, 78 km",
                 "parking": "At Tyrna village, trailhead",
                 "tip": "Start the trek by 8 AM — the return climb is steep and best done before peak heat."
+<<<<<<< HEAD
               },
               "lat": 25.25,
               "lng": 91.65
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -699,9 +726,13 @@ export const DATA = {
                 "airport": "Kushok Bakula Rimpochee Airport, Leh, 160 km",
                 "parking": "Informal roadside near viewpoint",
                 "tip": "Acclimatise in Leh for at least 2 days before the drive — altitude sickness is common and serious."
+<<<<<<< HEAD
               },
               "lat": 33.75,
               "lng": 78.66
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -801,9 +832,13 @@ export const DATA = {
                 "airport": "Chennai Intl (MAA), 58 km",
                 "parking": "At the site entrance",
                 "tip": "Visit at sunrise — by mid-morning the light flattens the carved detail and crowds build fast."
+<<<<<<< HEAD
               },
               "lat": 12.6169,
               "lng": 80.1926
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -948,9 +983,13 @@ export const DATA = {
                 "airport": "Tirupati Airport, 28 km",
                 "parking": "Large lots at Alipiri and Tirumala",
                 "tip": "Book darshan slots online in advance — queues can run many hours without a reservation."
+<<<<<<< HEAD
               },
               "lat": 13.6833,
               "lng": 79.3475
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1047,9 +1086,13 @@ export const DATA = {
                 "airport": "Guwahati is the main air hub; Tawang has a small regional airport",
                 "parking": "At monastery entrance",
                 "tip": "Roads can close due to snow — check the Sela Pass status before travelling Oct–Mar."
+<<<<<<< HEAD
               },
               "lat": 27.5859,
               "lng": 91.8594
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1146,9 +1189,13 @@ export const DATA = {
                 "airport": "Lokpriya Gopinath Bordoloi Intl, 20 km",
                 "parking": "At the hill base with shuttle option",
                 "tip": "Avoid the Ambubachi Mela dates if you prefer a quieter visit — it draws enormous crowds."
+<<<<<<< HEAD
               },
               "lat": 26.1665,
               "lng": 91.7036
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1253,9 +1300,13 @@ export const DATA = {
                 "airport": "Gaya Airport, 7 km",
                 "parking": "At the temple complex entrance",
                 "tip": "Dress modestly and remove footwear well before the inner temple precinct."
+<<<<<<< HEAD
               },
               "lat": 24.6961,
               "lng": 84.9911
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1348,9 +1399,13 @@ export const DATA = {
                 "airport": "Raipur (Swami Vivekananda Airport), ~140 km",
                 "parking": "At the temple entrance",
                 "tip": "Combine with a forest detour — the temple sits at the edge of a much larger, quieter landscape worth the extra day."
+<<<<<<< HEAD
               },
               "lat": 22.15,
               "lng": 81.0333
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1456,9 +1511,13 @@ export const DATA = {
                 "airport": "Ahmedabad (Sardar Vallabhbhai Patel Intl), ~130 km",
                 "parking": "At the ASI site entrance",
                 "tip": "Visit late afternoon when the stepped levels are in soft shadow, easiest for photographing the depth."
+<<<<<<< HEAD
               },
               "lat": 23.8595,
               "lng": 72.103
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1555,9 +1614,13 @@ export const DATA = {
                 "airport": "Chandigarh Airport, ~90 km",
                 "parking": "At Brahma Sarovar and Jyotisar separately",
                 "tip": "Visit around sunset for the tank's evening aarti, when it is at its most atmospheric."
+<<<<<<< HEAD
               },
               "lat": 29.9695,
               "lng": 76.8344
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1650,9 +1713,13 @@ export const DATA = {
                 "airport": "Bhuntar (Kullu-Manali) Airport, 52 km",
                 "parking": "At the temple approach road",
                 "tip": "Go early morning or late afternoon — midday brings heavy tourist traffic through the forest path."
+<<<<<<< HEAD
               },
               "lat": 32.2432,
               "lng": 77.1892
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1749,9 +1816,13 @@ export const DATA = {
                 "airport": "Deoghar Airport, 10 km",
                 "parking": "Near the temple complex, limited during festival season",
                 "tip": "Avoid the Shravani Mela month if you prefer a calmer visit — it is one of the most crowded pilgrimages in eastern India."
+<<<<<<< HEAD
               },
               "lat": 24.4834,
               "lng": 86.7003
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1856,9 +1927,13 @@ export const DATA = {
                 "airport": "Khajuraho Airport, 5 km",
                 "parking": "At the Western Group entrance",
                 "tip": "Hire a licensed guide at the entrance — the carvings reward context far more than a solo walk-through."
+<<<<<<< HEAD
               },
               "lat": 24.8318,
               "lng": 79.9199
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -1963,9 +2038,13 @@ export const DATA = {
                 "airport": "Aurangabad Airport, ~100 km",
                 "parking": "At the visitor centre, with shuttle buses to the caves",
                 "tip": "Cave interiors are dim by design — bring a small torch (flash photography is restricted) to see the murals properly."
+<<<<<<< HEAD
               },
               "lat": 20.5519,
               "lng": 75.7033
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2062,9 +2141,13 @@ export const DATA = {
                 "airport": "Imphal Airport (Bir Tikendrajit Intl), 8 km",
                 "parking": "At the fort entrance",
                 "tip": "Combine with a visit to Ima Keithel market in the same day — both sit centrally in Imphal."
+<<<<<<< HEAD
               },
               "lat": 24.809,
               "lng": 93.9412
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2157,9 +2240,13 @@ export const DATA = {
                 "airport": "Lengpui Airport, Aizawl, ~35 km",
                 "parking": "At the village entrance",
                 "tip": "Weekends draw local day-trippers from Aizawl — visit on a weekday for a quieter experience."
+<<<<<<< HEAD
               },
               "lat": 23.75,
               "lng": 92.5667
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2256,9 +2343,13 @@ export const DATA = {
                 "airport": "Dimapur Airport, ~90 km",
                 "parking": "At the village entrance",
                 "tip": "Arrange a local guide through the village council — it supports the community directly and unlocks the conservation-trail access."
+<<<<<<< HEAD
               },
               "lat": 25.6667,
               "lng": 94.0333
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2359,9 +2450,13 @@ export const DATA = {
                 "airport": "Bhubaneswar (Biju Patnaik Intl), ~65 km",
                 "parking": "At the temple complex entrance",
                 "tip": "Visit at sunrise or late afternoon — the carved stone takes on a warm glow and the heat is far more manageable."
+<<<<<<< HEAD
               },
               "lat": 19.8876,
               "lng": 86.0945
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2463,9 +2558,13 @@ export const DATA = {
                 "airport": "Sri Guru Ram Dass Jee Intl, 11 km",
                 "parking": "Large lots around the complex perimeter",
                 "tip": "Cover your head (scarves are provided free at the entrance) and go barefoot — wading through the shallow foot-wash channel is part of the entry ritual."
+<<<<<<< HEAD
               },
               "lat": 31.62,
               "lng": 74.8765
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2562,9 +2661,13 @@ export const DATA = {
                 "airport": "Pakyong Airport, ~40 km; Bagdogra as main hub",
                 "parking": "At the monastery entrance",
                 "tip": "Check ahead for the winter Chaam masked-dance festival dates if you want to time your visit around it."
+<<<<<<< HEAD
               },
               "lat": 27.3255,
               "lng": 88.5622
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2661,9 +2764,13 @@ export const DATA = {
                 "airport": "Rajiv Gandhi Intl, 30 km",
                 "parking": "Limited around the monument; old city traffic is heavy",
                 "tip": "Visit around sunset when the monument is lit and the surrounding bazaar is at its liveliest."
+<<<<<<< HEAD
               },
               "lat": 17.3616,
               "lng": 78.4747
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2760,9 +2867,13 @@ export const DATA = {
                 "airport": "Maharaja Bir Bikram Airport, Agartala, ~58 km",
                 "parking": "At the boat jetty",
                 "tip": "Go in the early morning for calmer water and better reflections of the palace domes."
+<<<<<<< HEAD
               },
               "lat": 23.5333,
               "lng": 91.3333
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2859,9 +2970,13 @@ export const DATA = {
                 "airport": "Dehradun (Jolly Grant), ~235 km",
                 "parking": "At Gaurikund, the trek starting point",
                 "tip": "Book helicopter tickets far in advance if you don't plan to trek — they sell out fast in peak season (May–Jun)."
+<<<<<<< HEAD
               },
               "lat": 30.7346,
               "lng": 79.0669
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -2959,9 +3074,13 @@ export const DATA = {
                 "airport": "Netaji Subhas Chandra Bose Intl, ~17 km",
                 "parking": "At the memorial grounds",
                 "tip": "The gardens and building façade are especially photogenic in the last hour before sunset, when the marble takes on a warm tone."
+<<<<<<< HEAD
               },
               "lat": 22.5448,
               "lng": 88.3426
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3061,9 +3180,13 @@ export const DATA = {
                 "airport": "Veer Savarkar Intl, Port Blair, 4 km",
                 "parking": "At the jail complex",
                 "tip": "Book the evening sound-and-light show ahead — it sells out in peak tourist season (Dec–Jan)."
+<<<<<<< HEAD
               },
               "lat": 11.6759,
               "lng": 92.75
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3159,9 +3282,13 @@ export const DATA = {
                 "airport": "Chandigarh Airport, ~10 km",
                 "parking": "At the garden entrance",
                 "tip": "Go in the late afternoon and continue on to Sukhna Lake for sunset — the two sit within walking distance of each other."
+<<<<<<< HEAD
               },
               "lat": 30.7517,
               "lng": 76.81
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3257,9 +3384,13 @@ export const DATA = {
                 "airport": "Diu Airport, 7 km",
                 "parking": "At the fort entrance",
                 "tip": "Diu allows alcohol sale unlike most of Gujarat — plan accordingly if that matters to your trip, and always drive cautiously on the coastal roads."
+<<<<<<< HEAD
               },
               "lat": 20.7144,
               "lng": 70.9874
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3368,9 +3499,13 @@ export const DATA = {
                 "airport": "Indira Gandhi Intl, ~24 km",
                 "parking": "Limited nearby; Delhi Metro (Lal Qila / Chandni Chowk stations) is more reliable",
                 "tip": "Combine with Chandni Chowk and Jama Masjid in the same outing — all three are within easy walking distance."
+<<<<<<< HEAD
               },
               "lat": 28.6562,
               "lng": 77.241
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3467,9 +3602,13 @@ export const DATA = {
                 "airport": "Srinagar Airport, ~15 km",
                 "parking": "At the garden entrance",
                 "tip": "Visit in April–May for tulip and blossom season, or September–October for the chinar trees turning brilliant red and gold."
+<<<<<<< HEAD
               },
               "lat": 34.1236,
               "lng": 74.88
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3557,9 +3696,13 @@ export const DATA = {
                 "airport": "Agatti Airport, on the island itself",
                 "parking": "Not applicable",
                 "tip": "Arrange your Lakshadweep entry permit well in advance — it is mandatory and can take time to process."
+<<<<<<< HEAD
               },
               "lat": 10.85,
               "lng": 72.1833
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }
@@ -3659,9 +3802,13 @@ export const DATA = {
                 "airport": "Chennai Intl, ~135 km (Puducherry Airport has limited service)",
                 "parking": "Limited in the French Quarter; best explored on foot or bicycle",
                 "tip": "Rent a bicycle for the French Quarter — the grid is small, flat, and far more atmospheric without a car."
+<<<<<<< HEAD
               },
               "lat": 11.934,
               "lng": 79.8306
+=======
+              }
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
             }
           ]
         }

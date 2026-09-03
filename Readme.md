@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Culture Click
 
 **An interactive React + Tailwind app for exploring India's cultural and heritage travel destinations — now with a real database, Google sign-in, and live weather.**
@@ -154,3 +155,6 @@ correctly-matched, real, licensed photos is a curation task, not just a code cha
 Code in this repository is available under the [MIT License](LICENSE). The India state-boundary
 path data (`src/data/indiaPaths.js`) is adapted from a third-party open-source source noted
 above — verify its upstream licensing terms before reuse beyond this project.
+=======
+# Culture Click **Culture Click** is a full-stack platform for exploring India's cultural heritage through a **State → City → Place** journey. Discover famous destinations with their history, culture, cuisine, and travel information. Built to provide an authentic, organized, and engaging cultural travel experience.
+>>>>>>> c3b824270e73b9b3fcd52cc4f2892e2cfca70ee1
