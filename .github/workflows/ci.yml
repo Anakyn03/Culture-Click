@@ -1,0 +1,38 @@
+name: CI
+
+# Runs on every pull request targeting main, and on direct pushes to main (as a final safety
+# net). Combined with a GitHub branch protection rule that requires this check to pass before
+# merging, this means nothing — including anything Freebuff or another tool pushes to a branch —
+# can be merged into main while the app is broken, on top of the manual review requirement.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+        env:
+          # Dummy values so the build succeeds in CI without real secrets — the app is designed
+          # to run in "local only" mode (no login, local wishlist) when these aren't set, so a
+          # successful build here doesn't require real Supabase credentials.
+          VITE_SUPABASE_URL: ''
+          VITE_SUPABASE_ANON_KEY: ''
