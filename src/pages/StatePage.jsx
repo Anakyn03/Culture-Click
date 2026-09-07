@@ -3,17 +3,16 @@ import { useParams, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
 import PlaceMotif from '../components/PlaceMotif';
+import PlaceImage from '../components/PlaceImage';
 import Card from '../components/Card';
 
 export default function StatePage() {
   const { stateId } = useParams();
-  const { saved, toggleSaved, setPendingAsk, setChatContext } = useApp();
+  const { saved, toggleSaved } = useApp();
   const s = DATA.states.find((x) => x.id === stateId);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (s) setChatContext((c) => ({ ...c, lastStateId: s.id }));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stateId]);
 
   if (!s) return <Navigate to="/" replace />;
@@ -23,6 +22,7 @@ export default function StatePage() {
   return (
     <div>
       <div className="relative mx-[clamp(18px,4vw,48px)] mt-[18px] min-h-[320px] overflow-hidden rounded-[24px] shadow-[0_20px_50px_rgba(31,58,95,0.16)]">
+        <PlaceImage placeName={s.name} stateName={s.name} type="State" media={s.media} className="absolute inset-0" />
         <PlaceMotif media={s.media} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
         <div className="relative w-full px-[clamp(18px,4vw,44px)] py-[34px] text-white">
@@ -38,9 +38,7 @@ export default function StatePage() {
             <button onClick={() => toggleSaved(saveKey)} className="rounded-full bg-gold px-5 py-2.5 text-[0.86rem] font-bold text-indigo transition-transform hover:-translate-y-0.5">
               {saved.has(saveKey) ? '★ Saved' : '☆ Save state'}
             </button>
-            <button onClick={() => setPendingAsk(`Tell me about ${s.name}`)} className="rounded-full border border-white/50 bg-white/15 px-5 py-2.5 text-[0.86rem] font-bold text-white backdrop-blur transition-transform hover:-translate-y-0.5">
-              Ask Saathi
-            </button>
+
           </div>
         </div>
       </div>

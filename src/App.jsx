@@ -4,7 +4,6 @@ import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
 import SubNav from './components/SubNav';
 import Breadcrumbs from './components/Breadcrumbs';
-import Chatbot from './components/Chatbot';
 import HomePage from './pages/HomePage';
 import StatePage from './pages/StatePage';
 import DistrictPage from './pages/DistrictPage';
@@ -41,7 +40,6 @@ export default function App() {
           <div>© Culture Click — an interactive prototype. Not a booking platform; a living atlas of India's culture.</div>
           <div>Made for wandering minds · {new Date().getFullYear()}</div>
         </footer>
-        <Chatbot />
         </HashRouter>
       </AppProvider>
     </AuthProvider>

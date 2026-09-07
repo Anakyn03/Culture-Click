@@ -144,7 +144,7 @@ export default function SearchPanel() {
               </div>
             ))
           ) : (
-            <div className="px-4 py-6 text-center text-[0.86rem] opacity-65">No results for "{query}" — try a state name or ask Saathi instead.</div>
+            <div className="px-4 py-6 text-center text-[0.86rem] opacity-65">No results for "{query}" — try a state or place name.</div>
           )}
         </div>
       )}

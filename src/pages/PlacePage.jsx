@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
 import PlaceMotif from '../components/PlaceMotif';
+import PlaceImage from '../components/PlaceImage';
 import WeatherWidget from '../components/WeatherWidget';
 
 function formatYear(y) { return y < 1000 ? `~${y} CE` : y; }
@@ -18,7 +19,7 @@ const TABS = [
 export default function PlacePage() {
   const { stateId, districtId, placeId } = useParams();
   const navigate = useNavigate();
-  const { saved, toggleSaved, setPendingAsk, setChatContext } = useApp();
+  const { saved, toggleSaved } = useApp();
   const [shareLabel, setShareLabel] = useState('↗ Share');
   const [activeTab, setActiveTab] = useState('overview');
   const s = DATA.states.find((x) => x.id === stateId);
@@ -28,8 +29,6 @@ export default function PlacePage() {
   useEffect(() => {
     window.scrollTo(0, 0);
     setActiveTab('overview');
-    if (s && p) setChatContext((c) => ({ ...c, lastStateId: s.id, lastPlaceId: p.id }));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [placeId]);
 
   if (!s || !d || !p) return <Navigate to="/" replace />;
@@ -39,6 +38,7 @@ export default function PlacePage() {
   return (
     <div>
       <div className="relative mx-[clamp(18px,4vw,48px)] mt-[18px] min-h-[380px] overflow-hidden rounded-[24px] shadow-[0_20px_50px_rgba(31,58,95,0.16)]">
+        <PlaceImage placeName={p.name} stateName={s.name} type={p.type} media={p.media} className="absolute inset-0" />
         <PlaceMotif media={p.media} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
         <div className="relative w-full px-[clamp(18px,4vw,44px)] py-[34px] text-white">
@@ -54,9 +54,7 @@ export default function PlacePage() {
             <button onClick={() => toggleSaved(saveKey)} className="rounded-full bg-gold px-5 py-2.5 text-[0.86rem] font-bold text-indigo transition-transform hover:-translate-y-0.5">
               {saved.has(saveKey) ? '★ Saved' : '☆ Save place'}
             </button>
-            <button onClick={() => setPendingAsk(`Tell me the story of ${p.name}`)} className="rounded-full border border-white/50 bg-white/15 px-5 py-2.5 text-[0.86rem] font-bold text-white backdrop-blur transition-transform hover:-translate-y-0.5">
-              Ask Saathi
-            </button>
+
             <button
               onClick={() => { setShareLabel('✓ Link copied'); setTimeout(() => setShareLabel('↗ Share'), 1600); }}
               className="rounded-full border border-white/50 bg-white/15 px-5 py-2.5 text-[0.86rem] font-bold text-white backdrop-blur transition-transform hover:-translate-y-0.5"
@@ -116,12 +114,78 @@ export default function PlacePage() {
       {/* OVERVIEW */}
       {activeTab === 'overview' && (
         <div id="panel-overview" role="tabpanel" aria-labelledby="tab-overview">
-          <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
-            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Hidden facts</h2>
-            <ul className="list-none">
-              {p.facts.map((f, i) => <li key={i} className="border-b border-black/10 py-2.5 text-[0.88rem] dark:border-white/10">{f}</li>)}
-            </ul>
+          {/* AT-A-GLANCE FAST FACTS */}
+          <div className="mx-[clamp(18px,4vw,48px)] mb-8">
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">At a glance</h2>
+            <div className="mt-3 grid gap-0 overflow-hidden rounded-2xl border border-black/10 bg-surface dark:border-white/10">
+              {[
+                ['Category', p.type],
+                ['Entry', p.entry],
+                ['Open hours', p.open],
+                ['Best season', p.bestSeason],
+                ['Budget', p.budget],
+                ['Nearest railway', p.travel.railway],
+                ['Nearest airport', p.travel.airport],
+              ].map(([k, v], i, arr) => (
+                <div key={k} className={`flex items-center justify-between px-4 py-3 text-[0.88rem] ${i < arr.length - 1 ? 'border-b border-black/5 dark:border-white/5' : ''} ${i % 2 === 0 ? 'bg-sand/40' : ''}`}> 
+                  <span className="text-charcoal/60 dark:text-charcoal/60">{k}</span>
+                  <b className="text-right text-indigo dark:text-charcoal">{v}</b>
+                </div>
+              ))}
+            </div>
           </div>
+
+          {/* STORIES & LEGENDS */}
+          <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
+            <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Stories &amp; legends</h2>
+            <div className="mt-3 rounded-2xl border border-black/10 bg-surface p-[18px] shadow-[0_2px_8px_rgba(31,58,95,0.06)] dark:border-white/10">
+              <ul className="list-none space-y-3">
+                <li className="flex gap-2.5 text-[0.88rem]"><span className="flex-none text-saffron">✦</span> {p.history.split('.')[0]}.</li>
+                <li className="flex gap-2.5 text-[0.88rem]"><span className="flex-none text-saffron">✦</span> {p.architecture.split('.')[0]}.</li>
+                {p.facts[0] && <li className="flex gap-2.5 text-[0.88rem]"><span className="flex-none text-saffron">✦</span> {p.facts[0]}</li>}
+              </ul>
+              <a
+                href={`https://en.wikipedia.org/wiki/${encodeURIComponent(p.name.replace(/\s*\(.*\)/, ''))}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-sand px-4 py-2 text-[0.78rem] font-bold text-teal hover:bg-teal hover:text-white transition-colors"
+              >
+                Read more on Wikipedia ↗
+              </a>
+            </div>
+          </div>
+
+          {/* MORE LIKE THIS — across the atlas */}
+          {(() => {
+            const sameType = [];
+            DATA.states.forEach((st) => {
+              st.districts.forEach((di) => {
+                di.places.forEach((pl) => {
+                  if (pl.type === p.type && pl.id !== p.id) {
+                    sameType.push({ ...pl, stateId: st.id, districtId: di.id, stateName: st.name });
+                  }
+                });
+              });
+            });
+            const shown = sameType.slice(0, 6);
+            if (!shown.length) return null;
+            return (
+              <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
+                <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">More like this across India</h2>
+                <p className="mt-1 text-[0.82rem] opacity-65">Other {p.type.toLowerCase()}s worth exploring</p>
+                <div className="thin-scroll flex gap-4 overflow-x-auto pb-4 pt-4" style={{ scrollSnapType: 'x proximity' }}>
+                  {shown.map((pl) => (
+                    <Link key={pl.id} to={`/state/${pl.stateId}/${pl.districtId}/${pl.id}`} className="w-[200px] flex-none rounded-2xl border border-black/10 bg-surface p-4 shadow-[0_2px_8px_rgba(31,58,95,0.06)] transition-colors hover:border-teal dark:border-white/10" style={{ scrollSnapAlign: 'start' }}>
+                      <span className="block text-[0.68rem] font-bold uppercase tracking-wide text-saffron">{pl.stateName}</span>
+                      <h4 className="mt-1 font-serif text-[0.95rem] text-indigo dark:text-charcoal">{pl.name}</h4>
+                      <p className="mt-1 line-clamp-2 text-[0.78rem] opacity-70">{pl.blurb}</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
+
           <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-6">
             <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Hidden gems nearby</h2>
           </div>

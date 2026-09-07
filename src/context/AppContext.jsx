@@ -27,13 +27,7 @@ export function AppProvider({ children }) {
   const [wishlistSyncing, setWishlistSyncing] = useState(false);
   const [currentRegion, setCurrentRegion] = useState('All');
   const [activeLayer, setActiveLayer] = useState(null);
-  // Chat "memory" — lets Saathi answer follow-ups like "what about food there" using the
-  // last state/place the visitor looked at, without a real backend session.
-  const [chatContext, setChatContext] = useState({ lastStateId: null, lastPlaceId: null });
   const [recentSearches, setRecentSearches] = useState([]);
-  // Set by "Ask Saathi" buttons scattered across pages; the Chatbot component watches this
-  // and opens itself with the question pre-sent, then clears it.
-  const [pendingAsk, setPendingAsk] = useState(null);
 
   // Tracks whether we've already merged local + cloud wishlists for the current login, so we
   // don't re-run the (one-time) merge on every render or every unrelated auth state tick.
@@ -126,9 +120,7 @@ export function AppProvider({ children }) {
     saved, toggleSaved, wishlistSyncing,
     currentRegion, setCurrentRegion,
     activeLayer, setActiveLayer,
-    chatContext, setChatContext,
     recentSearches, addRecentSearch,
-    pendingAsk, setPendingAsk,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

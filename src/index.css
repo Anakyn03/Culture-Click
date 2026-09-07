@@ -95,10 +95,3 @@ body {
 /* Thin, theme-aware scrollbar for horizontal scrollers */
 .thin-scroll::-webkit-scrollbar { height: 6px; }
 .thin-scroll::-webkit-scrollbar-thumb { background: var(--color-sand); border-radius: 999px; }
-
-/* Chat "typing" dots */
-@keyframes blink {
-  0%, 80%, 100% { opacity: .25; }
-  40% { opacity: .9; }
-}
-.typing-dot { animation: blink 1.2s infinite; }

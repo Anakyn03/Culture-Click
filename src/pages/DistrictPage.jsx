@@ -3,13 +3,14 @@ import { useParams, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
 import PlaceMotif from '../components/PlaceMotif';
+import PlaceImage from '../components/PlaceImage';
 import Card from '../components/Card';
 
 const EXPERIENCES = ['Village Walk', 'Local Cuisine Trail', 'Handicraft Workshop', 'Heritage Photography', 'Market Visit', 'Storytelling Evening'];
 
 export default function DistrictPage() {
   const { stateId, districtId } = useParams();
-  const { saved, toggleSaved, setPendingAsk } = useApp();
+  const { saved, toggleSaved } = useApp();
   const s = DATA.states.find((x) => x.id === stateId);
   const d = s?.districts.find((x) => x.id === districtId);
 
@@ -21,6 +22,7 @@ export default function DistrictPage() {
   return (
     <div>
       <div className="relative mx-[clamp(18px,4vw,48px)] mt-[18px] min-h-[320px] overflow-hidden rounded-[24px] shadow-[0_20px_50px_rgba(31,58,95,0.16)]">
+        <PlaceImage placeName={d.name} stateName={s.name} type="District" media={d.media} className="absolute inset-0" />
         <PlaceMotif media={d.media} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
         <div className="relative w-full px-[clamp(18px,4vw,44px)] py-[34px] text-white">
@@ -31,9 +33,7 @@ export default function DistrictPage() {
             <button onClick={() => toggleSaved(saveKey)} className="rounded-full bg-gold px-5 py-2.5 text-[0.86rem] font-bold text-indigo transition-transform hover:-translate-y-0.5">
               {saved.has(saveKey) ? '★ Saved' : '☆ Save district'}
             </button>
-            <button onClick={() => setPendingAsk(`What's special about ${d.name}?`)} className="rounded-full border border-white/50 bg-white/15 px-5 py-2.5 text-[0.86rem] font-bold text-white backdrop-blur transition-transform hover:-translate-y-0.5">
-              Ask Saathi
-            </button>
+
           </div>
         </div>
       </div>
@@ -60,9 +60,7 @@ export default function DistrictPage() {
           <div className="col-span-full py-16 text-center opacity-80">
             <h3 className="font-serif text-[1.2rem] text-indigo dark:text-charcoal">Still charting this district</h3>
             <p className="mx-auto mt-1.5 max-w-[360px]">More places for {d.name} are being catalogued for the atlas.</p>
-            <button onClick={() => setPendingAsk(`Suggest a district similar to ${d.name}`)} className="mt-4 rounded-full border-[1.5px] border-indigo px-5 py-2.5 text-[0.86rem] font-bold text-indigo dark:border-sand dark:text-charcoal">
-              Ask Saathi for a suggestion
-            </button>
+
           </div>
         )}
       </div>
