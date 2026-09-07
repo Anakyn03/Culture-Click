@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchWikimediaImage } from '../lib/wikimedia';
+import PlaceMotif from './PlaceMotif';
 
 /**
  * PlaceImage — fetches a freely-licensed photograph from Wikimedia Commons
@@ -35,8 +36,10 @@ export default function PlaceImage({ placeName, stateName, type, media, classNam
     );
   }
 
-  // No image found — caller should render PlaceMotif instead
-  if (!img) return null;
+  // No image found — show the SVG illustration
+  if (!img) {
+    return <PlaceMotif media={media} className={className} />;
+  }
 
   return (
     <figure className={`relative h-full w-full overflow-hidden ${className}`}>

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
-import PlaceMotif from '../components/PlaceMotif';
 import PlaceImage from '../components/PlaceImage';
 import WeatherWidget from '../components/WeatherWidget';
 
@@ -39,7 +38,6 @@ export default function PlacePage() {
     <div>
       <div className="relative mx-[clamp(18px,4vw,48px)] mt-[18px] min-h-[380px] overflow-hidden rounded-[24px] shadow-[0_20px_50px_rgba(31,58,95,0.16)]">
         <PlaceImage placeName={p.name} stateName={s.name} type={p.type} media={p.media} className="absolute inset-0" />
-        <PlaceMotif media={p.media} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
         <div className="relative w-full px-[clamp(18px,4vw,44px)] py-[34px] text-white">
           <div className="text-[0.72rem] font-bold uppercase tracking-[0.14em] text-gold">{p.type} · {d.name}, {s.name}</div>
