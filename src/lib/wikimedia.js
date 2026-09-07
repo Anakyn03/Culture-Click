@@ -34,10 +34,12 @@ function isFreelyLicensed(extmetadata) {
 
 /**
  * Process raw imageinfo into our standard shape.
+ * Only accepts images that are wide enough and have a reasonable aspect ratio
+ * for a hero banner (between 4:3 and 16:9 landscape, or taller for portrait).
  */
 function processImage(img) {
   if (!img) return null;
-  if (img.width < 200 || img.height < 200) return null;
+  if (img.width < 400 || img.height < 300) return null;
   if (!isFreelyLicensed(img.extmetadata)) return null;
   const credit = img.extmetadata?.Artist?.value || img.extmetadata?.Credit?.value || 'Wikimedia Commons';
   const licenseName = img.extmetadata?.LicenseShortName?.value || 'CC';
@@ -70,7 +72,7 @@ export async function fetchWikimediaImage(placeName, stateName, type) {
       const titles = hits.map((h) => h.title).join('|');
       const infoParams = new URLSearchParams({
         action: 'query', titles, prop: 'imageinfo',
-        iiprop: 'url|extmetadata|size', iiurlwidth: '800', format: 'json', origin: '*',
+        iiprop: 'url|extmetadata|size', iiurlwidth: '1200', format: 'json', origin: '*',
       });
       const infoRes = await fetch(`${API}?${infoParams}`, { headers: { 'User-Agent': UA } });
       if (!infoRes.ok) continue;
@@ -86,9 +88,9 @@ export async function fetchWikimediaImage(placeName, stateName, type) {
 
 /**
  * Fetch multiple freely-licensed images for a place (for slideshows).
- * Returns an array of { thumbSrc, fullSrc, credit, license } (max 6).
+ * Returns an array of { thumbSrc, fullSrc, credit, license } (max 3 by default).
  */
-export async function fetchWikimediaImages(placeName, stateName, type, limit = 6) {
+export async function fetchWikimediaImages(placeName, stateName, type, limit = 3) {
   const base = placeName.replace(/\s*\(.*\)/, '').trim();
   const queries = [
     `${base} ${stateName}`,
@@ -113,7 +115,7 @@ export async function fetchWikimediaImages(placeName, stateName, type, limit = 6
       const titles = hits.map((h) => h.title).join('|');
       const infoParams = new URLSearchParams({
         action: 'query', titles, prop: 'imageinfo',
-        iiprop: 'url|extmetadata|size', iiurlwidth: '800', format: 'json', origin: '*',
+        iiprop: 'url|extmetadata|size', iiurlwidth: '1200', format: 'json', origin: '*',
       });
       const infoRes = await fetch(`${API}?${infoParams}`, { headers: { 'User-Agent': UA } });
       if (!infoRes.ok) continue;

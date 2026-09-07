@@ -22,7 +22,7 @@ export default function PlaceSlideshow({ placeName, stateName, type, media, clas
     setImages([]);
     setCurrent(0);
 
-    fetchWikimediaImages(placeName, stateName, type, 6).then((result) => {
+    fetchWikimediaImages(placeName, stateName, type, 3).then((result) => {
       if (!cancelled) {
         setImages(result);
         setLoading(false);
@@ -73,8 +73,9 @@ export default function PlaceSlideshow({ placeName, stateName, type, media, clas
   if (images.length === 1) {
     return (
       <figure className={`absolute inset-0 overflow-hidden ${className}`}>
-        <img src={images[0].thumbSrc} alt={`${placeName}, ${stateName}`} loading="lazy" className="h-full w-full object-cover" />
-        <figcaption className="absolute bottom-0 left-0 right-0 px-4 py-2.5 text-[0.68rem]" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.7), transparent)' }}>
+        <img src={images[0].thumbSrc} alt={`${placeName}, ${stateName}`} loading="eager" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.15) 40%, transparent 100%)' }} />
+        <figcaption className="absolute bottom-0 left-0 right-0 px-4 py-2.5 text-[0.68rem] text-white/80">
           📷 {images[0].credit}
         </figcaption>
       </figure>
@@ -107,7 +108,7 @@ export default function PlaceSlideshow({ placeName, stateName, type, media, clas
       ))}
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+      <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.15) 40%, transparent 100%)' }} />
 
       {/* Credit */}
       <figcaption className="absolute bottom-0 left-0 right-0 px-4 py-2.5 text-[0.68rem] text-white/80">
