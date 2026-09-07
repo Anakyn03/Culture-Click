@@ -33,66 +33,100 @@ function isFreelyLicensed(extmetadata) {
 }
 
 /**
- * Fetch a Wikimedia Commons image for a place.
+ * Process raw imageinfo into our standard shape.
+ */
+function processImage(img) {
+  if (!img) return null;
+  if (img.width < 200 || img.height < 200) return null;
+  if (!isFreelyLicensed(img.extmetadata)) return null;
+  const credit = img.extmetadata?.Artist?.value || img.extmetadata?.Credit?.value || 'Wikimedia Commons';
+  const licenseName = img.extmetadata?.LicenseShortName?.value || 'CC';
+  const cleanCredit = credit.replace(/<[^>]+>/g, '').trim();
+  return {
+    thumbSrc: img.thumburl,
+    fullSrc: img.url,
+    credit: `${cleanCredit} · ${licenseName}`,
+    license: licenseName,
+  };
+}
+
+/**
+ * Fetch a single Wikimedia Commons image for a place.
  * Returns { thumbSrc, fullSrc, credit, license } or null.
  */
 export async function fetchWikimediaImage(placeName, stateName, type) {
   const queries = buildQueries(placeName, stateName, type);
-
   for (const q of queries) {
     try {
       const params = new URLSearchParams({
-        action: 'query',
-        list: 'search',
-        srsearch: q,
-        srnamespace: '6',          // File: namespace
-        srlimit: '5',
-        format: 'json',
-        origin: '*',
+        action: 'query', list: 'search', srsearch: q,
+        srnamespace: '6', srlimit: '5', format: 'json', origin: '*',
       });
       const res = await fetch(`${API}?${params}`, { headers: { 'User-Agent': UA } });
       if (!res.ok) continue;
       const { query } = await res.json();
       const hits = query?.search;
       if (!hits?.length) continue;
-
-      // Get imageinfo for each candidate
       const titles = hits.map((h) => h.title).join('|');
       const infoParams = new URLSearchParams({
-        action: 'query',
-        titles,
-        prop: 'imageinfo',
-        iiprop: 'url|extmetadata|size',
-        iiurlwidth: '800',
-        format: 'json',
-        origin: '*',
+        action: 'query', titles, prop: 'imageinfo',
+        iiprop: 'url|extmetadata|size', iiurlwidth: '800', format: 'json', origin: '*',
       });
       const infoRes = await fetch(`${API}?${infoParams}`, { headers: { 'User-Agent': UA } });
       if (!infoRes.ok) continue;
-      const infoData = await infoRes.json();
-      const pages = infoData?.query?.pages || {};
-
+      const pages = (await infoRes.json())?.query?.pages || {};
       for (const page of Object.values(pages)) {
-        const img = page.imageinfo?.[0];
-        if (!img) continue;
-        if (img.width < 200 || img.height < 200) continue;
-        if (!isFreelyLicensed(img.extmetadata)) continue;
-
-        const credit = img.extmetadata?.Artist?.value || img.extmetadata?.Credit?.value || 'Wikimedia Commons';
-        const licenseName = img.extmetadata?.LicenseShortName?.value || 'CC';
-        // Strip HTML tags from credit
-        const cleanCredit = credit.replace(/<[^>]+>/g, '').trim();
-
-        return {
-          thumbSrc: img.thumburl,
-          fullSrc: img.url,
-          credit: `${cleanCredit} · ${licenseName}`,
-          license: licenseName,
-        };
+        const result = processImage(page.imageinfo?.[0]);
+        if (result) return result;
       }
-    } catch {
-      // Network error — try next query
-    }
+    } catch { /* try next query */ }
   }
   return null;
+}
+
+/**
+ * Fetch multiple freely-licensed images for a place (for slideshows).
+ * Returns an array of { thumbSrc, fullSrc, credit, license } (max 6).
+ */
+export async function fetchWikimediaImages(placeName, stateName, type, limit = 6) {
+  const base = placeName.replace(/\s*\(.*\)/, '').trim();
+  const queries = [
+    `${base} ${stateName}`,
+    `${base} ${type}`,
+    base,
+  ];
+  const seen = new Set();
+  const results = [];
+
+  for (const q of queries) {
+    if (results.length >= limit) break;
+    try {
+      const params = new URLSearchParams({
+        action: 'query', list: 'search', srsearch: q,
+        srnamespace: '6', srlimit: String(limit + 3), format: 'json', origin: '*',
+      });
+      const res = await fetch(`${API}?${params}`, { headers: { 'User-Agent': UA } });
+      if (!res.ok) continue;
+      const { query } = await res.json();
+      const hits = query?.search;
+      if (!hits?.length) continue;
+      const titles = hits.map((h) => h.title).join('|');
+      const infoParams = new URLSearchParams({
+        action: 'query', titles, prop: 'imageinfo',
+        iiprop: 'url|extmetadata|size', iiurlwidth: '800', format: 'json', origin: '*',
+      });
+      const infoRes = await fetch(`${API}?${infoParams}`, { headers: { 'User-Agent': UA } });
+      if (!infoRes.ok) continue;
+      const pages = (await infoRes.json())?.query?.pages || {};
+      for (const page of Object.values(pages)) {
+        if (results.length >= limit) break;
+        const img = page.imageinfo?.[0];
+        if (!img || seen.has(img.url)) continue;
+        seen.add(img.url);
+        const processed = processImage(img);
+        if (processed) results.push(processed);
+      }
+    } catch { /* try next query */ }
+  }
+  return results;
 }

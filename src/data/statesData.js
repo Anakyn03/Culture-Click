@@ -464,7 +464,7 @@ export const DATA = {
               "blurb": "A still-active temple complex at the heart of the ruined Vijayanagara Empire capital, its gopuram rising nine tiers above the Tungabhadra plain.",
               "rating": 4.6,
               "entry": "Free (camera fee applicable)",
-              "open": "6:00 AM – 9:00 PM",
+              "open": "6:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
               "bestSeason": "Oct – Feb",
               "history": "Predating the Vijayanagara Empire itself, the core shrine has been in continuous worship since at least the 7th century, later expanded dramatically under Vijayanagara rulers in the 15th and 16th centuries into the empire's ceremonial and spiritual centre, before the city was sacked in 1565.",
               "architecture": "The 50-metre eastern gopuram dominates the boulder landscape, built in tiers of diminishing stucco figures. A pinhole in the inner chamber projects an inverted shadow of the tower onto an inner wall — an early camera obscura, whether by design or accident.",
