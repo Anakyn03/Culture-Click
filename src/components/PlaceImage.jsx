@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePlaceImage } from '../hooks/usePlaceImage';
+import { getResponsiveSize } from '../lib/unsplash';
 
 /**
  * PlaceImage — fetches and displays a photo for a place or state.
@@ -10,6 +11,7 @@ import { usePlaceImage } from '../hooks/usePlaceImage';
  * - Smooth fade-in transition when image loads
  * - Falls back to gradient if no image found
  * - Displays photographer credit
+ * - Responsive: different image sizes for mobile vs desktop
  * 
  * @param {string} size - 'card' | 'hero' | 'thumbnail' (default: 'hero')
  * 
@@ -19,9 +21,19 @@ import { usePlaceImage } from '../hooks/usePlaceImage';
 export default function PlaceImage({ id, name, type, stateName, size = 'hero', className = '' }) {
   const { urls, credit, alt, color, loading } = usePlaceImage(id, name, type, stateName);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [responsiveSize, setResponsiveSize] = useState(() => getResponsiveSize(size));
+
+  // Update responsive size on window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setResponsiveSize(getResponsiveSize(size));
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [size]);
 
   // Get the appropriate URL for the size
-  const imageUrl = urls?.[size] || urls?.hero || urls?.full;
+  const imageUrl = urls?.[responsiveSize] || urls?.[size] || urls?.hero || urls?.full;
 
   // Loading state — show dominant color or gradient
   if (loading) {

@@ -17,9 +17,11 @@ const CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days
  * Using Unsplash's dynamic resizing for optimal performance.
  */
 export const IMAGE_SIZES = {
-  card: { width: 400, height: 250 },      // Cards: small, fast loading
-  hero: { width: 1200, height: 600 },     // Hero sections: large, high quality
-  thumbnail: { width: 200, height: 200 }, // Thumbnails: tiny, instant
+  card: { width: 400, height: 250 },        // Desktop cards: standard size
+  'card-mobile': { width: 600, height: 400 }, // Mobile cards: taller for vertical scroll
+  hero: { width: 1200, height: 600 },       // Desktop hero sections
+  'hero-mobile': { width: 800, height: 500 }, // Mobile hero sections
+  thumbnail: { width: 200, height: 200 },   // Thumbnails: tiny, instant
 };
 
 /**
@@ -65,6 +67,26 @@ function getOptimizedUrl(originalUrl, size) {
   });
   
   return `${baseUrl}?${params.toString()}`;
+}
+
+/**
+ * Detect if the current device is mobile.
+ * Returns true for screens < 768px wide.
+ */
+export function isMobile() {
+  return typeof window !== 'undefined' && window.innerWidth < 768;
+}
+
+/**
+ * Get the appropriate image size key based on viewport.
+ * @param {'card' | 'hero' | 'thumbnail'} baseSize
+ * @returns The size key with mobile suffix if on mobile
+ */
+export function getResponsiveSize(baseSize) {
+  if (isMobile()) {
+    return `${baseSize}-mobile`;
+  }
+  return baseSize;
 }
 
 /**

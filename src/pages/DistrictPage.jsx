@@ -44,7 +44,7 @@ export default function DistrictPage() {
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-8">
         <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Famous places</h2>
       </div>
-      <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[30px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
+      <div className="card-grid px-[clamp(16px,4vw,48px)] py-[16px] pb-[30px]">
         {d.places.length ? (
           d.places.map((p) => (
             <Card

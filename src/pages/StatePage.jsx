@@ -91,7 +91,7 @@ export default function StatePage() {
       <div className="px-[clamp(18px,4vw,48px)] pb-1.5 pt-10">
         <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Districts of {s.name}</h2>
       </div>
-      <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[30px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
+      <div className="card-grid px-[clamp(16px,4vw,48px)] py-[16px] pb-[30px]">
         {s.districts.map((d) => (
           <Card
             key={d.id}
@@ -112,7 +112,7 @@ export default function StatePage() {
           <div className="px-[clamp(18px,4vw,48px)] pb-1.5">
             <h2 className="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] text-indigo dark:text-charcoal">Featured heritage in {s.name}</h2>
           </div>
-          <div className="grid gap-[22px] px-[clamp(18px,4vw,48px)] py-[18px] pb-[50px]" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(260px,1fr))' }}>
+          <div className="card-grid px-[clamp(16px,4vw,48px)] py-[16px] pb-[50px]">
             {s.districts.flatMap((d) => d.places.map((p) => (
               <Card
                 key={p.id}

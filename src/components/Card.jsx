@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { usePlaceImage } from '../hooks/usePlaceImage';
+import { getResponsiveSize } from '../lib/unsplash';
 
 /**
  * A single visual card used across Home/State/District pages.
  * `to` is the route to navigate to on click. `saveKey`, if given, shows a heart toggle.
+ * 
+ * Responsive design:
+ * - Mobile: Full-width cards, larger touch targets
+ * - Desktop: Grid layout, hover effects
  */
 export default function Card({ to, media, tag, title, blurb, footLeft, footRight, saveKey }) {
   const navigate = useNavigate();
@@ -13,9 +18,19 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
   const isSaved = saveKey ? saved.has(saveKey) : false;
   const { urls, color, loading } = usePlaceImage(media, title);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [responsiveSize, setResponsiveSize] = useState(() => getResponsiveSize('card'));
+
+  // Update responsive size on window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setResponsiveSize(getResponsiveSize('card'));
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Get card-sized URL
-  const imageUrl = urls?.card || urls?.hero || urls?.full;
+  const imageUrl = urls?.[responsiveSize] || urls?.card || urls?.hero || urls?.full;
 
   return (
     <div
@@ -23,9 +38,9 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
       tabIndex={0}
       onClick={() => navigate(to)}
       onKeyDown={(e) => e.key === 'Enter' && navigate(to)}
-      className="group flex cursor-pointer flex-col overflow-hidden rounded-[20px] border border-black/10 bg-surface shadow-[0_2px_8px_rgba(31,58,95,0.08)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:border-indigo/25 hover:shadow-[0_20px_50px_rgba(31,58,95,0.18)] dark:border-white/10"
+      className="group flex cursor-pointer flex-col overflow-hidden rounded-[20px] border border-black/10 bg-surface shadow-[0_2px_8px_rgba(31,58,95,0.08)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:border-indigo/25 hover:shadow-[0_20px_50px_rgba(31,58,95,0.18)] active:scale-[0.98] dark:border-white/10"
     >
-      <div className="relative h-[150px] overflow-hidden bg-sand">
+      <div className="relative h-[180px] sm:h-[150px] overflow-hidden bg-sand">
         {/* Placeholder with dominant color */}
         {!imageLoaded && color && (
           <div 

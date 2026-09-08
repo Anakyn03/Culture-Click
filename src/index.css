@@ -84,3 +84,103 @@ body {
 /* Thin, theme-aware scrollbar for horizontal scrollers */
 .thin-scroll::-webkit-scrollbar { height: 6px; }
 .thin-scroll::-webkit-scrollbar-thumb { background: var(--color-sand); border-radius: 999px; }
+
+/* ============================================================
+   MOBILE OPTIMIZATIONS
+   ============================================================ */
+
+/* Touch-friendly tap targets */
+@media (hover: none) and (pointer: coarse) {
+  button, [role="button"], a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Mobile-specific hero section heights */
+@media (max-width: 640px) {
+  .hero-section {
+    min-height: 280px;
+    border-radius: 16px;
+  }
+  
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Card grid responsive adjustments */
+@media (max-width: 640px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .card-grid .card {
+    margin: 0;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+  }
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Image loading optimization for mobile */
+@media (max-width: 768px) {
+  img {
+    loading-optional: auto;
+  }
+  
+  .hero-image {
+    object-position: center 30%;
+  }
+}
+
+/* Smooth scrolling for mobile */
+@supports (-webkit-overflow-scrolling: touch) {
+  .smooth-scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Mobile-friendly spacing */
+@media (max-width: 640px) {
+  .section-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .card-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+  }
+}
