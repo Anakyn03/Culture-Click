@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
-import PlaceMotif from './PlaceMotif';
+import { getImage } from '../data/images';
 
 const TRENDING = ['Hidden gems', 'Taj Mahal', 'Kerala backwaters', 'UNESCO sites', 'Union Territories'];
 const MOOD_CHIPS = ['Hidden gems', 'UNESCO', 'Temples', 'Northeast', 'Islands', 'Monasteries'];
@@ -134,8 +134,15 @@ export default function SearchPanel() {
                 onMouseDown={() => choose(h)}
                 className="flex cursor-pointer items-center gap-3 border-t border-black/5 px-4 py-2.5 first:border-t-0 hover:bg-sand dark:border-white/10"
               >
-                <div className="relative h-[38px] w-[38px] flex-none overflow-hidden rounded-[10px]">
-                  <PlaceMotif media={h.media} />
+                <div className="relative h-[38px] w-[38px] flex-none overflow-hidden rounded-[10px] bg-sand">
+                  {(() => {
+                    const img = getImage(h.media);
+                    return img ? (
+                      <img src={img} alt={h.label} className="h-full w-full object-cover" />
+                    ) : (
+                      <div className="h-full w-full bg-gradient-to-br from-indigo/20 to-saffron/20" />
+                    );
+                  })()}
                 </div>
                 <div>
                   <b className="font-serif text-[0.95rem]">{h.label}</b>

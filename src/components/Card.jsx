@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import PlaceMotif from './PlaceMotif';
 import { useApp } from '../context/AppContext';
+import { getImage } from '../data/images';
 
 /**
  * A single visual card used across Home/State/District pages.
@@ -19,8 +19,20 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
       onKeyDown={(e) => e.key === 'Enter' && navigate(to)}
       className="group flex cursor-pointer flex-col overflow-hidden rounded-[20px] border border-black/10 bg-surface shadow-[0_2px_8px_rgba(31,58,95,0.08)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:border-indigo/25 hover:shadow-[0_20px_50px_rgba(31,58,95,0.18)] dark:border-white/10"
     >
-      <div className="relative h-[150px] overflow-hidden">
-        <PlaceMotif media={media} className="transition-transform duration-500 ease-out group-hover:scale-105" />
+      <div className="relative h-[150px] overflow-hidden bg-sand">
+        {(() => {
+          const img = getImage(media);
+          return img ? (
+            <img
+              src={img}
+              alt={title}
+              loading="lazy"
+              className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+            />
+          ) : (
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo/20 to-saffron/20" />
+          );
+        })()}
         {tag && (
           <span className="absolute left-2.5 top-2.5 rounded-full bg-indigo/85 px-2.5 py-1 text-[0.68rem] font-bold uppercase tracking-wide text-white">
             {tag}

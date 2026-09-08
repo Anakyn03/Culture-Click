@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
-import PlaceSlideshow from '../components/PlaceSlideshow';
 import WeatherWidget from '../components/WeatherWidget';
+import { getImage } from '../data/images';
 
 function formatYear(y) { return y < 1000 ? `~${y} CE` : y; }
 
@@ -37,7 +37,14 @@ export default function PlacePage() {
   return (
     <div>
       <div className="relative mx-[clamp(18px,4vw,48px)] mt-[18px] min-h-[380px] overflow-hidden rounded-[24px] shadow-[0_20px_50px_rgba(31,58,95,0.16)]">
-        <PlaceSlideshow media={p.media} className="absolute inset-0" />
+        {(() => {
+          const img = getImage(p.id, 'place');
+          return img ? (
+            <img src={img} alt={p.name} className="absolute inset-0 h-full w-full object-cover" />
+          ) : (
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo/20 to-saffron/20" />
+          );
+        })()}
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
         <div className="relative w-full px-[clamp(18px,4vw,44px)] py-[34px] text-white">
           <div className="text-[0.72rem] font-bold uppercase tracking-[0.14em] text-gold">{p.type} · {d.name}, {s.name}</div>
