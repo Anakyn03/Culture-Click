@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { usePlaceImage } from '../hooks/usePlaceImage';
@@ -10,7 +11,11 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
   const navigate = useNavigate();
   const { saved, toggleSaved } = useApp();
   const isSaved = saveKey ? saved.has(saveKey) : false;
-  const image = usePlaceImage(media, title);
+  const { urls, color, loading } = usePlaceImage(media, title);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Get card-sized URL
+  const imageUrl = urls?.card || urls?.hero || urls?.full;
 
   return (
     <div
@@ -21,16 +26,34 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
       className="group flex cursor-pointer flex-col overflow-hidden rounded-[20px] border border-black/10 bg-surface shadow-[0_2px_8px_rgba(31,58,95,0.08)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:border-indigo/25 hover:shadow-[0_20px_50px_rgba(31,58,95,0.18)] dark:border-white/10"
     >
       <div className="relative h-[150px] overflow-hidden bg-sand">
-        {image.loading ? (
-          <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-sand to-sand/50" />
-        ) : image.url ? (
-          <img
-            src={image.url}
-            alt={image.alt}
-            loading="lazy"
-            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+        {/* Placeholder with dominant color */}
+        {!imageLoaded && color && (
+          <div 
+            className="absolute inset-0"
+            style={{ backgroundColor: color }}
           />
-        ) : (
+        )}
+        
+        {/* Loading skeleton */}
+        {loading && (
+          <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-sand to-sand/50" />
+        )}
+        
+        {/* Image with smooth fade-in and hover zoom */}
+        {imageUrl && (
+          <img
+            src={imageUrl}
+            alt={title}
+            loading="lazy"
+            onLoad={() => setImageLoaded(true)}
+            className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-105 ${
+              imageLoaded ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        )}
+        
+        {/* Fallback gradient if no image */}
+        {!loading && !imageUrl && (
           <div className="absolute inset-0 bg-gradient-to-br from-indigo/20 to-saffron/20" />
         )}
         {tag && (

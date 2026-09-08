@@ -37,7 +37,13 @@ export function usePlaceImage(id, name, type, stateName) {
     return () => { cancelled = true; };
   }, [id, name, type, stateName]);
 
-  return { url: image?.url || null, credit: image?.credit || null, alt: image?.alt || null, loading };
+  return {
+    urls: image?.urls || null,
+    credit: image?.credit || null,
+    alt: image?.alt || null,
+    color: image?.color || null,
+    loading,
+  };
 }
 
 export default usePlaceImage;

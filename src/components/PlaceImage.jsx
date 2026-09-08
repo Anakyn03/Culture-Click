@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { usePlaceImage } from '../hooks/usePlaceImage';
 
 /**
@@ -6,27 +7,35 @@ import { usePlaceImage } from '../hooks/usePlaceImage';
  * Features:
  * - Fetches from Unsplash API with caching
  * - Shows loading skeleton while fetching
+ * - Smooth fade-in transition when image loads
  * - Falls back to gradient if no image found
  * - Displays photographer credit
  * 
+ * @param {string} size - 'card' | 'hero' | 'thumbnail' (default: 'hero')
+ * 
  * Usage:
- *   <PlaceImage id="hawa-mahal" name="Hawa Mahal" type="Palace" stateName="Rajasthan" />
+ *   <PlaceImage id="hawa-mahal" name="Hawa Mahal" type="Palace" stateName="Rajasthan" size="hero" />
  */
-export default function PlaceImage({ id, name, type, stateName, className = '' }) {
-  const { url, credit, alt, loading } = usePlaceImage(id, name, type, stateName);
+export default function PlaceImage({ id, name, type, stateName, size = 'hero', className = '' }) {
+  const { urls, credit, alt, color, loading } = usePlaceImage(id, name, type, stateName);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-  // Loading state
+  // Get the appropriate URL for the size
+  const imageUrl = urls?.[size] || urls?.hero || urls?.full;
+
+  // Loading state — show dominant color or gradient
   if (loading) {
     return (
       <div 
-        className={`animate-pulse bg-gradient-to-br from-sand to-sand/50 ${className}`}
+        className={`animate-pulse ${className}`}
+        style={{ backgroundColor: color || undefined }}
         aria-hidden="true"
       />
     );
   }
 
   // No image found — show gradient fallback
-  if (!url) {
+  if (!imageUrl) {
     return (
       <div 
         className={`bg-gradient-to-br from-indigo/20 to-saffron/20 ${className}`}
@@ -35,17 +44,31 @@ export default function PlaceImage({ id, name, type, stateName, className = '' }
     );
   }
 
-  // Image found — render it
+  // Image found — render with smooth fade-in
   return (
     <figure className={`relative overflow-hidden ${className}`}>
+      {/* Placeholder with dominant color */}
+      {!imageLoaded && color && (
+        <div 
+          className="absolute inset-0"
+          style={{ backgroundColor: color }}
+        />
+      )}
+      
+      {/* Actual image with fade-in */}
       <img
-        src={url}
+        src={imageUrl}
         alt={alt}
         loading="lazy"
-        className="h-full w-full object-cover"
+        onLoad={() => setImageLoaded(true)}
+        className={`h-full w-full object-cover transition-opacity duration-500 ease-out ${
+          imageLoaded ? 'opacity-100' : 'opacity-0'
+        }`}
       />
-      {credit && (
-        <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-3 py-2 text-[0.68rem] text-white/80">
+      
+      {/* Credit overlay */}
+      {credit && imageLoaded && (
+        <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-3 py-2 text-[0.68rem] text-white/80 transition-opacity duration-300">
           📷 {credit}
         </figcaption>
       )}

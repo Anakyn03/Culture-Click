@@ -13,39 +13,70 @@ const CACHE_KEY = 'cultureclick_unsplash_cache';
 const CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days
 
 /**
- * Get cached image URL for a query.
+ * Image sizes for different contexts.
+ * Using Unsplash's dynamic resizing for optimal performance.
+ */
+export const IMAGE_SIZES = {
+  card: { width: 400, height: 250 },      // Cards: small, fast loading
+  hero: { width: 1200, height: 600 },     // Hero sections: large, high quality
+  thumbnail: { width: 200, height: 200 }, // Thumbnails: tiny, instant
+};
+
+/**
+ * Get cached image data for a query.
  */
 function getCached(query) {
   try {
     const cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
     const entry = cache[query];
     if (entry && Date.now() - entry.timestamp < CACHE_DURATION) {
-      return entry.url;
+      return entry;
     }
   } catch { /* ignore */ }
   return null;
 }
 
 /**
- * Cache an image URL for a query.
+ * Cache image data for a query.
  */
-function setCache(query, url) {
+function setCache(query, data) {
   try {
     const cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
-    cache[query] = { url, timestamp: Date.now() };
+    cache[query] = { ...data, timestamp: Date.now() };
     localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
   } catch { /* ignore */ }
 }
 
 /**
+ * Get optimized Unsplash URL for a specific size.
+ * Uses Unsplash's image resizing API for optimal performance.
+ */
+function getOptimizedUrl(originalUrl, size) {
+  if (!originalUrl) return null;
+  
+  // Unsplash image resizing: append ?w=WIDTH&h=HEIGHT&fit=crop
+  const baseUrl = originalUrl.split('?')[0];
+  const params = new URLSearchParams({
+    w: String(size.width),
+    h: String(size.height),
+    fit: 'crop',
+    q: '80', // Quality 80% for good balance
+    auto: 'format', // Auto-format for best browser support
+  });
+  
+  return `${baseUrl}?${params.toString()}`;
+}
+
+/**
  * Fetch an image from Unsplash API.
- * Returns { url, credit, alt } or null.
+ * Returns { urls, credit, alt } or null.
+ * urls contains optimized URLs for different sizes.
  */
 export async function fetchUnsplashImage(query) {
   // Check cache first
   const cached = getCached(query);
   if (cached) {
-    return { url: cached, credit: 'Unsplash', alt: query };
+    return cached;
   }
 
   // Check if API key is available
@@ -81,14 +112,21 @@ export async function fetchUnsplashImage(query) {
       return null;
     }
 
+    // Generate optimized URLs for different sizes
     const result = {
-      url: photo.urls.regular, // 1080w, good for most screens
+      urls: {
+        card: getOptimizedUrl(photo.urls.regular, IMAGE_SIZES.card),
+        hero: getOptimizedUrl(photo.urls.regular, IMAGE_SIZES.hero),
+        thumbnail: getOptimizedUrl(photo.urls.regular, IMAGE_SIZES.thumbnail),
+        full: photo.urls.regular,
+      },
       credit: `${photo.user.name} on Unsplash`,
       alt: photo.alt_description || query,
+      color: photo.color || '#f5f5f5', // Dominant color for placeholder
     };
 
     // Cache the result
-    setCache(query, result.url);
+    setCache(query, result);
 
     return result;
   } catch (err) {

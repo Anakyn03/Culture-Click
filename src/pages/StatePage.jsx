@@ -24,6 +24,7 @@ export default function StatePage() {
         <PlaceImage
           id={s.id}
           name={s.name}
+          size="hero"
           className="absolute inset-0 h-full w-full"
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(0deg, rgba(15,20,28,.84), rgba(15,20,28,.1))' }} />
