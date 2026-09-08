@@ -81,17 +81,6 @@ body {
   animation: spin 60s linear infinite;
 }
 
-/* Skeleton shimmer for loading states */
-@keyframes shimmer {
-  from { background-position: 200% 0; }
-  to { background-position: -200% 0; }
-}
-.skeleton {
-  background: linear-gradient(100deg, var(--color-sand) 30%, color-mix(in srgb, var(--color-sand) 60%, var(--color-ivory)) 50%, var(--color-sand) 70%);
-  background-size: 200% 100%;
-  animation: shimmer 1.3s infinite;
-}
-
 /* Thin, theme-aware scrollbar for horizontal scrollers */
 .thin-scroll::-webkit-scrollbar { height: 6px; }
 .thin-scroll::-webkit-scrollbar-thumb { background: var(--color-sand); border-radius: 999px; }
