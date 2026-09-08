@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
-import { getImage } from '../data/images';
+import { usePlaceImage } from '../hooks/usePlaceImage';
 
 const TRENDING = ['Hidden gems', 'Taj Mahal', 'Kerala backwaters', 'UNESCO sites', 'Union Territories'];
 const MOOD_CHIPS = ['Hidden gems', 'UNESCO', 'Temples', 'Northeast', 'Islands', 'Monasteries'];
@@ -35,6 +35,21 @@ function fuzzyMatch(q, text) {
   const t = text.toLowerCase();
   if (t.includes(q)) return true;
   return t.split(/\s+/).some((w) => w.length > 3 && levenshtein(q, w.slice(0, q.length)) <= 1);
+}
+
+function SearchResultImage({ media, label }) {
+  const image = usePlaceImage(media, label);
+  return (
+    <div className="relative h-[38px] w-[38px] flex-none overflow-hidden rounded-[10px] bg-sand">
+      {image.loading ? (
+        <div className="h-full w-full animate-pulse bg-gradient-to-br from-sand to-sand/50" />
+      ) : image.url ? (
+        <img src={image.url} alt={image.alt} className="h-full w-full object-cover" />
+      ) : (
+        <div className="h-full w-full bg-gradient-to-br from-indigo/20 to-saffron/20" />
+      )}
+    </div>
+  );
 }
 
 export default function SearchPanel() {
@@ -134,16 +149,7 @@ export default function SearchPanel() {
                 onMouseDown={() => choose(h)}
                 className="flex cursor-pointer items-center gap-3 border-t border-black/5 px-4 py-2.5 first:border-t-0 hover:bg-sand dark:border-white/10"
               >
-                <div className="relative h-[38px] w-[38px] flex-none overflow-hidden rounded-[10px] bg-sand">
-                  {(() => {
-                    const img = getImage(h.media);
-                    return img ? (
-                      <img src={img} alt={h.label} className="h-full w-full object-cover" />
-                    ) : (
-                      <div className="h-full w-full bg-gradient-to-br from-indigo/20 to-saffron/20" />
-                    );
-                  })()}
-                </div>
+                <SearchResultImage media={h.media} label={h.label} />
                 <div>
                   <b className="font-serif text-[0.95rem]">{h.label}</b>
                   <span className="block text-[0.74rem] uppercase tracking-wide opacity-60">{h.type} · {h.sub}</span>
