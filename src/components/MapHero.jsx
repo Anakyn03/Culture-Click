@@ -92,7 +92,7 @@ export default function MapHero() {
                     'cursor-pointer stroke-indigo dark:stroke-sand transition-colors duration-150 ease-out',
                     '[transform-box:fill-box] [transform-origin:50%_50%]',
                     matches ? 'fill-teal' : 'fill-sand hover:fill-saffron focus-visible:fill-saffron',
-                    dimmed ? 'opacity-30' : 'opacity-100',
+                    dimmed ? 'opacity-30' : 'opacity-1',
                   ].join(' ')}
                   style={{ strokeWidth: 1.6 }}
                 />

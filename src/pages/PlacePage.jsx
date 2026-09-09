@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link, Navigate } from 'react-router-dom';
 import { DATA } from '../data/statesData';
 import { useApp } from '../context/AppContext';
 import WeatherWidget from '../components/WeatherWidget';
+import GoogleMapEmbed from '../components/GoogleMapEmbed';
 import PlaceImage from '../components/PlaceImage';
 
 function formatYear(y) { return y < 1000 ? `~${y} CE` : y; }
@@ -256,7 +257,10 @@ export default function PlacePage() {
       {activeTab === 'travel' && (
         <div id="panel-travel" role="tabpanel" aria-labelledby="tab-travel" className="px-[clamp(18px,4vw,48px)] pb-10">
           <div className="grid gap-6 md:grid-cols-2">
-            <WeatherWidget lat={p.lat} lng={p.lng} placeName={p.name} />
+            <div className="space-y-6">
+              <WeatherWidget lat={p.lat} lng={p.lng} placeName={p.name} />
+              <GoogleMapEmbed lat={p.lat} lng={p.lng} placeName={p.name} />
+            </div>
             <div>
               <h2 className="font-serif text-[1.5rem] text-indigo dark:text-charcoal">Getting there</h2>
               <ul className="list-none">

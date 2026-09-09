@@ -105,7 +105,7 @@ export default function SearchPanel() {
           type="button"
           onClick={startVoice}
           aria-label="Search by voice (prototype)"
-          className={`flex-none opacity-70 hover:opacity-100 ${listening ? 'animate-pulse text-danger' : 'text-teal'}`}
+          className={`flex-none opacity-70 hover:opacity-1 ${listening ? 'animate-pulse text-danger' : 'text-teal'}`}
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" /><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8" /></svg>
         </button>

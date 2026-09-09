@@ -62,7 +62,7 @@ export default function Card({ to, media, tag, title, blurb, footLeft, footRight
             loading="lazy"
             onLoad={() => setImageLoaded(true)}
             className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-105 ${
-              imageLoaded ? 'opacity-100' : 'opacity-0'
+              imageLoaded ? 'opacity-1' : 'opacity-0'
             }`}
           />
         )}

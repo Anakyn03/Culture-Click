@@ -74,7 +74,7 @@ export default function PlaceImage({ id, name, type, stateName, size = 'hero', c
         loading="lazy"
         onLoad={() => setImageLoaded(true)}
         className={`h-full w-full object-cover transition-opacity duration-500 ease-out ${
-          imageLoaded ? 'opacity-100' : 'opacity-0'
+          imageLoaded ? 'opacity-1' : 'opacity-0'
         }`}
       />
       
