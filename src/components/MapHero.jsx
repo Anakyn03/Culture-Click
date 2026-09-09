@@ -14,6 +14,7 @@ export default function MapHero() {
   const stageRef = useRef(null);
   const { currentRegion, setCurrentRegion, activeLayer, setActiveLayer } = useApp();
   const [hover, setHover] = useState(null); // { state, x, y }
+  const [hoveredState, setHoveredState] = useState(null); // state id for CSS-based styling
   const [routeD, setRouteD] = useState('');
 
   // Build the decorative dashed "journey" line through the 8 flagship states, using real
@@ -41,6 +42,7 @@ export default function MapHero() {
   function handleEnter(regionId, evt) {
     const state = stateById(regionId);
     if (!state || !stageRef.current) return;
+    setHoveredState(regionId);
     const box = evt.currentTarget.getBoundingClientRect();
     const stageBox = stageRef.current.getBoundingClientRect();
     let left = box.left - stageBox.left + 24;
@@ -85,16 +87,16 @@ export default function MapHero() {
                   onClick={() => navigate(`/state/${s.id}`)}
                   onKeyDown={(e) => e.key === 'Enter' && navigate(`/state/${s.id}`)}
                   onMouseEnter={(e) => handleEnter(s.id, e)}
-                  onMouseLeave={() => setHover(null)}
+                  onMouseLeave={() => { setHover(null); setHoveredState(null); }}
                   onFocus={(e) => handleEnter(s.id, e)}
-                  onBlur={() => setHover(null)}
-                  className={[
-                    'cursor-pointer stroke-indigo dark:stroke-sand transition-colors duration-150 ease-out',
-                    '[transform-box:fill-box] [transform-origin:50%_50%]',
-                    matches ? 'fill-teal' : 'fill-sand hover:fill-saffron focus-visible:fill-saffron',
-                    dimmed ? 'opacity-30' : 'opacity-1',
-                  ].join(' ')}
-                  style={{ strokeWidth: 1.6 }}
+                  onBlur={() => { setHover(null); setHoveredState(null); }}
+                  className="cursor-pointer transition-colors duration-150 ease-out [transform-box:fill-box] [transform-origin:50%_50%] dimmed:opacity-30"
+                  style={{
+                    fill: matches ? '#0F7C82' : (hoveredState === s.id ? '#C66A1B' : '#EAE3C8'),
+                    stroke: hoveredState === s.id ? '#1F3A5F' : '#1F3A5F',
+                    strokeWidth: 1.6,
+                    opacity: dimmed ? 0.3 : 1,
+                  }}
                 />
               ));
             })}
