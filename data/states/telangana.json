@@ -1,0 +1,117 @@
+{
+  "id": "telangana",
+  "name": "Telangana",
+  "region": "South",
+  "tagline": "City of Pearls",
+  "unesco": false,
+  "blurb": "Carved out of Andhra Pradesh in 2014, Telangana's Deccan heritage centres on Hyderabad's Qutb Shahi-era monuments and its old bazaars.",
+  "stats": {
+    "area": "112,077 km²",
+    "districts": "33",
+    "language": "Telugu, Urdu",
+    "founded": "2014"
+  },
+  "culture": {
+    "dress": "Gadwal sarees",
+    "festivals": [
+      {
+        "name": "Bathukamma",
+        "month": "September/October"
+      },
+      {
+        "name": "Bonalu",
+        "month": "July/August"
+      }
+    ],
+    "dance": [
+      "Perini Sivatandavam"
+    ],
+    "cuisine": [
+      "Hyderabadi Biryani",
+      "Sarva Pindi",
+      "Qubani ka Meetha"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+    "title": "Charminar"
+  },
+  "districts": [
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "blurb": "Telangana's capital, built around the old Qutb Shahi city and its landmark gateway.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+        "title": "Charminar"
+      },
+      "places": [
+        {
+          "id": "charminar",
+          "name": "Charminar",
+          "type": "Monument",
+          "blurb": "A 16th-century four-minaret gateway at the heart of Hyderabad's old city, built by the founder of the Qutb Shahi dynasty and still ringed by one of India's oldest bazaars.",
+          "rating": 4.5,
+          "entry": "₹25 (Indian) / ₹300 (Foreign)",
+          "open": "9:30 AM–5:30 PM",
+          "bestSeason": "Oct–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The illuminated monument at night from the bazaar side",
+          "history": "Built in 1591 by Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty, traditionally said to mark either the founding of the city of Hyderabad or to commemorate the end of a plague epidemic.",
+          "architecture": "A square structure with four grand arches facing the cardinal directions, each topped by a minaret roughly 56 metres tall, blending Persian and Qutb Shahi architectural styles, built from granite and lime mortar.",
+          "timeline": [
+            {
+              "y": 1591,
+              "label": "Charminar built under Muhammad Quli Qutb Shah."
+            },
+            {
+              "y": 1889,
+              "label": "Clocks installed on all four faces of the structure."
+            }
+          ],
+          "facts": [
+            "\"Charminar\" translates literally to \"four minarets.\"",
+            "A mosque occupies the top floor of the structure, still in occasional use.",
+            "The surrounding Laad Bazaar is one of India's oldest markets for bangles and pearls."
+          ],
+          "hiddenGems": [
+            "Laad Bazaar's bangle and pearl lanes right beside the monument",
+            "Mecca Masjid, one of India's largest mosques, adjoining Charminar",
+            "Chowmahalla Palace, former seat of the Nizams, a short walk away"
+          ],
+          "food": [
+            "Hyderabadi biryani at old-city restaurants near Charminar",
+            "Irani chai and Osmania biscuits at nearby cafés"
+          ],
+          "experiences": [
+            "Night-time illuminated viewing of Charminar",
+            "Pearl and bangle shopping in Laad Bazaar",
+            "Old city heritage walk covering Charminar, Mecca Masjid and Chowmahalla Palace"
+          ],
+          "travel": {
+            "railway": "Hyderabad Deccan (Nampally), 5 km",
+            "airport": "Rajiv Gandhi Intl, 30 km",
+            "parking": "Limited around the monument; old city traffic is heavy",
+            "tip": "Visit around sunset when the monument is lit and the surrounding bazaar is at its liveliest."
+          },
+          "lat": 17.3616,
+          "lng": 78.4747,
+          "themes": [
+            "monument"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+            "title": "Charminar"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Charminar",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f7/A_typical_charminar_evening.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Char_Kaman.jpg/1920px-Char_Kaman.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

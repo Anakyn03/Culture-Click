@@ -31,3 +31,6 @@ Thumbs.db
 # env
 .env
 .env.local
+
+# local dev server log
+dev-server.log

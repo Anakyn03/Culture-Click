@@ -1,0 +1,112 @@
+{
+  "id": "jammu-kashmir",
+  "name": "Jammu and Kashmir",
+  "region": "North",
+  "tagline": "Paradise on Earth",
+  "unesco": false,
+  "blurb": "A Himalayan valley of lakes and Mughal terraced gardens, Kashmir's centuries-old garden architecture remains some of the most romanticised landscape design in South Asia.",
+  "stats": {
+    "area": "42,241 km² (UT)",
+    "districts": "20",
+    "language": "Kashmiri, Dogri, Urdu",
+    "founded": "2019 (UT status)"
+  },
+  "culture": {
+    "dress": "Pheran robes",
+    "festivals": [
+      {
+        "name": "Tulip Festival, Srinagar",
+        "month": "April"
+      },
+      {
+        "name": "Amarnath Yatra",
+        "month": "July/August"
+      }
+    ],
+    "dance": [
+      "Rouf"
+    ],
+    "cuisine": [
+      "Wazwan multi-course feast",
+      "Rogan Josh",
+      "Kahwa tea"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
+    "title": "Shalimar Bagh, Srinagar"
+  },
+  "districts": [
+    {
+      "id": "srinagar",
+      "name": "Srinagar",
+      "blurb": "Kashmir's summer capital, built around Dal Lake and a string of Mughal-era terraced gardens.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
+        "title": "Shalimar Bagh, Srinagar"
+      },
+      "places": [
+        {
+          "id": "shalimar-bagh",
+          "name": "Shalimar Bagh",
+          "type": "Mughal Garden",
+          "blurb": "The grandest of Srinagar's Mughal gardens, laid out in 1619 by Emperor Jahangir for Empress Nur Jahan on the banks of Dal Lake.",
+          "rating": 4.7,
+          "entry": "₹24 (Indian) / ₹300 (Foreign) approx.",
+          "open": "9 AM–7 PM (seasonal)",
+          "bestSeason": "Apr–May, Sep–Oct",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The central water channel framed by chinar trees in autumn colour",
+          "history": "Built in 1619 by Mughal Emperor Jahangir for his wife Empress Nur Jahan, on the banks of Dal Lake, as the largest and most celebrated of Srinagar's Mughal gardens, later expanded under Shah Jahan.",
+          "architecture": "A terraced Persian-style charbagh garden rising through three ascending levels — originally reserved respectively for the public, the emperor, and the women of the royal household — linked by a central water channel with fountains, framed by chinar trees.",
+          "timeline": [
+            {
+              "y": 1619,
+              "label": "Garden laid out under Emperor Jahangir."
+            },
+            {
+              "y": 1630,
+              "label": "Further pavilions and expansion added under Shah Jahan."
+            }
+          ],
+          "facts": [
+            "Its name translates roughly to \"abode of love.\"",
+            "The garden's central channel and fountains were engineered using gravity-fed water from the surrounding hills.",
+            "Its towering chinar (plane) trees, some centuries old, are a defining feature of the Kashmir Valley landscape."
+          ],
+          "hiddenGems": [
+            "Nishat Bagh, another Mughal garden nearby, often quieter than Shalimar",
+            "Dal Lake shikara (boat) rides departing near the garden",
+            "Hazratbal Shrine on the lake's northern shore"
+          ],
+          "food": [
+            "Kashmiri wazwan multi-course feast at Srinagar restaurants",
+            "Kahwa (spiced saffron tea) from lakeside stalls"
+          ],
+          "experiences": [
+            "Evening sound-and-light show in the garden (seasonal)",
+            "Shikara ride on Dal Lake combined with the garden visit",
+            "Houseboat stay on Dal Lake"
+          ],
+          "travel": {
+            "railway": "No direct rail to Srinagar; nearest major hub is Jammu Tawi",
+            "airport": "Srinagar Airport, ~15 km",
+            "parking": "At the garden entrance",
+            "tip": "Visit in April–May for tulip and blossom season, or September–October for the chinar trees turning brilliant red and gold."
+          },
+          "lat": 34.1236,
+          "lng": 74.88,
+          "themes": [
+            "mughal-garden"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
+            "title": "Shalimar Bagh, Srinagar"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar"
+        }
+      ]
+    }
+  ]
+}

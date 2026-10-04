@@ -1,0 +1,118 @@
+{
+  "id": "west-bengal",
+  "name": "West Bengal",
+  "region": "East",
+  "tagline": "Cultural Capital of the East",
+  "unesco": false,
+  "blurb": "From colonial Kolkata's grand marble memorials to the Sundarbans' mangrove wilderness, West Bengal carries one of India's richest literary and artistic legacies.",
+  "stats": {
+    "area": "88,752 km²",
+    "districts": "23",
+    "language": "Bengali",
+    "founded": "1947"
+  },
+  "culture": {
+    "dress": "Tant and Baluchari sarees",
+    "festivals": [
+      {
+        "name": "Durga Puja",
+        "month": "September/October"
+      },
+      {
+        "name": "Poila Boishakh",
+        "month": "April"
+      }
+    ],
+    "dance": [
+      "Chhau",
+      "Gaudiya Nritya"
+    ],
+    "cuisine": [
+      "Machher Jhol",
+      "Shorshe Ilish",
+      "Mishti Doi"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+    "title": "Victoria Memorial, Kolkata"
+  },
+  "districts": [
+    {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "blurb": "The former capital of British India, its colonial-era monuments concentrated around the Maidan.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+        "title": "Victoria Memorial, Kolkata"
+      },
+      "places": [
+        {
+          "id": "victoria-memorial",
+          "name": "Victoria Memorial",
+          "type": "Memorial",
+          "blurb": "A grand white-marble memorial to Queen Victoria, built from the same quarries as the Taj Mahal and now housing one of India's largest colonial-era art collections.",
+          "rating": 4.6,
+          "entry": "₹30 (Indian) / ₹500 (Foreign) for museum; gardens separate",
+          "open": "10 AM–5 PM (museum, closed Mondays); gardens until later",
+          "bestSeason": "Nov–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The marble façade and dome reflected in the garden pool at sunset",
+          "history": "Built between 1906 and 1921 as a memorial to Queen Victoria, commissioned by Lord Curzon and designed by architect William Emerson, funded largely through public and princely-state donations rather than government funds.",
+          "architecture": "A grand Indo-Saracenic structure combining British and Mughal architectural elements, built entirely of white Makrana marble (the same quarries used for the Taj Mahal), topped by a bronze Angel of Victory that can rotate with the wind.",
+          "timeline": [
+            {
+              "y": 1906,
+              "label": "Foundation stone laid by the Prince of Wales."
+            },
+            {
+              "y": 1921,
+              "label": "Memorial formally opened to the public."
+            }
+          ],
+          "facts": [
+            "Built from the same Makrana marble quarries as the Taj Mahal.",
+            "Its bronze Angel of Victory weighs about 3 tonnes and can rotate in strong wind.",
+            "Now functions as a museum housing a large collection of colonial-era paintings, sculpture and artefacts."
+          ],
+          "hiddenGems": [
+            "The surrounding 64-acre gardens, popular for a quiet evening walk",
+            "Nearby St. Paul's Cathedral",
+            "Kolkata Race Course, adjoining the memorial grounds"
+          ],
+          "food": [
+            "Kolkata-style street food (puchka, jhalmuri) around Maidan",
+            "Traditional Bengali sweets at nearby confectioners"
+          ],
+          "experiences": [
+            "Evening sound-and-light show in the gardens",
+            "Museum galleries inside the memorial",
+            "A slow walk through the surrounding gardens at sunset"
+          ],
+          "travel": {
+            "railway": "Kolkata (Howrah/Sealdah), ~4-5 km",
+            "airport": "Netaji Subhas Chandra Bose Intl, ~17 km",
+            "parking": "At the memorial grounds",
+            "tip": "The gardens and building façade are especially photogenic in the last hour before sunset, when the marble takes on a warm tone."
+          },
+          "lat": 22.5448,
+          "lng": 88.3426,
+          "themes": [
+            "memorial"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+            "title": "Victoria Memorial, Kolkata"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Angel_of_Kolkata_Victoria_Memorial.jpg/1920px-Angel_of_Kolkata_Victoria_Memorial.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/India_-_Kolkata_Victorian_museum_-_4258.jpg/1920px-India_-_Kolkata_Victorian_museum_-_4258.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

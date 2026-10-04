@@ -1,0 +1,125 @@
+{
+  "id": "madhya-pradesh",
+  "name": "Madhya Pradesh",
+  "region": "Central",
+  "tagline": "Heart of India",
+  "unesco": true,
+  "blurb": "Geographically central and historically layered, Madhya Pradesh holds some of India's finest temple sculpture, tiger reserves, and Mughal-era cities.",
+  "stats": {
+    "area": "308,245 km²",
+    "districts": "55",
+    "language": "Hindi",
+    "founded": "1956"
+  },
+  "culture": {
+    "dress": "Chanderi and Maheshwari sarees",
+    "festivals": [
+      {
+        "name": "Khajuraho Dance Festival",
+        "month": "February"
+      },
+      {
+        "name": "Kalidasa Samaroh, Ujjain",
+        "month": "November"
+      }
+    ],
+    "dance": [
+      "Rai dance"
+    ],
+    "cuisine": [
+      "Poha",
+      "Bhutte ka Kees",
+      "Bafla-Baati"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+    "title": "Khajuraho Group of Monuments"
+  },
+  "districts": [
+    {
+      "id": "chhatarpur",
+      "name": "Chhatarpur",
+      "blurb": "Home to Khajuraho, once capital of the Chandela dynasty and now a UNESCO World Heritage cluster.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+        "title": "Khajuraho Group of Monuments"
+      },
+      "places": [
+        {
+          "id": "khajuraho-temples",
+          "name": "Khajuraho Group of Monuments",
+          "type": "Temple Complex",
+          "blurb": "A cluster of Nagara-style temples renowned worldwide for their intricate sculptural work, built by the Chandela dynasty and rediscovered from the jungle in 1838.",
+          "rating": 4.7,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "6 AM–6 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Late afternoon side-light raking across the carved façades",
+          "history": "Built between roughly 950 and 1050 CE by rulers of the Chandela dynasty, the complex once numbered around 85 temples, of which about 20 survive today. The site was largely reclaimed by jungle and forgotten until British officer T.S. Burt documented it in 1838.",
+          "architecture": "Nagara-style temples renowned for extensive sculptural work, including intricate depictions of deities, celestial figures, and everyday life, carved across the exterior walls in horizontal bands.",
+          "timeline": [
+            {
+              "y": 950,
+              "label": "Major temple-building phase begins under the Chandela dynasty."
+            },
+            {
+              "y": 1050,
+              "label": "Principal construction phase concludes."
+            },
+            {
+              "y": 1838,
+              "label": "Site rediscovered and documented by British officer T.S. Burt."
+            },
+            {
+              "y": 1986,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Of the original roughly 85 temples, only about 20 survive today.",
+            "The temples are grouped into western, eastern and southern clusters.",
+            "Only a fraction of the carvings are erotic in theme, contrary to popular assumption — most depict deities, daily life and mythology."
+          ],
+          "hiddenGems": [
+            "Eastern group's Jain temples, quieter than the main western cluster",
+            "Raneh Falls canyon nearby",
+            "Khajuraho's State Museum of Tribal and Folk Art"
+          ],
+          "food": [
+            "Madhya Pradesh-style poha for breakfast",
+            "Bafla-baati at local Chhatarpur eateries"
+          ],
+          "experiences": [
+            "Sound-and-light show at the Western Group in the evening",
+            "Guided sculpture-reading walk explaining the temple iconography",
+            "Day trip to Raneh Falls and Panna National Park"
+          ],
+          "travel": {
+            "railway": "Khajuraho Railway Station, 5 km",
+            "airport": "Khajuraho Airport, 5 km",
+            "parking": "At the Western Group entrance",
+            "tip": "Hire a licensed guide at the entrance — the carvings reward context far more than a solo walk-through."
+          },
+          "lat": 24.8318,
+          "lng": 79.9199,
+          "themes": [
+            "temple-complex"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+            "title": "Khajuraho Group of Monuments"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Khajuraho_Dulhadeo_2010.jpg/1920px-Khajuraho_Dulhadeo_2010.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

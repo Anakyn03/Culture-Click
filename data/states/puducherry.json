@@ -1,0 +1,114 @@
+{
+  "id": "puducherry",
+  "name": "Puducherry",
+  "region": "South",
+  "tagline": "The French Riviera of the East",
+  "unesco": false,
+  "blurb": "A former French colonial trading post on the Tamil Nadu coast, its grid-planned quarter of mustard-yellow villas and bougainvillea a world apart from the rest of the region.",
+  "stats": {
+    "area": "479 km²",
+    "districts": "4",
+    "language": "Tamil, French, English",
+    "founded": "1963 (formal integration)"
+  },
+  "culture": {
+    "dress": "French-Tamil fusion wear",
+    "festivals": [
+      {
+        "name": "Bastille Day",
+        "month": "July"
+      },
+      {
+        "name": "Puducherry Beach Festival",
+        "month": "August"
+      }
+    ],
+    "dance": [
+      "Bharatanatyam (shared with Tamil Nadu)"
+    ],
+    "cuisine": [
+      "French-Tamil fusion cuisine",
+      "Filter coffee"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+    "title": "White Town"
+  },
+  "districts": [
+    {
+      "id": "puducherry-district",
+      "name": "Puducherry",
+      "blurb": "The Union Territory's namesake town, split by a canal into its French and Tamil quarters.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+        "title": "White Town"
+      },
+      "places": [
+        {
+          "id": "french-quarter",
+          "name": "French Quarter (White Town)",
+          "type": "Colonial Heritage Zone",
+          "blurb": "A grid-planned former French colonial quarter of mustard-yellow villas and shuttered windows, preserving nearly three centuries of French administration on India's east coast.",
+          "rating": 4.5,
+          "entry": "Free (Auroville/ashram may have separate norms)",
+          "open": "Open streets; ashram/Auroville have specific hours",
+          "bestSeason": "Nov–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "A mustard-yellow colonial façade draped in bougainvillea on a quiet French Quarter street",
+          "history": "Puducherry (formerly Pondicherry) was a French colonial trading post from 1674, remaining under French administration until 1954 — nearly two decades after Indian independence — before being formally integrated into India in 1963; the French Quarter preserves the layout and architecture of that colonial era.",
+          "architecture": "Grid-planned colonial streets lined with mustard-yellow and white villas, bougainvillea-draped walls, and French-style shuttered windows, distinctly different from the \"Tamil Quarter\" layout on the other side of the town's central canal.",
+          "timeline": [
+            {
+              "y": 1674,
+              "label": "French East India Company establishes a trading post at Pondicherry."
+            },
+            {
+              "y": 1954,
+              "label": "De facto transfer of French administration to India."
+            },
+            {
+              "y": 1963,
+              "label": "Formal legal integration of Pondicherry into the Indian Union."
+            }
+          ],
+          "facts": [
+            "French remained an official administrative language here for decades after independence, and Puducherry still has a small Franco-Indian community.",
+            "The town's French Quarter and Tamil Quarter are historically divided by a central canal.",
+            "Puducherry retains its own Union Territory legislature, distinct from neighbouring Tamil Nadu."
+          ],
+          "hiddenGems": [
+            "Auroville, an experimental international township a short drive away",
+            "Promenade Beach at dawn before the crowds",
+            "Sri Aurobindo Ashram, in the heart of the French Quarter"
+          ],
+          "food": [
+            "French-Tamil fusion café fare at White Town cafés",
+            "Filter coffee and croissants side by side on the same menu, a distinctly Puducherry combination"
+          ],
+          "experiences": [
+            "Bicycle tour of the French Quarter's colonial streets",
+            "Sunrise walk along Promenade Beach",
+            "Day trip to Auroville and its Matrimandir"
+          ],
+          "travel": {
+            "railway": "Puducherry Railway Station, 2 km",
+            "airport": "Chennai Intl, ~135 km (Puducherry Airport has limited service)",
+            "parking": "Limited in the French Quarter; best explored on foot or bicycle",
+            "tip": "Rent a bicycle for the French Quarter — the grid is small, flat, and far more atmospheric without a car."
+          },
+          "lat": 11.934,
+          "lng": 79.8306,
+          "themes": [
+            "colonial-heritage-zone"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+            "title": "White Town"
+          }
+        }
+      ]
+    }
+  ]
+}

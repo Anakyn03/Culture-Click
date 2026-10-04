@@ -1,0 +1,116 @@
+{
+  "id": "sikkim",
+  "name": "Sikkim",
+  "region": "North",
+  "tagline": "Himalayan Buddhist Kingdom",
+  "unesco": false,
+  "blurb": "A small former Himalayan kingdom of terraced monasteries and snow peaks, Sikkim's Buddhist heritage remains its most distinctive cultural thread.",
+  "stats": {
+    "area": "7,096 km²",
+    "districts": "6",
+    "language": "Nepali, Sikkimese, Lepcha",
+    "founded": "1975"
+  },
+  "culture": {
+    "dress": "Bakhu robes",
+    "festivals": [
+      {
+        "name": "Losar",
+        "month": "February"
+      },
+      {
+        "name": "Saga Dawa",
+        "month": "May/June"
+      }
+    ],
+    "dance": [
+      "Chaam masked dance"
+    ],
+    "cuisine": [
+      "Thukpa",
+      "Momos",
+      "Gundruk"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg/1920px-Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg",
+    "title": "Rumtek Monastery"
+  },
+  "districts": [
+    {
+      "id": "east-sikkim",
+      "name": "East Sikkim (Gangtok)",
+      "blurb": "Sikkim's capital district, ringed by monasteries on forested ridges above the town.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg/1920px-Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg",
+        "title": "Rumtek Monastery"
+      },
+      "places": [
+        {
+          "id": "rumtek-monastery",
+          "name": "Rumtek Monastery",
+          "type": "Monastery",
+          "blurb": "The main seat-in-exile of the Karma Kagyu school of Tibetan Buddhism, rebuilt in the 1960s by the 16th Karmapa after fleeing Tibet.",
+          "rating": 4.6,
+          "entry": "Free (donations welcome)",
+          "open": "6 AM–6 PM",
+          "bestSeason": "Mar–May, Oct–Nov",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The golden roof ornaments against Sikkim's hills",
+          "history": "Originally built in the mid-16th century, the monastery fell into disrepair before being rebuilt in the 1960s by the 16th Karmapa after he fled Tibet, re-establishing it as the main seat-in-exile of the Karma Kagyu school of Tibetan Buddhism.",
+          "architecture": "Traditional Tibetan monastic design with vividly painted murals, a golden stupa housing relics of the 16th Karmapa, and a shrine hall centred on a large Buddha statue.",
+          "timeline": [
+            {
+              "y": 1740,
+              "label": "Original monastery built at the site (approximate)."
+            },
+            {
+              "y": 1966,
+              "label": "Monastery rebuilt by the 16th Karmapa after arriving in Sikkim from Tibet."
+            }
+          ],
+          "facts": [
+            "Considered the main seat-in-exile of the Karma Kagyu lineage of Tibetan Buddhism.",
+            "Home to a Golden Stupa containing relics of the 16th Karmapa.",
+            "Hosts an annual Chaam masked dance festival in winter."
+          ],
+          "hiddenGems": [
+            "Old Rumtek Monastery ruins just below the new complex",
+            "Sang Choeling Monastery near Pelling, one of Sikkim's oldest",
+            "Views of Gangtok town from the monastery ridge"
+          ],
+          "food": [
+            "Sikkimese thukpa and momos",
+            "Local butter tea at monastery-adjacent stalls"
+          ],
+          "experiences": [
+            "Attending a monastic prayer session",
+            "Photography of the Golden Stupa interior",
+            "Combining with a Gangtok city day trip"
+          ],
+          "travel": {
+            "railway": "New Jalpaiguri, ~124 km",
+            "airport": "Pakyong Airport, ~40 km; Bagdogra as main hub",
+            "parking": "At the monastery entrance",
+            "tip": "Check ahead for the winter Chaam masked-dance festival dates if you want to time your visit around it."
+          },
+          "lat": 27.3255,
+          "lng": 88.5622,
+          "themes": [
+            "monastery"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg/1920px-Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg",
+            "title": "Rumtek Monastery"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rumtek_Monastery",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg/1920px-Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dharma_Chakra_Centre.jpg/1920px-Dharma_Chakra_Centre.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

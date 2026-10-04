@@ -1,0 +1,126 @@
+{
+  "id": "gujarat",
+  "name": "Gujarat",
+  "region": "West",
+  "tagline": "Land of Legends",
+  "unesco": true,
+  "blurb": "From the salt-white Rann of Kutch to the carved stepwells of the north, Gujarat's landscape holds some of India's most technically astonishing water architecture.",
+  "stats": {
+    "area": "196,244 km²",
+    "districts": "33",
+    "language": "Gujarati",
+    "founded": "1960"
+  },
+  "culture": {
+    "dress": "Bandhani dupattas",
+    "festivals": [
+      {
+        "name": "Navratri",
+        "month": "September/October"
+      },
+      {
+        "name": "Rann Utsav",
+        "month": "November–February"
+      }
+    ],
+    "dance": [
+      "Garba",
+      "Dandiya Raas"
+    ],
+    "cuisine": [
+      "Dhokla",
+      "Undhiyu",
+      "Fafda-Jalebi"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+    "title": "Rani ki Vav"
+  },
+  "districts": [
+    {
+      "id": "patan",
+      "name": "Patan",
+      "blurb": "A quiet north Gujarat town once a medieval capital, now known chiefly for its stepwell and Patola weaving.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+        "title": "Rani ki Vav"
+      },
+      "places": [
+        {
+          "id": "rani-ki-vav",
+          "name": "Rani ki Vav",
+          "type": "Stepwell",
+          "blurb": "An extraordinary inverted-temple stepwell, seven storeys deep and lined with over 500 sculpted panels, built by a queen in memory of her husband and buried in river silt for centuries before its 20th-century excavation.",
+          "rating": 4.7,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "8 AM–6 PM",
+          "bestSeason": "Nov–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Straight down the central axis from the top step",
+          "history": "Commissioned around 1063 CE by Queen Udayamati in memory of her husband, King Bhimdev I of the Solanki dynasty, the stepwell was gradually buried by silt from the nearby Saraswati river and lay forgotten for centuries until fully excavated by the Archaeological Survey of India in the 1980s.",
+          "architecture": "Built as an inverted temple, seven levels deep, lined with over 500 principal sculptures and 1,000 minor ones depicting Vishnu's avatars and mythological scenes, in the elaborate Maru-Gurjara architectural style.",
+          "timeline": [
+            {
+              "y": 1063,
+              "label": "Construction commissioned by Queen Udayamati."
+            },
+            {
+              "y": 1300,
+              "label": "River flooding gradually buries the stepwell in silt."
+            },
+            {
+              "y": 1980,
+              "label": "Full excavation completed by the Archaeological Survey of India."
+            },
+            {
+              "y": 2014,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Because it was buried in silt for centuries, its carvings survived in exceptional condition.",
+            "Featured on the reverse of the Indian ₹100 note.",
+            "Built as a functioning water-management structure, not solely a monument."
+          ],
+          "hiddenGems": [
+            "Sahastralinga Talav, a nearby ancient stepped tank",
+            "Patan's Patola sari weaving workshops",
+            "Old town lanes of Patan for wooden havelis"
+          ],
+          "food": [
+            "Gujarati thali with dhokla and undhiyu",
+            "Patan's local jalebi-fafda breakfast stalls"
+          ],
+          "experiences": [
+            "Guided descent through the seven stepwell levels",
+            "Patola silk-weaving demonstration",
+            "Day trip combining Patan with Modhera Sun Temple"
+          ],
+          "travel": {
+            "railway": "Patan Railway Station, 2 km",
+            "airport": "Ahmedabad (Sardar Vallabhbhai Patel Intl), ~130 km",
+            "parking": "At the ASI site entrance",
+            "tip": "Visit late afternoon when the stepped levels are in soft shadow, easiest for photographing the depth."
+          },
+          "lat": 23.8595,
+          "lng": 72.103,
+          "themes": [
+            "stepwell"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+            "title": "Rani ki Vav"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rani_ki_Vav",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Rani_ki_vav_-_Patan_-_Gujarat_-_Wall_Decorations.jpg/1920px-Rani_ki_vav_-_Patan_-_Gujarat_-_Wall_Decorations.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ganesha%2C_Sculptures_at_Rani_ki_Vav_%2815778247014%29.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

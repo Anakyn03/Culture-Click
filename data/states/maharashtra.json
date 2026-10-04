@@ -1,0 +1,331 @@
+{
+  "id": "maharashtra",
+  "name": "Maharashtra",
+  "region": "West",
+  "tagline": "Land of Warriors",
+  "unesco": true,
+  "blurb": "From Deccan hill forts to rock-cut cave monasteries carved straight into cliff faces, Maharashtra's heritage spans two thousand years of continuous artistic achievement.",
+  "stats": {
+    "area": "307,713 km²",
+    "districts": "36",
+    "language": "Marathi",
+    "founded": "1960"
+  },
+  "culture": {
+    "dress": "Paithani sarees",
+    "festivals": [
+      {
+        "name": "Ganesh Chaturthi",
+        "month": "August/September"
+      },
+      {
+        "name": "Ellora Ajanta Festival",
+        "month": "November"
+      }
+    ],
+    "dance": [
+      "Lavani"
+    ],
+    "cuisine": [
+      "Puran Poli",
+      "Misal Pav",
+      "Vada Pav"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/1280px-Ajanta_%2863%29.jpg",
+    "title": "Ajanta Caves"
+  },
+  "districts": [
+    {
+      "id": "aurangabad",
+      "name": "Chhatrapati Sambhajinagar (Aurangabad)",
+      "blurb": "A district built around one of the greatest concentrations of rock-cut art in the world.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/1280px-Ajanta_%2863%29.jpg",
+        "title": "Ajanta Caves"
+      },
+      "places": [
+        {
+          "id": "ajanta-caves",
+          "name": "Ajanta Caves",
+          "type": "Cave Monastery",
+          "blurb": "A horseshoe-shaped cliff of 30 rock-cut Buddhist caves, famous above all for surviving mural paintings that are among the oldest and finest in the Buddhist world.",
+          "rating": 4.7,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "9 AM–5:30 PM (closed Mondays)",
+          "bestSeason": "Nov–Mar",
+          "budget": "Medium",
+          "difficulty": "Easy–Moderate (many steps)",
+          "bestPhoto": "The horseshoe cliff face from Sunset Point across the gorge",
+          "history": "A set of 30 rock-cut Buddhist cave monuments excavated in two main phases, the earliest around the 2nd century BCE and a later, more elaborate phase around the 5th century CE under the Vakataka dynasty. The caves were abandoned and swallowed by jungle for over a thousand years until British officer John Smith rediscovered them in 1819 while tiger hunting.",
+          "architecture": "Carved directly into a horseshoe-shaped cliff face above the Waghora river, the caves include chaityas (prayer halls) and viharas (monasteries), famous above all for their surviving mural paintings depicting the Jataka tales.",
+          "timeline": [
+            {
+              "y": -200,
+              "label": "Earliest caves excavated during the first construction phase."
+            },
+            {
+              "y": 460,
+              "label": "Second major phase of cave excavation and painting under Vakataka patronage."
+            },
+            {
+              "y": 1819,
+              "label": "Rediscovered by British officer John Smith."
+            },
+            {
+              "y": 1983,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Contains some of the oldest and best-preserved Buddhist murals in the world.",
+            "Abandoned for over a millennium before its 19th-century rediscovery.",
+            "Cave 26's reclining Buddha and Cave 1's murals are among the most celebrated works."
+          ],
+          "hiddenGems": [
+            "Sunset Point viewpoint across the gorge from the caves",
+            "Ellora Caves, roughly two hours away, combining Buddhist, Hindu and Jain sites",
+            "Panchakki, a 17th-century water mill in nearby Aurangabad"
+          ],
+          "food": [
+            "Maharashtrian thali in nearby Fardapur",
+            "Naan qalia, a local Aurangabad specialty"
+          ],
+          "experiences": [
+            "Guided mural-reading tour of the painted caves",
+            "Photography from the horseshoe-cliff viewpoint",
+            "Combined two-day trip with the Ellora Caves"
+          ],
+          "travel": {
+            "railway": "Jalgaon, ~60 km",
+            "airport": "Aurangabad Airport, ~100 km",
+            "parking": "At the visitor centre, with shuttle buses to the caves",
+            "tip": "Cave interiors are dim by design — bring a small torch (flash photography is restricted) to see the murals properly."
+          },
+          "lat": 20.5519,
+          "lng": 75.7033,
+          "themes": [
+            "cave-monastery"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
+            "title": "Ajanta Caves"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ajanta_Caves",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9f/%2APlate_3%2A_%3D%3D_Ajunta--_Interior_of_Chaitya_Cave%2C_No._10.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/003_Cave_16%2C_Main_Shrine_%2834298723855%29.jpg/1920px-003_Cave_16%2C_Main_Shrine_%2834298723855%29.jpg"
+          ]
+        },
+        {
+          "id": "ellora-caves",
+          "name": "Ellora Caves",
+          "type": "Cave Monastery",
+          "blurb": "Thirty-four caves carved over five centuries by Buddhist, Hindu and Jain communities side by side — including the Kailasa temple, the largest single monolithic excavation on Earth.",
+          "rating": 4.8,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "8 AM–5:30 PM (closed Tuesdays)",
+          "bestSeason": "Nov–Mar",
+          "budget": "Medium",
+          "difficulty": "Moderate (long walks between caves)",
+          "bestPhoto": "The Kailasa temple from the cliff-top gallery above it",
+          "history": "Excavated between roughly 600 and 1000 CE under successive dynasties — the Rashtrakutas, Yadavas and others — Ellora is unique in the ancient world for the way Buddhist, Hindu and Jain worshippers worked the same cliff in overlapping generations. The Kailasa temple, commissioned by Rashtrakuta king Krishna I around 760 CE, was cut downward from the top of the rock, removing an estimated 200,000 tonnes of basalt to free a complete, multi-storey temple.",
+          "architecture": "The Kailasa (Cave 16) is a full-scale Dravidian temple — sanctuary, halls, gateway, elephant and lion sculptures, and a tower — all carved from one rock face, twice the area of the Parthenon. The Buddhist caves carry some of India's finest surviving wall paintings; the Jain caves to the north are known for extraordinarily fine lattice carving.",
+          "timeline": [
+            {
+              "y": 600,
+              "label": "The Buddhist caves, the earliest group, are begun."
+            },
+            {
+              "y": 760,
+              "label": "Krishna I commissions the Kailasa temple."
+            },
+            {
+              "y": 1000,
+              "label": "The Jain caves complete the cliff's final phase."
+            },
+            {
+              "y": 1983,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "The Kailasa temple was carved top-down from a single rock — no blocks were added.",
+            "An estimated 200,000 tonnes of basalt were removed to free the Kailasa.",
+            "It is the largest monolithic rock excavation in the world."
+          ],
+          "hiddenGems": [
+            "The view of the Kailasa from the upper gallery opposite it, best in late afternoon",
+            "Cave 32's lotus ceiling in the Jain group",
+            "Daulatabad Fort, 15 km away, a near-impregnable hill citadel"
+          ],
+          "food": [
+            "Naan qalia at a roadside dhaba on the Ellora road",
+            "Maharashtrian thali in Khuldabad village"
+          ],
+          "experiences": [
+            "Standing inside the courtyard of the Kailasa and looking up at the free-standing tower",
+            "Reading the Buddhist–Hindu–Jain sequence cave by cave with a guide",
+            "A combined day with Daulatabad Fort and Bibi ka Maqbara"
+          ],
+          "travel": {
+            "railway": "Aurangabad (Chhatrapati Sambhajinagar) station, ~30 km",
+            "airport": "Aurangabad Airport, ~35 km",
+            "parking": "At the Ellora visitor centre; auto-rickshaws run from Aurangabad all day",
+            "tip": "Start with Cave 16 at opening time before the crowds, then walk north to the quieter Jain caves while the light is good."
+          },
+          "lat": 20.0268,
+          "lng": 75.177,
+          "themes": [
+            "cave-monastery",
+            "unesco"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ellora_cave16_001.jpg/1920px-Ellora_cave16_001.jpg",
+            "title": "Ellora Caves"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ellora_Caves"
+        },
+        {
+          "id": "bibi-ka-maqbara",
+          "name": "Bibi ka Maqbara",
+          "type": "Mausoleum",
+          "blurb": "A marble-and-stucco tomb built by Aurangzeb's son in memory of his mother — the Deccan's answer to the Taj Mahal, at a fraction of the budget.",
+          "rating": 4.4,
+          "entry": "₹25 (Indian) / ₹300 (Foreign)",
+          "open": "8 AM–8 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The tomb reflected in the long water channel at dusk",
+          "history": "Prince Azam Shah, Aurangzeb's son, commissioned the tomb in 1678 for his mother Dilras Banu Begum. Where Shah Jahan had an empire's treasury, Azam Shah had a provincial budget, so the maqbara mixes marble facing with plastered basalt — and the result is a deliberate, poignant echo of the Taj rather than a forgery of it.",
+          "architecture": "A charbagh garden tomb on the Mughal plan, with a high plinth, four minarets and a great central dome. The marble comes from mines near Jaipur; the rest of the structure is finely stuccoed basalt, painted to match.",
+          "timeline": [
+            {
+              "y": 1678,
+              "label": "Azam Shah commissions the tomb for his mother."
+            },
+            {
+              "y": 1691,
+              "label": "Construction is substantially complete."
+            },
+            {
+              "y": 1960,
+              "label": "The Archaeological Survey of India takes over conservation."
+            }
+          ],
+          "facts": [
+            "It is the largest structure Aurangzeb's line built in the Deccan.",
+            "The marble dome and minarets are real marble; the body of the tomb is plastered basalt.",
+            "Locals call it the Dakkhani Taj — the Taj of the Deccan."
+          ],
+          "hiddenGems": [
+            "The small museum of Mughal Deccan coins and manuscripts inside the complex",
+            "Evening light on the western minaret, when the plaster turns the same colour as the marble",
+            "Panchakki water mill, 3 km away, an engineering curiosity of the same era"
+          ],
+          "food": [
+            "Aurangabad's naan qalia",
+            "Shahi tukda at old-city sweet shops"
+          ],
+          "experiences": [
+            "Comparing the dome's proportions with the Taj at the same scale",
+            "Photographing the tomb from the garden's central axis at sunset",
+            "A Deccan Mughal day: maqbara, Panchakki and the old city gates"
+          ],
+          "travel": {
+            "railway": "Aurangabad (Chhatrapati Sambhajinagar) station, ~4 km",
+            "airport": "Aurangabad Airport, ~10 km",
+            "parking": "Paid lot at the entrance gate",
+            "tip": "Come in the last hour before closing — the marble picks up the low sun and the tour buses are gone."
+          },
+          "lat": 19.9018,
+          "lng": 75.3247,
+          "themes": [
+            "mausoleum"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Tomb_of_Dilras_Banu_Begum.jpg/1920px-The_Tomb_of_Dilras_Banu_Begum.jpg",
+            "title": "Bibi Ka Maqbara"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara"
+        },
+        {
+          "id": "daulatabad-fort",
+          "name": "Daulatabad Fort",
+          "type": "Hill Fort",
+          "blurb": "A conical hill remade into a fortress so complete that armies took it by bribery or siege — never by storm — with a moat, a dark zigzag passage and a cloud of smoke trapped in rock.",
+          "rating": 4.5,
+          "entry": "₹25 (Indian) / ₹300 (Foreign)",
+          "open": "9 AM–6 PM",
+          "bestSeason": "Nov–Feb",
+          "budget": "Low",
+          "difficulty": "Moderate–Hard (750 steps to the summit)",
+          "bestPhoto": "The Chand Minar against the hill from the outer gate",
+          "history": "Fortified from at least the 12th century as Devagiri under the Yadavas, the hill passed to the Delhi Sultanate when Muhammad bin Tughluq made the extraordinary decision to move his entire capital here in 1327, renaming it Daulatabad and ordering the population of Delhi to walk 1,100 km. The capital experiment collapsed within years, but the fortifications stayed and grew under later Bahmani and Nizam Shahi rulers.",
+          "architecture": "The defences stack in layers: a scarp-faced hill with a rock-cut moat, three concentric walled enclosures, the Chand Minar tower raised in 1445, and an entrance series of gates, a dark labyrinth passage carved to be walked with torches, and an artificial hill slope polished so attackers could not climb it.",
+          "timeline": [
+            {
+              "y": 1187,
+              "label": "The Yadavas make Devagiri their capital."
+            },
+            {
+              "y": 1327,
+              "label": "Tughluq shifts the imperial capital to Daulatabad."
+            },
+            {
+              "y": 1445,
+              "label": "The Chand Minar is raised after a Bahmani victory."
+            },
+            {
+              "y": 1633,
+              "label": "The Mughals finally take the fort after a four-year siege."
+            }
+          ],
+          "facts": [
+            "The fort never fell to a direct assault in its entire history.",
+            "Tughluq ordered Delhi's population to move here — the march became proverbial.",
+            "The dark zigzag entrance was designed to trap smoke and let defenders fight in the dark they knew."
+          ],
+          "hiddenGems": [
+            "Bharat Mata temple in the Bharatmata mandir courtyard with its cannon of cast copper",
+            "The view from the top across the Deccan plateau to Ellora's ridge",
+            "Chini Mahal, where the last Qutb Shahi king was held prisoner"
+          ],
+          "food": [
+            "Snack stalls at the base selling roasted corn and chaas",
+            "Naan qalia back on the Ellora road"
+          ],
+          "experiences": [
+            "Walking the pitch-dark entrance passage with a phone torch, feeling the design work",
+            "Climbing to the summit cannon platform in the early morning",
+            "Pairing the fort with Ellora in one day — they share a road"
+          ],
+          "travel": {
+            "railway": "Aurangabad (Chhatrapati Sambhajinagar) station, ~16 km",
+            "airport": "Aurangabad Airport, ~25 km",
+            "parking": "Open lot at the fort base, shared with Ellora-road traffic",
+            "tip": "Carry more water than seems reasonable and start early — the climb is exposed stone and the midday sun on the plateau is serious."
+          },
+          "lat": 19.9424,
+          "lng": 75.2136,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/1920px-Daulatabad_Fort_a_view.JPG",
+            "title": "Daulatabad Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/1920px-Daulatabad_Fort_a_view.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Aurangabad_-_Daulatabad_Fort_%2830%29.JPG/1920px-Aurangabad_-_Daulatabad_Fort_%2830%29.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Aurangabad_-_Daulatabad_Fort_%2869%29.JPG/1920px-Aurangabad_-_Daulatabad_Fort_%2869%29.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

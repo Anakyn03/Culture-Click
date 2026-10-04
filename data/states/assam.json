@@ -1,0 +1,117 @@
+{
+  "id": "assam",
+  "name": "Assam",
+  "region": "Northeast",
+  "tagline": "Gateway to the Northeast",
+  "unesco": false,
+  "blurb": "Bound by the Brahmaputra river, Assam blends riverine wildlife, sprawling tea gardens and some of eastern India's oldest continuously worshipped temples.",
+  "stats": {
+    "area": "78,438 km²",
+    "districts": "35",
+    "language": "Assamese",
+    "founded": "1950"
+  },
+  "culture": {
+    "dress": "Mekhela chador",
+    "festivals": [
+      {
+        "name": "Bihu",
+        "month": "April"
+      },
+      {
+        "name": "Ambubachi Mela",
+        "month": "June"
+      }
+    ],
+    "dance": [
+      "Bihu dance"
+    ],
+    "cuisine": [
+      "Khar",
+      "Tenga",
+      "Assam tea"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+    "title": "Kamakhya Temple"
+  },
+  "districts": [
+    {
+      "id": "kamrup-metropolitan",
+      "name": "Kamrup Metropolitan",
+      "blurb": "Assam's largest city, Guwahati, spread along the Brahmaputra beneath Nilachal Hill.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+        "title": "Kamakhya Temple"
+      },
+      "places": [
+        {
+          "id": "kamakhya-temple",
+          "name": "Kamakhya Temple",
+          "type": "Temple",
+          "blurb": "One of the oldest of the 51 Shakti Peethas, its beehive-shaped shikhara crowning Nilachal Hill above the Brahmaputra river.",
+          "rating": 4.5,
+          "entry": "Free (special darshan tickets available)",
+          "open": "5:30 AM–10 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (hill climb)",
+          "bestPhoto": "Sunset over the Brahmaputra from Nilachal Hill",
+          "history": "Legend holds this as the site where the goddess Sati's womb fell, making it one of the oldest and most important of the 51 Shakti Peethas. The present structure was rebuilt in 1565 by the Koch king Naranarayana after an earlier temple was destroyed.",
+          "architecture": "A distinctive beehive-shaped shikhara typical of the Nilachal style, with intricately carved panels of deities and vegetal motifs; unusually, the inner sanctum holds no idol — worship centres on a natural rock fissure.",
+          "timeline": [
+            {
+              "y": 1565,
+              "label": "Temple rebuilt under Koch king Naranarayana after earlier destruction."
+            },
+            {
+              "y": 1665,
+              "label": "Renovation work recorded under later Ahom-era patronage."
+            }
+          ],
+          "facts": [
+            "One of the principal Shakti Peethas of Hindu tradition.",
+            "Hosts the Ambubachi Mela, a major annual fertility festival drawing large crowds.",
+            "The sanctum has no idol — worship centres on a natural rock fissure."
+          ],
+          "hiddenGems": [
+            "Umananda Temple on Peacock Island in the Brahmaputra",
+            "Nilachal Hill viewpoint over the river",
+            "Nearby Assam State Museum in Guwahati"
+          ],
+          "food": [
+            "Assamese thali with khar and tenga at local eateries",
+            "Street food at Fancy Bazaar, Guwahati"
+          ],
+          "experiences": [
+            "Sunset boat ride on the Brahmaputra",
+            "Visiting during Ambubachi Mela (mid-June)",
+            "Guided heritage walk up Nilachal Hill"
+          ],
+          "travel": {
+            "railway": "Kamakhya Railway Station, 2 km",
+            "airport": "Lokpriya Gopinath Bordoloi Intl, 20 km",
+            "parking": "At the hill base with shuttle option",
+            "tip": "Avoid the Ambubachi Mela dates if you prefer a quieter visit — it draws enormous crowds."
+          },
+          "lat": 26.1665,
+          "lng": 91.7036,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+            "title": "Kamakhya Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kamakhya_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Debi_Durga_Sculpture_by_Sandalwood_Murshidabad_WB_30_01_2018.jpg/1920px-Debi_Durga_Sculpture_by_Sandalwood_Murshidabad_WB_30_01_2018.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Idol_at_Kamakhya_temple%2C_Guwahati%2C_Assam_01.jpg/1920px-Idol_at_Kamakhya_temple%2C_Guwahati%2C_Assam_01.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

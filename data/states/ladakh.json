@@ -1,0 +1,191 @@
+{
+  "id": "ladakh",
+  "name": "Ladakh",
+  "region": "North",
+  "tagline": "Land of High Passes",
+  "unesco": false,
+  "blurb": "A high-altitude desert of Buddhist monasteries, turquoise lakes and passes that sit above the clouds — India at its starkest and most serene.",
+  "stats": {
+    "area": "59,146 km²",
+    "districts": "2",
+    "language": "Ladakhi",
+    "founded": "2019 (UT)"
+  },
+  "culture": {
+    "dress": "Goncha robe",
+    "festivals": [
+      {
+        "name": "Hemis Festival",
+        "month": "June/July"
+      },
+      {
+        "name": "Losar",
+        "month": "December"
+      }
+    ],
+    "dance": [
+      "Cham mask dance"
+    ],
+    "cuisine": [
+      "Thukpa",
+      "Momos",
+      "Butter Tea"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Diskit_Gompa_2.jpg/1920px-Diskit_Gompa_2.jpg",
+    "title": "Diskit Monastery"
+  },
+  "districts": [
+    {
+      "id": "leh",
+      "name": "Leh",
+      "blurb": "Former capital of the Namgyal dynasty, ringed by monasteries and mountain passes.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg/1920px-ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg",
+        "title": "Pangong Tso"
+      },
+      "places": [
+        {
+          "id": "pangong",
+          "name": "Pangong Tso",
+          "type": "High-altitude Lake",
+          "blurb": "A 134-km endorheic lake stretching from India into Tibet, changing colour through blues and greens across the day at 4,225 metres.",
+          "rating": 4.8,
+          "entry": "Inner Line Permit required",
+          "open": "May – Sep road access",
+          "bestSeason": "Jun – Sep",
+          "budget": "Medium–High (permits + distance)",
+          "difficulty": "Moderate (altitude)",
+          "bestPhoto": "Midday, when the water shows its fullest colour range",
+          "history": "Formed by tectonic activity in the Himalayan uplift, Pangong Tso has long sat along Ladakhi trade and grazing routes, its far shore crossing into what is now Tibet. It entered wider popular awareness after appearing in Hindi cinema in the 2000s, drawing a new wave of travellers.",
+          "architecture": "Not built, but shaped — the lake's basin is bordered by stark, mineral-striped mountains with almost no vegetation, giving its water an unusually vivid, shifting palette against bare rock.",
+          "timeline": [
+            {
+              "y": 2009,
+              "label": "Featured in the film 3 Idiots, boosting tourism sharply."
+            }
+          ],
+          "facts": [
+            "Roughly two-thirds of the lake lies across the border in Tibet.",
+            "Its water is brackish, not fresh, despite its high-altitude clarity.",
+            "Freezes completely in winter, though the road closes long before then."
+          ],
+          "hiddenGems": [
+            "Merak and Man villages along the quieter southern shore",
+            "Chushul valley, further from the main viewpoint crowds",
+            "Spangmik campsite for stargazing away from generator noise"
+          ],
+          "food": [
+            "Butter tea and thukpa at lakeside dhabas",
+            "Apricot dishes from nearby Nubra-grown fruit"
+          ],
+          "experiences": [
+            "Overnight camping by the lake shore",
+            "Sunrise photography as the water shifts colour",
+            "Cycling the Chang La pass route toward the lake"
+          ],
+          "travel": {
+            "railway": "No rail; nearest is Jammu Tawi, ~700 km",
+            "airport": "Kushok Bakula Rimpochee Airport, Leh, 160 km",
+            "parking": "Informal roadside near viewpoint",
+            "tip": "Acclimatise in Leh for at least 2 days before the drive — altitude sickness is common and serious."
+          },
+          "lat": 33.75,
+          "lng": 78.66,
+          "themes": [
+            "high-altitude-lake"
+          ],
+          "preferPhoto": "Pangong Tso in eastern Ladakh(Changthang).jpg",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pangong_Tso_in_eastern_Ladakh%28Changthang%29.jpg/1920px-Pangong_Tso_in_eastern_Ladakh%28Changthang%29.jpg",
+            "title": "Pangong Tso"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pangong_Tso",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pangong_Tso_in_eastern_Ladakh%28Changthang%29.jpg/1920px-Pangong_Tso_in_eastern_Ladakh%28Changthang%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg/1920px-ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Brown-headed_gull_birds_in_Pangong_Tso_lake_%282016%29.jpg/1920px-Brown-headed_gull_birds_in_Pangong_Tso_lake_%282016%29.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nubra",
+      "name": "Nubra Valley",
+      "blurb": "A high cold desert behind the Khardung La, where dunes meet a braided river.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Diskit_Gompa_2.jpg/1920px-Diskit_Gompa_2.jpg",
+        "title": "Diskit Monastery"
+      },
+      "places": [
+        {
+          "id": "diskit-monastery",
+          "wikiTitle": "Diskit Monastery",
+          "name": "Diskit Monastery & Maitreya Buddha",
+          "type": "Monastery",
+          "blurb": "The oldest and largest monastery in Nubra, founded in the 14th century, its colossal Maitreya Buddha set on a ridge facing the Shyok river.",
+          "rating": 4.7,
+          "entry": "Monastery free; Maitreya Buddha statue ₹30",
+          "open": "6:00 AM – 6:00 PM",
+          "bestSeason": "May – Sep (Khardung La is snowbound in winter)",
+          "budget": "Medium (permits and distance)",
+          "difficulty": "Moderate (altitude, remote road)",
+          "bestPhoto": "The 32-metre Maitreya Buddha against the Nubra dunes and the Karakoram",
+          "history": "Founded in the 14th century by Changzem Tserab Zangpo, a disciple of the founder of Thiksey, Diskit is the oldest monastery in the Nubra valley and was historically the region's administrative and spiritual centre. The 32-metre Maitreya Buddha statue on the ridge below the monastery was completed in 2010 and consecrated by the Dalai Lama — a landmark visible from across the valley.",
+          "architecture": "A Tibetan Buddhist complex of whitewashed buildings arranged on a rock outcrop above the village, housing a prayer hall with a substantial collection of scriptures and a protective deity chapel that is not always open. The Maitreya Buddha statue below is a modern structure in a traditional idiom, oriented to face the Shyok river and the road to Turtuk.",
+          "timeline": [
+            {
+              "y": 1300,
+              "label": "Monastery founded by Changzem Tserab Zangpo."
+            },
+            {
+              "y": 2010,
+              "label": "The 32-metre Maitreya Buddha statue is completed and consecrated."
+            }
+          ],
+          "facts": [
+            "The oldest monastery in the Nubra valley, dating to the 14th century.",
+            "Its Maitreya Buddha statue stands 32 metres high and faces the Shyok river.",
+            "Nubra sits at roughly 3,100 metres and is reached over the Khardung La."
+          ],
+          "hiddenGems": [
+            "Turtuk, a Balti village near the line of control, reachable as a long day trip",
+            "Hunder's cold-desert dunes and the double-humped Bactrian camels that work them",
+            "Sumur and Panamik, the quieter villages further up the valley"
+          ],
+          "food": [
+            "Apricot jam, apricot oil and fresh apricots from Nubra orchards",
+            "Thukpa and butter tea at a Hunder guesthouse"
+          ],
+          "experiences": [
+            "Morning prayers at the monastery, around 6 AM",
+            "Watching the Maitreya Buddha catch the last light over the dunes",
+            "A Bactrian camel ride on the Hunder sand dunes"
+          ],
+          "travel": {
+            "railway": "No rail; nearest is Jammu Tawi, far to the south",
+            "airport": "Kushok Bakula Rimpochee Airport, Leh, 120 km over Khardung La",
+            "parking": "Below the monastery and at the statue car park",
+            "tip": "Nubra needs an Inner Line Permit and two nights minimum — one night in Leh either side to acclimatise is not optional."
+          },
+          "lat": 34.5428,
+          "lng": 77.5594,
+          "themes": [
+            "monastery"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Diskit_Gompa_2.jpg/1920px-Diskit_Gompa_2.jpg",
+            "title": "Diskit Monastery"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Diskit_Monastery",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Diskit_Gompa_2.jpg/1920px-Diskit_Gompa_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/aa/Diskit-gompa-1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Diskit-gompa-3.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

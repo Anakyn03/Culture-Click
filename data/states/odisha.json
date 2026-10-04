@@ -1,0 +1,121 @@
+{
+  "id": "odisha",
+  "name": "Odisha",
+  "region": "East",
+  "tagline": "Soul of India",
+  "unesco": true,
+  "blurb": "A long, temple-studded coastline where the Kalinga architectural tradition reached its most spectacular expression in a giant stone chariot to the sun.",
+  "stats": {
+    "area": "155,707 km²",
+    "districts": "30",
+    "language": "Odia",
+    "founded": "1936"
+  },
+  "culture": {
+    "dress": "Sambalpuri sarees",
+    "festivals": [
+      {
+        "name": "Rath Yatra, Puri",
+        "month": "June/July"
+      },
+      {
+        "name": "Konark Dance Festival",
+        "month": "December"
+      }
+    ],
+    "dance": [
+      "Odissi"
+    ],
+    "cuisine": [
+      "Dalma",
+      "Pakhala",
+      "Chhena Poda"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+    "title": "Konark Sun Temple"
+  },
+  "districts": [
+    {
+      "id": "puri",
+      "name": "Puri",
+      "blurb": "A temple-town coastline famous for its Jagannath Temple and, further along the shore, Konark.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+        "title": "Konark Sun Temple"
+      },
+      "places": [
+        {
+          "id": "konark-sun-temple",
+          "name": "Konark Sun Temple",
+          "type": "Temple",
+          "blurb": "A colossal 13th-century stone chariot dedicated to the sun god Surya, its 24 carved wheels doubling as working sundials.",
+          "rating": 4.7,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "6 AM–8 PM",
+          "bestSeason": "Oct–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The carved stone wheels in raking late-afternoon light",
+          "history": "Built around 1250 CE under King Narasimhadeva I of the Eastern Ganga dynasty, the temple was conceived as a colossal stone chariot for the sun god Surya. A combination of structural issues and, by some accounts, damage during medieval invasions left the main tower collapsed by the 19th century, though the surviving structure remains one of India's most celebrated monuments.",
+          "architecture": "Designed as a massive chariot with 24 elaborately carved stone wheels (each functioning as a sundial) and a team of seven sculpted horses, built from Khondalite rock in the Kalinga architectural style.",
+          "timeline": [
+            {
+              "y": 1250,
+              "label": "Temple constructed under King Narasimhadeva I."
+            },
+            {
+              "y": 1837,
+              "label": "Main tower recorded as collapsed by this point, condition documented by colonial surveyors."
+            },
+            {
+              "y": 1984,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Its 24 carved wheels double as functioning sundials, accurate to within a few minutes.",
+            "Sometimes called the \"Black Pagoda\" by early European sailors, for its dark stone silhouette.",
+            "The temple's main sanctum tower collapsed centuries ago; the surviving audience hall gives a sense of its original scale."
+          ],
+          "hiddenGems": [
+            "Chandrabhaga Beach, a short walk from the temple",
+            "Konark Museum housing recovered sculptures",
+            "Ramachandi Temple along the coast road"
+          ],
+          "food": [
+            "Odia thali with dalma and pakhala",
+            "Fresh seafood at Chandrabhaga Beach shacks"
+          ],
+          "experiences": [
+            "Sunrise viewing from Chandrabhaga Beach followed by the temple",
+            "Konark Dance Festival (early December) if timed right",
+            "Guided tour explaining the sundial-wheel carvings"
+          ],
+          "travel": {
+            "railway": "Puri Railway Station, ~35 km",
+            "airport": "Bhubaneswar (Biju Patnaik Intl), ~65 km",
+            "parking": "At the temple complex entrance",
+            "tip": "Visit at sunrise or late afternoon — the carved stone takes on a warm glow and the heat is far more manageable."
+          },
+          "lat": 19.8876,
+          "lng": 86.0945,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+            "title": "Konark Sun Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/13th_Century_Elephant_sculpture_at_Konark_Sun_Temple_Puri_district%2C_Odisha%2C_India.jpg/1920px-13th_Century_Elephant_sculpture_at_Konark_Sun_Temple_Puri_district%2C_Odisha%2C_India.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/2b/1815_sketch_of_the_sculpture_at_Konarak_Sun_Temple%2C_Odisha_India.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

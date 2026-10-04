@@ -25,7 +25,8 @@
   --radius-lg: 20px;
 }
 
-/* Dark mode palette swap — driven by a `.dark` class on <html> (see ThemeToggle). */
+/* Dark mode palette swap — driven by a `.dark` class on <html>. The class is applied by
+   an inline script in index.html before first paint, so there is no light-theme flash. */
 .dark {
   --color-ivory: #12181F;
   --color-surface: #1E2836;
@@ -35,13 +36,18 @@
 
 html {
   scroll-behavior: smooth;
+  /* Anchor jumps (#reviews, the journey steps on the account page) must not land underneath the
+     sticky header. This is the one place the offset belongs — every anchor gets it for free. */
+  scroll-padding-top: 84px;
 }
+
 body {
   background-color: var(--color-ivory);
   color: var(--color-charcoal);
   font-family: var(--font-sans);
   transition: background-color .3s ease, color .3s ease;
 }
+
 ::selection {
   background: var(--color-gold);
   color: var(--color-indigo);
@@ -56,20 +62,25 @@ body {
   }
 }
 
-/* Animated marigold "journey" trail on the map */
-@keyframes dash {
-  to { stroke-dashoffset: -1600; }
+/* ============================================================
+   LOADING
+
+   `.skeleton` was referenced by WeatherWidget and the route fallback but
+   never actually defined, so those "loading" blocks rendered as empty boxes.
+   ============================================================ */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .45; }
 }
-.atlas-route {
-  fill: none;
-  stroke: var(--color-gold);
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 14 22;
-  animation: dash 30s linear infinite;
-  opacity: .85;
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-sand), color-mix(in srgb, var(--color-sand) 55%, transparent));
+  animation: skeleton-pulse 1.6s ease-in-out infinite;
 }
+
+/* ============================================================
+   MAP DECORATION
+   ============================================================ */
 
 /* Compass rose spin — transform-box keeps rotation centered on its own bbox */
 @keyframes spin {
@@ -86,42 +97,21 @@ body {
 .thin-scroll::-webkit-scrollbar-thumb { background: var(--color-sand); border-radius: 999px; }
 
 /* ============================================================
-   MOBILE OPTIMIZATIONS
+   RESPONSIVE CARD GRID
+
+   Kept as a plain class because it is used on six pages and reads more
+   clearly than an arbitrary-variant Tailwind string repeated each time.
    ============================================================ */
-
-/* Touch-friendly tap targets */
-@media (hover: none) and (pointer: coarse) {
-  button, [role="button"], a {
-    min-height: 44px;
-    min-width: 44px;
-  }
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
 }
 
-/* Mobile-specific hero section heights */
-@media (max-width: 640px) {
-  .hero-section {
-    min-height: 280px;
-    border-radius: 16px;
-  }
-  
-  .hero-section h1 {
-    font-size: 1.75rem;
-  }
-  
-  .hero-section p {
-    font-size: 0.9rem;
-  }
-}
-
-/* Card grid responsive adjustments */
 @media (max-width: 640px) {
   .card-grid {
     grid-template-columns: 1fr;
     gap: 16px;
-  }
-  
-  .card-grid .card {
-    margin: 0;
   }
 }
 
@@ -132,55 +122,10 @@ body {
   }
 }
 
-@media (min-width: 1025px) {
-  .card-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 24px;
-  }
-}
-
-/* Mobile navigation improvements */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-  
-  .nav-links::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-/* Image loading optimization for mobile */
-@media (max-width: 768px) {
-  img {
-    loading-optional: auto;
-  }
-  
-  .hero-image {
-    object-position: center 30%;
-  }
-}
-
-/* Smooth scrolling for mobile */
-@supports (-webkit-overflow-scrolling: touch) {
-  .smooth-scroll {
-    -webkit-overflow-scrolling: touch;
-  }
-}
-
-/* Mobile-friendly spacing */
-@media (max-width: 640px) {
-  .section-padding {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  
-  .card-padding {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
+/* Touch-friendly tap targets */
+@media (hover: none) and (pointer: coarse) {
+  button, [role="button"], a {
+    min-height: 44px;
+    min-width: 44px;
   }
 }

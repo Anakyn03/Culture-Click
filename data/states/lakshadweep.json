@@ -1,0 +1,107 @@
+{
+  "id": "lakshadweep",
+  "name": "Lakshadweep",
+  "region": "Island",
+  "tagline": "Coral Isles of India",
+  "unesco": false,
+  "blurb": "India's smallest Union Territory, a scatter of coral atolls in the Arabian Sea whose lagoons are among the clearest and least developed in South Asia.",
+  "stats": {
+    "area": "32 km²",
+    "districts": "1",
+    "language": "Malayalam, Mahl",
+    "founded": "1956"
+  },
+  "culture": {
+    "dress": "Simple coastal wear",
+    "festivals": [
+      {
+        "name": "Eid celebrations (majority Muslim population)",
+        "month": "Varies"
+      }
+    ],
+    "dance": [
+      "Lava dance"
+    ],
+    "cuisine": [
+      "Fresh tuna preparations",
+      "Coconut-based curries"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+    "title": "Agatti Island"
+  },
+  "districts": [
+    {
+      "id": "lakshadweep-district",
+      "name": "Lakshadweep",
+      "blurb": "The archipelago's single administrative district, spanning all its inhabited islands.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+        "title": "Agatti Island"
+      },
+      "places": [
+        {
+          "id": "agatti-island",
+          "name": "Agatti Island",
+          "type": "Coral Atoll",
+          "blurb": "The main air gateway to the Lakshadweep archipelago, ringed by one of the most vivid and accessible coral lagoons in the islands.",
+          "rating": 4.7,
+          "entry": "Permit required (fee applies)",
+          "open": "Access via scheduled flights/ferries",
+          "bestSeason": "Oct–May",
+          "budget": "Medium–High (permits + flights)",
+          "difficulty": "Easy (once permitted)",
+          "bestPhoto": "The turquoise lagoon shading to deep blue, shot from the air on approach",
+          "history": "Part of the Lakshadweep archipelago, a coral-atoll chain whose Malayalam- and Mahl-speaking communities have inhabited these islands for centuries as a fishing and coconut-cultivation society. Agatti became significant in recent decades as the archipelago's main gateway, home to its only commercial airport.",
+          "architecture": "No monumental built heritage in the conventional sense — the island's defining feature is its coral reef lagoon system and traditional Lakshadweep coconut-thatch fishing settlements, alongside a functioning airstrip that makes it the entry point to the wider archipelago.",
+          "timeline": [
+            {
+              "y": 1988,
+              "label": "Agatti Airport opens, becoming the main air gateway to the Lakshadweep islands."
+            }
+          ],
+          "facts": [
+            "One of the few Lakshadweep islands with an airport, making it the practical gateway to the archipelago.",
+            "Its lagoon is considered among the most vivid and accessible for snorkelling in the islands.",
+            "Permits are required for all non-resident Indian and foreign visitors to Lakshadweep."
+          ],
+          "hiddenGems": [
+            "Agatti's uninhabited neighbouring islets, visitable by local boat",
+            "Kavaratti, the union territory capital, a short boat ride away",
+            "Bangaram Island's lagoon, further out but exceptionally clear"
+          ],
+          "food": [
+            "Fresh tuna preparations, a Lakshadweep staple",
+            "Coconut-based curries typical of the islands"
+          ],
+          "experiences": [
+            "Snorkelling and glass-bottom boat rides over the lagoon",
+            "Traditional Lakshadweep fishing village visit",
+            "Island-hopping by local boat"
+          ],
+          "travel": {
+            "railway": "None (island archipelago)",
+            "airport": "Agatti Airport, on the island itself",
+            "parking": "Not applicable",
+            "tip": "Arrange your Lakshadweep entry permit well in advance — it is mandatory and can take time to process."
+          },
+          "lat": 10.85,
+          "lng": 72.1833,
+          "themes": [
+            "coral-atoll"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+            "title": "Agatti Island"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Agatti_Island",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/95/The_Army_personnel_scuba_diving_during_the_ongoing_Bison_Blue_Waters_Expedition_in_Agatti%2C_Lakshadweep.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

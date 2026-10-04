@@ -1,0 +1,113 @@
+{
+  "id": "himachal-pradesh",
+  "name": "Himachal Pradesh",
+  "region": "North",
+  "tagline": "Land of Snow",
+  "unesco": false,
+  "blurb": "A Himalayan state of deodar forests and hill towns, where wooden pagoda temples sit alongside colonial hill stations at every altitude.",
+  "stats": {
+    "area": "55,673 km²",
+    "districts": "12",
+    "language": "Hindi, Pahari dialects",
+    "founded": "1971"
+  },
+  "culture": {
+    "dress": "Kullu shawls and caps",
+    "festivals": [
+      {
+        "name": "Kullu Dussehra",
+        "month": "October"
+      },
+      {
+        "name": "Losar (tribal areas)",
+        "month": "February"
+      }
+    ],
+    "dance": [
+      "Nati"
+    ],
+    "cuisine": [
+      "Dham thali",
+      "Siddu",
+      "Chana Madra"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF/lossy-page1-1920px-Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF.jpg",
+    "title": "Hidimba Devi Temple"
+  },
+  "districts": [
+    {
+      "id": "kullu",
+      "name": "Kullu",
+      "blurb": "The valley town at the gateway to Manali, framed by deodar forest and the Beas river.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF/lossy-page1-1920px-Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF.jpg",
+        "title": "Hidimba Devi Temple"
+      },
+      "places": [
+        {
+          "id": "hidimba-devi-temple",
+          "name": "Hidimba Devi Temple",
+          "type": "Temple",
+          "blurb": "A distinctive four-tiered wooden pagoda temple set deep in a protected cedar forest above Manali, built over a natural cave shrine.",
+          "rating": 4.5,
+          "entry": "Free",
+          "open": "8 AM–7 PM",
+          "bestSeason": "Mar–Jun, Sep–Nov",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The wooden tower framed by cedar trunks in soft forest light",
+          "history": "Built in 1553 by Raja Bahadur Singh, dedicated to Hidimba Devi, a figure from the Mahabharata, the temple stands amid a cedar forest and is considered one of the oldest temples in the Manali area.",
+          "architecture": "A distinctive four-tiered wooden pagoda-style tower over a cave shrine, with a carved wooden entrance and deodar-log construction typical of Himalayan hill architecture rather than the stone temple styles found in the plains.",
+          "timeline": [
+            {
+              "y": 1553,
+              "label": "Temple built under Raja Bahadur Singh of Kullu."
+            }
+          ],
+          "facts": [
+            "Built over a natural cave rather than a conventional sanctum.",
+            "Its wooden pagoda style is architecturally distinct from most Hindu temples in the plains.",
+            "Surrounded by a protected deodar cedar forest, part of its setting's appeal."
+          ],
+          "hiddenGems": [
+            "Old Manali's quieter lanes just beyond the tourist market",
+            "Van Vihar deodar forest walk",
+            "Manu Temple in Old Manali, dedicated to the sage Manu"
+          ],
+          "food": [
+            "Himachali dham thali",
+            "Tibetan momos and thukpa in Old Manali cafés"
+          ],
+          "experiences": [
+            "Forest walk through the surrounding cedar grove",
+            "Photography with traditional Himachali dress rental stalls nearby",
+            "Day trip to Solang Valley or Old Manali"
+          ],
+          "travel": {
+            "railway": "Joginder Nagar (narrow gauge), ~125 km; Chandigarh for broad gauge",
+            "airport": "Bhuntar (Kullu-Manali) Airport, 52 km",
+            "parking": "At the temple approach road",
+            "tip": "Go early morning or late afternoon — midday brings heavy tourist traffic through the forest path."
+          },
+          "lat": 32.2432,
+          "lng": 77.1892,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF/lossy-page1-1920px-Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF.jpg",
+            "title": "Hidimba Devi Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hidimba_Devi_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF/lossy-page1-1920px-Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cedar_Forest_around_Hadimba_Devi_Temple%2C_Manali.jpg/1920px-Cedar_Forest_around_Hadimba_Devi_Temple%2C_Manali.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Devi_Hidimba_Temple_Manali.jpg/1920px-Devi_Hidimba_Temple_Manali.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

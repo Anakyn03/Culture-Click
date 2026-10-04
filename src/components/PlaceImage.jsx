@@ -1,87 +1,65 @@
-import { useState, useEffect } from 'react';
-import { usePlaceImage } from '../hooks/usePlaceImage';
-import { getResponsiveSize } from '../lib/unsplash';
+import { useState } from 'react';
+import { resolvePhoto } from '../lib/photo';
 
 /**
- * PlaceImage — fetches and displays a photo for a place or state.
- * 
- * Features:
- * - Fetches from Unsplash API with caching
- * - Shows loading skeleton while fetching
- * - Smooth fade-in transition when image loads
- * - Falls back to gradient if no image found
- * - Displays photographer credit
- * - Responsive: different image sizes for mobile vs desktop
- * 
- * @param {string} size - 'card' | 'hero' | 'thumbnail' (default: 'hero')
- * 
- * Usage:
- *   <PlaceImage id="hawa-mahal" name="Hawa Mahal" type="Palace" stateName="Rajasthan" size="hero" />
+ * PlaceImage — the single image renderer for the whole atlas (cards, heroes, search thumbs).
+ *
+ * The entity's own `photo` fields are passed in ({ url, title }) and resolved synchronously, so
+ * there is no skeleton and the first frame is already correct. No photo renders the themed
+ * gradient below rather than showing something unrelated.
+ *
+ * Positioning belongs to the caller: this renders a `<figure>` with no position of its own, so
+ * `absolute inset-0` from a hero actually wins. Hardcoding `relative` here once meant the hero
+ * photo laid out in flow while its text stretched the container, and the title spilled onto
+ * the page background.
+ *
+ * Do not gate the image on a `load` event or a fade animation — doing that has hidden these
+ * photos three separate times. A synchronously resolved photo has nothing to fade *from*.
  */
-export default function PlaceImage({ id, name, type, stateName, size = 'hero', className = '' }) {
-  const { urls, credit, alt, color, loading } = usePlaceImage(id, name, type, stateName);
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const [responsiveSize, setResponsiveSize] = useState(() => getResponsiveSize(size));
 
-  // Update responsive size on window resize
-  useEffect(() => {
-    const handleResize = () => {
-      setResponsiveSize(getResponsiveSize(size));
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, [size]);
+const SIZES_ATTR = {
+  thumbnail: '40px',
+  card: '(max-width: 640px) 100vw, 320px',
+  hero: '100vw',
+};
 
-  // Get the appropriate URL for the size
-  const imageUrl = urls?.[responsiveSize] || urls?.[size] || urls?.hero || urls?.full;
+const FALLBACK = 'bg-gradient-to-br from-indigo/20 to-saffron/20';
 
-  // Loading state — show dominant color or gradient
-  if (loading) {
-    return (
-      <div 
-        className={`animate-pulse ${className}`}
-        style={{ backgroundColor: color || undefined }}
-        aria-hidden="true"
-      />
-    );
+export default function PlaceImage({
+  photo,
+  name,
+  size = 'card',
+  showCredit = false,
+  eager = false,
+  className = '',
+  alt: altOverride,
+}) {
+  const resolved = resolvePhoto(photo, size);
+
+  // A URL that 404s (a Commons file renamed since the catalog was generated) falls back to the
+  // same gradient, rather than sitting there as a broken frame.
+  const [failedUrl, setFailedUrl] = useState(null);
+
+  if (!resolved || failedUrl === resolved.url) {
+    return <div className={`${FALLBACK} ${className}`} aria-hidden="true" />;
   }
 
-  // No image found — show gradient fallback
-  if (!imageUrl) {
-    return (
-      <div 
-        className={`bg-gradient-to-br from-indigo/20 to-saffron/20 ${className}`}
-        aria-hidden="true"
-      />
-    );
-  }
-
-  // Image found — render with smooth fade-in
   return (
-    <figure className={`relative overflow-hidden ${className}`}>
-      {/* Placeholder with dominant color */}
-      {!imageLoaded && color && (
-        <div 
-          className="absolute inset-0"
-          style={{ backgroundColor: color }}
-        />
-      )}
-      
-      {/* Actual image with fade-in */}
+    <figure className={`overflow-hidden bg-sand ${className}`}>
       <img
-        src={imageUrl}
-        alt={alt}
-        loading="lazy"
-        onLoad={() => setImageLoaded(true)}
-        className={`h-full w-full object-cover transition-opacity duration-500 ease-out ${
-          imageLoaded ? 'opacity-1' : 'opacity-0'
-        }`}
+        src={resolved.url}
+        srcSet={resolved.srcSet}
+        sizes={SIZES_ATTR[size] || SIZES_ATTR.card}
+        alt={altOverride ?? name}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        onError={() => setFailedUrl(resolved.url)}
+        className="h-full w-full object-cover"
       />
-      
-      {/* Credit overlay */}
-      {credit && imageLoaded && (
-        <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-3 py-2 text-[0.68rem] text-white/80 transition-opacity duration-300">
-          📷 {credit}
+
+      {showCredit && (
+        <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-3 py-2 text-[0.68rem] text-white/80">
+          📷 {resolved.credit}
         </figcaption>
       )}
     </figure>

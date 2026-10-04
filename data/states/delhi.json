@@ -1,0 +1,355 @@
+{
+  "id": "delhi",
+  "name": "Delhi",
+  "region": "North",
+  "tagline": "The Capital of Empires",
+  "unesco": true,
+  "blurb": "Seven historic cities layered into one modern capital, Delhi's Mughal-era monuments sit within a short walk of some of India's busiest bazaars.",
+  "stats": {
+    "area": "1,484 km²",
+    "districts": "11",
+    "language": "Hindi, Punjabi, Urdu",
+    "founded": "1956 (UT); NCT since 1991"
+  },
+  "culture": {
+    "dress": "Modern Indo-Western fusion",
+    "festivals": [
+      {
+        "name": "Republic Day Parade",
+        "month": "January"
+      },
+      {
+        "name": "Phool Walon Ki Sair",
+        "month": "September/October"
+      }
+    ],
+    "dance": [
+      "Kathak"
+    ],
+    "cuisine": [
+      "Chaat",
+      "Butter Chicken",
+      "Paranthe"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+    "title": "Red Fort"
+  },
+  "districts": [
+    {
+      "id": "central-delhi",
+      "name": "Central Delhi",
+      "blurb": "Old Delhi's historic core, built around Shah Jahan's 17th-century walled capital.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+        "title": "Red Fort"
+      },
+      "places": [
+        {
+          "id": "red-fort",
+          "wikiTitle": "Red Fort",
+          "name": "Red Fort (Lal Qila)",
+          "type": "Fort",
+          "blurb": "The main residence of the Mughal emperors for over two centuries, a massive red-sandstone fort from whose ramparts India's Prime Minister still addresses the nation every Independence Day.",
+          "rating": 4.5,
+          "entry": "₹35 (Indian) / ₹550 (Foreign)",
+          "open": "9:30 AM–4:30 PM (closed Mondays)",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The Lahori Gate façade at sunset from across the moat garden",
+          "history": "Built as the main residence of the Mughal emperors, commissioned by Shah Jahan in 1638 when he shifted the Mughal capital from Agra to the newly founded city of Shahjahanabad (Old Delhi); it remained the ceremonial and political centre of Mughal power until 1857, after which the British repurposed much of the complex for military use.",
+          "architecture": "A massive red sandstone fort following an octagonal plan, blending Persian, Timurid, and earlier Indian architectural traditions, containing palaces, halls (including the marble Diwan-i-Khas, \"Hall of Private Audience\"), and formal gardens laid out on Mughal charbagh principles.",
+          "timeline": [
+            {
+              "y": 1638,
+              "label": "Construction begins under Shah Jahan."
+            },
+            {
+              "y": 1648,
+              "label": "Fort completed, becoming the seat of Mughal power."
+            },
+            {
+              "y": 1857,
+              "label": "British forces take control after the Indian Rebellion of 1857; much of the interior is later demolished or repurposed."
+            },
+            {
+              "y": 1947,
+              "label": "India's first Prime Minister raises the national flag here on Independence Day, a tradition continued annually."
+            },
+            {
+              "y": 2007,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "The Prime Minister of India delivers the Independence Day address from its ramparts every August 15.",
+            "Roughly two-thirds of the original interior structures were demolished or altered under British military occupation.",
+            "The Peacock Throne, one of history's most famous jeweled thrones, was originally housed here before being carried off in a 1739 invasion."
+          ],
+          "hiddenGems": [
+            "Chandni Chowk's old lanes just outside the fort walls",
+            "Salimgarh Fort, an older fortification connected to the Red Fort complex",
+            "The sound-and-light show held on the fort grounds most evenings"
+          ],
+          "food": [
+            "Old Delhi street food at Chandni Chowk (parathas, chaat)",
+            "Karim's, a historic Mughlai restaurant near Jama Masjid"
+          ],
+          "experiences": [
+            "Evening sound-and-light show retelling Mughal history",
+            "Old Delhi heritage walk from the fort to Jama Masjid and Chandni Chowk",
+            "Museum galleries within the fort complex"
+          ],
+          "travel": {
+            "railway": "Old Delhi Railway Station, 2 km",
+            "airport": "Indira Gandhi Intl, ~24 km",
+            "parking": "Limited nearby; Delhi Metro (Lal Qila / Chandni Chowk stations) is more reliable",
+            "tip": "Combine with Chandni Chowk and Jama Masjid in the same outing — all three are within easy walking distance."
+          },
+          "lat": 28.6562,
+          "lng": 77.241,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+            "title": "Red Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Red_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/20191203_Naubat_Khana%2C_Red_Fort%2C_Delhi_0453_6340_DxO.jpg/1920px-20191203_Naubat_Khana%2C_Red_Fort%2C_Delhi_0453_6340_DxO.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Covered_market_past_the_Lahore_gate_entrance_in_Red_Fort.jpg/1920px-Covered_market_past_the_Lahore_gate_entrance_in_Red_Fort.jpg"
+          ]
+        },
+        {
+          "id": "jama-masjid",
+          "name": "Jama Masjid",
+          "type": "Mosque",
+          "blurb": "India's largest mosque, raised on a rocky ridge above Old Delhi, its courtyards holding twenty-five thousand worshippers beneath three marble domes.",
+          "rating": 4.6,
+          "entry": "Free (camera fee ₹300; tower climb ₹100)",
+          "open": "7 AM–noon, 1:30 PM–6:30 PM (closed to tourists during prayer)",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy (shoes off; modest dress required)",
+          "bestPhoto": "The domes and minarets from the northeastern parapet at dawn",
+          "history": "Shah Jahan's final architectural act, completed in 1656 as the imperial mosque of his new capital Shahjahanabad. Its architect Austad Ahmad built the emperor's vision on a natural outcrop above the city, and for two centuries its Friday sermon stood at the centre of Delhi's public life — through the 1857 uprising, the end of the Mughals and the making of modern Delhi all around it.",
+          "architecture": "A vast courtyard of red sandstone entered by three gateways, with an eleven-arched prayer hall faced in white marble strips that read as devotional calligraphy from a distance. Two minarets rise 40 metres, and the central courtyards hold a marble pulpit and ablution tank on a single axis pointed at Mecca.",
+          "timeline": [
+            {
+              "y": 1650,
+              "label": "Construction begins under Shah Jahan."
+            },
+            {
+              "y": 1656,
+              "label": "The mosque opens with imperial ceremony."
+            },
+            {
+              "y": 1857,
+              "label": "The uprising damages the complex; it survives retribution."
+            },
+            {
+              "y": 2006,
+              "label": "A conservation programme restores the courtyard and domes."
+            }
+          ],
+          "facts": [
+            "The courtyard holds up to 25,000 worshippers at once.",
+            "It was the last of Shah Jahan's great buildings, finished 20 years after the Red Fort.",
+            "The eastern gateway was reserved for the emperor alone."
+          ],
+          "hiddenGems": [
+            "The southern minaret climb for a rooftop view over Chandni Chowk and the Red Fort",
+            "The food lanes of Matia Mahal immediately outside the south gate",
+            "The ablution tank at dawn when the courtyard is empty"
+          ],
+          "food": [
+            "Karim's, a stone's throw from the gate, a Delhi institution since 1913",
+            "Biryani and korma in the Matia Mahal bazaar lanes"
+          ],
+          "experiences": [
+            "Climbing a minaret for the Old Delhi skyline",
+            "Sitting in the courtyard as the maghrib prayer call rings out",
+            "A food walk from the mosque gates through Chandni Chowk"
+          ],
+          "travel": {
+            "railway": "Old Delhi Railway Station, 3 km; New Delhi, 6 km",
+            "airport": "Indira Gandhi Intl, ~22 km",
+            "parking": "Scarce; the Metro to Jama Masjid or Chandni Chowk station is far easier",
+            "tip": "Time your visit between prayer hours — tourists are turned away during namaaz, and Fridays are busiest."
+          },
+          "lat": 28.6507,
+          "lng": 77.2334,
+          "themes": [
+            "mosque"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Jama_Masjid_-_In_the_Noon.jpg/1920px-Jama_Masjid_-_In_the_Noon.jpg",
+            "title": "Jama Masjid, Delhi"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Jama_Masjid_-_In_the_Noon.jpg/1920px-Jama_Masjid_-_In_the_Noon.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Courtyard%2C_Jama_Masjid%2C_Delhi_%2801%29.jpg/1920px-Courtyard%2C_Jama_Masjid%2C_Delhi_%2801%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/21/Detail_of_the_arches_inside_Jama_Masjid%2C_Delhi.jpg"
+          ]
+        },
+        {
+          "id": "humayuns-tomb",
+          "name": "Humayun's Tomb",
+          "type": "Mausoleum",
+          "blurb": "The first great garden tomb of the Mughals — a red sandstone and marble landmark that taught India the Taj Mahal's grammar a century early.",
+          "rating": 4.7,
+          "entry": "₹35 (Indian) / ₹550 (Foreign)",
+          "open": "6 AM–6 PM daily",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The tomb across its water channels from the west gate at golden hour",
+          "history": "Begun in 1565 by Humayun's widow Bega Begum, nearly a decade after the emperor's death, it was the first structure in India to use the Persian charbagh tomb-garden at monumental scale. Its architect Mirak Mirza Ghiyas brought the double-dome technique from Herat, and when Shah Jahan's architects sought a model for the Taj Mahal a century later, this is what they studied.",
+          "architecture": "A 47-metre-high double dome of white marble crowns a red sandstone body with white inlay borders, raised on a vast terraced platform split by water channels. The tomb holds the emperor's cenotaph in a vaulted chamber of exactly-graded proportions, and the surrounding garden once held the tombs of an entire dynasty.",
+          "timeline": [
+            {
+              "y": 1565,
+              "label": "Bega Begum commissions the tomb."
+            },
+            {
+              "y": 1572,
+              "label": "The mausoleum is substantially complete."
+            },
+            {
+              "y": 1857,
+              "label": "The last Mughal emperor is captured here by British forces."
+            },
+            {
+              "y": 1993,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            },
+            {
+              "y": 2013,
+              "label": "A twelve-year restoration returns the gardens and fountains to working order."
+            }
+          ],
+          "facts": [
+            "It was the first garden-tomb on the Indian subcontinent.",
+            "The Taj Mahal's architects clearly studied its double dome and charbagh plan.",
+            "The restoration was the largest ever undertaken by the Aga Khan Trust."
+          ],
+          "hiddenGems": [
+            "Isa Khan's tomb in the same enclosure — an older, octagonal Lodi-era gem most visitors walk past",
+            "The barber's tomb on the plinth's southeast corner",
+            "Sundar Nursery next door, a restored Mughal-era garden complex"
+          ],
+          "food": [
+            "Lajpat Nagar market chaat, a short drive south",
+            "Nizamuddin's galouti kebabs near the dargah"
+          ],
+          "experiences": [
+            "Walking the restored water channels at golden hour",
+            "Finding Isa Khan's tomb first, before the main structure",
+            "Pairing the tomb with Sundar Nursery in one long morning"
+          ],
+          "travel": {
+            "railway": "Nizamuddin Railway Station, 2 km",
+            "airport": "Indira Gandhi Intl, ~18 km",
+            "parking": "At Sundar Nursery and on Mathura Road; the JLN Stadium Metro is 2 km",
+            "tip": "Enter at 6 AM opening — the light on the sandstone is at its best and the lawns are empty."
+          },
+          "lat": 28.5933,
+          "lng": 77.2507,
+          "themes": [
+            "mausoleum",
+            "unesco"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tomb_of_Humayun%2C_Delhi.jpg/1920px-Tomb_of_Humayun%2C_Delhi.jpg",
+            "title": "Humayun's tomb"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Humayun%27s_tomb",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tomb_of_Humayun%2C_Delhi.jpg/1920px-Tomb_of_Humayun%2C_Delhi.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/A_side_view_of_Humayun%27s_Tomb.jpg/1920px-A_side_view_of_Humayun%27s_Tomb.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Afsarwala_tomb_-_Landscape_view.JPG/1920px-Afsarwala_tomb_-_Landscape_view.JPG"
+          ]
+        },
+        {
+          "id": "qutub-minar",
+          "name": "Qutub Minar",
+          "type": "Minaret Complex",
+          "blurb": "A 73-metre sandstone minaret begun in 1193, ringed with calligraphy bands, standing in a compound that holds Delhi's oldest mosque and a rust-proof iron pillar sixteen centuries old.",
+          "rating": 4.6,
+          "entry": "₹35 (Indian) / ₹550 (Foreign)",
+          "open": "7 AM–5 PM daily",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (uneven compound paths)",
+          "bestPhoto": "The minar framed by the Quwwat-ul-Islam mosque arches",
+          "history": "Qutb-ud-din Aibak began the tower in 1193 to mark the establishment of the Delhi Sultanate — the first Muslim kingdom in north India — and his successor Iltutmish added three more storeys. Lightning and repairs altered the top over the centuries, and the compound's Quwwat-ul-Islam mosque was expanded by successive sultans, its pillars reused from dozens of demolished Hindu and Jain temples.",
+          "architecture": "Five tapering storeys, each ringed by projecting balconies on corbelled brackets, with bands of incised Arabic calligraphy running around every stage. The compound also holds the Alai Darwaza gatehouse — a masterpiece of early Islamic architecture in India — an incomplete second minar, and the almost unchanged Iron Pillar of the 4th century, standing in the mosque courtyard.",
+          "timeline": [
+            {
+              "y": 1193,
+              "label": "Aibak begins the minaret to mark the new Sultanate."
+            },
+            {
+              "y": 1220,
+              "label": "Iltutmish adds three more storeys."
+            },
+            {
+              "y": 1368,
+              "label": "Firoz Shah rebuilds the top after lightning damage."
+            },
+            {
+              "y": 1993,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "At 73 metres it was among the tallest towers on Earth when built.",
+            "The Iron Pillar has resisted rust for some 1,600 years — a metallurgical puzzle.",
+            "The Alai Minar next door was meant to be twice this height, but only its base was built."
+          ],
+          "hiddenGems": [
+            "The Alai Darwaza's carved dome ceiling, easy to miss in the corner of the compound",
+            "Graves of the madrasa in the northwest of the complex",
+            "Mehrauli Archaeological Park beyond the gate — centuries of ruins with almost no crowds"
+          ],
+          "food": [
+            "Mehrauli's kebabs and Mughlai fare near the entrance",
+            "Sohna Road cafés a short drive away for a sit-down meal"
+          ],
+          "experiences": [
+            "Reading the calligraphy bands storey by storey from the ground",
+            "Testing the Iron Pillar legend with your back to it, hands behind",
+            "An afternoon in Mehrauli Archaeological Park after the compound"
+          ],
+          "travel": {
+            "railway": "Hazrat Nizamuddin, 10 km; New Delhi, 14 km",
+            "airport": "Indira Gandhi Intl, ~13 km",
+            "parking": "Paid lot outside the entrance; the Qutub Minar Metro station is 2 km",
+            "tip": "Go early morning or late afternoon — the compound has no shade and midday light flattens the sandstone carvings."
+          },
+          "lat": 28.5245,
+          "lng": 77.1855,
+          "themes": [
+            "minaret",
+            "unesco"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Qutb_Minar_2022.jpg/1920px-Qutb_Minar_2022.jpg",
+            "title": "Qutb Minar"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Qutb_Minar",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Qutb_Minar_2022.jpg/1920px-Qutb_Minar_2022.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/2018_Qutub_Minar_New_Delhi.jpg/1920px-2018_Qutub_Minar_New_Delhi.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/05/Details_of_the_balcony%2C_Qutub_Minar.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

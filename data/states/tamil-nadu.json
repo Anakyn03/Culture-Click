@@ -1,0 +1,273 @@
+{
+  "id": "tamil-nadu",
+  "name": "Tamil Nadu",
+  "region": "South",
+  "tagline": "Land of Temples",
+  "unesco": true,
+  "blurb": "Dravidian temple towers rise like carved mountains over a coastline of granite shore temples and Chola-era bronze traditions still practiced today.",
+  "stats": {
+    "area": "130,058 km²",
+    "districts": "38",
+    "language": "Tamil",
+    "founded": "1969"
+  },
+  "culture": {
+    "dress": "Kanjeevaram silk saree",
+    "festivals": [
+      {
+        "name": "Pongal",
+        "month": "January"
+      },
+      {
+        "name": "Mahabalipuram Dance Festival",
+        "month": "December/January"
+      }
+    ],
+    "dance": [
+      "Bharatanatyam"
+    ],
+    "cuisine": [
+      "Chettinad cuisine",
+      "Filter coffee"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+    "title": "Shore Temple"
+  },
+  "districts": [
+    {
+      "id": "chengalpattu",
+      "name": "Mahabalipuram",
+      "blurb": "A 7th-century Pallava port town carved almost entirely from single rock outcrops.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+        "title": "Shore Temple"
+      },
+      "places": [
+        {
+          "id": "shore-temple",
+          "name": "Shore Temple",
+          "type": "Temple",
+          "blurb": "A granite temple standing directly against the Bay of Bengal surf, among the earliest structural (as opposed to rock-cut) temples in South India.",
+          "rating": 4.5,
+          "entry": "₹40 (Indian) / ₹600 (Foreign)",
+          "open": "6:00 AM – 6:00 PM",
+          "bestSeason": "Nov – Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Sunrise with the temple silhouetted against the sea",
+          "history": "Built under Pallava king Narasimhavarman II around 700 CE, the Shore Temple marks a shift from carving temples directly out of rock outcrops to constructing them from dressed stone blocks, a technique that would define later South Indian temple building.",
+          "architecture": "Two main towers face the sea and the mainland respectively, wrapped in a boundary wall of Nandi (bull) sculptures. Centuries of sea spray have softened much of the carved detail, giving the granite a weathered, almost dissolving quality.",
+          "timeline": [
+            {
+              "y": 700,
+              "label": "Constructed under Narasimhavarman II."
+            },
+            {
+              "y": 1984,
+              "label": "Inscribed as UNESCO World Heritage Site."
+            },
+            {
+              "y": 2004,
+              "label": "Tsunami exposes traces of submerged structures offshore."
+            }
+          ],
+          "facts": [
+            "Popularly linked to the legend of the \"Seven Pagodas\", six said to be submerged offshore.",
+            "Erosion from sea salt has worn much of its original carving smooth.",
+            "Built from granite rather than the sandstone common further north."
+          ],
+          "hiddenGems": [
+            "Pancha Rathas, five monolithic rock-cut chariots nearby",
+            "Krishna's Butterball, a giant balanced boulder in the village",
+            "Arjuna's Penance rock relief at dawn light"
+          ],
+          "food": [
+            "Fresh seafood shacks along the Mahabalipuram coast road",
+            "South Indian filter coffee at village tea stalls"
+          ],
+          "experiences": [
+            "Sunrise viewing with the temple silhouetted against the sea",
+            "Stone-carving workshop with local sculptor families",
+            "Coastal cycling route linking the major monuments"
+          ],
+          "travel": {
+            "railway": "Chengalpattu, 29 km",
+            "airport": "Chennai Intl (MAA), 58 km",
+            "parking": "At the site entrance",
+            "tip": "Visit at sunrise — by mid-morning the light flattens the carved detail and crowds build fast."
+          },
+          "lat": 12.6169,
+          "lng": 80.1926,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+            "title": "Shore Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shore_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+            "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fb/Shore_temple_2.JPG/1920px-Shore_temple_2.JPG",
+            "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/Shore_temple_3.JPG/1920px-Shore_temple_3.JPG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "madurai",
+      "name": "Madurai",
+      "blurb": "A temple city that has been continuously inhabited for over two millennia.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/1920px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+        "title": "Meenakshi Temple"
+      },
+      "places": [
+        {
+          "id": "meenakshi-temple",
+          "name": "Meenakshi Amman Temple",
+          "type": "Temple",
+          "blurb": "Fourteen gopurams rising over the centre of Madurai, the tallest over fifty metres, every surface of them crowded with painted sculpture.",
+          "rating": 4.8,
+          "entry": "Free (museum ₹50; camera permits as posted)",
+          "open": "5:00 AM – 12:30 PM, 4:00 PM – 10:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (no phones inside)",
+          "bestPhoto": "The south gopuram at first light, before the streets fill",
+          "history": "A temple has stood here since at least the 7th century, but the complex reached its present form under the Nayaka rulers — Tirumala Nayaka rebuilt much of it between 1623 and 1655 after earlier structures were damaged. The city itself grew as concentric squares around the shrine, so Madurai's street plan and the temple are the same design.",
+          "architecture": "The fullest expression of Dravidian temple architecture: a walled complex of about 14 acres with 14 gopurams, the tallest rising 51.9 metres. The Hall of a Thousand Pillars — actually 985 — is carved with figures so finely worked that the columns ring when struck, and the Porthamarai Kulam tank sits at its centre with the golden lotus.",
+          "timeline": [
+            {
+              "y": 1623,
+              "label": "Tirumala Nayaka begins the reconstruction of the complex."
+            },
+            {
+              "y": 1655,
+              "label": "The main reconstruction is substantially complete."
+            },
+            {
+              "y": 2008,
+              "label": "A restoration project is completed on the gopuram sculptures."
+            }
+          ],
+          "facts": [
+            "The city was laid out as concentric streets around the temple, and still follows that plan.",
+            "The Hall of a Thousand Pillars holds 985, not a thousand.",
+            "Phones and cameras are restricted inside — there are lockers at the entrances."
+          ],
+          "hiddenGems": [
+            "The Porthamarai Kulam tank at dawn, when the golden lotus catches first light",
+            "Thirumalai Nayakkar Mahal, a Nayaka palace with an acoustically remarkable domed hall",
+            "The flower market around the temple, busiest around 5 AM"
+          ],
+          "food": [
+            "Jigarthanda, Madurai's rose-and-almond cold drink",
+            "Kari dosa and idiyappam at a heritage mess near the temple"
+          ],
+          "experiences": [
+            "Attending the night ceremony when the deity is carried to Meenakshi's chamber",
+            "Walking the four concentric Prakaram streets around the temple",
+            "A dawn photography walk around the south gopuram"
+          ],
+          "travel": {
+            "railway": "Madurai Junction, 1.5 km",
+            "airport": "Madurai Intl (IXM), 12 km",
+            "parking": "Outside the temple zone; the inner streets are pedestrian",
+            "tip": "Enter by the east gate for the shortest approach from the bazaar, and note the midday closure — the temple shuts between 12:30 and 4 PM."
+          },
+          "lat": 9.9195,
+          "lng": 78.1193,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/1920px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+            "title": "Meenakshi Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Meenakshi_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/1920px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/3a/01MaduraiMeenakshiAmmanTemple%26IndoorCorridorView.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/73/1801_sketch_of_goddess_Meenakshi_and_her_shrine_in_the_Madurai_temple.jpg"
+          ]
+        },
+        {
+          "id": "thirumalai-nayakkar-mahal",
+          "name": "Thirumalai Nayakkar Mahal",
+          "type": "Palace",
+          "blurb": "The surviving courtyard of a 17th-century Nayaka palace whose domed hall was engineered so a whisper at one pillar could be heard clear across it.",
+          "rating": 4.3,
+          "entry": "₹50 (Indian) / ₹50 (Foreign)",
+          "open": "9 AM–5 PM (sound-and-light show in the evening)",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The arcaded courtyard and its corner domes from the entrance gallery",
+          "history": "Built in 1636 by Thirumalai Nayak, the king who also rebuilt the Meenakshi Temple, as the grandest palace in south India — an Italian traveller of the era ranked it alongside the greatest buildings of the world. What survives today is roughly a quarter of the original compound: the Svpastvasadam courtyard and the Natakasala dance hall, the rest quarried or built over by his successors and the British.",
+          "architecture": "A fusion of Dravidian and Islamic forms: massive cylindrical pillars joined by full-centred Indo-Saracenic arches, a 20-metre-high dome carried without visible support, and stucco work painted in vegetable dyes. The great hall's acoustic design carried a courtier's voice from the royal seat to the far gallery without a raised tone.",
+          "timeline": [
+            {
+              "y": 1636,
+              "label": "Thirumalai Nayak builds the palace as his capital seat."
+            },
+            {
+              "y": 1731,
+              "label": "Much of the palace is demolished by his grandson."
+            },
+            {
+              "y": 1866,
+              "label": "British restoration saves the remaining courtyard."
+            },
+            {
+              "y": 1971,
+              "label": "Further restoration readies the hall for visitors."
+            }
+          ],
+          "facts": [
+            "Only about a quarter of the original palace survives.",
+            "The courtyard is one of the largest in Asia at 75 by 52 metres.",
+            "Its dome was engineered with no visible supporting structure."
+          ],
+          "hiddenGems": [
+            "The evening sound-and-light show inside the courtyard",
+            "The stucco ceiling colours, best photographed before 10 AM",
+            "The Temple Art Museum in the adjacent hall"
+          ],
+          "food": [
+            "Jigarthanda from shops on West Masi Street",
+            "Madurai's bun parotta and kari dosa nearby"
+          ],
+          "experiences": [
+            "Testing the whisper-across-the-hall legend from opposite pillars",
+            "Catching the courtyard's light in the first hour after opening",
+            "Walking here from the Meenakshi Temple in one two-kilometre heritage loop"
+          ],
+          "travel": {
+            "railway": "Madurai Junction, 2 km",
+            "airport": "Madurai Intl (IXM), 12 km",
+            "parking": "Street parking on the palace's north side",
+            "tip": "Visit after the temple, not before — seeing the palace first makes the temple's scale harder to feel."
+          },
+          "lat": 9.9197,
+          "lng": 78.1145,
+          "themes": [
+            "palace"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Madurai_Nayak_Palace_Collage.jpg",
+            "title": "Thirumalai Nayakkar Mahal"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Thirumalai_Nayakkar_Mahal",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/87/Madurai_Nayak_Palace_Collage.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Entrance_to_Tirumal_Naicker_Palace.JPG/1920px-Entrance_to_Tirumal_Naicker_Palace.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/8/83/Ruins_of_Thirumalai_Nayak_palace_in_Madurai_%281%29.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

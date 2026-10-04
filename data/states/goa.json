@@ -1,0 +1,185 @@
+{
+  "id": "goa",
+  "name": "Goa",
+  "region": "West",
+  "tagline": "Where Coasts Meet Cultures",
+  "unesco": false,
+  "blurb": "Four and a half centuries of Portuguese rule left whitewashed churches and Indo-Portuguese mansions along a coastline of laterite forts and spice-scented villages.",
+  "stats": {
+    "area": "3,702 km²",
+    "districts": "2",
+    "language": "Konkani",
+    "founded": "1961 (liberation)"
+  },
+  "culture": {
+    "dress": "Kunbi saree",
+    "festivals": [
+      {
+        "name": "Carnival",
+        "month": "February"
+      },
+      {
+        "name": "Shigmo",
+        "month": "March"
+      }
+    ],
+    "dance": [
+      "Fugdi"
+    ],
+    "cuisine": [
+      "Fish Curry Rice",
+      "Bebinca"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Front_Elevation_of_Basilica_of_Bom_Jesus.jpg/1920px-Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+    "title": "Basilica of Bom Jesus"
+  },
+  "districts": [
+    {
+      "id": "north-goa",
+      "name": "North Goa",
+      "blurb": "Old Portuguese quarters, spice plantations and the state's liveliest coastline.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Front_Elevation_of_Basilica_of_Bom_Jesus.jpg/1920px-Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+        "title": "Basilica of Bom Jesus"
+      },
+      "places": [
+        {
+          "id": "basilica-bom-jesus",
+          "name": "Basilica of Bom Jesus",
+          "type": "Basilica",
+          "blurb": "A 1605 baroque basilica in Old Goa holding the silver casket of St Francis Xavier, its laterite walls left unplastered so the red stone shows.",
+          "rating": 4.7,
+          "entry": "Free",
+          "open": "9:00 AM – 6:30 PM (museum closed on some Sundays)",
+          "bestSeason": "Nov – Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The baroque façade in late-afternoon light, side-on from the forecourt",
+          "history": "Begun in 1594 and consecrated in 1605, the basilica is the best surviving example of baroque architecture in India and the only one of Old Goa's churches to be built in the shape it retains today without later rebuilding. The body of St Francis Xavier, the Jesuit missionary who died in 1552, was brought here in 1622 and lies in a silver casket presented by the Grand Duke of Tuscany; it is displayed on public view roughly every ten years.",
+          "architecture": "Laterite faced with lime plaster, deliberately left without the plaster on the upper storeys so the red stone is visible — a decision that has now become its signature. Inside, a gilded altar, a richly inlaid floor of precious stones, and the Basilica's most unusual detail: a baroque façade with no tower or steeple, because the planned belfry was never built.",
+          "timeline": [
+            {
+              "y": 1594,
+              "label": "Construction begins under Portuguese patronage."
+            },
+            {
+              "y": 1622,
+              "label": "The body of St Francis Xavier is installed in the basilica."
+            },
+            {
+              "y": 1986,
+              "label": "Inscribed as a UNESCO World Heritage Site with the churches of Old Goa."
+            }
+          ],
+          "facts": [
+            "Its façade has no tower — the planned belfry was never built.",
+            "St Francis Xavier's remains are displayed roughly once a decade.",
+            "Unlike most Goan churches, its laterite walls were never plastered over."
+          ],
+          "hiddenGems": [
+            "Se Cathedral across the road, the largest church in Asia",
+            "The Church of St Augustine's surviving ruined tower, a five-minute walk away",
+            "The Archaeological Museum in the Convent of St Francis of Assisi"
+          ],
+          "food": [
+            "Prawn balchao and sorpotel in Panjim's Latin Quarter",
+            "Bebinca, the layered coconut dessert, from a Panjim bakery"
+          ],
+          "experiences": [
+            "A walk through the whole Old Goa complex of churches and convents",
+            "The Feast of St Francis Xavier on 3 December",
+            "Crossing to Panjim by the river ferry rather than by road"
+          ],
+          "travel": {
+            "railway": "Karmali, 3 km; Thivim, 20 km",
+            "airport": "Dabolim (GOI), 30 km; Mopa (GOX), 40 km",
+            "parking": "Large lot at the Old Goa complex entrance",
+            "tip": "Pair it with Se Cathedral and the St Augustine ruins — all three sit within a ten-minute walk, and mornings are far cooler."
+          },
+          "lat": 15.5009,
+          "lng": 73.9116,
+          "themes": [
+            "basilica"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Front_Elevation_of_Basilica_of_Bom_Jesus.jpg/1920px-Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+            "title": "Basilica of Bom Jesus"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Basilica_of_Bom_Jesus",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Front_Elevation_of_Basilica_of_Bom_Jesus.jpg/1920px-Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Basilica_of_Bom_Jesus_and_vehicles_parked_infront.jpg/1920px-Basilica_of_Bom_Jesus_and_vehicles_parked_infront.jpg"
+          ]
+        },
+        {
+          "id": "fort-aguada",
+          "name": "Fort Aguada",
+          "type": "Fort",
+          "blurb": "A 1612 Portuguese bastion commanding the mouth of the Mandovi river, with a four-storey lighthouse that once guided ships in from the Arabian Sea.",
+          "rating": 4.4,
+          "entry": "₹50",
+          "open": "9:30 AM – 5:30 PM",
+          "bestSeason": "Nov – Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The lighthouse and the mouth of the Mandovi from the ramparts at sunset",
+          "history": "Built in 1612 to defend Portuguese Goa against the Dutch, Fort Aguada took its name from aguada — watering place — because a freshwater spring inside the walls let passing ships refill their casks without going ashore. It is the best-preserved of the Portuguese fortifications in Goa, and its lighthouse, added in 1864, was the first in Asia to use a lamp that rotated.",
+          "architecture": "A lower fort along the waterline and an upper fort on the headland, connected by a wall that once enclosed the whole promontory. The upper fort is a broad square of ramparts with a central reservoir and the Portuguese-era lighthouse; the lower fort's walls and a small chapel have survived into the present.",
+          "timeline": [
+            {
+              "y": 1612,
+              "label": "Construction completed to guard the Mandovi against Dutch attack."
+            },
+            {
+              "y": 1864,
+              "label": "The four-storey lighthouse is added within the fort walls."
+            }
+          ],
+          "facts": [
+            "Its name comes from a freshwater spring that let ships refill their barrels.",
+            "The lighthouse inside is among the oldest in Asia.",
+            "Portugal used the fort as a prison in the 20th century."
+          ],
+          "hiddenGems": [
+            "The lower fort's shoreline walls, usually empty of visitors",
+            "Sinquerim and Candolim beaches immediately below the ramparts",
+            "The hill-top road behind the fort for a panorama of the Mandovi mouth"
+          ],
+          "food": [
+            "Goan fish thali at a Candolim beach shack",
+            "Fresh kingfish rava fry in Sinquerim"
+          ],
+          "experiences": [
+            "Sunset from the ramparts, looking west along the coast",
+            "Walking down to the lower fort at low tide",
+            "Combining the fort with a Mandovi river cruise from Panjim"
+          ],
+          "travel": {
+            "railway": "Thivim, 22 km; Karmali, 15 km",
+            "airport": "Dabolim (GOI), 42 km; Mopa (GOX), 30 km",
+            "parking": "At the upper fort entrance",
+            "tip": "The fort closes at 5:30 PM sharp, so arrive by 4 PM with a sunset in mind — you cannot stay on the ramparts after closing."
+          },
+          "lat": 15.4917,
+          "lng": 73.7731,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fort_aguada.jpg",
+            "title": "Fort Aguada"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fort_Aguada",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fort_aguada.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Agoda_Goa_RajakumarDhaamodharan.jpg/1920px-Agoda_Goa_RajakumarDhaamodharan.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Aguada_Fort_%2C_Goa%2C_India.JPG/1920px-Aguada_Fort_%2C_Goa%2C_India.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "arunachal-pradesh",
+  "name": "Arunachal Pradesh",
+  "region": "Northeast",
+  "tagline": "Land of the Dawn-Lit Mountains",
+  "unesco": false,
+  "blurb": "India's easternmost state, a folded Himalayan landscape of Tibetan Buddhist monasteries, tribal villages and some of the country's least-visited high passes.",
+  "stats": {
+    "area": "83,743 km²",
+    "districts": "25",
+    "language": "Nyishi, Adi, and other tribal languages",
+    "founded": "1987"
+  },
+  "culture": {
+    "dress": "Traditional tribal handwoven shawls",
+    "festivals": [
+      {
+        "name": "Losar",
+        "month": "February/March"
+      },
+      {
+        "name": "Torgya Festival, Tawang",
+        "month": "January"
+      }
+    ],
+    "dance": [
+      "Cham mask dance"
+    ],
+    "cuisine": [
+      "Thukpa",
+      "Zan (millet porridge)",
+      "Bamboo-shoot dishes"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TawangMonastery.jpg/960px-TawangMonastery.jpg",
+    "title": "Tawang Monastery"
+  },
+  "districts": [
+    {
+      "id": "tawang",
+      "name": "Tawang",
+      "blurb": "A high Himalayan district on the edge of Tibet, centred on India's largest Buddhist monastery.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TawangMonastery.jpg/960px-TawangMonastery.jpg",
+        "title": "Tawang Monastery"
+      },
+      "places": [
+        {
+          "id": "tawang-monastery",
+          "name": "Tawang Monastery",
+          "type": "Monastery",
+          "blurb": "The largest monastery in India and second largest in the world after Lhasa's Potala Palace, founded in 1680 on a windswept ridge above the Tawang valley.",
+          "rating": 4.8,
+          "entry": "Free",
+          "open": "6 AM–6 PM",
+          "bestSeason": "Mar–Jun, Sep–Oct",
+          "budget": "Medium",
+          "difficulty": "Moderate–Hard (altitude, remote roads)",
+          "bestPhoto": "Morning light on the whitewashed walls with prayer flags",
+          "history": "Founded in 1680–81 by Merak Lama Lodre Gyatso, reputedly on a site chosen following the guidance of the 5th Dalai Lama, Tawang Monastery grew into the spiritual centre of Buddhism in the region and briefly sheltered the 14th Dalai Lama in 1959 as he crossed into exile.",
+          "architecture": "A fortress-like three-storey complex enclosing a large assembly hall, housing an 8-metre gilded Buddha statue and a substantial library of Buddhist scriptures, built in traditional Tibetan monastic style suited to the high-altitude climate.",
+          "timeline": [
+            {
+              "y": 1680,
+              "label": "Founded by Merak Lama Lodre Gyatso."
+            },
+            {
+              "y": 1959,
+              "label": "Provides brief refuge to the 14th Dalai Lama during his journey into exile."
+            }
+          ],
+          "facts": [
+            "Second-largest Tibetan Buddhist monastery in the world after Lhasa's Potala Palace.",
+            "Home to around 300 monks and a centuries-old scripture library.",
+            "Sits at an altitude of roughly 3,000 metres, often under snow in winter."
+          ],
+          "hiddenGems": [
+            "Pankang Teng Tso (Madhuri Lake) nearby",
+            "Urgelling Monastery, birthplace of the 6th Dalai Lama",
+            "Nuranang Falls en route from Tawang"
+          ],
+          "food": [
+            "Thukpa and momos at local Tawang eateries",
+            "Butter tea served in monastery guesthouses"
+          ],
+          "experiences": [
+            "Attending a monastic morning prayer session",
+            "Sela Pass crossing en route",
+            "Visiting the Tawang War Memorial nearby"
+          ],
+          "travel": {
+            "railway": "Tezpur, ~300 km (nearest broad-gauge)",
+            "airport": "Guwahati is the main air hub; Tawang has a small regional airport",
+            "parking": "At monastery entrance",
+            "tip": "Roads can close due to snow — check the Sela Pass status before travelling Oct–Mar."
+          },
+          "lat": 27.5859,
+          "lng": 91.8594,
+          "themes": [
+            "monastery"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg",
+            "title": "Tawang Monastery"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tawang_Monastery",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/fd/%22Gaden_Namgyal_Lhatse%22_%28Tibetan%29_was_consecrated_by_Tenzin_Gyatso%2C_the_14th_Dalai_Lama_of_Tibet_on_15_October_1997_detail%2C_from-_Tawang_Monastery_100_%2822%29_%28cropped%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f9/6DalaiLama.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

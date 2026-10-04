@@ -1,0 +1,117 @@
+{
+  "id": "uttarakhand",
+  "name": "Uttarakhand",
+  "region": "North",
+  "tagline": "Land of the Gods",
+  "unesco": false,
+  "blurb": "The high Himalayan headwaters of the Ganga, Uttarakhand's Char Dham pilgrimage circuit includes some of Hinduism's most physically demanding sacred sites.",
+  "stats": {
+    "area": "53,483 km²",
+    "districts": "13",
+    "language": "Hindi, Garhwali, Kumaoni",
+    "founded": "2000"
+  },
+  "culture": {
+    "dress": "Woollen Pichoras",
+    "festivals": [
+      {
+        "name": "Kumbh Mela, Haridwar (periodic)",
+        "month": "Varies"
+      },
+      {
+        "name": "Nanda Devi Raj Jat",
+        "month": "Every 12 years"
+      }
+    ],
+    "dance": [
+      "Langvir Nritya"
+    ],
+    "cuisine": [
+      "Kafuli",
+      "Bal Mithai",
+      "Aloo ke Gutke"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+    "title": "Kedarnath Temple"
+  },
+  "districts": [
+    {
+      "id": "rudraprayag",
+      "name": "Rudraprayag",
+      "blurb": "A mountainous district at the confluence of the Alaknanda and Mandakini rivers, gateway to Kedarnath.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+        "title": "Kedarnath Temple"
+      },
+      "places": [
+        {
+          "id": "kedarnath-temple",
+          "name": "Kedarnath Temple",
+          "type": "Temple",
+          "blurb": "One of the twelve Jyotirlingas, a stone temple at over 3,500 metres reachable only on foot, pony or helicopter, that famously survived the devastating 2013 floods largely intact.",
+          "rating": 4.8,
+          "entry": "Free",
+          "open": "Late Apr/May – Oct/Nov only (seasonal)",
+          "bestSeason": "May–Jun, Sep–Oct",
+          "budget": "Medium–High (helicopter option) / Low (trek)",
+          "difficulty": "Hard (high-altitude trek)",
+          "bestPhoto": "The temple against snow peaks in early morning light",
+          "history": "One of the twelve Jyotirlingas and part of the Char Dham pilgrimage circuit, the present stone temple is traditionally attributed to the 8th-century philosopher Adi Shankaracharya, built on a much older site of worship. The temple famously survived largely intact during the devastating 2013 Uttarakhand floods, when a large boulder is credited with diverting floodwaters around the main structure.",
+          "architecture": "A robust stone structure built from massive interlocked grey stone slabs, in a simple, sturdy style suited to its high-altitude Himalayan setting at over 3,500 metres, fronted by a large statue of Nandi the bull.",
+          "timeline": [
+            {
+              "y": 800,
+              "label": "Present stone temple built, traditionally attributed to Adi Shankaracharya."
+            },
+            {
+              "y": 2013,
+              "label": "Catastrophic Uttarakhand floods devastate the surrounding town; the temple structure itself survives largely intact."
+            }
+          ],
+          "facts": [
+            "One of the twelve Jyotirlingas and part of the Char Dham Yatra pilgrimage circuit.",
+            "Only accessible on foot or by helicopter — no road reaches the temple directly.",
+            "Closed for roughly six months each winter due to heavy snow, with the deity ceremonially moved to Ukhimath."
+          ],
+          "hiddenGems": [
+            "Vasuki Tal, a high-altitude lake beyond Kedarnath",
+            "Bhairavnath Temple, just above the main shrine",
+            "Gandhi Sarovar (Chorabari Tal), a short trek from the temple"
+          ],
+          "food": [
+            "Simple pilgrim-hall meals along the trek route",
+            "Hot ginger tea at trailside stalls"
+          ],
+          "experiences": [
+            "The roughly 16 km trek (or pony/helicopter) from Gaurikund",
+            "Sunrise viewing of the surrounding snow peaks",
+            "Visiting Bhairavnath Temple above the main shrine"
+          ],
+          "travel": {
+            "railway": "Rishikesh, ~215 km (nearest major station)",
+            "airport": "Dehradun (Jolly Grant), ~235 km",
+            "parking": "At Gaurikund, the trek starting point",
+            "tip": "Book helicopter tickets far in advance if you don't plan to trek — they sell out fast in peak season (May–Jun)."
+          },
+          "lat": 30.7346,
+          "lng": 79.0669,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+            "title": "Kedarnath Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kedarnath_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/ff/A_breathtaking_view_of_the_Kedarnath_Temple_during_the_2026_pilgrimage_season.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg/1920px-Badrinath_Temple_%2C_Uttarakhand.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

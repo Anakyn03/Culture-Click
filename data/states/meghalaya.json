@@ -1,0 +1,176 @@
+{
+  "id": "meghalaya",
+  "name": "Meghalaya",
+  "region": "Northeast",
+  "tagline": "Abode of Clouds",
+  "unesco": false,
+  "blurb": "The wettest place on Earth, where Khasi communities have grown living bridges from rubber-fig roots for over five centuries.",
+  "stats": {
+    "area": "22,429 km²",
+    "districts": "11",
+    "language": "Khasi, Garo",
+    "founded": "1972"
+  },
+  "culture": {
+    "dress": "Jainsem",
+    "festivals": [
+      {
+        "name": "Wangala Festival",
+        "month": "November"
+      },
+      {
+        "name": "Shad Suk Mynsiem",
+        "month": "April"
+      }
+    ],
+    "dance": [
+      "Wangala dance"
+    ],
+    "cuisine": [
+      "Jadoh",
+      "Tungrymbai"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg/1920px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg",
+    "title": "Living root bridge"
+  },
+  "districts": [
+    {
+      "id": "east-khasi",
+      "name": "East Khasi Hills",
+      "blurb": "Home to the double-decker living root bridges near Nongriat village.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg/1920px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg",
+        "title": "Living root bridge"
+      },
+      "places": [
+        {
+          "id": "root-bridge",
+          "name": "Double-Decker Living Root Bridge",
+          "type": "Living Structure",
+          "blurb": "A bridge of two stacked levels, grown over generations by training the aerial roots of rubber fig trees across a gorge in Nongriat village.",
+          "rating": 4.9,
+          "entry": "₹30 village fee",
+          "open": "Daylight hours",
+          "bestSeason": "Oct – Apr",
+          "budget": "Low",
+          "difficulty": "Hard (3,000+ steps)",
+          "bestPhoto": "Midday, when light reaches the gorge floor through the canopy",
+          "history": "War-Khasi communities began training Ficus elastica roots across streams centuries ago, guiding new growth through betel-nut trunk scaffolds until the roots fused into a load-bearing structure — a technique passed down orally between generations rather than recorded.",
+          "architecture": "Unlike built bridges, a living root bridge strengthens with age; some in the region are over 100 years old and still growing. The double-decker at Nongriat is the most famous example, its two tiers formed decades apart.",
+          "timeline": [
+            {
+              "y": 1840,
+              "label": "Estimated founding growth of the lower deck."
+            },
+            {
+              "y": 1890,
+              "label": "Upper deck trained above it."
+            }
+          ],
+          "facts": [
+            "Some root bridges can bear the weight of 50 people at once.",
+            "They require no maintenance beyond periodic root-guiding.",
+            "Reaching it involves a steep 3,000-plus-step descent and climb."
+          ],
+          "hiddenGems": [
+            "Rainbow Falls, a further 30-minute trek past the bridge",
+            "Village homestays in Nongriat run by Khasi families",
+            "Single-decker root bridges in nearby Riwai, an easier alternative"
+          ],
+          "food": [
+            "Jadoh (smoked pork rice) at village eateries",
+            "Fresh pineapple sold along the trail"
+          ],
+          "experiences": [
+            "Guided trek to the bridge and Rainbow Falls",
+            "Overnight homestay in Nongriat village",
+            "Swimming in the natural rock pools below the bridge"
+          ],
+          "travel": {
+            "railway": "Guwahati, 135 km (nearest major station)",
+            "airport": "Shillong Airport, 78 km",
+            "parking": "At Tyrna village, trailhead",
+            "tip": "Start the trek by 8 AM — the return climb is steep and best done before peak heat."
+          },
+          "lat": 25.25,
+          "lng": 91.65,
+          "themes": [
+            "living-structure"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg/1920px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg",
+            "title": "Living root bridge"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Living_root_bridge"
+        },
+        {
+          "id": "nohkalikai-falls",
+          "name": "Nohkalikai Falls",
+          "type": "Waterfall",
+          "blurb": "India's tallest plunge waterfall, dropping around 340 metres off the Cherrapunji plateau into a pool whose colour changes with the rain.",
+          "rating": 4.6,
+          "entry": "₹20 (entry and parking)",
+          "open": "7:00 AM – 6:00 PM",
+          "bestSeason": "Sep – May",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "In or just after the monsoon, when the plunge pool is at its turquoise brightest",
+          "history": "Named for Likai, a woman in a Khasi legend who jumped from the cliff in grief after a family tragedy; the pool below is said to be stained by it. The plateau behind it — Sohra, called Cherrapunji — is one of the wettest inhabited places on earth, and the fall is fed almost entirely by that rainfall, thinning to a thread in the dry months.",
+          "architecture": "Shaped entirely by water: the plateau is a limestone formation, and the falls drop over an escarpment where the rock has been undercut over millennia. The result is a plunge fall rather than a cascade, with a deep, almost circular pool at the base that sits a long way from the viewing platform — which is why it reads as a single unbroken column of water.",
+          "timeline": [
+            {
+              "y": 1898,
+              "label": "Recorded as the wettest place on earth at neighbouring Cherrapunji."
+            },
+            {
+              "y": 2000,
+              "label": "Becomes a road-accessible viewpoint from the Sohra plateau."
+            }
+          ],
+          "facts": [
+            "At roughly 340 metres it is India's tallest plunge waterfall.",
+            "Its pool shifts from blue to turquoise to green depending on rainfall.",
+            "In the driest months the flow can drop to a thin ribbon of water."
+          ],
+          "hiddenGems": [
+            "The Mawsmai and Arwah limestone caves between Sohra town and the falls",
+            "Nohsngithiang (Seven Sisters) Falls, best seen in the monsoon",
+            "The Sohra plateau trail down toward the living root bridge at Nongriat"
+          ],
+          "food": [
+            "Jadoh and dohkhlieh at a Sohra eatery",
+            "Local honey and Sohra tea from roadside stalls"
+          ],
+          "experiences": [
+            "Photographing the falls in the monsoon when the flow is heaviest",
+            "Caving at Mawsmai, just a short drive away",
+            "Combining the falls with Mawlynnong and Riwai's root bridges on a full-day loop"
+          ],
+          "travel": {
+            "railway": "Guwahati, 155 km (nearest major station)",
+            "airport": "Shillong Airport, 55 km",
+            "parking": "At the viewpoint entrance",
+            "tip": "Driving time from Shillong is short but the road climbs and winds — leave enough daylight for the return rather than the outbound."
+          },
+          "lat": 25.2775,
+          "lng": 91.71,
+          "themes": [
+            "waterfall"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NohKaLikai_Falls_V2_Wiki.jpg/1920px-NohKaLikai_Falls_V2_Wiki.jpg",
+            "title": "Nohkalikai Falls"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nohkalikai_Falls",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NohKaLikai_Falls_V2_Wiki.jpg/1920px-NohKaLikai_Falls_V2_Wiki.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nohkalikai_Falls.JPG/1920px-Nohkalikai_Falls.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/1920px-Nohkalikai_Falls_Cherrapunji.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

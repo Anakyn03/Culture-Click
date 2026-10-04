@@ -1,0 +1,120 @@
+{
+  "id": "andaman-nicobar",
+  "name": "Andaman and Nicobar Islands",
+  "region": "Island",
+  "tagline": "Emerald Isles",
+  "unesco": false,
+  "blurb": "A remote archipelago of coral reefs and rainforest, carrying both a difficult colonial-era prison history and some of India's clearest waters.",
+  "stats": {
+    "area": "8,249 km²",
+    "districts": "3",
+    "language": "Hindi, Bengali, Tamil, Nicobarese",
+    "founded": "1956"
+  },
+  "culture": {
+    "dress": "Casual coastal wear",
+    "festivals": [
+      {
+        "name": "Island Tourism Festival",
+        "month": "December/January"
+      }
+    ],
+    "dance": [
+      "Nicobarese folk dance"
+    ],
+    "cuisine": [
+      "Fresh seafood curries",
+      "Coconut-based Andamanese dishes"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+    "title": "Cellular Jail"
+  },
+  "districts": [
+    {
+      "id": "south-andaman",
+      "name": "South Andaman",
+      "blurb": "The administrative heart of the islands, centred on Port Blair.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+        "title": "Cellular Jail"
+      },
+      "places": [
+        {
+          "id": "cellular-jail",
+          "name": "Cellular Jail",
+          "type": "Colonial Prison",
+          "blurb": "A former British colonial prison for political prisoners, its solitary-cell design so isolating that transportation here was known as \"Kala Pani\" — the black water.",
+          "rating": 4.5,
+          "entry": "₹30 (Indian) / ₹500 (Foreign)",
+          "open": "9 AM–12:30 PM, 1:30–4:45 PM (closed Mondays)",
+          "bestSeason": "Nov–Apr",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The central watchtower and surviving wing at sunset",
+          "history": "Built by the British colonial administration between 1896 and 1906 as a high-security prison for political prisoners and freedom fighters, its solitary-cell design earning it the nickname \"Kala Pani\" for the dread it inspired. Many prominent Indian independence activists, including Veer Savarkar, were imprisoned here.",
+          "architecture": "Originally built as a seven-wing structure radiating from a central watchtower (three wings survive today), designed so cells faced away from each other, enforcing total isolation between prisoners.",
+          "timeline": [
+            {
+              "y": 1896,
+              "label": "Construction begins under British colonial administration."
+            },
+            {
+              "y": 1906,
+              "label": "Prison completed with 693 solitary cells."
+            },
+            {
+              "y": 1942,
+              "label": "Japanese forces occupy the Andaman Islands during WWII, briefly controlling the jail."
+            },
+            {
+              "y": 1979,
+              "label": "Declared a national memorial."
+            }
+          ],
+          "facts": [
+            "Originally had seven radiating wings; only three survive today.",
+            "Its nickname \"Kala Pani\" reflected the isolation and dread associated with transportation here.",
+            "Hosts a nightly sound-and-light show recounting its history."
+          ],
+          "hiddenGems": [
+            "Chatham Saw Mill, one of Asia's oldest and largest, nearby",
+            "Corbyn's Cove Beach, a short drive from Port Blair",
+            "Ross Island (Netaji Subhas Chandra Bose Dweep) ruins across the harbour"
+          ],
+          "food": [
+            "Fresh seafood thalis around Port Blair",
+            "Coconut-based Andamanese curries"
+          ],
+          "experiences": [
+            "Evening sound-and-light show at the jail",
+            "Ferry trip to Ross Island ruins",
+            "Snorkelling day trip to nearby reefs"
+          ],
+          "travel": {
+            "railway": "No rail on the islands",
+            "airport": "Veer Savarkar Intl, Port Blair, 4 km",
+            "parking": "At the jail complex",
+            "tip": "Book the evening sound-and-light show ahead — it sells out in peak tourist season (Dec–Jan)."
+          },
+          "lat": 11.6759,
+          "lng": 92.75,
+          "themes": [
+            "colonial-prison"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+            "title": "Cellular Jail"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cellular_Jail",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_Cell.JPG/1920px-A_Cell.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/A_model_of_Cellular_Jail_at_Cellular_Jail.jpg/1920px-A_model_of_Cellular_Jail_at_Cellular_Jail.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

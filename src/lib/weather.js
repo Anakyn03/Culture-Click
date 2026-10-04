@@ -16,13 +16,34 @@ export function describeWeatherCode(code) {
   return WMO_CODES[code] || ['—', '🌡️'];
 }
 
+// Small in-memory cache: navigating between places re-mounts this component, and without
+// caching each remount re-fetches identical coordinates. 10 minutes keeps it "live enough"
+// while making back-and-forth navigation instant and quota-friendly.
+const CACHE_TTL = 10 * 60 * 1000;
+const weatherCache = new Map(); // "lat,lng" -> { data, timestamp }
+
+// In-flight deduplication: callers asking for the same coords while a request is still out
+// share that one request. Callers must not cancel it — see WeatherWidget.
+const inFlight = new Map();
+
 /**
  * Fetches current conditions + a short daily forecast for a lat/lng.
  * Returns null on any failure — callers should treat that as "weather unavailable" and hide
  * the widget rather than showing an error, since this is a nice-to-have, not core content.
  */
-export async function fetchWeather(lat, lng, { signal } = {}) {
+export async function fetchWeather(lat, lng) {
   if (typeof lat !== 'number' || typeof lng !== 'number') return null;
+
+  const cacheKey = `${lat},${lng}`;
+  const cached = weatherCache.get(cacheKey);
+  if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
+    return cached.data;
+  }
+
+  if (inFlight.has(cacheKey)) {
+    return inFlight.get(cacheKey);
+  }
+
   const params = new URLSearchParams({
     latitude: lat,
     longitude: lng,
@@ -31,25 +52,41 @@ export async function fetchWeather(lat, lng, { signal } = {}) {
     timezone: 'auto',
     forecast_days: '5',
   });
-  try {
-    const res = await fetch(`https://api.open-meteo.com/v1/forecast?${params}`, { signal });
-    if (!res.ok) return null;
-    const data = await res.json();
-    return {
-      current: {
-        temp: Math.round(data.current.temperature_2m),
-        code: data.current.weather_code,
-        humidity: data.current.relative_humidity_2m,
-        wind: Math.round(data.current.wind_speed_10m),
-      },
-      daily: data.daily.time.map((date, i) => ({
-        date,
-        max: Math.round(data.daily.temperature_2m_max[i]),
-        min: Math.round(data.daily.temperature_2m_min[i]),
-        code: data.daily.weather_code[i],
-      })),
-    };
-  } catch {
-    return null; // network error, aborted request, etc. — fail silently, it's a nice-to-have
-  }
+
+  const promise = (async () => {
+    try {
+      const res = await fetch(`https://api.open-meteo.com/v1/forecast?${params}`);
+      if (!res.ok) return null;
+      const data = await res.json();
+
+      // Defensive shape check — a malformed/aborted payload should read as
+      // "unavailable" rather than throwing inside a caller's .then.
+      if (!data?.current || !data?.daily?.time) return null;
+
+      const result = {
+        current: {
+          temp: Math.round(data.current.temperature_2m),
+          code: data.current.weather_code,
+          humidity: data.current.relative_humidity_2m,
+          wind: Math.round(data.current.wind_speed_10m),
+        },
+        daily: data.daily.time.map((date, i) => ({
+          date,
+          max: Math.round(data.daily.temperature_2m_max[i]),
+          min: Math.round(data.daily.temperature_2m_min[i]),
+          code: data.daily.weather_code[i],
+        })),
+      };
+
+      weatherCache.set(cacheKey, { data: result, timestamp: Date.now() });
+      return result;
+    } catch {
+      return null; // network error, bad JSON — fail silently, it's a nice-to-have
+    } finally {
+      inFlight.delete(cacheKey);
+    }
+  })();
+
+  inFlight.set(cacheKey, promise);
+  return promise;
 }

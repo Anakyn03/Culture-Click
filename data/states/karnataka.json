@@ -1,0 +1,342 @@
+{
+  "id": "karnataka",
+  "name": "Karnataka",
+  "region": "South",
+  "tagline": "Empire in Ruins",
+  "unesco": true,
+  "blurb": "Home to Hampi's boulder-strewn ruins, Mysuru's palace grandeur, and Bengaluru's restless modern energy — old and new in constant conversation.",
+  "stats": {
+    "area": "191,791 km²",
+    "districts": "31",
+    "language": "Kannada",
+    "founded": "1956"
+  },
+  "culture": {
+    "dress": "Ilkal sarees, mysore peta turban",
+    "festivals": [
+      {
+        "name": "Mysuru Dasara",
+        "month": "September/October"
+      },
+      {
+        "name": "Hampi Utsav",
+        "month": "November"
+      }
+    ],
+    "dance": [
+      "Yakshagana"
+    ],
+    "cuisine": [
+      "Bisi Bele Bath",
+      "Mysore Pak"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+    "title": "Virupaksha Temple, Hampi"
+  },
+  "districts": [
+    {
+      "id": "ballari",
+      "name": "Hampi (Ballari)",
+      "blurb": "Boulder-strewn capital of the once-mighty Vijayanagara Empire.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+        "title": "Virupaksha Temple, Hampi"
+      },
+      "places": [
+        {
+          "id": "virupaksha",
+          "name": "Virupaksha Temple, Hampi",
+          "type": "Temple",
+          "blurb": "A still-active temple complex at the heart of the ruined Vijayanagara Empire capital, its gopuram rising nine tiers above the Tungabhadra plain.",
+          "rating": 4.6,
+          "entry": "Free (camera fee applicable)",
+          "open": "6:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+          "bestSeason": "Oct – Feb",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (site is spread out)",
+          "bestPhoto": "Sunrise from Matanga Hill overlooking the gopuram",
+          "history": "Predating the Vijayanagara Empire itself, the core shrine has been in continuous worship since at least the 7th century, later expanded dramatically under Vijayanagara rulers in the 15th and 16th centuries into the empire's ceremonial and spiritual centre, before the city was sacked in 1565.",
+          "architecture": "The 50-metre eastern gopuram dominates the boulder landscape, built in tiers of diminishing stucco figures. A pinhole in the inner chamber projects an inverted shadow of the tower onto an inner wall — an early camera obscura, whether by design or accident.",
+          "timeline": [
+            {
+              "y": 650,
+              "label": "Earliest shrine on the site."
+            },
+            {
+              "y": 1500,
+              "label": "Major expansion under Vijayanagara kings."
+            },
+            {
+              "y": 1565,
+              "label": "City sacked after the Battle of Talikota; temple survives."
+            }
+          ],
+          "facts": [
+            "Remains an active site of worship despite the ruins surrounding it.",
+            "Its gopuram casts a natural inverted image inside a dark chamber.",
+            "Part of the UNESCO Group of Monuments at Hampi."
+          ],
+          "hiddenGems": [
+            "Sunrise from Matanga Hill above the temple",
+            "Hemakuta Hill's pre-Vijayanagara shrines, usually empty at dawn",
+            "Coracle ride across the Tungabhadra to Anegundi village"
+          ],
+          "food": [
+            "Banana plantation thalis near Hampi Bazaar",
+            "Fresh sugarcane juice along the bazaar street"
+          ],
+          "experiences": [
+            "Bicycle tour of the wider ruins field",
+            "Coracle river crossing",
+            "Boulder-hopping to Sanapur Lake at sunset"
+          ],
+          "travel": {
+            "railway": "Hospet Junction, 13 km",
+            "airport": "Hubli Airport, 143 km",
+            "parking": "At Hampi Bazaar",
+            "tip": "Rent a bicycle — the ruins are spread over 4 sq. km, too far to cover on foot."
+          },
+          "lat": 15.335,
+          "lng": 76.46,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+            "title": "Virupaksha Temple, Hampi"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/004_Virupaksha_Temple_surrounding.jpg/1920px-004_Virupaksha_Temple_surrounding.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Complex_of_Virupaksha_Temple%2C_Hampi_%2803%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2803%29.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mysuru",
+      "name": "Mysuru",
+      "blurb": "The Wadiyar capital, its palace glowing with ninety-six thousand bulbs on festival nights.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg",
+        "title": "Mysore Palace"
+      },
+      "places": [
+        {
+          "id": "mysore-palace",
+          "name": "Mysore Palace",
+          "type": "Palace",
+          "blurb": "The seat of the Wadiyar dynasty and India's most-visited palace after the Taj — an Indo-Saracenic fantasia of domes, stained glass and rosewood doors.",
+          "rating": 4.8,
+          "entry": "₹70 (adults); extra for the residential museum",
+          "open": "10:00 AM – 5:30 PM",
+          "bestSeason": "Oct – Mar; Dasara in Sep/Oct is the spectacle",
+          "budget": "Low",
+          "difficulty": "Easy (no shoes inside the residential block)",
+          "bestPhoto": "The east façade at dusk on a Sunday, lit by 96,000 bulbs",
+          "history": "The fourth palace on the site. The Wadiyars ruled Mysore from the 14th century, with interruptions — most famously a brief return to power under Tipu Sultan's father Hyderabad Ali and Tipu's own reign at Srirangapatna. The present structure was commissioned after the wooden palace burned in 1897, designed by the English architect Henry Irwin under Krishnaraja Wadiyar IV and completed in 1912.",
+          "architecture": "Indo-Saracenic, a deliberate blend of Hindu, Mughal, Rajput and Gothic elements: a three-storey elevation in grey granite with domes in pink, an ornate 145-foot central tower with a gold-plated finial, and interiors of carved rosewood, stained glass and Belgian chandeliers. The Durbar Hall holds the golden throne used during Dasara, when the palace is lit by 96,000 bulbs every evening of the festival.",
+          "timeline": [
+            {
+              "y": 1897,
+              "label": "The wooden palace burns down during a wedding celebration."
+            },
+            {
+              "y": 1912,
+              "label": "The present palace, designed by Henry Irwin, is completed."
+            },
+            {
+              "y": 1974,
+              "label": "The palace opens to the public."
+            }
+          ],
+          "facts": [
+            "It is largely a reconstruction — the original wooden palace burned in 1897.",
+            "The palace is illuminated by roughly 96,000 bulbs every Sunday evening and throughout Dasara.",
+            "Its Durbar Hall contains one of India's largest indoor spaces without a central column."
+          ],
+          "hiddenGems": [
+            "Chamundi Hill at dawn, with its 1,000-step climb and the Nandi monolith",
+            "The Devaraja Market for kumkum, sandalwood and old Mysore produce",
+            "Brindavan Gardens at Srirangapatna, forty minutes away"
+          ],
+          "food": [
+            "Mysore pak from a Guru Sweets counter, ideally still warm",
+            "Mysore masala dosa at a Devaraja Market café"
+          ],
+          "experiences": [
+            "Seeing the palace illuminated on a Sunday evening",
+            "The Dasara procession in September or October",
+            "Sandalwood carving and silk-weaving workshops in the old city"
+          ],
+          "travel": {
+            "railway": "Mysuru City Junction, 2 km",
+            "airport": "Mysuru Airport, 12 km; Bengaluru, 145 km",
+            "parking": "Paid lots around the palace north gate",
+            "tip": "Photography is not allowed inside, and shoes come off before the residential section — wear socks or carry easily-removed footwear."
+          },
+          "lat": 12.3051,
+          "lng": 76.6551,
+          "themes": [
+            "palace"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg",
+            "title": "Mysore Palace"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mysore_Palace",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/A_Courtyard_of_Amba_Vilas_Palace_%28Mysuru_Palace%29%2C_during_day.jpg/1920px-A_Courtyard_of_Amba_Vilas_Palace_%28Mysuru_Palace%29%2C_during_day.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/A_very_well_lit_Durbar_Hall_%28ceremonial_meeting_hall_of_the_royal_court%29_of_Amba_Vilas_Palace_%28Mysuru_Palace%29%2C_during_day.jpg/1920px-A_very_well_lit_Durbar_Hall_%28ceremonial_meeting_hall_of_the_royal_court%29_of_Amba_Vilas_Palace_%28Mysuru_Palace%29%2C_during_day.jpg"
+          ]
+        },
+        {
+          "id": "somnathpura-temple",
+          "name": "Chennakesava Temple, Somnathpura",
+          "type": "Temple",
+          "blurb": "A complete Hoysala-era temple finished in 1268 — a star-shaped jewel of soapstone carved so densely it reads like a stone encyclopedia of the Ramayana.",
+          "rating": 4.6,
+          "entry": "₹25 (Indian) / ₹25 (Foreign)",
+          "open": "9 AM–5:30 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The star-shaped temple from the northeast corner at mid-morning",
+          "history": "Built in 1268 under Somnatha, a general of Hoysala king Narasimha III, the temple is the finest surviving complete Hoysala monument — a trikuta (three-shrine) structure consecrated to Keshava, with Janardana and Venugopala shrines alongside. It survived the Deccan's later wars largely intact, and was among the first Hoysala monuments inscribed by UNESCO.",
+          "architecture": "Raised on a star-shaped jagati platform, the temple's every exterior wall band is carved: elephants, horses,scrolls, scenes from the Ramayana, Mahabharata and Bhagavata stacked in continuous friezes. The soapstone was carved after cutting — soft when quarried, it hardened in place and holds detail a granite would not.",
+          "timeline": [
+            {
+              "y": 1268,
+              "label": "The temple is completed under Somnatha's patronage."
+            },
+            {
+              "y": 1565,
+              "label": "It escapes serious damage as the empire's centre shifts."
+            },
+            {
+              "y": 1917,
+              "label": "The Mysore Archaeological Department begins conservation."
+            },
+            {
+              "y": 2023,
+              "label": "Inscribed as a UNESCO World Heritage Site with other Hoysala temples."
+            }
+          ],
+          "facts": [
+            "Sixteen-pointed star plan — the walls are never flat, so light moves on them all day.",
+            "The Ramayana frieze alone runs more than sixty carved panels.",
+            "The ceiling's central dome is carved as a fully open lotus."
+          ],
+          "hiddenGems": [
+            "The Ramayana panels along the west wall, readable like a comic strip",
+            "The shadow play on the star-shaped walls between 8 and 10 AM",
+            "The small village's morning market a walk away"
+          ],
+          "food": [
+            "Kannadiga thali in Mysuru on the drive out",
+            "Filter coffee at the temple's tea stall"
+          ],
+          "experiences": [
+            "Tracing one frieze band all the way around the temple",
+            "Photographing the soapstone's shadow geometry in early light",
+            "Combining with Srirangapatna on the same Mysuru day-trip loop"
+          ],
+          "travel": {
+            "railway": "Mysuru City Junction, 38 km",
+            "airport": "Mysuru Airport, 45 km; Bengaluru, 190 km",
+            "parking": "Open ground beside the temple",
+            "tip": "It is a small village temple — carry water, and go early or late for the light on the carved bands."
+          },
+          "lat": 12.2512,
+          "lng": 76.9915,
+          "themes": [
+            "temple",
+            "unesco"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chennakesava_Temple%2C_Somanathapura.jpg/1920px-Chennakesava_Temple%2C_Somanathapura.jpg",
+            "title": "Chennakesava Temple, Somnathpura"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chennakesava_Temple,_Somanathapura"
+        },
+        {
+          "id": "srirangapatna-fort",
+          "name": "Srirangapatna",
+          "type": "Island Fortress Town",
+          "blurb": "Tipu Sultan's island capital — a river-wrapped town of the Ranganathaswamy temple, his summer palace, and the water gate where he fell fighting the British in 1799.",
+          "rating": 4.4,
+          "entry": "Free (Dariya Daulat ₹25; many monuments ticketed separately)",
+          "open": "Dawn–dusk; Dariya Daulat 9 AM–5:30 PM",
+          "bestSeason": "Oct–Feb",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (spread across the island)",
+          "bestPhoto": "Dariya Daulat's painted teak walls with the Cauvery behind",
+          "history": "The Cauvery wraps this island town on three sides, which is why the Mysore Wodeyars and then Tipu Sultan made it their capital. Tipu fortified it heavily, fought four wars against the British from here, and died at the Water Gate in May 1799 when the final siege broke through — the moment that ended Mysore's independence and made the East India Company the dominant power in south India.",
+          "architecture": "The Ranganathaswamy Temple anchors the island with a nine-tiered gopuram and Hoysala-era origins. Tipu's Dariya Daulat summer palace is a rectangular teak structure entirely painted inside and out with floral panels and battle scenes — among the finest surviving painted walls in India. Fort walls, bastions and the famous Water Gate still ring the town.",
+          "timeline": [
+            {
+              "y": 1454,
+              "label": "A Vijayanagara viceroy establishes the town's fort."
+            },
+            {
+              "y": 1782,
+              "label": "Tipu Sultan succeeds his father and rules from the island."
+            },
+            {
+              "y": 1799,
+              "label": "The Fourth Anglo-Mysore War ends at the Water Gate."
+            },
+            {
+              "y": 1799,
+              "label": "The Wodeyars are restored under British supervision."
+            }
+          ],
+          "facts": [
+            "Tipu's rocket corps here fielded some of the first iron-cased military rockets.",
+            "Dariya Daulat's teak walls are painted on every surface, inside and out.",
+            "Tipu's grave — the Gumbaz — is in the island's Persian-style garden."
+          ],
+          "hiddenGems": [
+            "Gumbaz, the ivory-topped mausoleum of Tipu and his father, in a garden of cypress",
+            "The Garrison Cemetery, where British officers of 1799 lie under old trees",
+            "Sangam, the river confluence at the island's western tip"
+          ],
+          "food": [
+            "Mysuru-style dosas at the highway stalls on the Bengaluru road",
+            "Rasam and thali at the temple-town canteens"
+          ],
+          "experiences": [
+            "Standing at the Water Gate where the 1799 siege broke",
+            "Reading the battle scenes painted on Dariya Daulat's walls",
+            "Biking the island's fort circuit in the early morning"
+          ],
+          "travel": {
+            "railway": "Srirangapatna station, on the Mysuru–Bengaluru line",
+            "airport": "Mysuru Airport, 20 km; Bengaluru, 130 km",
+            "parking": "Near Dariya Daulat and the temple; the island is easy to walk or cycle",
+            "tip": "Give the island half a day at least — the monuments are spread out, and the Gumbaz deserves the detour."
+          },
+          "lat": 12.4154,
+          "lng": 76.6945,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gopuram_of_the_Ranganathaswamy_Temple%2C_Srirangapatna_Karnataka_India.jpg/1920px-Gopuram_of_the_Ranganathaswamy_Temple%2C_Srirangapatna_Karnataka_India.jpg",
+            "title": "Srirangapatna"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Srirangapatna",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gopuram_of_the_Ranganathaswamy_Temple%2C_Srirangapatna_Karnataka_India.jpg/1920px-Gopuram_of_the_Ranganathaswamy_Temple%2C_Srirangapatna_Karnataka_India.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Anjeneya_temple._Wellesley_Bridge.jpg/1920px-Anjeneya_temple._Wellesley_Bridge.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Colonel_Bailey%27s_Dungeon%2C_Srirangapatna_-_Top.jpg/1920px-Colonel_Bailey%27s_Dungeon%2C_Srirangapatna_-_Top.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

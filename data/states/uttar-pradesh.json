@@ -1,0 +1,343 @@
+{
+  "id": "uttar-pradesh",
+  "name": "Uttar Pradesh",
+  "region": "North",
+  "tagline": "Heartland of Empires",
+  "unesco": true,
+  "blurb": "From Mughal marble to the ghats of the Ganga, Uttar Pradesh holds the layered memory of sultanates, empires and the sacred, side by side.",
+  "stats": {
+    "area": "240,928 km²",
+    "districts": "75",
+    "language": "Hindi, Urdu",
+    "founded": "1950"
+  },
+  "culture": {
+    "dress": "Chikankari kurtas, Banarasi silk sarees",
+    "festivals": [
+      {
+        "name": "Ganga Aarti, Varanasi",
+        "month": "Daily"
+      },
+      {
+        "name": "Ram Navami, Ayodhya",
+        "month": "April"
+      },
+      {
+        "name": "Taj Mahotsav, Agra",
+        "month": "February"
+      }
+    ],
+    "dance": [
+      "Kathak"
+    ],
+    "cuisine": [
+      "Tunday Kababi",
+      "Petha",
+      "Banarasi Paan"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+    "title": "Taj Mahal"
+  },
+  "districts": [
+    {
+      "id": "agra",
+      "name": "Agra",
+      "blurb": "Mughal capital turned marble monument to love and empire.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+        "title": "Taj Mahal"
+      },
+      "places": [
+        {
+          "id": "taj-mahal",
+          "name": "Taj Mahal",
+          "type": "Mausoleum",
+          "blurb": "An ivory-white marble mausoleum built by Emperor Shah Jahan for his wife Mumtaz Mahal — the definitive symbol of Mughal architecture.",
+          "rating": 4.8,
+          "entry": "₹50 (Indian) / ₹1300 (Foreign)",
+          "open": "Sunrise – Sunset (closed Fridays)",
+          "bestSeason": "Oct – Mar",
+          "budget": "High (foreign entry)",
+          "difficulty": "Easy",
+          "bestPhoto": "Sunrise from the eastern gate, or Mehtab Bagh across the river",
+          "history": "Construction began in 1632 after the death of Mumtaz Mahal during childbirth, and continued for roughly two decades under a workforce said to number 20,000. Shah Jahan later spent his final years imprisoned by his son Aurangzeb in Agra Fort, from where, legend holds, he could only gaze at the tomb across the river.",
+          "architecture": "The complex follows strict Mughal charbagh symmetry: a reflecting pool, four minarets tilted slightly outward for stability, and a central dome that appears to change colour with the light — blush at dawn, blinding white at noon, golden at dusk. Pietra dura inlay of semi-precious stone forms floral motifs across the marble.",
+          "timeline": [
+            {
+              "y": 1631,
+              "label": "Death of Mumtaz Mahal."
+            },
+            {
+              "y": 1632,
+              "label": "Construction begins on the Yamuna riverbank."
+            },
+            {
+              "y": 1653,
+              "label": "Mausoleum substantially complete."
+            },
+            {
+              "y": 1983,
+              "label": "Declared a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "The four minarets lean fractionally outward so they would fall away from the tomb in an earthquake.",
+            "No two flowers in the inlay work are exactly alike.",
+            "It appears to shift colour through the day depending on the light."
+          ],
+          "hiddenGems": [
+            "Mehtab Bagh garden across the river for the classic reflected view",
+            "Agra Fort's Musamman Burj, Shah Jahan's final view of the Taj",
+            "Kinari Bazaar for marble inlay craft"
+          ],
+          "food": [
+            "Petha (translucent sweet) from Panchhi Petha",
+            "Mughlai-style bedai and jalebi for breakfast"
+          ],
+          "experiences": [
+            "Sunrise viewing from the eastern gate",
+            "Marble inlay workshop with local artisans",
+            "Heritage walk through Agra Fort"
+          ],
+          "travel": {
+            "railway": "Agra Cantt, 6 km",
+            "airport": "Agra Airport, 13 km",
+            "parking": "Electric shuttle only near monument",
+            "tip": "Book the first entry slot — light and crowds are both kindest at sunrise."
+          },
+          "lat": 27.1751,
+          "lng": 78.0421,
+          "themes": [
+            "mausoleum"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+            "title": "Taj Mahal"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Taj_Mahal_Mosque%2C_Agra.jpg/1920px-Taj_Mahal_Mosque%2C_Agra.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Agra-Taj_Mahal-38-Inkrustation-2018-gje.jpg/1920px-Agra-Taj_Mahal-38-Inkrustation-2018-gje.jpg"
+          ]
+        },
+        {
+          "id": "agra-fort",
+          "name": "Agra Fort",
+          "type": "Fort",
+          "blurb": "A walled Mughal city of red sandstone almost two kilometres around, from whose marble tower Shah Jahan spent his last years gazing at the tomb he had built.",
+          "rating": 4.7,
+          "entry": "₹50 (Indian) / ₹650 (Foreign)",
+          "open": "Sunrise – Sunset",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low–Medium",
+          "difficulty": "Easy",
+          "bestPhoto": "The Musamman Burj at sunset, looking across the river to the Taj",
+          "history": "Commissioned by Emperor Akbar in 1565 and substantially complete by 1573, Agra Fort was built over an earlier Rajput fortification and served as the principal residence of the Mughal emperors until the capital moved to Delhi. It became a gilded prison when Aurangzeb deposed his father: Shah Jahan was confined here from 1658 until his death in 1666, and it is from the Musamman Burj that he could see the Taj Mahal downriver.",
+          "architecture": "Roughly 2.5 km of double walls in red sandstone, rising 21 metres in places, with a moat on the outer face. Inside, Akbar's own buildings are muscular and red; the later additions of Jahangir and Shah Jahan turn to white marble with pietra dura inlay. Jahangir's Palace, the Diwan-i-Aam, the Diwan-i-Khas and the mirror-lined Sheesh Mahal all sit within the same enclosure.",
+          "timeline": [
+            {
+              "y": 1565,
+              "label": "Akbar commissions the fort on the site of an older Rajput structure."
+            },
+            {
+              "y": 1658,
+              "label": "Shah Jahan is imprisoned here by his son Aurangzeb."
+            },
+            {
+              "y": 1983,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Shah Jahan died here in 1666, having spent eight years imprisoned within its walls.",
+            "The fort contains a whole city — palaces, mosques, gardens and audience halls.",
+            "Its outer wall is faced with red sandstone over a brick core, a Mughal speciality."
+          ],
+          "hiddenGems": [
+            "The Musamman Burj balcony, which frames the Taj across the river",
+            "The Delhi Gate, the largest of the entrance gates and far quieter than the Amar Singh Gate",
+            "Macchi Bhawan, an older courtyard most visitors walk straight past"
+          ],
+          "food": [
+            "Agra petha and dalmoth from a Sadar Bazaar sweet shop",
+            "Mughlai-style kebabs in the lanes near Kinari Bazaar"
+          ],
+          "experiences": [
+            "Walking the full circuit from the Amar Singh Gate to the Musamman Burj",
+            "A brass-rubbing or marble-inlay demonstration with a local artisan",
+            "Sunset from the riverside, combining the fort and the Taj in one walk"
+          ],
+          "travel": {
+            "railway": "Agra Cantt, 5 km",
+            "airport": "Agra Airport, 8 km; Delhi is the main international hub",
+            "parking": "Paid lot at the Amar Singh Gate entrance",
+            "tip": "Enter by the Amar Singh Gate and walk the grounds anticlockwise — you finish at the river-facing pavilions as the light softens."
+          },
+          "lat": 27.1795,
+          "lng": 78.0211,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Agra_03-2016_16_Agra_Fort.jpg/1920px-Agra_03-2016_16_Agra_Fort.jpg",
+            "title": "Agra Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Agra_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Agra_03-2016_16_Agra_Fort.jpg/1920px-Agra_03-2016_16_Agra_Fort.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/20191204_Czerwony_Fort_w_Agrze_1014_6679_DxO.jpg/1920px-20191204_Czerwony_Fort_w_Agrze_1014_6679_DxO.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Agra_Fort_20.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varanasi",
+      "name": "Varanasi",
+      "blurb": "One of the world's oldest continuously inhabited cities, its ghats alive with ritual at every hour.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashi_Vishwanath.jpg/500px-Kashi_Vishwanath.jpg",
+        "title": "Kashi Vishwanath Temple"
+      },
+      "places": [
+        {
+          "id": "kashi-vishwanath",
+          "name": "Kashi Vishwanath Temple",
+          "type": "Temple",
+          "blurb": "The most important of the twelve Jyotirlingas, its two-hundred-kilogram gold spire rising over the lanes of the oldest living city on earth.",
+          "rating": 4.7,
+          "entry": "Free (suggested donation; special darshan tickets available)",
+          "open": "3:00 AM – 11:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy (very crowded; no phones or bags inside)",
+          "bestPhoto": "The gold-plated spire seen from the river at first light",
+          "history": "A Jyotirlinga shrine of extraordinary antiquity, repeatedly destroyed and rebuilt — most consequentially by Aurangzeb in 1669, who raised a mosque on the site. The present temple was built adjacent to it in 1780 by Ahilyabai Holkar of Indore, and its spire was plated with roughly eight hundred kilograms of gold in 1835 under Ranjit Singh of Punjab. The Kashi Vishwanath Corridor, opened in 2021, cleared the surrounding maze and reconnected the temple directly to the Ganga.",
+          "architecture": "Nagara style, with a spire that is the visual anchor of the whole old city. Inside, the sanctum holds a swayambhu lingam of black stone. The mandir complex is deliberately dense — carved silver columns, a crowded jyotirlinga chamber, and a small well, the Gyanvapi, whose water pilgrims consider sacred.",
+          "timeline": [
+            {
+              "y": 1669,
+              "label": "The temple is destroyed under Aurangzeb's orders."
+            },
+            {
+              "y": 1780,
+              "label": "Ahilyabai Holkar builds the present temple beside the site."
+            },
+            {
+              "y": 2021,
+              "label": "The Kashi Vishwanath Corridor opens, linking the temple to the ghats."
+            }
+          ],
+          "facts": [
+            "One of the twelve Jyotirlingas, and the most visited of them.",
+            "Phones, leather and large bags are not allowed inside — use the free lockers.",
+            "Its gold spire weighs far more than any comparable temple in north India."
+          ],
+          "hiddenGems": [
+            "The Gyanvapi well and the narrow lanes of Vishwanath Gali",
+            "Manikarnika Ghat at dawn, approached respectfully and without cameras",
+            "Sarnath's stupa and museum, twenty minutes out of the city"
+          ],
+          "food": [
+            "Banarasi paan from a lane stall near the temple",
+            "Kachori sabzi and jalebi for breakfast at a Kachauri Gali shop",
+            "Malaiyo, the winter-only saffron milk foam"
+          ],
+          "experiences": [
+            "Pre-dawn darshan before the queues build",
+            "Boat ride along the ghats at sunrise",
+            "Evening Ganga Aarti at Dashashwamedh, viewed from a boat"
+          ],
+          "travel": {
+            "railway": "Varanasi Junction, 5 km; Banaras station, 3 km",
+            "airport": "Lal Bahadur Shastri Intl (VNS), 25 km",
+            "parking": "Forbidden in the lanes — park at Godowlia and walk or take an e-rickshaw",
+            "tip": "Phones must be left in a locker before you enter, so plan the visit around your camera rather than bringing it."
+          },
+          "lat": 25.3109,
+          "lng": 83.0107,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
+            "title": "Kashi Vishwanath Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Annapurna_Entrance_of_kashi_vishwanath_temple.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/b0/Benares_well.jpg"
+          ]
+        },
+        {
+          "id": "dashashwamedh-ghat",
+          "name": "Dashashwamedh Ghat",
+          "type": "Ghat",
+          "blurb": "The ghat where the Ganga Aarti is performed every evening — seven priests, brass lamps, conches and a wall of sound from the steps and the water.",
+          "rating": 4.6,
+          "entry": "Free (boat seating for the aarti is paid)",
+          "open": "Open at all hours; Ganga Aarti at dusk, around 6:45 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The Ganga Aarti at dusk, shot from a boat just offshore",
+          "history": "One of the oldest of Varanasi's ghats, and in legend the site where Brahma performed a ten-horse sacrifice — dash-ashwa-medha — from which it takes its name. The present stone steps and buildings date largely to a rebuilding under Peshwa Bajirao I in 1740, with later additions by Ahilyabai Holkar and others.",
+          "architecture": "A broad sweep of steps running down to the river, flanked by temples, shrines and small shrines-in-walls. The aarti stage sits at the water's edge, and the ghat is laid out so the performance is visible both from the steps and from boats on the river. Behind it, the lanes climb straight up into the temple district.",
+          "timeline": [
+            {
+              "y": 1740,
+              "label": "The ghat is rebuilt under Peshwa Bajirao I."
+            },
+            {
+              "y": 1807,
+              "label": "Further construction added by Ahilyabai Holkar's patronage."
+            }
+          ],
+          "facts": [
+            "The Ganga Aarti here is performed nightly, rain or shine.",
+            "Legend credits Brahma with the ten-horse sacrifice that named the ghat.",
+            "It is one of the busiest crossing points for boats along the ghats."
+          ],
+          "hiddenGems": [
+            "Assi Ghat at dawn for yoga and the smaller morning aarti",
+            "The flower market behind the ghat, busiest just after sunrise",
+            "Scindhia Ghat's half-submerged Shiva temple, still in service"
+          ],
+          "food": [
+            "Kachori sabzi and jalebi at Kachauri Gali",
+            "Thandai, especially the version sold around Holi"
+          ],
+          "experiences": [
+            "Watching the Ganga Aarti from a boat on the river",
+            "Sunrise boat ride the full length of the ghats",
+            "An early-morning walk through the flower and vegetable markets"
+          ],
+          "travel": {
+            "railway": "Varanasi Junction, 4.5 km",
+            "airport": "Lal Bahadur Shastri Intl (VNS), 24 km",
+            "parking": "At Godowlia; the last stretch is on foot",
+            "tip": "Arrive about an hour before the aarti to get a spot on the steps — or book a boat, which gives you a clean view without the crush."
+          },
+          "lat": 25.3064,
+          "lng": 83.0103,
+          "themes": [
+            "ghat"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Dasaswamedh_ghat-varanasi_india-andres_larin.jpg/1920px-Dasaswamedh_ghat-varanasi_india-andres_larin.jpg",
+            "title": "Dashashwamedh Ghat"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dashashwamedh_Ghat",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Dasaswamedh_ghat-varanasi_india-andres_larin.jpg/1920px-Dasaswamedh_ghat-varanasi_india-andres_larin.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ganga_Aarti-Dashashwamedh_Ghat_Varanasi_India-Andres_Larin.jpg/1920px-Ganga_Aarti-Dashashwamedh_Ghat_Varanasi_India-Andres_Larin.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

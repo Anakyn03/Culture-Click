@@ -1,0 +1,1804 @@
+{
+  "id": "rajasthan",
+  "name": "Rajasthan",
+  "region": "North",
+  "tagline": "Land of Kings",
+  "unesco": true,
+  "blurb": "A desert kingdom of sandstone forts, painted havelis and courtly ceremony, where every dune seems to remember a battle and every courtyard a wedding song.",
+  "stats": {
+    "area": "342,239 km²",
+    "districts": "50",
+    "language": "Rajasthani, Hindi",
+    "founded": "1949 (unified)"
+  },
+  "culture": {
+    "dress": "Bandhani odhnis, angrakha, mojari juttis",
+    "festivals": [
+      {
+        "name": "Pushkar Camel Fair",
+        "month": "November"
+      },
+      {
+        "name": "Teej",
+        "month": "August"
+      },
+      {
+        "name": "Gangaur",
+        "month": "March"
+      },
+      {
+        "name": "Desert Festival, Jaisalmer",
+        "month": "February"
+      }
+    ],
+    "dance": [
+      "Ghoomar",
+      "Kalbelia"
+    ],
+    "cuisine": [
+      "Dal Baati Churma",
+      "Laal Maas",
+      "Ker Sangri",
+      "Ghevar"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+    "title": "Hawa Mahal"
+  },
+  "districts": [
+    {
+      "id": "jodhpur",
+      "name": "Jodhpur",
+      "blurb": "The Blue City, spreading like a wash of indigo below the enormous fort that watches over it from a rocky ridge.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jaswant_Thada.jpg/1920px-Jaswant_Thada.jpg",
+        "title": "Jaswant Thada"
+      },
+      "places": [
+        {
+          "id": "mehrangarh-fort",
+          "name": "Mehrangarh Fort",
+          "type": "Fort",
+          "blurb": "One of India's largest forts, rising 125 metres above Jodhpur on a cliff of hardened sandstone, its ramparts still scarred by cannonball impacts.",
+          "rating": 4.8,
+          "entry": "₹100 (Indian) / ₹600 (Foreign); museum included",
+          "open": "9:00 AM – 5:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Medium",
+          "difficulty": "Moderate (ramps and staircases)",
+          "bestPhoto": "Early morning from the ramparts, looking down over the blue-washed old city",
+          "history": "Founded in 1459 by Rao Jodha, chief of the Rathore clan, who moved his capital from Mandore to this near-impregnable hill. The fort grew under successive rulers — most visibly Jaswant Singh I and Ajit Singh — and its walls absorbed sieges by the Mughals and later by the Marathas. The handprints of the wives and concubines who immolated themselves on Maharaja Man Singh's funeral bier in 1843 still mark one of the gates, a small and sobering memorial set into the stone.",
+          "architecture": "The ramparts rise in a sheer wall of the same russet sandstone as the cliff beneath them, so the fort reads as a geological feature rather than a building. Seven gates climb to the interior — Jayapol, Fatehpol and Dedh Kamagra Pol among them, each built to commemorate a victory. Inside, the Moti Mahal and Phool Mahal retain their mirrored ceilings and gilded wall panels, and the museum holds one of India's finest collections of royal palanquins, howdahs and cradles.",
+          "timeline": [
+            {
+              "y": 1459,
+              "label": "Rao Jodha lays the foundations on Chidiyatunk Hill."
+            },
+            {
+              "y": 1806,
+              "label": "The fort survives its last major siege."
+            },
+            {
+              "y": 2009,
+              "label": "The restored Nagnecha shrine and rampart walk open to visitors."
+            }
+          ],
+          "facts": [
+            "The walls bear cannonball marks from Jaipur's armies, left unrepaired on purpose.",
+            "The fort sits 125 metres above the city, on a hill of hardened volcanic sandstone.",
+            "Rudyard Kipling called it 'the work of giants' after visiting in the 1880s."
+          ],
+          "hiddenGems": [
+            "The Chokhelao Bagh terraced garden below the fort, empty at sunset",
+            "The turban gallery in the museum, with headwear from every Rajasthani region",
+            "The view of Jaswant Thada from the northern rampart at dawn"
+          ],
+          "food": [
+            "Mirchi vada and mawa kachori at Jodhpur's old-market stalls",
+            "Dal baati churma at a rooftop restaurant facing the fort"
+          ],
+          "experiences": [
+            "Flying Fox zipline across the fort's outer battlements",
+            "Audio-guided museum walk through the palanquin and howdah galleries",
+            "Sunset at Chokhelao Bagh with the fort silhouetted above"
+          ],
+          "travel": {
+            "railway": "Jodhpur Junction, 5 km",
+            "airport": "Jodhpur Airport (JDH), 8 km",
+            "parking": "Paid lot at the base; the climb to the gate is on foot or by lift",
+            "tip": "Take the lift up and walk down through the seven gates — the descent passes every gate in order."
+          },
+          "lat": 26.2971,
+          "lng": 73.0236,
+          "themes": [
+            "fort"
+          ],
+          "wikiTitle": "Mehrangarh Fort",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mehrangarh_Fort_sanhita.jpg",
+            "title": "Mehrangarh"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mehrangarh",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/99/Mehrangarh_Fort_sanhita.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/84/Chamunda_Devi_Temple_Jodhpur.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/20/DSC_5097b_Mehrangarh.jpg"
+          ]
+        },
+        {
+          "id": "jaswant-thada",
+          "name": "Jaswant Thada",
+          "type": "Cenotaph",
+          "blurb": "A cenotaph of carved white marble panels, so thin they glow when the sun catches them, built as a memorial to a Rathore ruler and now the resting place of his line.",
+          "rating": 4.5,
+          "entry": "₹30 (Indian) / ₹50 (Foreign)",
+          "open": "9:00 AM – 5:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Golden hour, when the marble warms to peach against the lake behind it",
+          "history": "Built in 1899 by Maharaja Sardar Singh in memory of his father Maharaja Jaswant Singh II, who was remembered by his subjects as a just and much-loved ruler. The site became the cremation ground of the Jodhpur royal family, and smaller cenotaphs for later rulers were added across the garden around it. Its marble was quarried locally and worked so finely that sunlight passes through the thin panels, giving the building its glow.",
+          "architecture": "The main memorial is a layered stack of pavilions and columns in white marble, with carved jali screens, portraits of the Rathore rulers painted on its interior walls, and a small steps descending to a lotus pond. The garden around it holds a row of lesser chhatris, each an open pavilion marking a cremation site.",
+          "timeline": [
+            {
+              "y": 1899,
+              "label": "The main cenotaph completed for Maharaja Jaswant Singh II."
+            },
+            {
+              "y": 1906,
+              "label": "Additional memorials added across the garden."
+            },
+            {
+              "y": 1990,
+              "label": "The site is opened to visitors as a managed heritage monument."
+            }
+          ],
+          "facts": [
+            "Its marble is carved so thin that sunlight glows through the panels.",
+            "Portraits of every Jodhpur ruler hang inside the main hall.",
+            "The garden holds four generations of royal cremation memorials."
+          ],
+          "hiddenGems": [
+            "The lake behind the cenotaph, with a resident population of peafowl",
+            "The small portraits gallery inside, rarely photographed",
+            "Sunset from the garden's western terrace, facing the fort"
+          ],
+          "food": [
+            "Kachori and lassi from stalls near the fort's lower gate",
+            "Rajasthani thali at the lakeside cafés on the road up"
+          ],
+          "experiences": [
+            "Quiet half-hour in the portrait hall reading the Rathore genealogy",
+            "Photographing the marble glow in the last hour of light",
+            "Walking from Mehrangarh down through the garden instead of driving"
+          ],
+          "travel": {
+            "railway": "Jodhpur Junction, 5.5 km",
+            "airport": "Jodhpur Airport (JDH), 8 km",
+            "parking": "Small free lot at the gate",
+            "tip": "Combine it with Mehrangarh — the walk between the two takes fifteen minutes and drops down through the hills."
+          },
+          "lat": 26.2943,
+          "lng": 73.0212,
+          "themes": [
+            "memorial"
+          ],
+          "wikiTitle": "Jaswant Thada",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jaswant_Thada_Dawn.jpg",
+            "title": "Jaswant Thada"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jaswant_Thada",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jaswant_Thada_Dawn.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/20191210_Jaswant_Thada%2C_Jodphur_1236_7955.jpg/1920px-20191210_Jaswant_Thada%2C_Jodphur_1236_7955.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/83/Jaswant_thada_front.jpg"
+          ]
+        },
+        {
+          "id": "udaibagh-palace",
+          "name": "Umaid Bhawan Palace",
+          "type": "Palace",
+          "blurb": "One of the world's largest private residences, built of golden sandstone over fifteen years as a famine-relief project and still home to Jodhpur's royal family.",
+          "rating": 4.6,
+          "entry": "₹30 (museum, Indian) / ₹100 (Foreign); hotel sections closed to visitors",
+          "open": "9:00 AM – 5:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low (museum) / Luxury (stay)",
+          "difficulty": "Easy",
+          "bestPhoto": "Late afternoon from the gardens, when the golden sandstone deepens in colour",
+          "history": "Begun in 1928 by Maharaja Umaid Singh, partly to give employment to thousands during a long famine. Construction took fifteen years and employed over 3,000 workers; the flat sandstone was cut by hand and, unusually, no mortar binds the blocks — the palace is held up by interlocked carved stone. Part of the palace remains the residence of the Jodhpur royal family, part is a Taj-run luxury hotel, and one wing is a museum.",
+          "architecture": "Designed by Henry Lanchester in a blend of Art Deco and classical Indian proportion, it is built of Chittar sandstone with an art-deco interior of radially carved ceilings, black marble floors and a vast Rotunda under a painted dome. The museum rooms hold the royal collection of clocks, vintage cars and stuffed leopards, alongside photographs documenting the palace's own construction.",
+          "timeline": [
+            {
+              "y": 1928,
+              "label": "Foundation stone laid by Maharaja Umaid Singh."
+            },
+            {
+              "y": 1943,
+              "label": "Construction completed after fifteen years."
+            },
+            {
+              "y": 2005,
+              "label": "Part of the palace opens as a luxury heritage hotel."
+            }
+          ],
+          "facts": [
+            "It is one of the largest private homes in the world, with 347 rooms.",
+            "No mortar was used — the stone blocks interlock by weight and carving.",
+            "Its construction was deliberately slow, to employ thousands through a famine."
+          ],
+          "hiddenGems": [
+            "The vintage-car collection in the museum, including Jaguar and Rolls-Royce models",
+            "The mechanical clocks gallery, all still wound",
+            "The palace's own murals showing the story of its construction"
+          ],
+          "food": [
+            "High tea in the palace's Trophy Bar (reservation required)",
+            "Kachori and mawa kachori back in the old city market"
+          ],
+          "experiences": [
+            "Walking the museum's photo exhibits documenting the famine-relief construction",
+            "The palace's heritage-walk talk on Art Deco in India",
+            "Driving out to Mandore Gardens, the older Rathore capital, afterwards"
+          ],
+          "travel": {
+            "railway": "Jodhpur Junction, 7 km",
+            "airport": "Jodhpur Airport (JDH), 4 km",
+            "parking": "Free visitor lot at the museum entrance",
+            "tip": "The museum wing is small — ninety minutes is enough; pair it with Mandore or Mehrangarh."
+          },
+          "lat": 26.2882,
+          "lng": 73.0229,
+          "themes": [
+            "palace"
+          ],
+          "wikiTitle": "Umaid Bhawan Palace",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg",
+            "title": "Umaid Bhawan Palace"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Umaid_Bhawan_Palace",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%22The_Making_of_Umaid_Bhawan_Palace%22.jpg/1920px-%22The_Making_of_Umaid_Bhawan_Palace%22.jpg"
+          ]
+        },
+        {
+          "id": "mandore-gardens",
+          "name": "Mandore Gardens",
+          "type": "Heritage Garden",
+          "blurb": "The old capital of Marwar, its gardens crowded with towering red-sandstone cenotaphs built like temples rather than domes.",
+          "rating": 4.3,
+          "entry": "Free; museum ₹50",
+          "open": "8:00 AM – 6:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The cenotaph of Ajit Singh rising above the trees in late afternoon light",
+          "history": "Mandore was the seat of the Rathore rulers of Marwar before Rao Jodha shifted to the safety of Mehrangarh in 1459. Its garden holds the royal cremation ground: the cenotaphs here are not the usual domed chhatris but multi-storey spired buildings shaped like Hindu temples, the largest built for Maharaja Ajit Singh in 1793. The Hall of Heroes nearby holds carved figures of local warriors and folk deities, and a small museum documents the region's older history.",
+          "architecture": "The cenotaphs are built in red sandstone in the nagara temple style — tiered spires, carved columns, open galleries — rather than the Islamic dome form used almost everywhere else in Rajasthan. The Hall of Heroes is a colonnaded hall filled with high-relief carvings of local heroes and deities, its walls patinated dark by two centuries of lamp smoke.",
+          "timeline": [
+            {
+              "y": 1459,
+              "label": "The capital moves to Mehrangarh; Mandore becomes the cremation ground."
+            },
+            {
+              "y": 1793,
+              "label": "The towering cenotaph of Maharaja Ajit Singh is built."
+            },
+            {
+              "y": 1974,
+              "label": "The site is landscaped as a public garden and museum."
+            }
+          ],
+          "facts": [
+            "Its royal cenotaphs are built like temples — the only such set in Rajasthan.",
+            "Mandore was Marwar's capital before Jodhpur existed.",
+            "The Hall of Heroes' carvings include folk deities worshipped to this day."
+          ],
+          "hiddenGems": [
+            "The abandoned rock-cut elephants and carvings on the hill above the garden",
+            "The government museum's Mauryan and Gupta sculptures, rarely visited",
+            "The langurs that live around the cenotaphs, harmless if not fed"
+          ],
+          "food": [
+            "Pyaaz kachori from stalls at the garden gate",
+            "Chai from the vendors along the approach road"
+          ],
+          "experiences": [
+            "Climbing the small hill behind the gardens for the rock-cut shrine carvings",
+            "An unhurried hour among the cenotaphs reading their inscriptions",
+            "Combining the visit with Umaid Bhawan, on the same side of the city"
+          ],
+          "travel": {
+            "railway": "Jodhpur Junction, 9 km",
+            "airport": "Jodhpur Airport (JDH), 10 km",
+            "parking": "Free lot at the garden gate",
+            "tip": "Go in the morning — the grounds are quiet, and the museum's caretaker will often walk you through it personally."
+          },
+          "lat": 26.3539,
+          "lng": 73.0541,
+          "themes": [
+            "garden"
+          ],
+          "wikiTitle": "Mandore",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Temples_at_Mandor_%284571805346%29.jpg/1920px-Temples_at_Mandor_%284571805346%29.jpg",
+            "title": "Mandore"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mandore",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Temples_at_Mandor_%284571805346%29.jpg/1920px-Temples_at_Mandor_%284571805346%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mandore_Garden%2C_Jodhpur.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Roads_in_Mandore_city_24.jpg/1920px-Roads_in_Mandore_city_24.jpg"
+          ]
+        },
+        {
+          "id": "toorji-ka-jhalra",
+          "name": "Toorji Ka Jhalra",
+          "type": "Stepwell",
+          "blurb": "A restored 18th-century stepwell in rose sandstone, its geometric steps descending into green water in the middle of the old city.",
+          "rating": 4.4,
+          "entry": "Free",
+          "open": "Open all day; best 8:00 – 11:00 AM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Morning, with the steps' zig-zag shadow falling into the water",
+          "history": "Built in 1740 by Maharaja Abhaya Singh's queen, Toorji (Tawarika) Ji, as part of the water infrastructure that let the walled city survive the desert. For two centuries it was the neighbourhood's daily water source until piped supply made it redundant, and by the 2000s it had become a dumping ground. A local restoration initiative cleaned and re-watered it in 2016, and it is now the clearest surviving example of Jodhpur's stepwell tradition.",
+          "architecture": "The well is square, descending in a symmetrical zig-zag of triangular steps on all four sides — more than two hundred of them — with carved niches for deities and small pavilions at the corners. The stonework is rose-pink sandstone, and the water sits some five storeys below street level.",
+          "timeline": [
+            {
+              "y": 1740,
+              "label": "Commissioned by the queen consort Toorji."
+            },
+            {
+              "y": 2016,
+              "label": "Cleaned, restored and re-watered by a civic initiative."
+            },
+            {
+              "y": 2018,
+              "label": "The surrounding step-plaza reopens as a public gathering space."
+            }
+          ],
+          "facts": [
+            "More than 200 steps descend to the water in a continuous zig-zag.",
+            "It spent years as a rubbish dump before its 2016 restoration.",
+            "The water is still green and deep — swimming is prohibited but some locals dive."
+          ],
+          "hiddenGems": [
+            "The small blue café above the well with the best view down into it",
+            "The restored stepwell's nesting pigeons at dawn, when the light comes straight down",
+            "Ranisar Padmasar lake, five minutes away, almost never visited"
+          ],
+          "food": [
+            "Shahi samosa and mirchi vada at the old-market stalls two minutes away",
+            "Kulhad chai on the step-plaza steps in the morning"
+          ],
+          "experiences": [
+            "Sitting on the steps early in the morning as the neighbourhood wakes up",
+            "Photographing the geometry of the steps from the corner pavilion",
+            "Pairing it with a walk through the blue lanes of the old city"
+          ],
+          "travel": {
+            "railway": "Jodhpur Junction, 2.5 km",
+            "airport": "Jodhpur Airport (JDH), 6 km",
+            "parking": "Street parking in the old market; walk the last stretch",
+            "tip": "Come before 9 AM — after that the steps fill with school groups and the light flattens."
+          },
+          "lat": 26.2933,
+          "lng": 73.0262,
+          "themes": [
+            "stepwell"
+          ],
+          "wikiTitle": "Toorji's Step Well",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Toorji_Ka_Jhalra.jpg/1920px-Toorji_Ka_Jhalra.jpg",
+            "title": "Toorji Ka Jhalra"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Toorji_Ka_Jhalra"
+        }
+      ]
+    },
+    {
+      "id": "bikaner",
+      "name": "Bikaner",
+      "blurb": "A desert citadel of camel corps and carved havelis, ringed by one of the longest city walls in Rajasthan.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Junagarh_Fort_3.jpg/1920px-Junagarh_Fort_3.jpg",
+        "title": "Junagarh Fort"
+      },
+      "places": [
+        {
+          "id": "junagarh-fort",
+          "name": "Junagarh Fort",
+          "type": "Fort",
+          "blurb": "An unplundered fort-palace on the desert plain, its palaces built of red sandstone and white marble and its walls never taken by force.",
+          "rating": 4.6,
+          "entry": "₹50 (Indian) / ₹300 (Foreign); museum extra",
+          "open": "10:00 AM – 4:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate",
+          "bestPhoto": "Morning sun on the Karan Mahal's mirrored hall from the inner courtyard",
+          "history": "Built starting in 1589 by Raja Rai Singh, a general in Akbar's army, on the flat desert plain rather than a hill — a statement of confidence unusual for its time. Unlike most Rajasthani forts it was never captured, and because it was never sacked its palaces survive intact: layer upon layer of courtyards added by successive rulers over four centuries, each in the fashion of its decade.",
+          "architecture": "The fort encloses palaces in red sandstone and, later, white marble — Karan Mahal's mirrored audience hall, Anup Mahal's gold-leafed chamber, and the Phool Mahal with its painted glass. The fort museum holds a collection of armours, manuscripts and aWorld War I biplane once presented to the Maharaja.",
+          "timeline": [
+            {
+              "y": 1589,
+              "label": "Raja Rai Singh begins the fort on the open plain."
+            },
+            {
+              "y": 1631,
+              "label": "Karan Mahal's audience hall completed."
+            },
+            {
+              "y": 1944,
+              "label": "The last palace additions, in Art Deco style, are finished."
+            }
+          ],
+          "facts": [
+            "The only major Rajasthani fort built on flat ground rather than a hill.",
+            "It was never captured or sacked, so its palaces are fully intact.",
+            "The museum holds a WWI fighter plane gifted to the Maharaja."
+          ],
+          "hiddenGems": [
+            "The Badal Mahal monsoon room, painted with clouds on its ceiling",
+            "The fort's own well, 400 metres deep, the deepest in Rajasthan",
+            "The marble reliefs in Anup Mahal, gilded in gold leaf"
+          ],
+          "food": [
+            "Bikaneri bhujia from a stall in the old bazaar — the snack was invented here",
+            "Rajasthani thali near the fort gate"
+          ],
+          "experiences": [
+            "The guided museum tour included with entry — the fort's guides are exceptionally good",
+            "Walking the old city wall at Rampuria Haveli cluster at dusk",
+            "A camel ride at the National Research Centre on Camels, 8 km out"
+          ],
+          "travel": {
+            "railway": "Bikaner Junction, 2 km",
+            "airport": "Jodhpur Airport (JDH), 250 km; nearest commercial flights",
+            "parking": "Outside the main gate",
+            "tip": "The fort's guided tour is compulsory but excellent — budget two hours inside."
+          },
+          "lat": 28.0184,
+          "lng": 73.3127,
+          "themes": [
+            "fort"
+          ],
+          "wikiTitle": "Junagarh Fort",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/India_Bikaner_Junagarh_Fort.jpg/1920px-India_Bikaner_Junagarh_Fort.jpg",
+            "title": "Junagarh Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Junagarh_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/India_Bikaner_Junagarh_Fort.jpg/1920px-India_Bikaner_Junagarh_Fort.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gardens_Junagarh_Fort_2007.jpg/1920px-Gardens_Junagarh_Fort_2007.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Inner_view_of_bikaner_fort.jpg/1920px-Inner_view_of_bikaner_fort.jpg"
+          ]
+        },
+        {
+          "id": "rampuria-havelis",
+          "name": "Rampuria Havelis",
+          "type": "Haveli",
+          "blurb": "A row of merchant mansions in red Dulmera sandstone, so heavily carved that the street reads as a gallery of façades.",
+          "rating": 4.4,
+          "entry": "Free to view; some interiors open for a fee",
+          "open": "Best seen 9:00 AM – 6:00 PM (exteriors always visible)",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The corner haveli's façade with jharokhas lit by the low afternoon sun",
+          "history": "Built by the Rampuria family of traders across the 19th century, at the peak of Bikaner's prosperity on the caravan routes. The largest of the group, Lalgarh-side, is sometimes called the 'haveli of a thousand windows'. The family's fortunes declined with the trade routes, and several of the buildings are now cared for by trusts or have been adaptively reused, but the façades remain the finest street in Bikaner.",
+          "architecture": "Reddish Dulmera sandstone, worked into deep jharokhas, latticed balconies and arched doorways; each mansion competes with its neighbour in the fineness of its carving. The style is distinctly Bikaneri — heavier and bolder than the lace-fine jali of Jaisalmer, with stronger silhouettes that survive the desert glare.",
+          "timeline": [
+            {
+              "y": 1850,
+              "label": "The first of the Rampuria mansions is built."
+            },
+            {
+              "y": 1910,
+              "label": "The largest haveli, with its thousand-window façade, is completed."
+            },
+            {
+              "y": 2000,
+              "label": "Conservation work begins on the most damaged façades."
+            }
+          ],
+          "facts": [
+            "The sandstone comes from Dulmera, a quarry 30 km away.",
+            "The largest haveli is nicknamed 'the haveli of a thousand windows'.",
+            "They were built to out-display neighbouring merchants — each façade is a rival's challenge."
+          ],
+          "hiddenGems": [
+            "The Kothiugh haveli's interior courtyard, open on request",
+            "The small silver-work shops in the lanes behind the havelis",
+            "The Bhandasar Jain temple, ten minutes away, with its painted interior"
+          ],
+          "food": [
+            "Bikaneri bhujia straight from a bazaar maker",
+            "Rabdi ghewar from a sweet shop near the haveli cluster"
+          ],
+          "experiences": [
+            "A slow walk of the whole street at golden hour, camera in hand",
+            "Visiting the Bhandasar Jain temple, the city's most beautiful interior",
+            "Buying namkeen and papad from the original bhujiwala shops"
+          ],
+          "travel": {
+            "railway": "Bikaner Junction, 1.5 km",
+            "airport": "Jodhpur Airport (JDH), 250 km",
+            "parking": "Street parking along the haveli row",
+            "tip": "The havelis are best on foot — the lane is narrow and always busy with cycles."
+          },
+          "lat": 28.0176,
+          "lng": 73.3118,
+          "themes": [
+            "haveli"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg/1920px-Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg",
+            "title": "Rampuria Havelis"
+          }
+        },
+        {
+          "id": "karni-mata-temple",
+          "name": "Karni Mata Temple, Deshnoke",
+          "type": "Temple",
+          "blurb": "The famous rat temple — thousands of sacred kabas (rats) live in its marble courtyards, and seeing a white one is held to be a blessing.",
+          "rating": 4.4,
+          "entry": "Free",
+          "open": "4:00 AM – 10:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Early morning, when the rats gather in circles around the courtyard's food offerings",
+          "history": "The temple honours Karni Mata, a 14th-century female sage revered as an incarnation of Durga by the Charan community. According to legend, a child of the community died and Karni Mata pleaded with Yama, the god of death, to restore him; the god agreed that from then on the community's dead would be reborn as rats in the temple, and the rats are therefore held to be family members. The marble structure dates mostly from the early 20th century, funded by the Maharaja of Bikaner, Ganga Singh.",
+          "architecture": "A silver gate and a marble one, donated by Maharaja Ganga Singh, frame the entrance; inside, the courtyard and shrines are marble, laced with wire mesh above to protect the rats from birds of prey. The rats — kabas — move freely and are fed by priests and pilgrims; food touched by a rat is considered consecrated.",
+          "timeline": [
+            {
+              "y": 1455,
+              "label": "Karni Mata dies; veneration begins at the site."
+            },
+            {
+              "y": 1900,
+              "label": "The marble temple largely rebuilt under Maharaja Ganga Singh."
+            },
+            {
+              "y": 2000,
+              "label": "Protective mesh added above the courtyard."
+            }
+          ],
+          "facts": [
+            "Around 25,000 rats live in the temple and are fed daily.",
+            "Among them a handful of white rats, held to be the most sacred.",
+            "Shoes must be removed before entering — socks are advisable."
+          ],
+          "hiddenGems": [
+            "The white rats, most often seen near the image of Karni Mata at dawn",
+            "The silver gate's relief panels, commissioned by Ganga Singh",
+            "The small market outside selling offerings and prasad"
+          ],
+          "food": [
+            "Prasad distributed inside the temple",
+            "Rajasthani thali at a Deshnoke roadside dhaba"
+          ],
+          "experiences": [
+            "Dawn visit, when the rats are most active and the temple is coolest",
+            "Watching pilgrims from the Charan community greet the rats as relatives",
+            "Pairing it with a stop at Gajner Palace lake on the same road"
+          ],
+          "travel": {
+            "railway": "Deshnoke station, 1 km; Bikaner Junction 30 km",
+            "airport": "Jodhpur Airport (JDH), 240 km",
+            "parking": "Free lot at the temple gate",
+            "tip": "Remove shoes at the gate; carry socks — the marble floor is hot by noon."
+          },
+          "lat": 27.7927,
+          "lng": 73.3433,
+          "themes": [
+            "temple"
+          ],
+          "wikiTitle": "Karni Mata Temple",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg/1920px-20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg",
+            "title": "Karni Mata Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Karni_Mata_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg/1920px-20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/7/78/Devotees_performing_aarti_at_Karni_Mata_Temple.jpg"
+          ]
+        },
+        {
+          "id": "gajner-palace",
+          "name": "Gajner Palace & Lake",
+          "type": "Palace",
+          "blurb": "A red-sandstone hunting lodge on its own lake, built for imperial duck shoots and now standing in scrub jungle full of antelope and peafowl.",
+          "rating": 4.3,
+          "entry": "Free to view the lake; hotel access for guests",
+          "open": "Daylight hours",
+          "bestSeason": "Nov – Feb",
+          "budget": "Medium",
+          "difficulty": "Easy",
+          "bestPhoto": "Sunset, when the palace silhouette reflects in the lake beside the grazing blackbuck",
+          "history": "Built by Maharaja Ganga Singh in the early 20th century as a hunting retreat on a reservoir he had expanded for the purpose. Imperial guests shot duck and blackbuck here; the palace later became a heritage hotel, and the surrounding jungle was left alone, so the lake now draws migratory birds each winter and the scrub around it still holds a resident population of blackbuck and nilgai.",
+          "architecture": "The palace is carved red sandstone in an eclectic colonial-Rajput style, with scalloped arches, chhatri-topped turrets and long verandas facing the water. The lake is shallow and seasonal, ringed by khejri trees, and the palace's own ghat steps run straight into it.",
+          "timeline": [
+            {
+              "y": 1920,
+              "label": "The hunting lodge built by Maharaja Ganga Singh."
+            },
+            {
+              "y": 1949,
+              "label": "Royal hunting ends; the estate falls quiet."
+            },
+            {
+              "y": 2000,
+              "label": "Reopens as a heritage hotel and wildlife refuge."
+            }
+          ],
+          "facts": [
+            "The lake draws winter migratory birds including flamingos in good years.",
+            "Blackbuck and nilgai graze on the palace lawns at dawn.",
+            "Imperial guests once shot duck here — the phrase 'duck shoot' is still carved above a door."
+          ],
+          "hiddenGems": [
+            "The dawn blackbuck grazing on the far shore",
+            "The palace's old boat jetty, half-sunk and photogenic",
+            "The winter flamingo flocks on the shallow flats"
+          ],
+          "food": [
+            "Tea on the hotel terrace (non-guests welcome)",
+            "Pack a picnic — the nearest good food is back in Bikaner"
+          ],
+          "experiences": [
+            "A dawn or dusk birdwatching walk around the lake shore",
+            "Blackbuck spotting in the scrub behind the palace",
+            "Sunset photography from the ghat steps"
+          ],
+          "travel": {
+            "railway": "Bikaner Junction, 32 km",
+            "airport": "Jodhpur Airport (JDH), 260 km",
+            "parking": "Free parking by the lake gate",
+            "tip": "It shares the Deshnoke road with Karni Mata temple — do both in one morning."
+          },
+          "lat": 27.8685,
+          "lng": 73.4709,
+          "themes": [
+            "palace"
+          ],
+          "wikiTitle": "Gajner Palace",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gajner_Wildlife_Sanctuary-MBP-20131009.jpg/1920px-Gajner_Wildlife_Sanctuary-MBP-20131009.jpg",
+            "title": "Gajner Wildlife Sanctuary"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gajner_Wildlife_Sanctuary",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gajner_Wildlife_Sanctuary-MBP-20131009.jpg/1920px-Gajner_Wildlife_Sanctuary-MBP-20131009.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Gajner_Wildlife_Sanctuary_WV-20131009.jpg/1920px-Gajner_Wildlife_Sanctuary_WV-20131009.jpg"
+          ]
+        },
+        {
+          "id": "national-camel-research-centre",
+          "name": "National Research Centre on Camels",
+          "type": "Institution",
+          "blurb": "A government camel research farm holding three breeds of Indian camel, with rides, a museum and — for the curious — camel-milk ice cream.",
+          "rating": 4.1,
+          "entry": "₹30 (Indian) / ₹100 (Foreign); rides extra",
+          "open": "Noon – 6:00 PM (mornings reserved for research)",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "A camel train against the afternoon sky on the farm's sandy tracks",
+          "history": "Established in 1984 as India's national centre for camel research and development, working on breeding, nutrition and the welfare of the three Indian breeds — Bikaneri, Jaisalmeri and Kutchi. The farm keeps a visitor side with rides and a small museum on the camel's role in desert logistics, from the Rajasthan camel corps to the border force's camel-mounted band that still marches in Delhi's Republic Day parade.",
+          "architecture": "Not a monument but a working farm: long paddocks, sandy breeding blocks, a small exhibition hall and a dairy. The museum's photographs and saddlery give a good sense of how central camels were to desert life and to the army.",
+          "timeline": [
+            {
+              "y": 1984,
+              "label": "The national centre established at Jorbeer, outside Bikaner."
+            },
+            {
+              "y": 1990,
+              "label": "Visitor facilities and the camel museum added."
+            },
+            {
+              "y": 2016,
+              "label": "The dairy expands into camel-milk products sold on site."
+            }
+          ],
+          "facts": [
+            "Three Indian camel breeds are bred and studied here.",
+            "Camel-milk ice cream and kulfi are made and sold on site.",
+            "The Border Security Force's camel band trains with animals from this line."
+          ],
+          "hiddenGems": [
+            "The museum's photographs of the BSF camel band at Republic Day rehearsals",
+            "The dairy block visit, included with the ticket",
+            "Camel-milk kulfi — genuinely worth trying"
+          ],
+          "food": [
+            "Camel-milk ice cream and kulfi at the farm counter",
+            "Bikaneri bhujia and chai from the stall at the gate"
+          ],
+          "experiences": [
+            "A short camel ride around the paddocks",
+            "The museum's exhibits on camels in desert warfare",
+            "Tasting camel milk fresh, then as kulfi — the comparison is the point"
+          ],
+          "travel": {
+            "railway": "Bikaner Junction, 9 km",
+            "airport": "Jodhpur Airport (JDH), 255 km",
+            "parking": "Free lot at the farm gate",
+            "tip": "It opens at noon — do the fort in the morning, the camel centre after lunch."
+          },
+          "lat": 28.0626,
+          "lng": 73.3919,
+          "themes": [
+            "experience"
+          ],
+          "wikiTitle": "National Research Centre on Camels",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Bikaner_Kamelfarm.jpg/1920px-Bikaner_Kamelfarm.jpg",
+            "title": "National Research Centre on Camels, Bikaner"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Research_Centre_on_Camels,_Bikaner"
+        }
+      ]
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "blurb": "The Pink City — planned in 1727 on principles of Vastu Shastra, its old quarter still glows terracotta at dusk.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+        "title": "Hawa Mahal"
+      },
+      "places": [
+        {
+          "id": "hawa-mahal",
+          "name": "Hawa Mahal",
+          "type": "Palace",
+          "blurb": "A five-storey honeycomb façade of 953 sandstone jharokhas, built so royal women could watch street life unseen.",
+          "rating": 4.6,
+          "entry": "₹50 (Indian) / ₹200 (Foreign)",
+          "open": "9:00 AM – 4:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Just after sunrise, facing east into the jharokhas",
+          "history": "Commissioned in 1799 by Maharaja Sawai Pratap Singh, Hawa Mahal was designed by Lal Chand Ustad as an extension of the City Palace. Its purpose was intimate rather than grand: it let the women of the royal household observe everyday processions and festivals on the street below from behind carved screens, honouring purdah while denying them nothing of the city's life.",
+          "architecture": "Built in red and pink sandstone, the façade is shaped like the crown of Krishna. Its 953 small windows, or jharokhas, are latticed with intricate jali work that draws cooling air through the palace even in peak summer — giving the building its name, the 'Palace of Winds'. Despite its five storeys, the structure is barely a room deep in places, essentially a screen wall.",
+          "timeline": [
+            {
+              "y": 1799,
+              "label": "Construction completed under Maharaja Sawai Pratap Singh."
+            },
+            {
+              "y": 1876,
+              "label": "Facade restored ahead of a visit by the Prince of Wales."
+            },
+            {
+              "y": 2006,
+              "label": "Major renovation funded by a private-public heritage partnership."
+            }
+          ],
+          "facts": [
+            "Has no direct main entrance — accessed via the City Palace complex.",
+            "The five floors have poetic names: Sharad Mandir, Ratan Mandir, Vichitra Mandir, Prakash Mandir and Hawa Mandir.",
+            "Faces east, so morning light spills straight through the jharokhas."
+          ],
+          "hiddenGems": [
+            "Climb to Hawa Mandir at sunrise before the tour groups arrive",
+            "Panna Meena ka Kund stepwell, a 5-minute walk away",
+            "Tripolia Bazaar for lac bangles and hand-block textiles"
+          ],
+          "food": [
+            "Rawat Mishthan Bhandar for pyaaz kachori",
+            "Laxmi Misthan Bhandar for ghewar",
+            "Masala chai from the street stalls facing the palace"
+          ],
+          "experiences": [
+            "Heritage walk through the Pink City bazaars",
+            "Block-printing workshop in Sanganer",
+            "Sunset photography from a rooftop café opposite the Mahal"
+          ],
+          "travel": {
+            "railway": "Jaipur Junction, 4.5 km",
+            "airport": "Jaipur Intl (JAI), 13 km",
+            "parking": "Limited; use City Palace lot",
+            "tip": "Visit right at opening — the interior light is best before 10 AM."
+          },
+          "lat": 26.9239,
+          "lng": 75.8267,
+          "themes": [
+            "palace"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+            "title": "Hawa Mahal"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hawa_Mahal",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_03.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_03.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fountain_Inside_Hawa_Mahal.jpg"
+          ]
+        },
+        {
+          "id": "amer-fort",
+          "name": "Amer Fort",
+          "type": "Fort-Palace",
+          "blurb": "A hilltop citadel of ochre and marble overlooking Maota Lake, blending Rajput and Mughal architecture across four grand courtyards.",
+          "rating": 4.7,
+          "entry": "₹100 (Indian) / ₹550 (Foreign)",
+          "open": "8:00 AM – 5:30 PM",
+          "bestSeason": "Nov – Feb",
+          "budget": "Medium",
+          "difficulty": "Moderate (hill climb)",
+          "bestPhoto": "Golden hour in the Sheesh Mahal courtyard",
+          "history": "Begun in 1592 by Raja Man Singh I on the ruins of an earlier fort, Amer was the seat of the Kachwaha Rajputs for over six centuries before the capital moved to Jaipur. Successive rulers added palaces within its walls, layering Rajput military pragmatism with increasingly ornate Mughal-influenced interiors.",
+          "architecture": "Built from pale yellow and pink sandstone with white marble accents, the fort unfolds through four courtyards. The Sheesh Mahal, or Mirror Palace, lines its walls and ceiling with thousands of convex mirror fragments and coloured glass, designed so a single candle could illuminate the entire hall in a field of stars.",
+          "timeline": [
+            {
+              "y": 1592,
+              "label": "Foundations laid by Raja Man Singh I."
+            },
+            {
+              "y": 1727,
+              "label": "Capital shifts to newly built Jaipur; Amer remains ceremonial."
+            },
+            {
+              "y": 2013,
+              "label": "Inscribed as part of the UNESCO Hill Forts of Rajasthan."
+            }
+          ],
+          "facts": [
+            "A 12-km wall — the \"Great Wall of India\" — connects it to neighbouring Jaigarh Fort.",
+            "The Sheesh Mahal was said to sparkle like the night sky from a single flame.",
+            "An underground tunnel once let royals flee to Jaigarh in times of siege."
+          ],
+          "hiddenGems": [
+            "Jaigarh Fort tunnel walk, rarely crowded",
+            "Sound-and-light show in the Kesar Kyari gardens after dusk",
+            "Panna Meena ka Kund stepwell at the base of the hill"
+          ],
+          "food": [
+            "Chowki Dhani thali experience nearby",
+            "Local kachori stalls near the fort base"
+          ],
+          "experiences": [
+            "Guided history walk with a local storyteller",
+            "Elephant path viewpoint (elephant rides not recommended for animal welfare)",
+            "Photography tour of the Sheesh Mahal at golden hour"
+          ],
+          "travel": {
+            "railway": "Jaipur Junction, 13 km",
+            "airport": "Jaipur Intl (JAI), 22 km",
+            "parking": "Large lot at base, short walk or jeep up",
+            "tip": "Arrive by 8:30 AM to have the Sheesh Mahal nearly to yourself."
+          },
+          "lat": 26.9855,
+          "lng": 75.8513,
+          "themes": [
+            "fort-palace"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/1920px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg",
+            "title": "Amber Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Amber_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/1920px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/0e/Amber1860.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Amber_Fort%2C_Baradhari_Pavilion_at_Man_Singh_Palace_Square%2C_2010.jpg/1920px-Amber_Fort%2C_Baradhari_Pavilion_at_Man_Singh_Palace_Square%2C_2010.jpg"
+          ]
+        },
+        {
+          "id": "jantar-mantar",
+          "name": "Jantar Mantar",
+          "type": "Observatory",
+          "blurb": "Nineteen masonry astronomical instruments built in the 1730s, whose giant stone sundial still reads the time to within about two seconds.",
+          "rating": 4.5,
+          "entry": "₹50 (Indian) / ₹200 (Foreign)",
+          "open": "9:00 AM – 4:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The Samrat Yantra gnomon against a low morning sun, casting a long shadow",
+          "history": "Built from 1728 and completed by 1734 under Maharaja Sawai Jai Singh II, an astronomer-king who commissioned observatories at five cities to correct the astronomical tables used for calendars and horoscopes. Inscribed as a UNESCO World Heritage Site in 2010 as part of the Jantar Mantar ensemble, it is the largest and best-preserved of the five.",
+          "architecture": "Not a building but a working set of instruments in stone and marble, each designed to measure something specific — altitude, declination, the positions of planets. The Samrat Yantra is a gnomon 27 metres high whose shadow moves visibly across the quadrant, making it the world's largest stone sundial. The Jai Prakash Yantra, sunk into the ground as two hemispherical bowls, let the observer climb inside the sky they were measuring.",
+          "timeline": [
+            {
+              "y": 1728,
+              "label": "Construction begins under Sawai Jai Singh II."
+            },
+            {
+              "y": 1734,
+              "label": "The observatory is completed."
+            },
+            {
+              "y": 2010,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "Its sundial is accurate to roughly two seconds.",
+            "The instruments work in stone and marble — there is no metal mechanism anywhere.",
+            "It is the largest of the five observatories Jai Singh II built."
+          ],
+          "hiddenGems": [
+            "The Jai Prakash Yantra, which you can stand down inside",
+            "The free guides, who will demonstrate the sundial's shadow with a small rod",
+            "The neighbouring City Palace and Hawa Mahal, both a short walk away"
+          ],
+          "food": [
+            "Lassi and kulfi from a shop on the edge of the observatory square",
+            "Pyaaz kachori in the bazaar lane behind"
+          ],
+          "experiences": [
+            "Having a guide read the time and zodiac off the instruments",
+            "Photographing the shadow lines on the quadrants in the morning",
+            "Pairing it with a Pink City heritage walk"
+          ],
+          "travel": {
+            "railway": "Jaipur Junction, 3.5 km",
+            "airport": "Jaipur Intl (JAI), 13 km",
+            "parking": "Paid lots near the City Palace, a two-minute walk away",
+            "tip": "Go in the morning when the sun is low — the shadows that make the instruments work are long, obvious and far more legible."
+          },
+          "lat": 26.9247,
+          "lng": 75.8246,
+          "themes": [
+            "observatory"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Jantar_Mantar_at_Jaipur.jpg/1920px-Jantar_Mantar_at_Jaipur.jpg",
+            "title": "Jantar Mantar"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jantar_Mantar",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Jantar_Mantar_at_Jaipur.jpg/1920px-Jantar_Mantar_at_Jaipur.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1920px-Crab_Nebula.jpg"
+          ]
+        },
+        {
+          "id": "nahargarh-fort",
+          "name": "Nahargarh Fort",
+          "type": "Fort",
+          "blurb": "The ridge fort crowning Jaipur's northern edge, its ramparts tracing the Aravalli skyline and its terraces looking straight down into the Pink City grid.",
+          "rating": 4.5,
+          "entry": "₹50 (Indian) / ₹200 (Foreign)",
+          "open": "10:00 AM – 5:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (steep approach road)",
+          "bestPhoto": "Sunset from the terrace café ramparts, with the whole city grid glowing below",
+          "history": "Built in 1734 by Maharaja Sawai Jai Singh II as the third anchor of his new capital's defences, alongside Amer and the city walls. Its name recalls Nahar, a spirit said to have interrupted construction until a shrine was raised for him on the ridge. The fort was later expanded by Sawai Ram Singh and Madho Singh II, whose suites — furnished with European fittings — survive in remarkably complete condition. It never saw battle, serving instead as a refuge and retreat for the royal household.",
+          "architecture": "The fort's walls run for kilometres along the ridge, linking towers that watch each approach to the city. Within, the Madhavendra Bhawan palace is a courtyard of twelve identical apartments for the maharaja's queens, each with its own small kitchen and courtyard, arranged around the Maharaja's two-storey suite. Indian and European elements sit side by side — frescoed bedrooms above, period fireplaces and flush toilets below.",
+          "timeline": [
+            {
+              "y": 1734,
+              "label": "Founded by Sawai Jai Singh II on the city's northern ridge."
+            },
+            {
+              "y": 1868,
+              "label": "Madhavendra Bhawan's queen's quarters completed."
+            },
+            {
+              "y": 2006,
+              "label": "Fort terraces and café opened to the public."
+            }
+          ],
+          "facts": [
+            "Its walls connect to Jaigarh Fort, forming a continuous defensive line.",
+            "The fort was never attacked — its guns were fired only in salute.",
+            "The twelve identical queen's suites each have their own private kitchen."
+          ],
+          "hiddenGems": [
+            "The marble Satranga pillar shrine of the spirit Nahar, inside the main gate",
+            "The stepwell inside the walls, restored and photogenic",
+            "The terrace café's sunset view — the best single vantage over the Pink City"
+          ],
+          "food": [
+            "Chai and pakoras at the rampart café at sunset",
+            "Rajasthani thali back at the base near the Hormima Steep"
+          ],
+          "experiences": [
+            "Sunset from the ramparts over the city grid",
+            "Walking the Madhavendra Bhawan courtyards and their twelve twin quarters",
+            "The drive up the winding ghat road through the Nahargarh Biological Park"
+          ],
+          "travel": {
+            "railway": "Jaipur Junction, 12 km",
+            "airport": "Jaipur Intl (JAI), 20 km",
+            "parking": "Paid lot at the fort's upper gate",
+            "tip": "Arrive an hour before sunset — the rampart walk to the best viewpoint takes time, and the light moves fast."
+          },
+          "lat": 26.9373,
+          "lng": 75.8151,
+          "themes": [
+            "fort"
+          ],
+          "wikiTitle": "Nahargarh Fort",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nahargarh_13.jpg",
+            "title": "Nahargarh Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nahargarh_Fort",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Nahargarh_13.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Jaipur%2C_Madhvendra_Palace.jpg/1920px-Jaipur%2C_Madhvendra_Palace.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaipur%2C_Nahargarh_Fort%2C_Madhvendra_Palace.jpg/1920px-Jaipur%2C_Nahargarh_Fort%2C_Madhvendra_Palace.jpg"
+          ]
+        },
+        {
+          "id": "jal-mahal",
+          "name": "Jal Mahal",
+          "type": "Palace",
+          "blurb": "A sandstone pleasure palace standing four storeys deep in the middle of Man Sagar Lake — its top floor the only one above the waterline.",
+          "rating": 4.4,
+          "entry": "Viewing free from the lakeside promenade; interiors closed to the public",
+          "open": "Promenade open daylight hours; best at dawn and dusk",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Dawn, when the still lake mirrors the palace and the hills behind it",
+          "history": "Built around 1699 by Maharaja Sawai Pratap Singh as a lodge for royal duck shoots, on a lake created by damming the Darbhawati river a century earlier. The palace was restored across the 2000s alongside a major clean-up of the lake, which had become heavily polluted; the water is now visibly healthier, and the palace's gardens and terraces have been replanted. The interiors remain closed, which preserves its calm — visitors see it exactly as a boatman would have two centuries ago.",
+          "architecture": "Five storeys of red sandstone in the refined Rajput-Mughal hybrid of Jai Singh's era, four of which sit submerged in the lake — a deliberate design that kept the shooting lodge cool in summer. Chameli Bagh, the rooftop garden, still holds planting beds; octagonal chhatris cap the corners, and a small boat jetty hides below the waterline.",
+          "timeline": [
+            {
+              "y": 1699,
+              "label": "The lodge built on the newly dammed Man Sagar Lake."
+            },
+            {
+              "y": 2004,
+              "label": "Major lake clean-up and palace restoration begin."
+            },
+            {
+              "y": 2012,
+              "label": "The restored lakeside promenade opens to the public."
+            }
+          ],
+          "facts": [
+            "Four of its five storeys sit below the lake's surface.",
+            "The lake draws flocks of herons and migratory ducks each winter.",
+            "The interiors have never been open to the public."
+          ],
+          "hiddenGems": [
+            "Dawn on the promenade, when the water is glass and the herons fish",
+            "The winter migratory ducks on the lake's far side",
+            "The view from the opposite shore, where the palace frames the Nahargarh ridge"
+          ],
+          "food": [
+            "Kulhad chai and corn from the promenade stalls at dusk",
+            "Rajasthani snacks at the food carts along the Amer road"
+          ],
+          "experiences": [
+            "Dawn photography from the promenade's centre point",
+            "A lakeside walk at dusk with the fort ridge behind the palace",
+            "Pairing it with Amer Fort — the lake is on the same road out of the city"
+          ],
+          "travel": {
+            "railway": "Jaipur Junction, 8 km",
+            "airport": "Jaipur Intl (JAI), 16 km",
+            "parking": "Free promenade parking along the Amer road",
+            "tip": "Stop here on the way to or from Amer — the light over the lake is best mid-morning and again at dusk."
+          },
+          "lat": 26.9535,
+          "lng": 75.8462,
+          "themes": [
+            "palace"
+          ],
+          "wikiTitle": "Jal Mahal",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg/1920px-Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg",
+            "title": "Jal Mahal"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jal_Mahal",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg/1920px-Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/08/A_close_look_to_Jal_Mahal.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Gaitor_ki_Chhatri_Cenotaphs%2C_Jaipur%2C_India_%28DSCN4779%29.jpg/1920px-Gaitor_ki_Chhatri_Cenotaphs%2C_Jaipur%2C_India_%28DSCN4779%29.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jaisalmer",
+      "name": "Jaisalmer",
+      "blurb": "The Golden City, its fort still a living town of sandstone rising from the Thar desert.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1920px-Jaisalmer_forteresse.jpg",
+        "title": "Jaisalmer Fort"
+      },
+      "places": [
+        {
+          "id": "jaisalmer-fort",
+          "name": "Jaisalmer Fort",
+          "type": "Fort",
+          "blurb": "Sonar Quila, the Golden Fort — one of the very few forts in the world still lived in by thousands of people, rising from the desert on a 76-metre hill.",
+          "rating": 4.7,
+          "entry": "₹50 (Indian) / ₹250 (Foreign)",
+          "open": "8:00 AM – 6:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate (cobbled lanes, steep ramps)",
+          "bestPhoto": "Golden hour from the bastions, with the desert glowing behind",
+          "history": "Founded in 1156 CE by the Bhati Rajput ruler Rawal Jaisal, the fort became the seat of the Bhati clan and a toll point on the camel trade routes running from Central Asia to the ports of Gujarat. It weathered repeated sieges, most famously by Alauddin Khalji's forces at the end of the 13th century, and unlike most Indian forts it was never abandoned — roughly a quarter of the old city still lives inside its walls.",
+          "architecture": "Built of yellow sandstone that shifts from honey to bronze as the sun moves, giving it its name. A triple ring of walls encloses 99 bastions, the outermost of which were added in the 17th century. Inside, lanes climb between Jain temples, merchant havelis and the Raj Mahal, all held together by the same interlocking stone, no mortar.",
+          "timeline": [
+            {
+              "y": 1156,
+              "label": "Founded by Rawal Jaisal on Trikuta Hill."
+            },
+            {
+              "y": 1294,
+              "label": "Withstands a long siege by Alauddin Khalji's army."
+            },
+            {
+              "y": 2013,
+              "label": "Inscribed as part of the UNESCO Hill Forts of Rajasthan."
+            }
+          ],
+          "facts": [
+            "One of the last inhabited forts in the world — several thousand people still live inside.",
+            "Its walls enclose a whole town of Jain temples, shops and havelis, not just a palace.",
+            "The outer walls were funded partly by a tax on the camel caravans passing through."
+          ],
+          "hiddenGems": [
+            "Lakhanon ki Pol and the Jain temples at dawn, before the shops open",
+            "The cannon points on the western rampart for the widest desert view",
+            "Kuldhara, the abandoned village nearby, best reached at sunset"
+          ],
+          "food": [
+            "Mirchi vada and pyaaz kachori from stalls in the fort bazaar",
+            "Ker sangri and bajra roti at a family-run rooftop café"
+          ],
+          "experiences": [
+            "Sleeping inside the fort in a converted haveli",
+            "Camel or jeep safari into the Sam sand dunes",
+            "Buying hand-embroidered mirror-work textiles from local artisans"
+          ],
+          "travel": {
+            "railway": "Jaisalmer Railway Station, 1.5 km",
+            "airport": "Jaisalmer Airport, 15 km (seasonal); Jodhpur, 285 km",
+            "parking": "Outside the Suraj Pol and the main gate",
+            "tip": "The fort is best explored on foot — autos can only reach the outer gates, and the lanes are too narrow inside."
+          },
+          "lat": 26.9124,
+          "lng": 70.9127,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1920px-Jaisalmer_forteresse.jpg",
+            "title": "Jaisalmer Fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jaisalmer_Fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1920px-Jaisalmer_forteresse.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/20170309_094915_Jaisalmer_fort_anagoria.jpg/1920px-20170309_094915_Jaisalmer_fort_anagoria.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cannon_at_Jaisalmer_Fort.jpg/1920px-Cannon_at_Jaisalmer_Fort.jpg"
+          ]
+        },
+        {
+          "id": "patwon-ki-haveli",
+          "name": "Patwon Ki Haveli",
+          "type": "Haveli",
+          "blurb": "A five-storey cluster of merchant mansions, its façade worked in yellow sandstone filigree so fine it reads as carved lace from the street.",
+          "rating": 4.5,
+          "entry": "₹100 (includes a guide in most sections)",
+          "open": "9:00 AM – 6:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Late afternoon, when the filigree façades throw lattices of shadow",
+          "history": "Built between 1805 and 1860 by the wealthy brocade and opium trader Guman Chand Patwa for his five sons, each of whom got a mansion of his own — which is why the complex reads as five adjoining havelis rather than one house. For a time it doubled as a venue for business meetings between Jaisalmer's traders and buyers arriving from Afghanistan and Central Asia.",
+          "architecture": "Five storeys of yellow sandstone, with projecting balconies, carved jharokhas and a run of latticed screens across the whole façade. One section is now a museum of the Patwa family's trade goods and textiles, another holds small craft shops; the carving on the upper floors is the most intricate in Jaisalmer.",
+          "timeline": [
+            {
+              "y": 1805,
+              "label": "Construction begins on the first of the five mansions."
+            },
+            {
+              "y": 1860,
+              "label": "The final mansion is completed for the fifth son."
+            }
+          ],
+          "facts": [
+            "Its filigree is carved from single blocks of stone, not assembled from pieces.",
+            "The complex is actually five separate houses built for five brothers.",
+            "The family fortune came from brocade textiles and the opium trade."
+          ],
+          "hiddenGems": [
+            "Salim Singh ki Haveli, with the famously overhanging tusk-like balcony",
+            "Nathmal ki Haveli, still partly occupied by goldsmith descendants",
+            "The small handicraft lane behind the haveli for block-printed textiles"
+          ],
+          "food": [
+            "Kachori and jalebi breakfast at a bazaar stall",
+            "Dal baati churma at a rooftop restaurant overlooking the fort"
+          ],
+          "experiences": [
+            "Climbing to the upper terraces for a fort-and-town panorama",
+            "A guided walk through the merchant havelis of the old city",
+            "Watching block-printing and mirror embroidery being done by hand"
+          ],
+          "travel": {
+            "railway": "Jaisalmer Railway Station, 1 km",
+            "airport": "Jodhpur, 285 km",
+            "parking": "On-street near the haveli; the lanes are narrow",
+            "tip": "Buy the combined ticket for Patwon ki Haveli, Salim Singh ki Haveli and Nathmal ki Haveli — they sit within a ten-minute walk of each other."
+          },
+          "lat": 26.9139,
+          "lng": 70.9152,
+          "themes": [
+            "haveli"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Patwon_ki_haveli_18.jpg/1920px-Patwon_ki_haveli_18.jpg",
+            "title": "Haveli"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Haveli"
+        },
+        {
+          "id": "kuldhara",
+          "name": "Kuldhara Abandoned Village",
+          "type": "Heritage Site",
+          "blurb": "A whole Paliwal Brahmin village abandoned overnight two centuries ago, its ruined sandstone lanes now protected and open to walk through at sunset.",
+          "rating": 4.4,
+          "entry": "₹50 per vehicle + ₹30 per person",
+          "open": "8:00 AM – 6:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy (soft sand underfoot)",
+          "bestPhoto": "Sunset from the village edge, with the ruined walls glowing ochre against the dunes",
+          "history": "Kuldhara was one of 84 villages settled by the Paliwal Brahmins, who irrigated the desert here for centuries. Early in the 19th century every inhabitant left in a single night — local tradition blames the persecution and forced marriage demands of the state's minister, though drought and shifting trade routes likely contributed. Nothing was ever resettled; the village stayed exactly as it was left, and its ruins are now a protected site with a walkway through the streets, the collapsed houses, the twin stepwells and the temple.",
+          "architecture": "The houses were flat-roofed sandstone cubes laid out along straight lanes, roof beams of salvaged desert wood, doorways still framed but doors long gone. The village temple and the two stepwells are the most substantial structures; a small site museum at the entrance explains the settlement and the abandonment.",
+          "timeline": [
+            {
+              "y": 1291,
+              "label": "The Paliwal Brahmins settle the Kuldhara area."
+            },
+            {
+              "y": 1825,
+              "label": "The village is abandoned overnight."
+            },
+            {
+              "y": 2010,
+              "label": "The ruins are protected, fenced and opened to visitors."
+            }
+          ],
+          "facts": [
+            "Around 1,500 people vanished from the village and its neighbours in a night.",
+            "No one has lived here since — the ruins are two centuries untouched.",
+            "Local legend says the village is cursed, which has kept builders out."
+          ],
+          "hiddenGems": [
+            "The graveyand of the abandoned cenotaphs on the rise west of the village",
+            "The twin stepwells, deeper than they look and half full of sand",
+            "Sunset here — the last tour buses leave by 5:30 and the site empties out"
+          ],
+          "food": [
+            "Pack water and snacks from Jaisalmer — nothing is sold at the site",
+            "Dinner back in the fort's rooftop restaurants afterwards"
+          ],
+          "experiences": [
+            "A slow walk of the street grid imagining the village at its height",
+            "Sunset photography when the walls glow amber",
+            "The site museum's short film on the Paliwal water-harvesting methods"
+          ],
+          "travel": {
+            "railway": "Jaisalmer Railway Station, 22 km",
+            "airport": "Jodhpur, 300 km",
+            "parking": "Dirt lot at the site entrance, included in the vehicle ticket",
+            "tip": "Bring water and a hat — there is no shade anywhere on the site."
+          },
+          "lat": 26.8657,
+          "lng": 70.8846,
+          "themes": [
+            "heritage"
+          ],
+          "wikiTitle": "Kuldhara",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Kuldhara%2C_an_abandoned_village_%2830738705327%29.jpg/1920px-Kuldhara%2C_an_abandoned_village_%2830738705327%29.jpg",
+            "title": "Kuldhara"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kuldhara",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Kuldhara%2C_an_abandoned_village_%2830738705327%29.jpg/1920px-Kuldhara%2C_an_abandoned_village_%2830738705327%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/KULDHARA_HERITAGE_VILLAGE%2C_JAISALMER.JPG/1920px-KULDHARA_HERITAGE_VILLAGE%2C_JAISALMER.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/KuldharaInscriptionPrd.jpg/1920px-KuldharaInscriptionPrd.jpg"
+          ]
+        },
+        {
+          "id": "sam-sand-dunes",
+          "name": "Sam Sand Dunes",
+          "type": "Desert",
+          "blurb": "The Thar's most accessible sea of crested dunes, 42 km from Jaisalmer — the classic camel-safari and sunset-out-over-nothing experience.",
+          "rating": 4.3,
+          "entry": "Free to visit; camel rides ₹300–₹800, jeep safaris more",
+          "open": "Best 4:00 PM onwards, or at dawn",
+          "bestSeason": "Nov – Feb",
+          "budget": "Low–Medium",
+          "difficulty": "Easy (soft sand walking)",
+          "bestPhoto": "The last fifteen minutes before sunset, facing away from the sun so the dune crests cast long shadows",
+          "history": "Sam sits at the edge of the progressively deeper desert, where the scrub gives way to continuous dune fields running towards the border. It became the staging point for desert tourism in the 1980s and 1990s, when camel safaris from Jaisalmer began ending here for the night; the Desert Festival each February brings its dune events here, from camel races to the moustache competition.",
+          "architecture": "Geology, not architecture: the dunes here are barchans — crescent-shaped migrating dunes — standing up to 40 or 50 metres high in the main field. Between them lie flat pans, and the odd khejri tree survives in the hollows.",
+          "timeline": [
+            {
+              "y": 1980,
+              "label": "Commercial camel safaris begin using Sam as their terminus."
+            },
+            {
+              "y": 1990,
+              "label": "The Desert Festival's dune events move here."
+            },
+            {
+              "y": 2010,
+              "label": "Regulated zones created to limit vehicle damage to the dunes."
+            }
+          ],
+          "facts": [
+            "The dunes migrate with the wind, reshaping the field every season.",
+            "On clear nights the stars here are exceptional — there is no light for 60 km.",
+            "The Desert Festival's camel races are held on these dunes each February."
+          ],
+          "hiddenGems": [
+            "Walking ten minutes past the camel stand puts you on empty dunes",
+            "Dawn, when the dunes hold cold air and animal tracks from the night",
+            "The Desert Festival in February, if your dates line up"
+          ],
+          "food": [
+            "Rajasthani dinner at the desert camps (book in advance)",
+            "Chai from the tea stalls at the dune entrance at dusk"
+          ],
+          "experiences": [
+            "A sunset camel ride along the dune crests",
+            "Stargazing after the crowds leave — stay for the last light and wait 45 minutes",
+            "A jeep safari across the steeper dune field"
+          ],
+          "travel": {
+            "railway": "Jaisalmer Railway Station, 42 km",
+            "airport": "Jodhpur, 320 km",
+            "parking": "Open dirt lots by the dune field",
+            "tip": "Don't just stop at the first dune line — walk ten minutes in and you'll lose the crowds entirely."
+          },
+          "lat": 26.8548,
+          "lng": 70.2149,
+          "themes": [
+            "desert"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sam_dunes_%28Jaisalmer%29.jpg/1920px-Sam_dunes_%28Jaisalmer%29.jpg",
+            "title": "Sam Sand Dunes"
+          }
+        },
+        {
+          "id": "desert-national-park",
+          "name": "Desert National Park",
+          "type": "Wildlife Sanctuary",
+          "blurb": "3,162 km² of dune, rock and scrub west of Jaisalmer — the great desert ecosystem, home to the last wild Great Indian Bustards on earth.",
+          "rating": 4.2,
+          "entry": "₹100 (Indian) / ₹450 (Foreign); jeep safari ₹2,000–₹3,500 per vehicle",
+          "open": "Sunrise – sunset; safaris best at dawn",
+          "bestSeason": "Nov – Jan (bustard season)",
+          "budget": "Medium (jeep safari)",
+          "difficulty": "Easy (all from the jeep tracks)",
+          "bestPhoto": "Dawn at the Sudasri watchtower, scanning the grass flats for bustards",
+          "history": "Notified as a national park in 1980 to protect the Thar's last intact desert ecosystem — about a fifth of it dune sea, the rest rocky terrain and fixed dunes with grass cover. Its fame rests on the Great Indian Bustard, critically endangered and now found wild in meaningful numbers only here and in one or two other pockets; fewer than 150 birds are thought to remain. Fossil beds at Akal, inside the park, hold 180-million-year-old Jurassic wood and marine fossils — evidence this desert was once a seabed.",
+          "architecture": "Nothing built but watchtowers and a small fossil-park shelter at Akal. The landscape is the attraction: crescent dunes, rocky outcrops, and the flats where chinkara, desert fox and bustard move. Safari jeeps follow a network of tracks between Sudasri, Akal and the dune fields.",
+          "timeline": [
+            {
+              "y": 1980,
+              "label": "The park notified to protect the Thar ecosystem."
+            },
+            {
+              "y": 1990,
+              "label": "Akal fossil park opened to visitors."
+            },
+            {
+              "y": 2018,
+              "label": "Bustard breeding-conservation programme launched."
+            }
+          ],
+          "facts": [
+            "One of the last homes of the critically endangered Great Indian Bustard.",
+            "Akal's fossil beds hold 180-million-year-old Jurassic trees and seashells.",
+            "About a fifth of the park is pure migrating dune sea."
+          ],
+          "hiddenGems": [
+            "The Akal fossil park's petrified wood logs, left in situ",
+            "Desert fox and chinkara sightings on the dawn safari",
+            "The Sudasri waterhole watchpoint at first light"
+          ],
+          "food": [
+            "Pack breakfast from Jaisalmer — safaris run through breakfast hours",
+            "Dinner at the desert camps near Sam afterwards"
+          ],
+          "experiences": [
+            "A dawn jeep safari scanning the flats for bustards and foxes",
+            "The Akal fossil park's Jurassic wood",
+            "Birdwatching at the Sudasri watchtower in winter"
+          ],
+          "travel": {
+            "railway": "Jaisalmer Railway Station, 40 km to Sudasri gate",
+            "airport": "Jodhpur, 320 km",
+            "parking": "At the Sudasri gate and Akal shelter",
+            "tip": "Book a registered safari operator in Jaisalmer the day before — dawn departures are the whole point."
+          },
+          "lat": 26.9982,
+          "lng": 70.2994,
+          "themes": [
+            "wildlife"
+          ],
+          "wikiTitle": "Desert National Park",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Desert_National_Park_%2850861830528%29.jpg/1920px-Desert_National_Park_%2850861830528%29.jpg",
+            "title": "Desert National Park"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Desert_National_Park",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Desert_National_Park_%2850861830528%29.jpg/1920px-Desert_National_Park_%2850861830528%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/A_view_on_Sams_sand_dunes.JPG/1920px-A_view_on_Sams_sand_dunes.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/d/d6/Chinkara_-_Shreeram_M_V_-_Bikaner.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "udaipur",
+      "name": "Udaipur",
+      "blurb": "City of Lakes, where marble palaces float on still water.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Evening_view%2C_City_Palace%2C_Udaipur.jpg/1920px-Evening_view%2C_City_Palace%2C_Udaipur.jpg",
+        "title": "Udaipur"
+      },
+      "places": [
+        {
+          "id": "udaipur-city-palace",
+          "wikiTitle": "City Palace, Udaipur",
+          "name": "Udaipur City Palace",
+          "type": "Palace",
+          "blurb": "A granite and marble complex growing along the east shore of Lake Pichola, added to by twenty-two generations of Mewar rulers until it became a small city walled in itself.",
+          "rating": 4.6,
+          "entry": "₹300 (Indian) / ₹600 (Foreign); museum sections add to this",
+          "open": "9:30 AM – 5:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Medium",
+          "difficulty": "Moderate (many stairs across levels)",
+          "bestPhoto": "From the lake terrace looking up at the palace walls at dusk",
+          "history": "Begun in 1559 by Maharana Udai Singh II, who shifted the Mewar capital here after Chittorgarh was deemed too exposed. Successive maharanas kept building for nearly four centuries, which is why the complex reads as a stack of very different courtyards rather than one planned structure. It remains the residence of the Mewar royal family, with the palace museum occupying the ceremonial sections.",
+          "architecture": "A bewildering but deliberate layering of Rajput, Mughal, medieval European and Chinese influences. Highlights are the Mor Chowk with its glass-mosaic peacocks, the Chini Chitrashala with Dutch blue-and-white tilework, and the Bhim Vilas' miniature-painting gallery. From the upper terraces the whole of Lake Pichola and the Aravalli hills open out.",
+          "timeline": [
+            {
+              "y": 1559,
+              "label": "Maharana Udai Singh II begins the palace and founds the city."
+            },
+            {
+              "y": 1620,
+              "label": "Mor Chowk and the peacock mosaics completed under Karan Singh II."
+            },
+            {
+              "y": 1974,
+              "label": "The palace museum opens to the public."
+            }
+          ],
+          "facts": [
+            "Still the home of the Mewar royal family — only part of the complex is a museum.",
+            "The peacock mosaics of Mor Chowk are made from thousands of coloured glass pieces.",
+            "Its walls are thick enough to hide small chambers where rulers held private councils."
+          ],
+          "hiddenGems": [
+            "The Crystal Gallery, rarely visited and holding an extraordinary Victorian glass collection",
+            "Sajjangarh Monsoon Palace on the ridge above for the valley view",
+            "Bagore ki Haveli for the evening Dharohar folk-dance performance"
+          ],
+          "food": [
+            "Rajasthani thali at a lakefront restaurant",
+            "Malai ghevar and mawa kachori from a Jagdish Chowk sweet shop"
+          ],
+          "experiences": [
+            "Sunset boat ride on Lake Pichola to Jag Mandir",
+            "Miniature-painting workshop with a Mewar school artist",
+            "Walking the old city's ghats at dawn when the lake is glass-still"
+          ],
+          "travel": {
+            "railway": "Udaipur City Railway Station, 2 km",
+            "airport": "Maharana Pratap Airport (UDR), 25 km",
+            "parking": "Paid lots at the palace entrance and at Ramesh Chowk",
+            "tip": "Enter through the Tripolia Gate side rather than the main Badi Pol — you'll hit far fewer groups in the first courtyards."
+          },
+          "lat": 24.5764,
+          "lng": 73.6835,
+          "themes": [
+            "palace"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Udaipur_City_Palace.jpg/1920px-Udaipur_City_Palace.jpg",
+            "title": "City Palace, Udaipur"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Palace,_Udaipur",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Udaipur_City_Palace.jpg/1920px-Udaipur_City_Palace.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/7e/City_Palace_Aerial_View_by_Pranshu_Dubey.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/City_Palace_Udaipur_Front.jpg/1920px-City_Palace_Udaipur_Front.jpg"
+          ]
+        },
+        {
+          "id": "lake-pichola",
+          "name": "Lake Pichola & Jag Mandir",
+          "type": "Lake",
+          "blurb": "An artificial freshwater lake at the heart of Udaipur, with two island palaces on it — one now a hotel, the other the marble pavilions of Jag Mandir.",
+          "rating": 4.7,
+          "entry": "Free to view; boat rides roughly ₹400–₹700",
+          "open": "Boats operate 10:00 AM – 5:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Medium (boat rides)",
+          "difficulty": "Easy",
+          "bestPhoto": "Sunset from a boat, with the City Palace lit gold above the water",
+          "history": "Created in 1362 by the Banjara trader Pichhu Banjara, then enlarged in the 16th century by Maharana Udai Singh II to supply water to the new city. The island of Jag Niwas became the Lake Palace, and in the 1980s it stood in for a hotel in Octopussy — which is how a 17th-century pleasure palace ended up on the itinerary of every visitor since. The other island, Jag Mandir, was where Shah Jahan took refuge before he became emperor.",
+          "architecture": "Jag Mandir is the more public of the two islands: an octagonal Darikhana of pale stone, the Gul Mahal with its entrance flanked by stone elephants, and gardens laid out around a chhatri. The larger Jag Niwas is wrapped in white marble and now operates as a luxury hotel, its famous lily pond at the centre.",
+          "timeline": [
+            {
+              "y": 1362,
+              "label": "Pichhu Banjara builds the original lake."
+            },
+            {
+              "y": 1621,
+              "label": "Shah Jahan shelters on Jag Mandir before ascending the throne."
+            },
+            {
+              "y": 1746,
+              "label": "Jag Niwas completed; later converted into the Lake Palace hotel."
+            }
+          ],
+          "facts": [
+            "The lake is artificial, dug in the 14th century and later enlarged.",
+            "Shah Jahan took refuge on Jag Mandir before he became Mughal emperor.",
+            "Both island palaces were built over centuries, not in one campaign."
+          ],
+          "hiddenGems": [
+            "Buckingham Canal's quiet ghats, a local fishing spot away from the boats",
+            "Sunset from Ambrai Ghat, facing the palace across the water",
+            "Badi Lake, twenty minutes out of town, almost empty on weekdays"
+          ],
+          "food": [
+            "Kulhad chai and kachori on the Ambrai Ghat steps",
+            "Daal baati and gatte ki sabzi at a family-run old-city restaurant"
+          ],
+          "experiences": [
+            "Sunset boat ride stopping at Jag Mandir",
+            "Kayaking on the lake in the early morning",
+            "Photographing the Lake Palace from Ambrai Ghat at golden hour"
+          ],
+          "travel": {
+            "railway": "Udaipur City Railway Station, 3 km",
+            "airport": "Maharana Pratap Airport (UDR), 27 km",
+            "parking": "Around Ramesh Chowk and the Bansi Ghat jetty",
+            "tip": "Take the boat from the City Palace jetty rather than the nearer one — the route past both island palaces is longer and quieter."
+          },
+          "lat": 24.571,
+          "lng": 73.68,
+          "themes": [
+            "lake"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/JagMandir.jpg",
+            "title": "Jag Mandir Palace"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jag_Mandir_Palace"
+        },
+        {
+          "id": "jagdish-temple",
+          "name": "Jagdish Temple",
+          "type": "Temple",
+          "blurb": "A towering Indo-Aryan temple in the middle of the old city, its shikhara covered in sculpture and its steps alive with morning bells.",
+          "rating": 4.5,
+          "entry": "Free",
+          "open": "4:30 AM – 1:00 PM, 5:00 PM – 10:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy (steep steps to the mandapa)",
+          "bestPhoto": "Early morning aarti, when lamplight reaches the carved elephants flanking the stairs",
+          "history": "Built in 1651 by Maharana Jagat Singh I, then the tallest thing in Udaipur, and still the city's most active temple. It is dedicated to Vishnu as Jagannath; the image inside was installed with ceremonies described in contemporary Mewar records, and the temple has been in continuous worship since — which is why its courtyard feels lived-in rather than curated.",
+          "architecture": "The temple rises on a tall jagati platform reached by a broad flight of thirty-two steps flanked by stone elephants. Its shikhara is a dense stack of sculptural registers — dancers, musicians, elephants and deities — and the mandapa porch is supported by carved pillars; two great stone elephants and a Garuda statue guard the entrance stair.",
+          "timeline": [
+            {
+              "y": 1651,
+              "label": "Completed under Maharana Jagat Singh I."
+            },
+            {
+              "y": 1700,
+              "label": "The Garuda shrine at the stair base added."
+            },
+            {
+              "y": 1970,
+              "label": "Major structural conservation of the shikhara."
+            }
+          ],
+          "facts": [
+            "The main image is carved from black stone and anointed daily.",
+            "The temple sits at street level in the bazaar, a ten-minute walk from City Palace.",
+            "The morning aarti at 4:30 AM is the most atmospheric service."
+          ],
+          "hiddenGems": [
+            "The small shrine to Ganesh beside the main sanctum, where locals queue first",
+            "The bazaar lanes around the temple for miniature-painting shops",
+            "Evening aarti — nearly empty and lit by oil lamps"
+          ],
+          "food": [
+            "Prasad offered at the temple steps in the morning",
+            "Dal baati and ghevar at Jagdish Chowk's sweet shops, a minute away"
+          ],
+          "experiences": [
+            "Attending the 4:30 AM aarti, bells and lamplight in the dark",
+            "Reading the shikhara sculpture registers from the platform at leisure",
+            "A bazaar walk afterwards through the old city's art lanes"
+          ],
+          "travel": {
+            "railway": "Udaipur City Railway Station, 3 km",
+            "airport": "Maharana Pratap Airport (UDR), 26 km",
+            "parking": "Street parking near Jagdish Chowk; walk the last stretch",
+            "tip": "Shoulders and knees covered, and shoes off at the stair base — carry a bag for them."
+          },
+          "lat": 24.579,
+          "lng": 73.6853,
+          "themes": [
+            "temple"
+          ],
+          "wikiTitle": "Jagdish Temple",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jagdish_Temple_Udaipur.jpg/1920px-Jagdish_Temple_Udaipur.jpg",
+            "title": "Jagdish Temple, Udaipur"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jagdish_Temple,_Udaipur",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jagdish_Temple_Udaipur.jpg/1920px-Jagdish_Temple_Udaipur.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/20191207_Jagdish_Temple%2C_Udaipur%2C_0608_7004.jpg/1920px-20191207_Jagdish_Temple%2C_Udaipur%2C_0608_7004.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/20191207_Jagdish_Temple%2C_Udaipur%2C_0609_7008.jpg/1920px-20191207_Jagdish_Temple%2C_Udaipur%2C_0609_7008.jpg"
+          ]
+        },
+        {
+          "id": "saheliyon-ki-bari",
+          "name": "Saheliyon Ki Bari",
+          "type": "Garden",
+          "blurb": "A royal pleasure garden of fountains, kiosks and lotus pools built for a princess and her forty-eight attendants — and cooled by its own waterworks since the 1700s.",
+          "rating": 4.4,
+          "entry": "₹10 (Indian) / ₹50 (Foreign)",
+          "open": "9:00 AM – 7:00 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The fountain court mid-morning, when the water jets catch the light across the marble pavilions",
+          "history": "Laid out in the early 18th century by Maharana Sangram Singh II for a queen and her party of forty-eight attendants who came with her to Udaipur. It was deliberately built away from the palaces on the shore of Fateh Sagar lake, a private green retreat where the household could walk. Its fountains run without any pump — they work on the head of pressure from the lake, fed through channels, and have done for three centuries.",
+          "architecture": "The garden is a grid of shaded walks, marble pavilions and four lotus pools, centred on the fountain court — a dense cluster of white marble kiosks, each with a scalloped pool, all surrounding the jets. The 'Sawan Bhadon' pavilions at the corners are named for the monsoon winds; when the fountains run, water sheets down their carved channels.",
+          "timeline": [
+            {
+              "y": 1710,
+              "label": "The garden laid out for the royal household."
+            },
+            {
+              "y": 1870,
+              "label": "Fountain works restored and extended."
+            },
+            {
+              "y": 1960,
+              "label": "Opened to the public as a city garden."
+            }
+          ],
+          "facts": [
+            "The fountains run on gravity alone — no pump, for three hundred years.",
+            "It was built for a royal retinue of forty-eight women.",
+            "The lotus pools still bloom in the monsoon months."
+          ],
+          "hiddenGems": [
+            "The museum room of royal paraphernalia in the corner pavilion",
+            "The monsoon-month lotus blooms in the pools",
+            "Early morning, when the garden is at its coolest and quietest"
+          ],
+          "food": [
+            "Kulhad chai from the stall opposite the gate",
+            "Rajasthani thali at Fateh Sagar's lakeside kiosks nearby"
+          ],
+          "experiences": [
+            "Sitting by the fountain court when the jets switch on",
+            "A slow circuit of the lotus pools in the shade",
+            "Combining with Fateh Sagar's lakeside drive and Moti Magri"
+          ],
+          "travel": {
+            "railway": "Udaipur City Railway Station, 5 km",
+            "airport": "Maharana Pratap Airport (UDR), 27 km",
+            "parking": "Free lot at the garden gate",
+            "tip": "Fountains run best in the morning — by late afternoon the pressure drops."
+          },
+          "lat": 24.5854,
+          "lng": 73.7125,
+          "themes": [
+            "garden"
+          ],
+          "wikiTitle": "Sahelion Ki Bari",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Saheliyon-ki-Bari_Fountain.JPG/1920px-Saheliyon-ki-Bari_Fountain.JPG",
+            "title": "Saheliyon-ki-Bari"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Saheliyon-ki-Bari"
+        },
+        {
+          "id": "bagore-ki-haveli",
+          "name": "Bagore Ki Haveli",
+          "type": "Haveli",
+          "blurb": "An 18th-century waterfront mansion of over a hundred rooms, now a museum of Mewar courtly life and home to Udaipur's best evening folk-dance show.",
+          "rating": 4.5,
+          "entry": "₹100 (Indian) / ₹250 (Foreign); Dharohar dance show ₹150 extra",
+          "open": "10:00 AM – 5:30 PM; shows 6:00 PM & 7:30 PM",
+          "bestSeason": "Oct – Mar",
+          "budget": "Low",
+          "difficulty": "Easy (narrow stairs between galleries)",
+          "bestPhoto": "The interior courtyard's jharokha tiers in the afternoon, or the Gangaur Ghat terrace at dusk",
+          "history": "Built in 1751 by Amar Chand Badwa, the prime minister of Mewar, on the water's edge at Gangaur Ghat, and passed through noble and then royal hands until it fell into neglect in the 20th century. It was restored in the 1980s by the West Zone Cultural Centre and reopened as a museum of courtly and folk life; its terraces now hold one of the most photographed views of Lake Pichola.",
+          "architecture": "Three storeys and two courtyards of white-painted masonry, with jharokha balconies facing the lake and a hall of mirrors on the upper floor. The galleries hold costume, puppetry, royal portraits and a famous display of Rajasthani turbans; the Dharohar show runs in the inner courtyard most evenings.",
+          "timeline": [
+            {
+              "y": 1751,
+              "label": "Built for the prime minister of Mewar, Amar Chand Badwa."
+            },
+            {
+              "y": 1870,
+              "label": "Passes to the royal family; used as a residence and store."
+            },
+            {
+              "y": 1986,
+              "label": "Restored by the West Zone Cultural Centre and opened as a museum."
+            }
+          ],
+          "facts": [
+            "It has 138 rooms arranged around two courtyards.",
+            "The evening Dharohar show runs nightly and sells out in season.",
+            "The queen's courtyard has one of the finest jharokha views on the lake."
+          ],
+          "hiddenGems": [
+            "The turban gallery — dozens of regional styles, all labelled",
+            "The peacock-mosaic courtyard on the upper floor",
+            "The Gangaur Ghat steps outside at sunset, free and beautiful"
+          ],
+          "food": [
+            "Chai and snacks at the lakeside cafés on Gangaur Ghat",
+            "Dinner at an Ambrai Ghat rooftop, facing the Lake Palace"
+          ],
+          "experiences": [
+            "The Dharohar folk-dance evening, booked a day ahead in season",
+            "The puppet and costume galleries before the crowds of midday",
+            "Sunset on the haveli terrace above the ghat"
+          ],
+          "travel": {
+            "railway": "Udaipur City Railway Station, 3.5 km",
+            "airport": "Maharana Pratap Airport (UDR), 27 km",
+            "parking": "At Ramesh Chowk, a short walk away",
+            "tip": "See the museum in the afternoon and stay for the 6 PM show — one ticket covers the whole evening."
+          },
+          "lat": 24.5749,
+          "lng": 73.6777,
+          "themes": [
+            "haveli"
+          ],
+          "wikiTitle": "Bagore-ki-Haveli",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bagore_ki_Haveli%2C_Rajasthan.jpg",
+            "title": "Bagore Ki Haveli"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bagore_Ki_Haveli",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/96/Bagore_ki_Haveli%2C_Rajasthan.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Entrance_court_at_Bagore-ki-Haveli.jpg/1920px-Entrance_court_at_Bagore-ki-Haveli.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Glass_window_at_Bagore-ki-Haveli.JPG/1920px-Glass_window_at_Bagore-ki-Haveli.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "jharkhand",
+  "name": "Jharkhand",
+  "region": "East",
+  "tagline": "Land of Forests",
+  "unesco": false,
+  "blurb": "A mineral-rich plateau state of waterfalls and dense sal forests, its Deoghar temple complex among the most-visited Shiva pilgrimage sites in the country.",
+  "stats": {
+    "area": "79,716 km²",
+    "districts": "24",
+    "language": "Hindi, Santali, Ho",
+    "founded": "2000"
+  },
+  "culture": {
+    "dress": "Tussar silk sarees",
+    "festivals": [
+      {
+        "name": "Shravani Mela, Deoghar",
+        "month": "July/August"
+      },
+      {
+        "name": "Sarhul",
+        "month": "March/April"
+      }
+    ],
+    "dance": [
+      "Chhau dance"
+    ],
+    "cuisine": [
+      "Litti chokha",
+      "Dhuska",
+      "Rugra"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg/1920px-Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg",
+    "title": "Baidyanath Temple"
+  },
+  "districts": [
+    {
+      "id": "deoghar",
+      "name": "Deoghar",
+      "blurb": "A major Shiva pilgrimage town in eastern Jharkhand, one of India's twelve Jyotirlinga sites.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg/1920px-Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg",
+        "title": "Baidyanath Temple"
+      },
+      "places": [
+        {
+          "id": "baidyanath-temple",
+          "name": "Baidyanath Temple",
+          "type": "Temple",
+          "blurb": "One of the twelve Jyotirlingas, a walled cluster of 22 temples centred on the main Shiva shrine, drawing one of eastern India's largest annual pilgrimages.",
+          "rating": 4.4,
+          "entry": "Free",
+          "open": "4 AM–3:30 PM, 6–9 PM",
+          "bestSeason": "Oct–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The temple spire against the evening sky from the main square",
+          "history": "One of the twelve Jyotirlingas of Shiva, the temple's present structure is generally dated to the 18th century, rebuilt under regional royal patronage after earlier structures fell into disrepair, though the site's religious significance is described in far older textual traditions.",
+          "architecture": "A cluster of 22 temples within one walled complex, the main shrine topped with a tall Nagara-style spire crowned by a distinctive silver-and-gold pinnacle (chakra and pataka flag).",
+          "timeline": [
+            {
+              "y": 1596,
+              "label": "Local tradition records a Raja of the region funding temple repairs."
+            },
+            {
+              "y": 1757,
+              "label": "Temple significantly rebuilt in its present form."
+            }
+          ],
+          "facts": [
+            "One of the twelve Jyotirlingas, among the most sacred Shiva sites in India.",
+            "Draws one of India's largest annual pilgrimages during the Shravani Mela in the monsoon month of Shravan.",
+            "The complex includes 21 subsidiary shrines around the main temple."
+          ],
+          "hiddenGems": [
+            "Nandan Pahar hill park nearby",
+            "Tapovan hills with meditation caves outside town",
+            "Naulakha Mandir, a marble temple funded by a maharani in the early 20th century"
+          ],
+          "food": [
+            "Bengali-influenced sweets like peda, a Deoghar specialty",
+            "Simple thalis at pilgrim dining halls"
+          ],
+          "experiences": [
+            "Joining the kanwar pilgrimage tradition during Shravan (intense crowds)",
+            "Visiting Tapovan's meditation caves",
+            "Evening aarti at the main shrine"
+          ],
+          "travel": {
+            "railway": "Baidyanath Dham Railway Station, 2.5 km",
+            "airport": "Deoghar Airport, 10 km",
+            "parking": "Near the temple complex, limited during festival season",
+            "tip": "Avoid the Shravani Mela month if you prefer a calmer visit — it is one of the most crowded pilgrimages in eastern India."
+          },
+          "lat": 24.4834,
+          "lng": 86.7003,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg/1920px-Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg",
+            "title": "Baidyanath Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Baidyanath_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg/1920px-Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Baidyanath_temple_and_temple_complex%2C_Deoghar_11.jpg/1920px-Baidyanath_temple_and_temple_complex%2C_Deoghar_11.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/b3/Baidyanathdham.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

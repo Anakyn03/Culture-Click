@@ -1,0 +1,112 @@
+{
+  "id": "nagaland",
+  "name": "Nagaland",
+  "region": "Northeast",
+  "tagline": "Land of Festivals",
+  "unesco": false,
+  "blurb": "A state of terraced hillside villages and fiercely preserved tribal identity, where Khonoma pioneered community-led conservation decades before it became a global idea.",
+  "stats": {
+    "area": "16,579 km²",
+    "districts": "16",
+    "language": "English (official); Naga languages",
+    "founded": "1963"
+  },
+  "culture": {
+    "dress": "Naga shawls",
+    "festivals": [
+      {
+        "name": "Hornbill Festival",
+        "month": "December"
+      },
+      {
+        "name": "Sekrenyi",
+        "month": "February"
+      }
+    ],
+    "dance": [
+      "War dance (Angami)"
+    ],
+    "cuisine": [
+      "Smoked pork with bamboo shoot",
+      "Axone",
+      "Anishi"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/View_of_Khonoma_%282024%29.jpg/1920px-View_of_Khonoma_%282024%29.jpg",
+    "title": "Khonoma"
+  },
+  "districts": [
+    {
+      "id": "kohima",
+      "name": "Kohima",
+      "blurb": "Nagaland's capital district, ringed by terraced Angami Naga villages in the surrounding hills.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/View_of_Khonoma_%282024%29.jpg/1920px-View_of_Khonoma_%282024%29.jpg",
+        "title": "Khonoma"
+      },
+      "places": [
+        {
+          "id": "khonoma-village",
+          "name": "Khonoma Village",
+          "type": "Heritage Village",
+          "blurb": "An Angami Naga village famed both for its fierce 1879 resistance to British forces and for pioneering community-led conservation a century later.",
+          "rating": 4.6,
+          "entry": "Village entry/conservation fee",
+          "open": "Daylight hours",
+          "bestSeason": "Oct–Apr",
+          "budget": "Low",
+          "difficulty": "Moderate (hillside walking)",
+          "bestPhoto": "Terraced fields catching early light from the ridge above the village",
+          "history": "An Angami Naga village with a history of fierce resistance to British colonial expansion in the late 19th century, notably during the Battle of Khonoma in 1879–80. The village later became a pioneer of community-led conservation, establishing the Khonoma Nature Conservation and Tragopan Sanctuary in 1998, giving up hunting traditions to protect the endangered Blyth's tragopan pheasant.",
+          "architecture": "Traditional Angami Naga stone-terraced village architecture with wood-and-thatch houses, elaborately carved wooden gate posts, and terraced jhum and wet-rice agricultural fields on the surrounding hillsides.",
+          "timeline": [
+            {
+              "y": 1879,
+              "label": "Battle of Khonoma, a major Angami Naga stand against British colonial forces."
+            },
+            {
+              "y": 1998,
+              "label": "Village establishes the Khonoma Nature Conservation and Tragopan Sanctuary, ending traditional hunting on its land."
+            }
+          ],
+          "facts": [
+            "Often cited as India's first \"green village\" for its community conservation model.",
+            "Famous for the centuries-old terraced agricultural system built into the hillsides.",
+            "The 1879–80 battle here is remembered as one of the fiercest resistances to British expansion in the Naga Hills."
+          ],
+          "hiddenGems": [
+            "Dzüköu Valley trek trailhead accessible from the region",
+            "Khonoma's original wooden village gates",
+            "Terraced paddy field viewpoints above the village"
+          ],
+          "food": [
+            "Naga smoked pork with bamboo shoot",
+            "Axone (fermented soybean) dishes"
+          ],
+          "experiences": [
+            "Guided walk through the conservation sanctuary",
+            "Terraced field trail walk",
+            "Homestay with an Angami Naga family"
+          ],
+          "travel": {
+            "railway": "Dimapur, ~85 km",
+            "airport": "Dimapur Airport, ~90 km",
+            "parking": "At the village entrance",
+            "tip": "Arrange a local guide through the village council — it supports the community directly and unlocks the conservation-trail access."
+          },
+          "lat": 25.6667,
+          "lng": 94.0333,
+          "themes": [
+            "heritage-village"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/View_of_Khonoma_%282024%29.jpg/1920px-View_of_Khonoma_%282024%29.jpg",
+            "title": "Khonoma"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Khonoma"
+        }
+      ]
+    }
+  ]
+}

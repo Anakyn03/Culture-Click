@@ -1,0 +1,113 @@
+{
+  "id": "mizoram",
+  "name": "Mizoram",
+  "region": "Northeast",
+  "tagline": "Land of the Highlanders",
+  "unesco": false,
+  "blurb": "A state of steep forested ridges and Mizo hill villages, where community-run heritage sites preserve a way of life largely reshaped by 19th-century mission history.",
+  "stats": {
+    "area": "21,081 km²",
+    "districts": "11",
+    "language": "Mizo",
+    "founded": "1987"
+  },
+  "culture": {
+    "dress": "Puanchei woven shawls",
+    "festivals": [
+      {
+        "name": "Chapchar Kut",
+        "month": "March"
+      },
+      {
+        "name": "Mim Kut",
+        "month": "August/September"
+      }
+    ],
+    "dance": [
+      "Cheraw (bamboo dance)"
+    ],
+    "cuisine": [
+      "Bai (vegetable stew)",
+      "Bamboo shoot dishes",
+      "Sawhchiar"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+    "title": "Reiek"
+  },
+  "districts": [
+    {
+      "id": "mamit",
+      "name": "Mamit",
+      "blurb": "A forested western Mizoram district bordering Tripura and Bangladesh, home to Reiek Hill.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+        "title": "Reiek"
+      },
+      "places": [
+        {
+          "id": "reiek-heritage-village",
+          "name": "Reiek Heritage Village",
+          "type": "Heritage Village",
+          "blurb": "A recreated traditional Mizo village at the base of Reiek Hill, rebuilding a pre-mission-era lifestyle largely displaced across the 19th and 20th centuries.",
+          "rating": 4.4,
+          "entry": "Nominal entry fee",
+          "open": "8 AM–5 PM",
+          "bestSeason": "Nov–Mar",
+          "budget": "Low",
+          "difficulty": "Easy–Moderate",
+          "bestPhoto": "Ridge-top sunset looking toward the Bangladesh border hills",
+          "history": "Reiek Tlang (Reiek Hill) has long held cultural significance for the Mizo people. In recent decades the state tourism department developed a heritage village at its base recreating traditional Mizo houses and lifestyle from before large-scale conversion to Christianity in the 19th–20th centuries.",
+          "architecture": "Traditional bamboo-and-thatch Mizo houses rebuilt to represent the pre-colonial village layout, alongside viewpoints along the ridge above offering views into neighbouring states and Bangladesh.",
+          "timeline": [
+            {
+              "y": 1996,
+              "label": "Reiek Heritage Village developed by the Mizoram tourism department."
+            }
+          ],
+          "facts": [
+            "Reiek Hill offers views into Bangladesh and Tripura on a clear day.",
+            "The heritage village recreates a lifestyle largely displaced by 19th–20th century missionary influence.",
+            "A popular short trek destination from Aizawl for weekend visitors."
+          ],
+          "hiddenGems": [
+            "Sunset viewpoint from the ridge above the heritage village",
+            "Tam Dil Lake, a natural lake nearby",
+            "Local Mizo bamboo-craft demonstrations in the village"
+          ],
+          "food": [
+            "Bai, a traditional Mizo vegetable stew",
+            "Local bamboo-shoot dishes"
+          ],
+          "experiences": [
+            "Short ridge trek above the village",
+            "Traditional Mizo house tour",
+            "Camping overnight near Reiek for sunrise views"
+          ],
+          "travel": {
+            "railway": "No rail in Mizoram; nearest is Silchar, Assam, ~180 km",
+            "airport": "Lengpui Airport, Aizawl, ~35 km",
+            "parking": "At the village entrance",
+            "tip": "Weekends draw local day-trippers from Aizawl — visit on a weekday for a quieter experience."
+          },
+          "lat": 23.75,
+          "lng": 92.5667,
+          "themes": [
+            "heritage-village"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+            "title": "Reiek"
+          },
+          "wikiTitle": "Reiek",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Reiek",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Reiek_Heritage_Village.JPG/1920px-Reiek_Heritage_Village.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

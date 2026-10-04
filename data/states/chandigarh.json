@@ -1,0 +1,117 @@
+{
+  "id": "chandigarh",
+  "name": "Chandigarh",
+  "region": "North",
+  "tagline": "The City Beautiful",
+  "unesco": false,
+  "blurb": "A planned modernist city designed by Le Corbusier, whose best-loved landmark was built secretly and illegally from decades of recycled waste.",
+  "stats": {
+    "area": "114 km²",
+    "districts": "1",
+    "language": "Punjabi, Hindi, English",
+    "founded": "1966 (UT status)"
+  },
+  "culture": {
+    "dress": "Modern Punjabi fusion wear",
+    "festivals": [
+      {
+        "name": "Chandigarh Carnival",
+        "month": "November"
+      }
+    ],
+    "dance": [
+      "Bhangra"
+    ],
+    "cuisine": [
+      "Punjabi street food",
+      "Chole Bhature"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+    "title": "Rock Garden of Chandigarh"
+  },
+  "districts": [
+    {
+      "id": "chandigarh-district",
+      "name": "Chandigarh",
+      "blurb": "India's first fully planned post-independence city, laid out in sectors by Le Corbusier.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+        "title": "Rock Garden of Chandigarh"
+      },
+      "places": [
+        {
+          "id": "rock-garden",
+          "wikiTitle": "Rock Garden, Chandigarh",
+          "name": "Rock Garden (Nek Chand)",
+          "type": "Sculpture Garden",
+          "blurb": "A sprawling 40-acre sculpture garden built secretly over 18 years from industrial and household waste, discovered by authorities in 1975 and preserved rather than demolished.",
+          "rating": 4.5,
+          "entry": "₹30 (Indian) / ₹150 (Foreign)",
+          "open": "9 AM–6:30 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The recycled-mosaic courtyards in soft afternoon light",
+          "history": "Created secretly, starting in 1957, by government roads inspector Nek Chand, who began building sculptures from industrial and household waste on forest land outside the city without official authorization. When discovered by authorities in 1975, the scale and quality of the work led the city to formally support and protect it rather than demolish it.",
+          "architecture": "A sprawling sculpture garden of interlinked courtyards, waterfalls, and pathways, built almost entirely from recycled materials — broken bangles, ceramic fragments, electrical waste, and industrial scrap — reassembled into thousands of figures.",
+          "timeline": [
+            {
+              "y": 1957,
+              "label": "Nek Chand secretly begins building the garden on forest land."
+            },
+            {
+              "y": 1975,
+              "label": "The garden is discovered by city authorities and formally recognised rather than demolished."
+            },
+            {
+              "y": 1976,
+              "label": "Officially opened to the public as the Rock Garden."
+            }
+          ],
+          "facts": [
+            "Built entirely from recycled industrial and household waste.",
+            "Constructed secretly and illegally for its first 18 years before official recognition.",
+            "Now spans roughly 40 acres and draws among the highest visitor numbers of any garden in India."
+          ],
+          "hiddenGems": [
+            "Sukhna Lake, a short distance away, for an evening walk",
+            "The garden's lesser-visited waterfall courtyards toward the rear",
+            "Chandigarh's Capitol Complex (Le Corbusier architecture), a UNESCO site nearby"
+          ],
+          "food": [
+            "Punjabi street food around Sector 17",
+            "Chandigarh-style chole bhature"
+          ],
+          "experiences": [
+            "Self-guided walk through the maze-like courtyards",
+            "Combined visit with Sukhna Lake in the same evening",
+            "Photography of the recycled-material sculptures"
+          ],
+          "travel": {
+            "railway": "Chandigarh Railway Station, ~8 km",
+            "airport": "Chandigarh Airport, ~10 km",
+            "parking": "At the garden entrance",
+            "tip": "Go in the late afternoon and continue on to Sukhna Lake for sunset — the two sit within walking distance of each other."
+          },
+          "lat": 30.7517,
+          "lng": 76.81,
+          "themes": [
+            "sculpture-garden"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+            "title": "Rock Garden of Chandigarh"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chand2.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Dancing_girls_at_Rock_Garden%2C_Chandigarh.jpg/1920px-Dancing_girls_at_Rock_Garden%2C_Chandigarh.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

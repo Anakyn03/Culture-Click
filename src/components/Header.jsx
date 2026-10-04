@@ -16,13 +16,8 @@ export default function Header() {
         onKeyDown={(e) => e.key === 'Enter' && navigate('/')}
         className="flex cursor-pointer items-center gap-2.5 font-serif text-[1.35rem] font-bold text-indigo dark:text-charcoal"
       >
-        <span className="h-[30px] w-[30px]">
-          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <path d="M20 3c8 6 14 12 14 20a14 14 0 0 1-28 0C6 15 12 9 20 3Z" fill="#C66A1B" />
-            <path d="M20 3c8 6 14 12 14 20a14 14 0 0 1-28 0C6 15 12 9 20 3Z" stroke="#1F3A5F" strokeWidth="1.5" fill="none" opacity=".4" />
-            <circle cx="20" cy="23" r="5" fill="#D9A404" />
-          </svg>
-        </span>
+        {/* Decorative: the wordmark beside it already names the site. */}
+        <img src="/logo-mark.png" alt="" width="34" height="34" className="h-[34px] w-[34px] shrink-0 object-contain" />
         <span>
           <span className="hidden sm:inline">Culture Click</span>
           <small className="block text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-saffron">India, storied</small>

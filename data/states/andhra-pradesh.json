@@ -1,0 +1,121 @@
+{
+  "id": "andhra-pradesh",
+  "name": "Andhra Pradesh",
+  "region": "South",
+  "tagline": "Coastal Temple State",
+  "unesco": false,
+  "blurb": "A long Bay of Bengal coastline backing onto temple towns and hill shrines, where Telugu devotional culture runs as deep as its rice-growing deltas.",
+  "stats": {
+    "area": "162,970 km²",
+    "districts": "26",
+    "language": "Telugu",
+    "founded": "1956 (2014 post-bifurcation)"
+  },
+  "culture": {
+    "dress": "Kalamkari-printed sarees",
+    "festivals": [
+      {
+        "name": "Tirupati Brahmotsavam",
+        "month": "September/October"
+      },
+      {
+        "name": "Ugadi",
+        "month": "March/April"
+      }
+    ],
+    "dance": [
+      "Kuchipudi"
+    ],
+    "cuisine": [
+      "Pesarattu",
+      "Gongura Pachadi",
+      "Pulihora"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+    "title": "Venkateswara Temple, Tirumala"
+  },
+  "districts": [
+    {
+      "id": "tirupati",
+      "name": "Tirupati",
+      "blurb": "A pilgrim town built around one of the world's most-visited religious sites, Tirumala hill.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+        "title": "Venkateswara Temple, Tirumala"
+      },
+      "places": [
+        {
+          "id": "tirumala-temple",
+          "name": "Tirumala Venkateswara Temple",
+          "type": "Temple",
+          "blurb": "One of the world's most-visited pilgrimage sites, this Dravidian-style hilltop temple to Lord Venkateswara draws hundreds of thousands of devotees a day.",
+          "rating": 4.7,
+          "entry": "Free (special entry darshan tickets available)",
+          "open": "3:00 AM – 1:30 AM (nearly 24 hrs, phased)",
+          "bestSeason": "Sep – Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Early morning at the golden temple tower",
+          "history": "Dedicated to Lord Venkateswara (a form of Vishnu), the temple's core structure dates to the 9th–10th century under the Pallavas, with major expansion during the Vijayanagara Empire — particularly under Krishnadevaraya, who funded the temple lavishly with gold and jewels in the early 16th century.",
+          "architecture": "Built in Dravidian style with a gold-plated Ananda Nilayam vimana over the sanctum, the temple complex is considered one of the richest in the world by daily donations, its gopurams and corridors added across successive dynasties.",
+          "timeline": [
+            {
+              "y": 900,
+              "label": "Earliest core shrine structures established under Pallava-era patronage."
+            },
+            {
+              "y": 1517,
+              "label": "Krishnadevaraya donates gold and jewels, funding major temple expansion."
+            },
+            {
+              "y": 1933,
+              "label": "Tirumala Tirupati Devasthanams (TTD) trust formally established to administer the temple."
+            }
+          ],
+          "facts": [
+            "Reputed to be the richest temple in the world by daily donations.",
+            "Pilgrims traditionally shave their heads as an offering, a ritual called tonsuring.",
+            "The temple feeds free prasadam laddus to hundreds of thousands of pilgrims daily."
+          ],
+          "hiddenGems": [
+            "Akasa Ganga waterfall, a short walk from the main temple",
+            "Papavinasanam dam and reservoir nearby",
+            "Silathoranam, a natural rock arch formation on the hill"
+          ],
+          "food": [
+            "Tirupati laddu, the temple's iconic prasadam",
+            "South Indian thalis at the free pilgrim dining halls"
+          ],
+          "experiences": [
+            "Darshan (temple viewing) queue experience",
+            "Sunrise trek up the original stone steps (Alipiri route)",
+            "Visit to the Sri Venkateswara Zoological Park nearby"
+          ],
+          "travel": {
+            "railway": "Tirupati Railway Station, 22 km",
+            "airport": "Tirupati Airport, 28 km",
+            "parking": "Large lots at Alipiri and Tirumala",
+            "tip": "Book darshan slots online in advance — queues can run many hours without a reservation."
+          },
+          "lat": 13.6833,
+          "lng": 79.3475,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+            "title": "Venkateswara Temple, Tirumala"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/A_View_of_Tirumala_Venkateswara_Temple.JPG/1920px-A_View_of_Tirumala_Venkateswara_Temple.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Annamacharya.jpg/1920px-Annamacharya.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

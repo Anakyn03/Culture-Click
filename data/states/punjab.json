@@ -1,0 +1,123 @@
+{
+  "id": "punjab",
+  "name": "Punjab",
+  "region": "North",
+  "tagline": "Land of Five Rivers",
+  "unesco": false,
+  "blurb": "Punjab's Sikh heritage centres on Amritsar's Golden Temple, whose free community kitchen and open-door philosophy make it one of the most welcoming religious sites on earth.",
+  "stats": {
+    "area": "50,362 km²",
+    "districts": "23",
+    "language": "Punjabi",
+    "founded": "1966"
+  },
+  "culture": {
+    "dress": "Phulkari dupattas",
+    "festivals": [
+      {
+        "name": "Baisakhi",
+        "month": "April"
+      },
+      {
+        "name": "Guru Nanak Gurpurab",
+        "month": "November"
+      }
+    ],
+    "dance": [
+      "Bhangra",
+      "Giddha"
+    ],
+    "cuisine": [
+      "Sarson da Saag",
+      "Makki di Roti",
+      "Amritsari Kulcha"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1920px-The_Golden_Temple_of_Amrithsar_7.jpg",
+    "title": "Golden Temple"
+  },
+  "districts": [
+    {
+      "id": "amritsar",
+      "name": "Amritsar",
+      "blurb": "Punjab's spiritual capital, built around the sacred tank and temple that give the city its name.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1920px-The_Golden_Temple_of_Amrithsar_7.jpg",
+        "title": "Golden Temple"
+      },
+      "places": [
+        {
+          "id": "golden-temple",
+          "wikiTitle": "Golden Temple",
+          "name": "Golden Temple (Harmandir Sahib)",
+          "type": "Temple",
+          "blurb": "The holiest shrine in Sikhism, its gold-gilded sanctum rising from the centre of a sacred tank, open day and night to people of every faith.",
+          "rating": 4.9,
+          "entry": "Free",
+          "open": "24 hours",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The gilded sanctum reflected in the Amrit Sarovar at night",
+          "history": "Founded by the fourth Sikh Guru, Guru Ram Das, in the 16th century, with the temple structure itself built by the fifth Guru, Guru Arjan, who completed it in 1604 and installed the Adi Granth within it. The temple was rebuilt and gilded in the early 19th century under Maharaja Ranjit Singh.",
+          "architecture": "The sanctum sits at the centre of the sacred Amrit Sarovar tank, its lower walls of white marble and upper structure gilded with gold, blending Mughal and Sikh architectural traditions, approached via a causeway from the surrounding parkarma (walkway).",
+          "timeline": [
+            {
+              "y": 1577,
+              "label": "Foundation and excavation of the Amrit Sarovar tank begins under Guru Ram Das."
+            },
+            {
+              "y": 1604,
+              "label": "Harmandir Sahib completed and the Adi Granth installed by Guru Arjan."
+            },
+            {
+              "y": 1830,
+              "label": "Upper structure gilded in gold under Maharaja Ranjit Singh, giving the temple its name."
+            }
+          ],
+          "facts": [
+            "Runs one of the world's largest free community kitchens (langar), serving upwards of 100,000 meals daily.",
+            "The temple is open to people of all faiths and backgrounds, a founding principle of the site.",
+            "Its four entrances, one on each side, symbolise openness to all four directions and communities."
+          ],
+          "hiddenGems": [
+            "Jallianwala Bagh, a short walk away, for a very different and sobering historical layer",
+            "Central Sikh Museum within the complex",
+            "Attari-Wagah border ceremony, a short drive from Amritsar"
+          ],
+          "food": [
+            "Free langar meal at the temple itself, open to all visitors",
+            "Amritsari kulcha and lassi in the old city market"
+          ],
+          "experiences": [
+            "Volunteering in the langar kitchen",
+            "Night-time viewing of the illuminated temple",
+            "Attending the Attari-Wagah border retreat ceremony"
+          ],
+          "travel": {
+            "railway": "Amritsar Junction, 2 km",
+            "airport": "Sri Guru Ram Dass Jee Intl, 11 km",
+            "parking": "Large lots around the complex perimeter",
+            "tip": "Cover your head (scarves are provided free at the entrance) and go barefoot — wading through the shallow foot-wash channel is part of the entry ritual."
+          },
+          "lat": 31.62,
+          "lng": 74.8765,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1920px-The_Golden_Temple_of_Amrithsar_7.jpg",
+            "title": "Golden Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1920px-The_Golden_Temple_of_Amrithsar_7.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/79/%22A_Priest_of_the_Golden_Temple%2C%22_from_a_stereoscopic_viewing_set%2C_1908.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/1860s_photo_of_the_Amritsar_Golden_Temple_with_the_British_style_Gothic_Clock_Tower.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

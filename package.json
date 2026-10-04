@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seed": "node scripts/seed-atlas.mjs",
+    "seed:dry": "node scripts/seed-atlas.mjs --dry-run",
+    "enrich": "node scripts/enrich.mjs",
+    "enrich:report": "node scripts/enrich.mjs --report"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.114.0",

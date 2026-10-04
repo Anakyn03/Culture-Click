@@ -1,0 +1,117 @@
+{
+  "id": "manipur",
+  "name": "Manipur",
+  "region": "Northeast",
+  "tagline": "Jewel of India",
+  "unesco": false,
+  "blurb": "A bowl-shaped valley ringed by hills, Manipur's Meitei culture centres on the historic seat of its kings and one of India's only all-women-run marketplaces.",
+  "stats": {
+    "area": "22,327 km²",
+    "districts": "16",
+    "language": "Meiteilon (Manipuri)",
+    "founded": "1972"
+  },
+  "culture": {
+    "dress": "Innaphi shawls",
+    "festivals": [
+      {
+        "name": "Yaoshang",
+        "month": "March"
+      },
+      {
+        "name": "Lai Haraoba",
+        "month": "April/May"
+      }
+    ],
+    "dance": [
+      "Manipuri classical dance"
+    ],
+    "cuisine": [
+      "Eromba",
+      "Singju",
+      "Chak-hao (black rice) kheer"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg/1920px-The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg",
+    "title": "Kangla fort"
+  },
+  "districts": [
+    {
+      "id": "imphal-west",
+      "name": "Imphal West",
+      "blurb": "The heart of the Manipur valley, centred on the historic royal seat of Kangla.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg/1920px-The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg",
+        "title": "Kangla fort"
+      },
+      "places": [
+        {
+          "id": "kangla-fort",
+          "name": "Kangla Fort",
+          "type": "Fort",
+          "blurb": "The moated historic seat of Manipur's Meitei kings, spiritual heart of the state, held by colonial forces for over a century before its return in 2004.",
+          "rating": 4.3,
+          "entry": "₹10 nominal fee",
+          "open": "9 AM–4:30 PM (closed Mondays)",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The Kangla Sha sculptures against the moat at golden hour",
+          "history": "The historic seat of Manipur's Meitei kings, Kangla was the royal capital and religious centre for centuries until the mid-18th century relocation of the palace. It was occupied by British forces after the Anglo-Manipur War of 1891 and was only handed back to the state in 2004.",
+          "architecture": "A moated complex containing palace ruins, temples, and the Kangla Sha — a pair of mythical dragon-lion sculptures considered a symbol of Manipur — alongside earthen ramparts and gateways.",
+          "timeline": [
+            {
+              "y": 1891,
+              "label": "British forces occupy Kangla Fort after the Anglo-Manipur War."
+            },
+            {
+              "y": 2004,
+              "label": "The fort is formally handed back to the Manipur state government."
+            }
+          ],
+          "facts": [
+            "Occupied by the Assam Rifles for over a century before being returned to civilian control.",
+            "The Kangla Sha dragon-lion motif appears widely across Manipuri state symbolism today.",
+            "Considered the spiritual heart of the Meitei people."
+          ],
+          "hiddenGems": [
+            "Govindajee Temple adjoining the fort",
+            "Ima Keithel (\"Mother's Market\"), an all-women-run market in central Imphal",
+            "Loktak Lake and its floating phumdi islands, a short drive away"
+          ],
+          "food": [
+            "Manipuri thali with eromba and singju",
+            "Local rice beer traditions in nearby villages"
+          ],
+          "experiences": [
+            "Heritage walk through the fort ramparts and moat",
+            "Visiting Ima Keithel market",
+            "Day trip to Loktak Lake"
+          ],
+          "travel": {
+            "railway": "No direct rail; nearest is Dimapur, ~215 km",
+            "airport": "Imphal Airport (Bir Tikendrajit Intl), 8 km",
+            "parking": "At the fort entrance",
+            "tip": "Combine with a visit to Ima Keithel market in the same day — both sit centrally in Imphal."
+          },
+          "lat": 24.809,
+          "lng": 93.9412,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg/1920px-The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg",
+            "title": "Kangla fort"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kangla_fort",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg/1920px-The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/ARCHAEOLOGICAL_MUSEUM.jpg/1920px-ARCHAEOLOGICAL_MUSEUM.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/A_tree_of_Koubilla_%28Grevillea_robusta%29_species_growing_inside_the_Kangla_fort_in_Imphal%2C_Kangleipak_%28Manipur%29.jpg/1920px-A_tree_of_Koubilla_%28Grevillea_robusta%29_species_growing_inside_the_Kangla_fort_in_Imphal%2C_Kangleipak_%28Manipur%29.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

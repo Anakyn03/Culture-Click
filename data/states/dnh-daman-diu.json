@@ -1,0 +1,116 @@
+{
+  "id": "dnh-daman-diu",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "region": "West",
+  "tagline": "Portuguese India",
+  "unesco": false,
+  "blurb": "A merged Union Territory of two former Portuguese enclaves, its four centuries of colonial rule left forts, churches and old quarters unlike anywhere else on India's west coast.",
+  "stats": {
+    "area": "603 km²",
+    "districts": "3",
+    "language": "Gujarati, Marathi, Portuguese-influenced Konkani",
+    "founded": "2020 (merged UT)"
+  },
+  "culture": {
+    "dress": "Coastal casual wear",
+    "festivals": [
+      {
+        "name": "Diu Festival",
+        "month": "December/January"
+      }
+    ],
+    "dance": [
+      "Tarpa dance (Nagar Haveli)"
+    ],
+    "cuisine": [
+      "Goan-Portuguese-influenced seafood",
+      "Fish curry rice"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Diu%2CGujarat%2CIndia_%2837%29.jpg/500px-Diu%2CGujarat%2CIndia_%2837%29.jpg",
+    "title": "Diu Fortress"
+  },
+  "districts": [
+    {
+      "id": "diu",
+      "name": "Diu",
+      "blurb": "A small island district off Gujarat's Saurashtra coast, under Portuguese rule for over four centuries.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Diu%2CGujarat%2CIndia_%2837%29.jpg/500px-Diu%2CGujarat%2CIndia_%2837%29.jpg",
+        "title": "Diu Fortress"
+      },
+      "places": [
+        {
+          "id": "diu-fort",
+          "name": "Diu Fort",
+          "type": "Fort",
+          "blurb": "A massive 16th-century Portuguese coastal fortress with double moats and cannons still in place, guarding the entrance to Diu island for over four centuries of colonial rule.",
+          "rating": 4.4,
+          "entry": "Free",
+          "open": "8 AM–6 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The lighthouse and ramparts against the Arabian Sea at sunset",
+          "history": "Built by the Portuguese starting in 1535, following a treaty with the Sultan of Gujarat granting them the island, as a defensive stronghold against Ottoman and Gujarat Sultanate naval threats. Diu remained under Portuguese control until 1961, far longer than most of colonial India.",
+          "architecture": "A massive coastal fort with double moats (one filled with seawater), thick ramparts, cannons still in place, and a lighthouse, built in a European military engineering style overlooking the Arabian Sea.",
+          "timeline": [
+            {
+              "y": 1535,
+              "label": "Fort construction begins under Portuguese rule."
+            },
+            {
+              "y": 1546,
+              "label": "Fort successfully withstands a major siege by Gujarat Sultanate and Ottoman forces."
+            },
+            {
+              "y": 1961,
+              "label": "Diu, along with Goa and Daman, is annexed by India, ending Portuguese colonial rule."
+            }
+          ],
+          "facts": [
+            "Portuguese rule over Diu lasted over four centuries, ending only in 1961.",
+            "The fort withstood a significant Ottoman-Gujarat Sultanate joint siege in 1546.",
+            "Diu's old town still shows strong Portuguese architectural influence in its churches and houses."
+          ],
+          "hiddenGems": [
+            "Gangeshwar Temple, a set of Shiva shrines right on the rocky shore",
+            "Naida Caves, unusual sculpted caverns near the fort",
+            "Diu's Portuguese-era church, St. Paul's"
+          ],
+          "food": [
+            "Goan-Portuguese-influenced seafood unusual for Gujarat's otherwise vegetarian-leaning coast",
+            "Diu's local fish curry with rice"
+          ],
+          "experiences": [
+            "Sunset walk along the fort ramparts",
+            "Diu beach-hopping (Nagoa, Ghoghla)",
+            "Old town heritage walk through the Portuguese quarter"
+          ],
+          "travel": {
+            "railway": "Veraval, ~90 km",
+            "airport": "Diu Airport, 7 km",
+            "parking": "At the fort entrance",
+            "tip": "Diu allows alcohol sale unlike most of Gujarat — plan accordingly if that matters to your trip, and always drive cautiously on the coastal roads."
+          },
+          "lat": 20.7144,
+          "lng": 70.9874,
+          "themes": [
+            "fort"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Diu%2CGujarat%2CIndia_%2837%29.jpg",
+            "title": "Diu Fortress"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Diu_Fortress",
+          "photos": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/17/Diu%2CGujarat%2CIndia_%2837%29.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cannon_of_Suleyman_founded_by_Mohammed_ibn_Hamza_in_1530_1531_for_a_Turkish_invasion_of_India_taken_in_the_capture_of_Aden_in_1839_by_Cap_H_Smith_of_HMS_Volage_with_inscriptions.jpg/1920px-thumbnail.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/66/Diu2.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "bihar",
+  "name": "Bihar",
+  "region": "East",
+  "tagline": "Cradle of Buddhism",
+  "unesco": true,
+  "blurb": "Where the Buddha attained enlightenment and Ashoka ruled an empire — Bihar's plains hold some of the deepest religious and intellectual history on the subcontinent.",
+  "stats": {
+    "area": "94,163 km²",
+    "districts": "38",
+    "language": "Hindi, Maithili, Bhojpuri",
+    "founded": "1950 (post-independence reorganisation)"
+  },
+  "culture": {
+    "dress": "Bhagalpuri silk sarees",
+    "festivals": [
+      {
+        "name": "Chhath Puja",
+        "month": "October/November"
+      },
+      {
+        "name": "Buddha Purnima",
+        "month": "May"
+      }
+    ],
+    "dance": [
+      "Jat-Jatin"
+    ],
+    "cuisine": [
+      "Litti Chokha",
+      "Sattu paratha",
+      "Thekua"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+    "title": "Mahabodhi Temple"
+  },
+  "districts": [
+    {
+      "id": "gaya",
+      "name": "Gaya",
+      "blurb": "A pilgrimage city on the Niranjana river, adjoining the far older sacred town of Bodh Gaya.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+        "title": "Mahabodhi Temple"
+      },
+      "places": [
+        {
+          "id": "mahabodhi-temple",
+          "name": "Mahabodhi Temple",
+          "type": "Temple",
+          "blurb": "The site where Siddhartha Gautama is believed to have attained enlightenment beneath the Bodhi Tree, marked by a 55-metre brick spire that is among the oldest Buddhist structures still standing.",
+          "rating": 4.8,
+          "entry": "Free",
+          "open": "5 AM–9 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The temple spire reflected in the surrounding lotus pond at dawn",
+          "history": "The original shrine is attributed to Emperor Ashoka in the 3rd century BCE, with the current temple structure dating largely to the 5th–6th century CE, later restored in the 19th century under British archaeological supervision. It remains one of the four principal pilgrimage sites of the Buddha's life.",
+          "architecture": "A 55-metre pyramidal brick spire in the classic Indian temple style, surrounded by carved stone railings, some of which are among the oldest surviving stone objects in India, with the sacred Bodhi Tree growing directly behind the shrine.",
+          "timeline": [
+            {
+              "y": -260,
+              "label": "Ashoka establishes the original shrine and railings at the site."
+            },
+            {
+              "y": 500,
+              "label": "Present temple structure largely built in its current form."
+            },
+            {
+              "y": 1880,
+              "label": "Major restoration carried out under British archaeological supervision."
+            },
+            {
+              "y": 2002,
+              "label": "Inscribed as a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "The Bodhi Tree here is said to descend from the original tree, via a cutting taken to Sri Lanka and later brought back.",
+            "One of the four main pilgrimage sites associated with the Buddha's life.",
+            "Some of its stone railings are considered among the oldest surviving structural stonework in India."
+          ],
+          "hiddenGems": [
+            "Sujata Stupa across the Niranjana river",
+            "Thai and Tibetan monasteries built by international Buddhist communities nearby",
+            "Muchalinda Lake behind the main temple"
+          ],
+          "food": [
+            "Litti chokha at local Bodh Gaya eateries",
+            "Simple monastery-run vegetarian meals"
+          ],
+          "experiences": [
+            "Meditation session under or near the Bodhi Tree",
+            "Visiting the international monasteries built by different Buddhist countries",
+            "Evening prayer circumambulation of the temple"
+          ],
+          "travel": {
+            "railway": "Gaya Junction, 13 km",
+            "airport": "Gaya Airport, 7 km",
+            "parking": "At the temple complex entrance",
+            "tip": "Dress modestly and remove footwear well before the inner temple precinct."
+          },
+          "lat": 24.6961,
+          "lng": 84.9911,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+            "title": "Mahabodhi Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mahabodhi_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/011_Pillar%2C_Chariot_Scene.jpg/1920px-011_Pillar%2C_Chariot_Scene.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/024_Horse_Man.jpg/1920px-024_Horse_Man.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

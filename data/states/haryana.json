@@ -1,0 +1,117 @@
+{
+  "id": "haryana",
+  "name": "Haryana",
+  "region": "North",
+  "tagline": "Land of the Mahabharata",
+  "unesco": false,
+  "blurb": "Framing the National Capital Region, Haryana's plains hold the legendary battlefield of the Mahabharata and some of India's largest sacred tanks.",
+  "stats": {
+    "area": "44,212 km²",
+    "districts": "22",
+    "language": "Haryanvi, Hindi",
+    "founded": "1966"
+  },
+  "culture": {
+    "dress": "Phulkari-embroidered dupattas",
+    "festivals": [
+      {
+        "name": "Gita Jayanti / Kurukshetra Mahotsav",
+        "month": "November/December"
+      },
+      {
+        "name": "Baisakhi",
+        "month": "April"
+      }
+    ],
+    "dance": [
+      "Ghoomar (shared with Rajasthan border regions)"
+    ],
+    "cuisine": [
+      "Bajra khichdi",
+      "Kachri ki sabzi",
+      "Lassi"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+    "title": "Brahma Sarovar"
+  },
+  "districts": [
+    {
+      "id": "kurukshetra",
+      "name": "Kurukshetra",
+      "blurb": "A pilgrimage town traditionally identified as the battlefield of the Mahabharata war.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+        "title": "Brahma Sarovar"
+      },
+      "places": [
+        {
+          "id": "brahma-sarovar",
+          "wikiTitle": "Brahma Sarovar",
+          "name": "Brahma Sarovar & Jyotisar",
+          "type": "Sacred Tank",
+          "blurb": "One of the largest man-made sacred tanks in India, at the heart of the town traditionally identified as the Mahabharata's battlefield and the site of the Bhagavad Gita's telling.",
+          "rating": 4.3,
+          "entry": "Free",
+          "open": "5 AM–8 PM",
+          "bestSeason": "Oct–Mar",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Ghats reflected in Brahma Sarovar at sunset",
+          "history": "Kurukshetra is traditionally identified as the site of the Mahabharata war and the place where Krishna delivered the Bhagavad Gita to Arjuna at Jyotisar. Brahma Sarovar itself has been a pilgrimage site for centuries, its ghats rebuilt and expanded across multiple eras, notably in the early 19th century.",
+          "architecture": "Brahma Sarovar is a vast rectangular stepped tank with ghats around its perimeter; Jyotisar features a sacred banyan tree traditionally associated with the Gita's recitation, alongside a modern memorial marking the spot.",
+          "timeline": [
+            {
+              "y": 1815,
+              "label": "Tank renovation and ghat construction expanded under regional patronage."
+            },
+            {
+              "y": 1987,
+              "label": "Kurukshetra Development Board formally established to preserve and develop the pilgrimage circuit."
+            }
+          ],
+          "facts": [
+            "Brahma Sarovar is one of the largest religious tanks in Asia by surface area.",
+            "Kurukshetra hosts a major International Gita Mahotsav festival annually.",
+            "The battlefield described in the Mahabharata is traditionally located across this wider region."
+          ],
+          "hiddenGems": [
+            "Sannihit Sarovar, a smaller adjoining sacred tank",
+            "Kurukshetra Panorama and Science Centre",
+            "Sheikh Chmilli's Tomb, a lesser-visited Mughal-era monument nearby"
+          ],
+          "food": [
+            "Simple Haryanvi thali with bajra khichdi",
+            "Lassi from stalls near the tank"
+          ],
+          "experiences": [
+            "Evening aarti at Brahma Sarovar",
+            "Visiting during the annual Gita Jayanti / Mahotsav",
+            "Heritage walk through the Kurukshetra pilgrimage circuit"
+          ],
+          "travel": {
+            "railway": "Kurukshetra Junction, 5 km",
+            "airport": "Chandigarh Airport, ~90 km",
+            "parking": "At Brahma Sarovar and Jyotisar separately",
+            "tip": "Visit around sunset for the tank's evening aarti, when it is at its most atmospheric."
+          },
+          "lat": 29.9695,
+          "lng": 76.8344,
+          "themes": [
+            "sacred-tank"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+            "title": "Brahma Sarovar"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Brahma_Sarovar",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/At_entry_gate_of_Brahma_Sarovar.jpg/1920px-At_entry_gate_of_Brahma_Sarovar.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

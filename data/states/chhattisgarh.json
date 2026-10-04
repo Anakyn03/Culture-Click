@@ -1,0 +1,113 @@
+{
+  "id": "chhattisgarh",
+  "name": "Chhattisgarh",
+  "region": "Central",
+  "tagline": "Rice Bowl of the Forests",
+  "unesco": false,
+  "blurb": "A heavily forested state of waterfalls and tribal heartlands, its temple carvings at Bhoramdeo quietly rivalling far more famous sites.",
+  "stats": {
+    "area": "135,192 km²",
+    "districts": "33",
+    "language": "Chhattisgarhi, Hindi",
+    "founded": "2000"
+  },
+  "culture": {
+    "dress": "Kosa silk sarees",
+    "festivals": [
+      {
+        "name": "Bastar Dussehra",
+        "month": "September/October"
+      },
+      {
+        "name": "Hareli",
+        "month": "July/August"
+      }
+    ],
+    "dance": [
+      "Panthi dance"
+    ],
+    "cuisine": [
+      "Bafauri",
+      "Chila",
+      "Faraa"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+    "title": "Bhoramdeo Temple"
+  },
+  "districts": [
+    {
+      "id": "kabirdham",
+      "name": "Kabirdham",
+      "blurb": "A district of forested hills at the edge of the Maikal range, home to Chhattisgarh's best-known temple.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+        "title": "Bhoramdeo Temple"
+      },
+      "places": [
+        {
+          "id": "bhoramdeo-temple",
+          "name": "Bhoramdeo Temple",
+          "type": "Temple",
+          "blurb": "Often called the \"Khajuraho of Chhattisgarh\", this sandstone Nagara-style temple carries centuries of Nagvanshi and Kalachuri-era carving, far less visited than its namesake.",
+          "rating": 4.3,
+          "entry": "Free",
+          "open": "7 AM–6 PM",
+          "bestSeason": "Nov–Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "Midday light directly on the carved shikhara facade",
+          "history": "Built between the 7th and 11th centuries under the Nagvanshi and later Kalachuri rulers, the temple complex grew in phases over several centuries rather than in one continuous build, culminating in a major renovation under Nagvanshi ruler Ramchandra Deva in the 14th century.",
+          "architecture": "A sandstone Nagara-style shikhara with tiers of sculpted deities, dancers, and decorative bands, dedicated primarily to Shiva, its carving style closely comparable to — and sometimes mistaken for — the temples of Khajuraho.",
+          "timeline": [
+            {
+              "y": 1349,
+              "label": "Major renovation and expansion recorded under Nagvanshi ruler Ramchandra Deva."
+            }
+          ],
+          "facts": [
+            "Often called the \"Khajuraho of Chhattisgarh\" for its carved figures.",
+            "Built over several centuries by successive dynasties rather than in one phase.",
+            "Surrounded by forested hills of the Maikal range, far less visited than its Khajuraho counterpart."
+          ],
+          "hiddenGems": [
+            "Chaiturgarh Fort ruins nearby",
+            "Madwa Mahal, a smaller adjoining shrine",
+            "Kabirdham's forested backroads for birdwatching"
+          ],
+          "food": [
+            "Chhattisgarhi thali with bafauri and chila",
+            "Mahua-based local sweets in season"
+          ],
+          "experiences": [
+            "Heritage walk through the temple carvings with a local guide",
+            "Forest drive through the Maikal range",
+            "Village visit to nearby tribal Baiga communities"
+          ],
+          "travel": {
+            "railway": "Bilaspur, ~110 km",
+            "airport": "Raipur (Swami Vivekananda Airport), ~140 km",
+            "parking": "At the temple entrance",
+            "tip": "Combine with a forest detour — the temple sits at the edge of a much larger, quieter landscape worth the extra day."
+          },
+          "lat": 22.15,
+          "lng": 81.0333,
+          "themes": [
+            "temple"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+            "title": "Bhoramdeo Temple"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bhoramdeo_Temple",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Bhoramdeo_Temple.JPG/1920px-Bhoramdeo_Temple.JPG",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bhoramdeo_Temple2.JPG/1920px-Bhoramdeo_Temple2.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}

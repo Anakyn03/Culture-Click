@@ -1,0 +1,200 @@
+{
+  "id": "kerala",
+  "name": "Kerala",
+  "region": "South",
+  "tagline": "God's Own Country",
+  "unesco": false,
+  "blurb": "Backwaters threaded with houseboats, spice-scented hill towns, and a coastline where Portuguese, Dutch and Arab traders all left their mark.",
+  "stats": {
+    "area": "38,852 km²",
+    "districts": "14",
+    "language": "Malayalam",
+    "founded": "1956"
+  },
+  "culture": {
+    "dress": "Kasavu mundu-veshti",
+    "festivals": [
+      {
+        "name": "Onam",
+        "month": "August/September"
+      },
+      {
+        "name": "Thrissur Pooram",
+        "month": "April/May"
+      },
+      {
+        "name": "Vallam Kali boat races",
+        "month": "August"
+      }
+    ],
+    "dance": [
+      "Kathakali",
+      "Mohiniyattam"
+    ],
+    "cuisine": [
+      "Appam & Stew",
+      "Sadya",
+      "Karimeen Pollichathu"
+    ]
+  },
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/1280px-House_Boat_DSW.jpg",
+    "title": "Kerala backwaters"
+  },
+  "districts": [
+    {
+      "id": "alappuzha",
+      "name": "Alappuzha",
+      "blurb": "The \"Venice of the East\", its backwaters webbed with canals and paddy fields below sea level.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/1280px-House_Boat_DSW.jpg",
+        "title": "Kerala backwaters"
+      },
+      "places": [
+        {
+          "id": "backwaters",
+          "name": "Alleppey Backwaters",
+          "type": "Wetland Network",
+          "blurb": "A 900-km network of lagoons, canals and lakes lined with coconut palms and rice paddies, traditionally navigated by kettuvallam houseboats.",
+          "rating": 4.7,
+          "entry": "Varies by houseboat operator",
+          "open": "Day cruises & overnight stays",
+          "bestSeason": "Nov – Feb",
+          "budget": "Medium",
+          "difficulty": "Easy",
+          "bestPhoto": "Late afternoon light on the water from a canoe, low angle",
+          "history": "The backwaters formed over centuries as rivers met the Arabian Sea along a low coastal plain, and were historically the region's trade highway for spices and coir. Kettuvallams — literally 'tied boats' — were once rice barges, their hulls lashed together with coir rope and no metal nails, later converted into the houseboats travellers know today.",
+          "architecture": "A kettuvallam's hull is built from jackwood planks stitched with coconut coir and waterproofed with cashew resin, topped by an arched roof of woven palm leaf (kaitha) matting — an entirely wood-and-fibre construction with no iron.",
+          "timeline": [
+            {
+              "y": 1850,
+              "label": "Kettuvallams used widely to transport rice and spices to Kochi port."
+            },
+            {
+              "y": 1990,
+              "label": "First conversions into tourist houseboats."
+            }
+          ],
+          "facts": [
+            "Some canals run below sea level, held back by ancient mud embankments.",
+            "Punnamada Lake hosts the Nehru Trophy Boat Race each August.",
+            "A single kettuvallam roof can take weeks to weave by hand."
+          ],
+          "hiddenGems": [
+            "Kainakary village canals, far quieter than the main routes",
+            "Pathiramanal, a river island reachable only by boat",
+            "Local toddy shops serving fresh appam with fish curry"
+          ],
+          "food": [
+            "Karimeen (pearl spot fish) pollichathu",
+            "Kappa and meen curry",
+            "Fresh toddy from village shops"
+          ],
+          "experiences": [
+            "Overnight houseboat stay",
+            "Canoe paddle through narrow village canals",
+            "Coir-making demonstration"
+          ],
+          "travel": {
+            "railway": "Alappuzha Railway Station, 3 km",
+            "airport": "Cochin Intl (COK), 85 km",
+            "parking": "At houseboat jetties",
+            "tip": "Choose a smaller canoe tour over a big houseboat to reach the narrow village canals."
+          },
+          "lat": 9.4981,
+          "lng": 76.3388,
+          "themes": [
+            "wetland-network"
+          ],
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/House_Boat_DSW.jpg",
+            "title": "Kerala backwaters"
+          },
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kerala_backwaters"
+        }
+      ]
+    },
+    {
+      "id": "ernakulam",
+      "name": "Fort Kochi (Ernakulam)",
+      "blurb": "A Portuguese, Dutch and British trading port layered onto a Malabar fishing town.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/1920px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
+        "title": "Fort Kochi"
+      },
+      "places": [
+        {
+          "id": "fort-kochi",
+          "name": "Fort Kochi Heritage Quarter",
+          "type": "Heritage Quarter",
+          "blurb": "A walkable quarter of Dutch villas, a Portuguese church and cantilevered fishing nets, where four colonial powers left their architecture in the space of two square kilometres.",
+          "rating": 4.6,
+          "entry": "Free (individual monuments charge an entrance)",
+          "open": "Always open; monument hours vary, most 9:00 AM – 5:00 PM",
+          "bestSeason": "Oct – Feb",
+          "budget": "Low",
+          "difficulty": "Easy",
+          "bestPhoto": "The Chinese fishing nets silhouetted at sunset from the sea wall",
+          "history": "Kochi was a spice port long before the Europeans arrived, trading pepper and cardamom with Arab and Chinese merchants. Vasco da Gama landed here in 1498, the Portuguese built Fort Emmanuel in 1503, and a school of Portuguese, Dutch and finally British administration followed over the next four centuries. The result is a quarter where a 1503 Portuguese church, a Dutch palace and British bungalows stand within a few minutes of one another.",
+          "architecture": "A rare surviving example of a multi-layered colonial townscape. St Francis Church is the oldest European church in India; the Dutch Palace holds some of the finest Kerala murals; the cantilevered cheena vala fishing nets, introduced by Chinese traders, are worked by hand from teak spars and counterweights. Spice warehouses, tiled-roof villas and the Bishop's House cluster along narrow lanes.",
+          "timeline": [
+            {
+              "y": 1503,
+              "label": "Portuguese build Fort Emmanuel; St Francis Church follows soon after."
+            },
+            {
+              "y": 1524,
+              "label": "Vasco da Gama dies in Kochi and is first buried at St Francis Church."
+            },
+            {
+              "y": 1663,
+              "label": "The Dutch take Kochi from the Portuguese, reshaping the quarter."
+            }
+          ],
+          "facts": [
+            "St Francis Church is the oldest European church in India, founded in 1503.",
+            "Vasco da Gama was first buried here; his remains were later moved to Lisbon.",
+            "The Chinese fishing nets are balanced by stones and worked by hand, not machinery."
+          ],
+          "hiddenGems": [
+            "Jew Town and the Paradesi Synagogue in neighbouring Mattancherry",
+            "The Dutch Cemetery, the oldest European cemetery in India",
+            "Vasco da Gama Square at dawn, when the nets are lowered before the crowds arrive"
+          ],
+          "food": [
+            "Fish curry rice at a Fort Kochi toddy shop",
+            "Malabar parotta and beef fry in Mattancherry",
+            "Filter coffee at a heritage villa café"
+          ],
+          "experiences": [
+            "Walking the heritage route from the sea wall to the Dutch Palace",
+            "Watching the Chinese fishing nets being lowered at sunset",
+            "The Kochi-Muziris Biennale, when the quarter fills with contemporary art"
+          ],
+          "travel": {
+            "railway": "Ernakulam Junction, 12 km",
+            "airport": "Cochin Intl (COK), 40 km",
+            "parking": "Limited in Fort Kochi itself; use the lots near the beach road",
+            "tip": "The quarter is flat and small enough to cover entirely on foot or by bicycle — don't bother with a car once you're here."
+          },
+          "lat": 9.963,
+          "lng": 76.2401,
+          "themes": [
+            "heritage-quarter"
+          ],
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/1920px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
+            "title": "Fort Kochi"
+          },
+          "wikiTitle": "Fort Kochi",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fort_Kochi",
+          "photos": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/1920px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Dutch_Cemetery%2C_in_Fort_Kochi%2C_Kerala_01.jpg/1920px-Dutch_Cemetery%2C_in_Fort_Kochi%2C_Kerala_01.jpg",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Fort_Cochin_view.JPG/1920px-Fort_Cochin_view.JPG"
+          ]
+        }
+      ]
+    }
+  ]
+}
