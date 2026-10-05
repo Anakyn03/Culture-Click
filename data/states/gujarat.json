@@ -34,7 +34,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
     "title": "Rani ki Vav"
   },
   "districts": [
@@ -43,7 +43,7 @@
       "name": "Patan",
       "blurb": "A quiet north Gujarat town once a medieval capital, now known chiefly for its stepwell and Patola weaving.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/1920px-Rani_ki_vav_02.jpg",
         "title": "Rani ki Vav"
       },
       "places": [

@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
     "title": "Kamakhya Temple"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Kamrup Metropolitan",
       "blurb": "Assam's largest city, Guwahati, spread along the Brahmaputra beneath Nilachal Hill.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/1920px-Kamakhya_Temple_-_DEV_8829.jpg",
         "title": "Kamakhya Temple"
       },
       "places": [

@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
     "title": "Reiek"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Mamit",
       "blurb": "A forested western Mizoram district bordering Tripura and Bangladesh, home to Reiek Hill.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/1920px-Reiek.JPG",
         "title": "Reiek"
       },
       "places": [

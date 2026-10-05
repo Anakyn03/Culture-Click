@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
     "title": "Kedarnath Temple"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Rudraprayag",
       "blurb": "A mountainous district at the confluence of the Alaknanda and Mandakini rivers, gateway to Kedarnath.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
         "title": "Kedarnath Temple"
       },
       "places": [

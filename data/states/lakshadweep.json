@@ -28,7 +28,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
     "title": "Agatti Island"
   },
   "districts": [
@@ -37,7 +37,7 @@
       "name": "Lakshadweep",
       "blurb": "The archipelago's single administrative district, spanning all its inhabited islands.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/1920px-Agatti_Airstrip.jpg",
         "title": "Agatti Island"
       },
       "places": [

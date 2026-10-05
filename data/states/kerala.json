@@ -38,7 +38,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/1280px-House_Boat_DSW.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/House_Boat_DSW.jpg",
     "title": "Kerala backwaters"
   },
   "districts": [
@@ -47,7 +47,7 @@
       "name": "Alappuzha",
       "blurb": "The \"Venice of the East\", its backwaters webbed with canals and paddy fields below sea level.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/1280px-House_Boat_DSW.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/House_Boat_DSW.jpg",
         "title": "Kerala backwaters"
       },
       "places": [
@@ -119,7 +119,7 @@
       "name": "Fort Kochi (Ernakulam)",
       "blurb": "A Portuguese, Dutch and British trading port layered onto a Malabar fishing town.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/1920px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/1920px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
         "title": "Fort Kochi"
       },
       "places": [

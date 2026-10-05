@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
     "title": "Khajuraho Group of Monuments"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Chhatarpur",
       "blurb": "Home to Khajuraho, once capital of the Chandela dynasty and now a UNESCO World Heritage cluster.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/1920px-1_Khajuraho.jpg",
         "title": "Khajuraho Group of Monuments"
       },
       "places": [

@@ -28,7 +28,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
     "title": "Cellular Jail"
   },
   "districts": [
@@ -37,7 +37,7 @@
       "name": "South Andaman",
       "blurb": "The administrative heart of the islands, centred on Port Blair.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/1920px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG",
         "title": "Cellular Jail"
       },
       "places": [

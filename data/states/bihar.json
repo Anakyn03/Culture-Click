@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
     "title": "Mahabodhi Temple"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Gaya",
       "blurb": "A pilgrimage city on the Niranjana river, adjoining the far older sacred town of Bodh Gaya.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/1920px-Mahabodhitemple.jpg",
         "title": "Mahabodhi Temple"
       },
       "places": [

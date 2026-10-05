@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
     "title": "Charminar"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Hyderabad",
       "blurb": "Telangana's capital, built around the old Qutb Shahi city and its landmark gateway.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/1920px-Charminar_Hyderabad_1.jpg",
         "title": "Charminar"
       },
       "places": [

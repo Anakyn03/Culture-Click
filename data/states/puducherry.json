@@ -32,7 +32,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/White_Town.jpg",
     "title": "White Town"
   },
   "districts": [
@@ -41,7 +41,7 @@
       "name": "Puducherry",
       "blurb": "The Union Territory's namesake town, split by a canal into its French and Tamil quarters.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/White_Town.jpg",
         "title": "White Town"
       },
       "places": [
@@ -104,7 +104,7 @@
             "colonial-heritage-zone"
           ],
           "photo": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/White_Town.jpg/1920px-White_Town.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/White_Town.jpg",
             "title": "White Town"
           }
         }

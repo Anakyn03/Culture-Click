@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
     "title": "Brahma Sarovar"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Kurukshetra",
       "blurb": "A pilgrimage town traditionally identified as the battlefield of the Mahabharata war.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Holy_pic_kkr.jpg/1920px-Holy_pic_kkr.jpg",
         "title": "Brahma Sarovar"
       },
       "places": [

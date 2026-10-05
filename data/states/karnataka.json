@@ -32,7 +32,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
     "title": "Virupaksha Temple, Hampi"
   },
   "districts": [
@@ -41,7 +41,7 @@
       "name": "Hampi (Ballari)",
       "blurb": "Boulder-strewn capital of the once-mighty Vijayanagara Empire.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/1920px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
         "title": "Virupaksha Temple, Hampi"
       },
       "places": [
@@ -121,7 +121,7 @@
       "name": "Mysuru",
       "blurb": "The Wadiyar capital, its palace glowing with ninety-six thousand bulbs on festival nights.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg",
         "title": "Mysore Palace"
       },
       "places": [
@@ -258,7 +258,7 @@
             "unesco"
           ],
           "photo": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chennakesava_Temple%2C_Somanathapura.jpg/1920px-Chennakesava_Temple%2C_Somanathapura.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Chennakesava_Temple%2C_Somanathapura.jpg",
             "title": "Chennakesava Temple, Somnathpura"
           },
           "sourceUrl": "https://en.wikipedia.org/wiki/Chennakesava_Temple,_Somanathapura"

@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
     "title": "Konark Sun Temple"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Puri",
       "blurb": "A temple-town coastline famous for its Jagannath Temple and, further along the shore, Konark.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1920px-Konarka_Temple.jpg",
         "title": "Konark Sun Temple"
       },
       "places": [

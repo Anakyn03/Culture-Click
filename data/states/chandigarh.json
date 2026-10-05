@@ -28,7 +28,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
     "title": "Rock Garden of Chandigarh"
   },
   "districts": [
@@ -37,7 +37,7 @@
       "name": "Chandigarh",
       "blurb": "India's first fully planned post-independence city, laid out in sectors by Le Corbusier.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1920px-Chandigarh_Rock_Garden_4.jpg",
         "title": "Rock Garden of Chandigarh"
       },
       "places": [

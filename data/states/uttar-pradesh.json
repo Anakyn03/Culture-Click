@@ -37,7 +37,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
     "title": "Taj Mahal"
   },
   "districts": [
@@ -46,7 +46,7 @@
       "name": "Agra",
       "blurb": "Mughal capital turned marble monument to love and empire.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
         "title": "Taj Mahal"
       },
       "places": [
@@ -199,7 +199,7 @@
       "name": "Varanasi",
       "blurb": "One of the world's oldest continuously inhabited cities, its ghats alive with ritual at every hour.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashi_Vishwanath.jpg/500px-Kashi_Vishwanath.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
         "title": "Kashi Vishwanath Temple"
       },
       "places": [

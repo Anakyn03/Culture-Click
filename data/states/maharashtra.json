@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/1280px-Ajanta_%2863%29.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
     "title": "Ajanta Caves"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Chhatrapati Sambhajinagar (Aurangabad)",
       "blurb": "A district built around one of the greatest concentrations of rock-cut art in the world.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/1280px-Ajanta_%2863%29.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
         "title": "Ajanta Caves"
       },
       "places": [
@@ -183,7 +183,7 @@
             "unesco"
           ],
           "photo": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ellora_cave16_001.jpg/1920px-Ellora_cave16_001.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ellora_cave16_001.jpg",
             "title": "Ellora Caves"
           },
           "sourceUrl": "https://en.wikipedia.org/wiki/Ellora_Caves"

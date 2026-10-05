@@ -34,7 +34,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
     "title": "Victoria Memorial, Kolkata"
   },
   "districts": [
@@ -43,7 +43,7 @@
       "name": "Kolkata",
       "blurb": "The former capital of British India, its colonial-era monuments concentrated around the Maidan.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/1920px-Victoria_Memorial_situated_in_Kolkata.jpg",
         "title": "Victoria Memorial, Kolkata"
       },
       "places": [

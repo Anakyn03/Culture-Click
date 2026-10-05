@@ -43,7 +43,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
     "title": "Hawa Mahal"
   },
   "districts": [
@@ -52,7 +52,7 @@
       "name": "Jodhpur",
       "blurb": "The Blue City, spreading like a wash of indigo below the enormous fort that watches over it from a rocky ridge.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jaswant_Thada.jpg/1920px-Jaswant_Thada.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jaswant_Thada.jpg",
         "title": "Jaswant Thada"
       },
       "places": [
@@ -407,7 +407,7 @@
       "name": "Bikaner",
       "blurb": "A desert citadel of camel corps and carved havelis, ringed by one of the longest city walls in Rajasthan.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Junagarh_Fort_3.jpg/1920px-Junagarh_Fort_3.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/India_Bikaner_Junagarh_Fort.jpg/1920px-India_Bikaner_Junagarh_Fort.jpg",
         "title": "Junagarh Fort"
       },
       "places": [
@@ -540,7 +540,7 @@
             "haveli"
           ],
           "photo": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg/1920px-Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg/1920px-Rampuriya_Havelis_-Bikaner_-Rajasthan_-DSC0004_%28cropped%29.jpg",
             "title": "Rampuria Havelis"
           }
         },
@@ -747,6 +747,11 @@
           },
           "sourceUrl": "https://en.wikipedia.org/wiki/National_Research_Centre_on_Camels,_Bikaner"
         }
+      ],
+      "photos": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/India_Bikaner_Junagarh_Fort.jpg/1920px-India_Bikaner_Junagarh_Fort.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gardens_Junagarh_Fort_2007.jpg/1920px-Gardens_Junagarh_Fort_2007.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Inner_view_of_bikaner_fort.jpg/1920px-Inner_view_of_bikaner_fort.jpg"
       ]
     },
     {
@@ -754,7 +759,7 @@
       "name": "Jaipur",
       "blurb": "The Pink City — planned in 1727 on principles of Vastu Shastra, its old quarter still glows terracotta at dusk.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
         "title": "Hawa Mahal"
       },
       "places": [
@@ -1112,7 +1117,7 @@
       "name": "Jaisalmer",
       "blurb": "The Golden City, its fort still a living town of sandstone rising from the Thar desert.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1920px-Jaisalmer_forteresse.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1920px-Jaisalmer_forteresse.jpg",
         "title": "Jaisalmer Fort"
       },
       "places": [
@@ -1374,7 +1379,7 @@
             "desert"
           ],
           "photo": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sam_dunes_%28Jaisalmer%29.jpg/1920px-Sam_dunes_%28Jaisalmer%29.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sam_dunes_%28Jaisalmer%29.jpg/1920px-Sam_dunes_%28Jaisalmer%29.jpg",
             "title": "Sam Sand Dunes"
           }
         },
@@ -1455,7 +1460,7 @@
       "name": "Udaipur",
       "blurb": "City of Lakes, where marble palaces float on still water.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Evening_view%2C_City_Palace%2C_Udaipur.jpg/1920px-Evening_view%2C_City_Palace%2C_Udaipur.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Evening_view%2C_City_Palace%2C_Udaipur.jpg/1920px-Evening_view%2C_City_Palace%2C_Udaipur.jpg",
         "title": "Udaipur"
       },
       "places": [

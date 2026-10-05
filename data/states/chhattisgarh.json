@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
     "title": "Bhoramdeo Temple"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Kabirdham",
       "blurb": "A district of forested hills at the edge of the Maikal range, home to Chhattisgarh's best-known temple.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1920px-Bhoramdeo_Temple%2C_Kawardha.jpg",
         "title": "Bhoramdeo Temple"
       },
       "places": [

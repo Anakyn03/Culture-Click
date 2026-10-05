@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TawangMonastery.jpg/960px-TawangMonastery.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg",
     "title": "Tawang Monastery"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Tawang",
       "blurb": "A high Himalayan district on the edge of Tibet, centred on India's largest Buddhist monastery.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TawangMonastery.jpg/960px-TawangMonastery.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg",
         "title": "Tawang Monastery"
       },
       "places": [

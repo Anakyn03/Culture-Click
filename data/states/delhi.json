@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
     "title": "Red Fort"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Central Delhi",
       "blurb": "Old Delhi's historic core, built around Shah Jahan's 17th-century walled capital.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg",
         "title": "Red Fort"
       },
       "places": [

@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
     "title": "Shalimar Bagh, Srinagar"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Srinagar",
       "blurb": "Kashmir's summer capital, built around Dal Lake and a string of Mughal-era terraced gardens.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/1920px-Shalimar_Bagh_1.jpg",
         "title": "Shalimar Bagh, Srinagar"
       },
       "places": [

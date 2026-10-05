@@ -33,7 +33,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
     "title": "Venkateswara Temple, Tirumala"
   },
   "districts": [
@@ -42,7 +42,7 @@
       "name": "Tirupati",
       "blurb": "A pilgrim town built around one of the world's most-visited religious sites, Tirumala hill.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1920px-Tirumala_090615.jpg",
         "title": "Venkateswara Temple, Tirumala"
       },
       "places": [

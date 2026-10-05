@@ -32,7 +32,7 @@
     ]
   },
   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
     "title": "Shore Temple"
   },
   "districts": [
@@ -41,7 +41,7 @@
       "name": "Mahabalipuram",
       "blurb": "A 7th-century Pallava port town carved almost entirely from single rock outcrops.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1920px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
         "title": "Shore Temple"
       },
       "places": [
@@ -121,7 +121,7 @@
       "name": "Madurai",
       "blurb": "A temple city that has been continuously inhabited for over two millennia.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/1920px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/1920px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
         "title": "Meenakshi Temple"
       },
       "places": [
