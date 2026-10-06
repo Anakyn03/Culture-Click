@@ -29,12 +29,13 @@ seeded deepest (5 districts, 25 places) as the template the rest grow into.
 
 ```bash
 npm install
-cp .env.example .env.local   # fill in your Supabase URL + anon key (see GUIDE-SIGN-IN.md)
+cp .env.example .env.local   # fill in your Supabase URL + anon key
 npm run dev
 ```
 
-Full setup — database, auth providers, redirect URLs — is a 10-minute walkthrough:
-**[GUIDE-SIGN-IN.md](GUIDE-SIGN-IN.md)**.
+Full setup — database, auth providers, redirect URLs — is a 10-minute job in the Supabase
+dashboard: run [`supabase/schema.sql`](supabase/schema.sql) in the SQL Editor, then set
+**Authentication → URL Configuration** and switch on the providers you want.
 
 ## Content pipeline
 
@@ -124,7 +125,6 @@ culture-click/
 ├── supabase/
 │   └── schema.sql                 # tables, RPCs, RLS policies — run once in SQL Editor
 ├── data/states/*.json             # the canonical dataset (source of truth)
-├── GUIDE-SIGN-IN.md               # auth + database setup walkthrough
 └── src/
     ├── App.jsx                    # providers → routes, idle route prefetch, 1560px shell
     ├── lib/
@@ -162,8 +162,7 @@ culture-click/
 1. Push this repo to GitHub.
 2. On [vercel.com](https://vercel.com), **Import Project** — Vercel auto-detects Vite.
 3. Add the env vars from `.env.local` under **Environment Variables**.
-4. Add your Vercel URL to Supabase's **Authentication → URL Configuration → Redirect URLs**
-   (see [GUIDE-SIGN-IN.md](GUIDE-SIGN-IN.md)).
+4. Add your Vercel URL to Supabase's **Authentication → URL Configuration → Redirect URLs**.
 5. On GitHub, protect `main`: require a PR, your approval, and the `CI / lint-and-build`
    check (`.github/workflows/ci.yml`). Vercel deploys only `main`; every PR gets an isolated
    preview, so nothing reaches the live site without passing CI and your review.

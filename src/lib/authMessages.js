@@ -45,11 +45,11 @@ export function friendlyAuthError(message = '', code = null) {
     },
     {
       test: /signups not allowed|signup[_ ]disabled|signups_disabled/,
-      answer: 'Email sign-ups are switched off for this project. Enable them in Supabase → Authentication → Providers → Email. (See GUIDE-SIGN-IN.md.)',
+      answer: 'Email sign-ups are switched off for this project. Enable them in Supabase → Authentication → Providers → Email.',
     },
     {
       test: /provider is not enabled|unsupported provider|provider_not_enabled|validation_failed/,
-      answer: 'That sign-in provider is not enabled on this Supabase project yet. See GUIDE-SIGN-IN.md for the two-minute fix.',
+      answer: 'That sign-in provider is not enabled on this Supabase project yet. Switch it on in Supabase → Authentication → Providers.',
     },
     {
       test: /failed to fetch|networkerror|network request failed|load failed/,
@@ -57,7 +57,7 @@ export function friendlyAuthError(message = '', code = null) {
     },
     {
       test: /redirect.*not allowed|redirect_to|invalid redirect/,
-      answer: 'That redirect URL is not on the project’s allow list. Add it in Supabase → Authentication → URL Configuration (see GUIDE-SIGN-IN.md).',
+      answer: 'That redirect URL is not on the project’s allow list. Add it in Supabase → Authentication → URL Configuration.',
     },
     {
       test: /auth session missing|session_not_found|otp_expired|token has expired|invalid claim/,
